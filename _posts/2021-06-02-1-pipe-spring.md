@@ -39,3 +39,5 @@ extras: ["6. Grand Canyon 大峡谷", "7. Grand Canyon Parashant NM"]
 NPS和BLM共同管理的一片地。里面除了荒野啥也没有。但有个章。就盖了…严格来讲这个地方由于NPS并没有将其算为unit之一因此不应该算入，但之前小红书上给它编号了，于是将错就错了。
 
 2021.6.2
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1632244.747981893!2d-113.7794552!3d36.9625817!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cb310ac617d383%3A0xe4c94230bf69e823!2sPipe%20Spring%20National%20Monument!5e0!3m2!1sen!2sus!4v1652162529102!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

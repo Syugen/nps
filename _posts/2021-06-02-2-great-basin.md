@@ -23,3 +23,5 @@ idx: 8
 
 2019.5.26<br>
 2021.6.2
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3182637.8583507906!2d-117.1094398!3d38.8314352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b160a3748e78af%3A0x2c3e26f5f175f10f!2sLehman%20Caves%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1652162622372!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

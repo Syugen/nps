@@ -35,3 +35,5 @@ Bryce Canyon也有一条观光路线，开车沿途都是景点。其中一处Na
 打卡完这些vista point之后在Bryce Canyon的旅程就结束了。离开公园后继续向Vegas的方向出发了。
 
 2021.5.31
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d404753.0889357465!2d-112.3087857!3d37.5754738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87356bc602c3eb2d%3A0x6be9d8fbbeac6d06!2sBryce%20Canyon%20National%20Park!5e0!3m2!1sen!2sus!4v1652162827120!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
