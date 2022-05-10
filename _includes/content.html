@@ -1,0 +1,25 @@
+<h2>目录</h2>
+{% for post in site.posts reversed %}
+  {% if post.tags contains "start" %}
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  {% elsif post.tags contains "itinerary" %}
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<ul>
+  {% else %}
+
+    {% if post.itinerary %}
+<h3>{{ post.itinerary }}</h3>
+<ul>
+    {% endif %}
+
+<li>{{ post.idx }}. <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% for title in post.extras %}
+<li>{{ title }}</li>
+    {% endfor %}
+
+    {% if post.next == nil or post.next.tags contains "itinerary" or post.next.itinerary %}
+</ul>
+    {% endif %}
+
+  {% endif %}
+{% endfor %}

@@ -1,1 +1,11 @@
 theme: jekyll-theme-minimal
+
+# SITE CONFIGURATION
+baseurl: "/nps"
+url: "https://syugen.github.io"
+
+# THEME-SPECIFIC CONFIGURATION
+title: Syugen的NPS之旅
+description: 记录所有NPS的旅游经历
+author: Syugen
+avatar: /image/avatar.jpg

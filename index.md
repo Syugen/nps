@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+{% include content.html %}
 
-You can use the [editor on GitHub](https://github.com/Syugen/nps/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### 2021.9.11-9.12 优胜美地
+- 24\. Yosemite
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 2021.10.15-10.17 内华达山脉
+- 25\. Devils Postpile
+- 26\. Manzanar
+- 27\. Death Valley
+- 28\. Pinnacles
+- 番外1：macOS High Sierra
+- 番外2：macOS Sierra
 
-### Markdown
+### 2021.11.21-11.30 新奥尔良 纽约 以及新泽西
+- 29\. Jean Lafitte
+- 30\. New Orleans Jazz
+- 31\. Statue of Liberty
+- 32\. Stonewall
+- 33\. African Burial Ground
+- 34\. Federal Hall
+- 35\. Castle Clinton
+- 36\. Governors Island
+- 37\. Home of Franklin D. Roosevelt
+- 38\. Eleanor Roosevelt
+- 39\. Vanderbilt Mansion
+- 40\. Paterson Great Falls
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 2021.12.16-12.19 湾区到温哥华
+- 41\. Lassen Volcanic
+- 42\. Whiskeytown
+- 43\. Fort Vancouver
+- 44\. Lewis and Clark
+- 45\. Klondike Gold Rush
+- 46\. Ebey's Landing
+- 番外3：Pacific Rim
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Syugen/nps/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 2022.2.24-2.27 温哥华到湾区
+- 47\. Manhattan Project
+- 48\. Whitman Mission
+- 49\. Nez Perce
+- 50\. John Day Fossil Beds
