@@ -1,6 +1,6 @@
 {% assign arr = "" | split: ',' %}
 {% assign post = page %}
-{% for i in (1..page.num) %}
+{% for i in (1..page.total) %}
   {% assign post = post.next %}
   {% assign arr = arr | push: post.url %}
 {% endfor %}

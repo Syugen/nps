@@ -12,7 +12,12 @@
 <ul>
     {% endif %}
 
+    {% if post.idx %}
 <li>{{ post.idx }}. <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% elsif post.special %}
+<li>番外{{ post.special }}：<a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endif %}
+
     {% for title in post.extras %}
 <li>{{ title }}</li>
     {% endfor %}

@@ -1,15 +1,6 @@
 {% include content.html %}
 
-### 2021.9.11-9.12 优胜美地
-- 24\. Yosemite
-
-### 2021.10.15-10.17 内华达山脉
-- 25\. Devils Postpile
-- 26\. Manzanar
-- 27\. Death Valley
-- 28\. Pinnacles
-- 番外1：macOS High Sierra
-- 番外2：macOS Sierra
+## 以下游记尚未录入本站
 
 ### 2021.11.21-11.30 新奥尔良 纽约 以及新泽西
 - 29\. Jean Lafitte
