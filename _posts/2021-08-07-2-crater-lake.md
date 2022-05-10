@@ -31,3 +31,7 @@ Oregon Caves NM & NPRES
 
 2020.8.15<br>
 2021.8.7
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374005.6747793003!2d-122.2419879!3d42.9167422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c6170840e5e339%3A0x902bf2e1452fe3a3!2sCrater%20Lake%20National%20Park!5e0!3m2!1sen!2sus!4v1652160309122!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d378895.48865235806!2d-123.411019!3d42.1048792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cfee79fbf2127d%3A0x928f6fc902b33e73!2sOregon%20Caves%20National%20Monument%20%26%20Preserve!5e0!3m2!1sen!2sus!4v1652160341642!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

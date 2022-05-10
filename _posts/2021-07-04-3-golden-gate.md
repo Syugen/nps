@@ -26,3 +26,5 @@ idx: 13
 
 2021.3.20<br>
 2021.7.4
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100838.28884502586!2d-122.4990496!3d37.8322848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858429f49a5beb%3A0xa05820cc201717ff!2sGolden%20Gate%20View%20Point!5e0!3m2!1sen!2sus!4v1652161432425!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

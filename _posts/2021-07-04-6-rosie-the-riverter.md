@@ -25,3 +25,5 @@ idx: 16
 ![]({{ "/images/016-9.jpg" | relative_url }})
 
 2021.7.4
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d402930.2537707746!2d-122.3594645!3d37.9095728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085787eb1401a3d%3A0xc760a8c36ff6686a!2sRosie%20the%20Riveter%20National%20Historical%20Park!5e0!3m2!1sen!2sus!4v1652161077869!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
