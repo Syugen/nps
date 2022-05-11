@@ -1,5 +1,6 @@
 ---
 title: Point Reyes NS
+sub: 雷耶斯岬之日落
 tags: [california, ns]
 idx: 14
 ---

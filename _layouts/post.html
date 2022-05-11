@@ -5,6 +5,9 @@ layout: default
 <small>{{ page.date | date: "%Y-%m-%d" }}</small>
 
 <h1>{{ page.title }}</h1>
+{% if page.sub %}
+<h3>——{{ page.sub }}</h3>
+{% endif %}
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
@@ -17,8 +20,12 @@ layout: default
 <hr>
 
 {% if page.previous.url %}
-  <p class="view"><a href="{{ page.previous.url | relative_url }}">Previous: {{page.previous.title}}</a></p>
+  <p class="view">上一篇：
+    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+  </p>
 {% endif %}
 {% if page.next.url %}
-  <p class="view"><a href="{{ page.next.url | relative_url }}">Next: {{page.next.title}}</a></p>
+  <p class="view">下一篇：
+    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+  </p>
 {% endif %}

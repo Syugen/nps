@@ -1,5 +1,6 @@
 ---
 title: Eugene O'Neill NHS
+sub: 长夜漫漫路迢迢
 tags: [california, nhs]
 idx: 23
 itinerary: 2021.8.14 东湾
