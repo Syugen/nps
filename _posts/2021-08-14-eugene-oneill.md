@@ -3,7 +3,7 @@ title: Eugene O'Neill NHS
 sub: 长夜漫漫路迢迢
 tags: [california, nhs]
 idx: 23
-itinerary: 2021.8.14 东湾
+head: 2021.8.14 东湾
 ---
 
 今年两度参观一位诺贝尔文学奖得主Eugene O'Neill的故居，位于旧金山东湾Dublin/Pleasanton北边的一个小城市Danville。这里镇上是典型的加州小镇风格，而往山上也有不少豪宅，某条路的尽头就是Eugene的故居。

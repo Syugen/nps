@@ -1,6 +1,6 @@
 ---
 title: 2021.10.15-10.17 内华达山脉
-tags: [itinerary]
+tags: [head]
 total: 6
 ---
 

@@ -1,0 +1,1 @@
+![{{ include.filename }}]( {{ "/images/" | append: include.filename | relative_url }})
