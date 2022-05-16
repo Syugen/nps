@@ -2,12 +2,12 @@
 title: Crater Lake 火山口湖
 tags: [oregon, np]
 idx: 20
-extras: ["21. Oregon Caves NM & NPRES"]
+extras: ["21. Oregon Caves NM & PRES"]
 ---
 
 如果问俄勒冈州最著名的自然景观是什么，那么Crater Lake或许毫无疑问可以排在第一。这个景点对于湾区人民来说距离还是有些远的。如果专门为了这样稀有的景色前来旅行的话，我会建议住在湖边的lodge至少一晚，享受这火山与湖从晚霞到晨光的静谧。
 
-![]({{ "/images/020-1.jpg" | relative_url }})
+{% include image.md filename="2021-08/020-01.jpeg" %}
 
 最简单的游览方式就是从南边入园，绕着环湖公路行驶一圈。疫情之前还有小船可以前往湖心岛。可惜现在暂时取消了这个服务。旁边的Mt Scott有trail过去可以登顶，从高处看会更加壮观。
 
@@ -17,11 +17,11 @@ extras: ["21. Oregon Caves NM & NPRES"]
 
 第二次是在2020年8月。正值盛夏没了雪路的困扰，因而终于一睹这火山口的风貌。
 
-![]({{ "/images/020-2.jpg" | relative_url }})
+{% include image.md filename="2021-08/020-02.jpeg" %}
 
 今年开启盖章之旅后8月时顺路又来了一次。加州北部Dixie山火把Lassen火山森林公园烧了个通透，浓烟早已吹到这里，相比一年前多了一层呛人的朦胧。
 
-![]({{ "/images/020-3.jpg" | relative_url }})
+{% include image.md filename="2021-08/020-03.jpeg" %}
 
 ---
 
@@ -32,6 +32,6 @@ extras: ["21. Oregon Caves NM & NPRES"]
 2020.8.15<br>
 2021.8.7
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374005.6747793003!2d-122.2419879!3d42.9167422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c6170840e5e339%3A0x902bf2e1452fe3a3!2sCrater%20Lake%20National%20Park!5e0!3m2!1sen!2sus!4v1652160309122!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374005.6747793003!2d-122.2419879!3d42.9167422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c6170840e5e339%3A0x902bf2e1452fe3a3!2sCrater%20Lake%20National%20Park!5e0!3m2!1sen!2sus!4v1652160309122!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d378895.48865235806!2d-123.411019!3d42.1048792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cfee79fbf2127d%3A0x928f6fc902b33e73!2sOregon%20Caves%20National%20Monument%20%26%20Preserve!5e0!3m2!1sen!2sus!4v1652160341642!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d378895.48865235806!2d-123.411019!3d42.1048792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cfee79fbf2127d%3A0x928f6fc902b33e73!2sOregon%20Caves%20National%20Monument%20%26%20Preserve!5e0!3m2!1sen!2sus!4v1652160341642!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

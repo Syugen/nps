@@ -1,32 +1,15 @@
 <h2>目录</h2>
 {% for post in site.posts reversed %}
-  {% if post.tags contains "head"%}
-<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    {% if post.total %}
-<ul>
-    {% endif %}
-  {% else %}
+  {% unless post.tags contains "japan" %}
+    {% include content0.html %}
+  {% endunless %}
+{% endfor %}
 
-    {% if post.head %}
-<h3>{{ post.head }}</h3>
-<ul>
-    {% endif %}
+---
 
-    {% if post.idx %}
-<li>{{ post.idx }}. <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% elsif post.special %}
-<li>番外{{ post.special }}：<a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% else %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% endif %}
-
-    {% for title in post.extras %}
-<li>{{ title }}</li>
-    {% endfor %}
-
-    {% if post.next == nil or post.next.tags contains "head" or post.next.head %}
-</ul>
-    {% endif %}
-
+<h2>其他游记</h2>
+{% for post in site.posts reversed %}
+  {% if post.tags contains "japan" %}
+    {% include content0.html %}
   {% endif %}
 {% endfor %}

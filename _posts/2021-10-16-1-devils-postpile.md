@@ -15,21 +15,21 @@ idx: 25
 
 15号周五从湾区出发到猛犸湖住了一晚，16号一早来到山谷里，还没有多少人，走在trail上十分chill，没几分钟就看到这神奇的石柱。
 
-![]({{ "/images/025-1.jpg" | relative_url }})
+{% include image.md filename="2021-10/025-01.jpeg" %}
 
 trail可以选择爬上恶魔柱顶端（下图），也可以继续往里可以走到彩虹瀑布。然而我就没有继续，因为这一天的行程还很多。
 
-![]({{ "/images/025-2.jpg" | relative_url }})
-![]({{ "/images/025-3.jpg" | relative_url }})
+{% include image.md filename="2021-10/025-02.jpeg" %}
+{% include image.md filename="2021-10/025-03.jpeg" %}
 
 图4-6介绍了这些石柱的形成历史。最神奇的是他们大多裂开成截面为正六边形的柱子，这背后隐藏着物理和数学的美！
 
-![]({{ "/images/025-4.jpg" | relative_url }})
-![]({{ "/images/025-5.jpg" | relative_url }})
-![]({{ "/images/025-6.jpg" | relative_url }})
+{% include image.md filename="2021-10/025-04.jpeg" %}
+{% include image.md filename="2021-10/025-05.jpeg" %}
+{% include image.md filename="2021-10/025-06.jpeg" %}
 
 离开公园后沿着US-385继续向南……
 
 2021.10.16
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d404537.3056651645!2d-119.0894671!3d37.6151555!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809672fe7d5a369d%3A0x9a5f7b427fb58dc5!2sDevils%20Postpile%20National%20Monument!5e0!3m2!1sen!2sus!4v1652243284903!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d404537.3056651645!2d-119.0894671!3d37.6151555!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809672fe7d5a369d%3A0x9a5f7b427fb58dc5!2sDevils%20Postpile%20National%20Monument!5e0!3m2!1sen!2sus!4v1652243284903!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

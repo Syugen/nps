@@ -2,5 +2,6 @@
 {% assign post = page %}
 {% for i in (1..page.total) %}
   {% assign post = post.next %}
-  {% assign arr = arr | push: post.url %}
+  {% assign url = post.url | relative_url %}
+  {% assign arr = arr | push: url %}
 {% endfor %}
