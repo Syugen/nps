@@ -32,7 +32,7 @@ var addComment = function() {
     var errorHandler = function(title, err) {
       console.log(err);
       var ecode = err.errorCode || "unknown";
-      showModal(title, 'An error occured.<br>[' + ecode + ']');
+      showModal(title, 'An error occured.<br>[' + ecode + ']<br>' + err.message);
       form.doReset();
     }
 

@@ -3,24 +3,19 @@
 {% assign comment_id = include.uid | prepend: 'comment-' %}
 <article id="{{ comment_id }}" class="{{ article_class }}" uid="{{ include.uid }}">
 
-  <div class="comment__author">
-    {% if include.name == site.author.name %} 
-    <span class="comment__admin_tag">Author</span>
+  <p>
+    <b>{{ include.name | strip_html }}</b>
+    {% if include.name == site.author %} 
+      <span class="comment__admin_tag">作者</span>
     {% endif %}
-    {{- include.name | strip_html }}
-    <span class="comment__date">
-      {%- if include.date -%}
-        •
-        <a href="#{{ comment_id}}" title="Permalink to this comment">
-        {{- include.date | date:"%B %eth, %Y %H:%M" -}}
-        </a>
-      {%- endif -%}
-    </span>
-  </div>
+    {% if include.date %}
+      <small> • {{ include.date | date: "%Y-%m-%d %H:%M"" }}</small>
+    {% endif %}
+  </p>
 
-  <div class="comment__body">
-    {{ include.message | strip_html | markdownify }}
-  </div>
+  <p>
+    {{ include.message | strip_html | newline_to_br }}
+  </p>
 
 {% if include.is_reply %}
 </article>
@@ -43,5 +38,7 @@
     {% include comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
   {% endfor %}
 
+  {% unless forloop.last %}
   <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
+  {% endunless %}
 {% endif %}
