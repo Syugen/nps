@@ -28,6 +28,8 @@ FDR与Eleanor于1905年结婚，但1914年他与Eleanor的秘书搞外遇，四�
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1523618.714931582!2d-73.9373871!3d41.7675859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd167ee3a22fe1%3A0xd821e3f9721e131e!2sHome%20of%20Franklin%20D.%20Roosevelt%20National%20Historic%20Site!5e0!3m2!1sen!2sus!4v1652562864506!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+&nbsp;
+
 ---
 
 ### Eleanor Roosevelt
