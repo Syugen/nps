@@ -27,12 +27,12 @@ var addComment = function() {
     event.preventDefault();
 
     submitButton.innerHTML =
-      '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...';
+      '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> 提交中...';
 
     var errorHandler = function(title, err) {
       console.log(err);
-      var ecode = err.errorCode || "unknown";
-      showModal(title, 'An error occured.<br>[' + ecode + ']<br>' + err.message);
+      var ecode = err.errorCode || "未知错误";
+      showModal(title, '发生了以下错误：<br>[' + ecode + ']<br>' + err.message);
       form.doReset();
     }
 
@@ -45,18 +45,18 @@ var addComment = function() {
     }).then(
       function (data) {
         if (data.ok) {
-          showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/Syugen/nps/pulls">pending</a>. It will appear when approved.');
+          showModal('评论已提交', '您的评论<a href="https://github.com/Syugen/nps/pulls">正在审核中</a>。博主选择后将会显示。');
           form.reset();
           form.doReset();
         } else {
           data.json().then(function(err) {
-            errorHandler('Server Error', err);
+            errorHandler('信息有误', err);
           });
         }
       }
     ).catch(function (err) {
       console.error(err);
-      errorHandler('Unexpected Error', err);
+      errorHandler('意外错误', err);
     });
 
   });
@@ -104,6 +104,8 @@ var addComment = function() {
       comm.parentNode.insertBefore( respond, comm.nextSibling );  // move the form from the bottom to above the next sibling
       parentuidF.value = parentUid;
       cancel.style.display = '';                        // make the cancel link visible
+      respond.style.margin = '0px 0px 0px 3em';
+      I( 'comment-h2' ).innerHTML = "回复评论";
 
       cancel.onclick = function() {
         var temp    = I( 'sm-temp-form-div' );            // temp is the original bookmark
@@ -118,6 +120,8 @@ var addComment = function() {
         temp.parentNode.removeChild(temp);            // remove the bookmark div
         this.style.display = 'none';                  // make the cancel link invisible
         this.onclick = null;                          // retire the onclick handler
+        I( 'comment-h2' ).innerHTML = "评论";
+      respond.style.margin = '0px 0px 0px 0px';
         return false;
       };
 

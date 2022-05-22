@@ -1,4 +1,4 @@
-<h2>Add Comment</h2>
+<h2 id="comment-h2">评论</h2>
 
 <form id="comment-form" method="post" action="{{ site.staticman_url }}">
   <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
@@ -11,12 +11,12 @@
   {% endif %}
   
   <p>
-    <label for="comment-form-name">Name (Required)</label>
+    <label for="comment-form-name">用户名（必填）</label>
     <input name="fields[name]" type="text" id="comment-form-name" placeholder="反正不是Syugen" required/>
   </p>
 
   <p>
-    <label for="comment-form-email">E-mail (Optional)</label>
+    <label for="comment-form-email">Email（选填）</label>
     <input name="fields[email]" type="email" id="comment-form-email" placeholder="爱留留，不爱留拉倒"/>
   </p>
 
@@ -29,9 +29,9 @@
   {% endif %}
 
   <p>
-    <button class="comment-button" id="comment-form-submit">Submit</button><br>
+    <button class="comment-button" id="comment-form-submit">提交</button><br>
     <button class="comment-button" id="cancel-comment-reply-link" style="display: none">
-      Cancel Reply
+      取消回复
     </button>
   </p>
 
@@ -43,7 +43,7 @@
   </div>
   <div class="mdl-card__supporting-text js-modal-text"></div>
   <div class="mdl-card__actions mdl-card--border">
-    <button class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal">Close</button>
+    <button class="comment-button js-close-modal">关闭</button>
   </div>
 </article>
 

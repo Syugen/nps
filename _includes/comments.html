@@ -1,12 +1,11 @@
 <hr>
 
 {% if site.data.comments[page.slug] %}
-
-  {% assign comments = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_uid == ''" %}
+  {% assign all_comments = site.data.comments[page.slug] %}
+  {% assign comments = all_comments | where_exp: "item", "item.replying_to_uid == ''" %}
   {% assign comments_by_date = comments | sort: 'date' | reverse %}
-  <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
 
-  <h2>Comments ({{ comments.size }})</h2>
+  <h2>评论 ({{ all_comments.size }})</h2>
 
   {% for comment in comments_by_date %}
     {%- assign email           = comment.email %}
@@ -17,10 +16,21 @@
     {%- assign uid             = comment._id %}
     {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
   {% endfor %}
-
 {% else %}
-  <h2>Comments (0)</h2>
+  <h2>评论 (0)</h2>
   <p>
     No comments.
   </p>
+  <hr>
 {% endif %}
+
+<script type="text/javascript">
+  function convertUTCDateToLocalDate(date) {
+    return new Date(date*1000 - new Date().getTimezoneOffset()*60*1000);
+  }
+
+  var dates = document.getElementsByClassName("utc-date");
+  for (let i = 0; i < dates.length; i++) {
+    dates[i].innerHTML = convertUTCDateToLocalDate(parseInt(dates[i].innerHTML));
+  }
+</script>

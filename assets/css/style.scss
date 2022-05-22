@@ -73,6 +73,9 @@ button:hover {
 //
 // Staticman existing comments
 //
+.comment__header {
+  color: black;
+}
 .comment__admin_tag {
     font-size: $small-font-size;
     border-color: $brand-color;
