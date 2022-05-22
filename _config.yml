@@ -9,3 +9,11 @@ title: Syugen的NPS之旅
 description: 记录所有NPS的旅游经历
 author: Syugen
 avatar: /image/avatar.jpg
+
+staticman_url: "https://staticman-syugen.herokuapp.com/v2/entry/Syugen/nps/gh-pages/comments"
+
+reCaptcha:
+    enabled: true
+    siteKey: 6LfHWgwgAAAAAN9grFNMTIcxKkBnsl-JgDcJHJAt
+    secret: O5gqlfF+FuljSTdFyMRPOJRT6yaD8Ke1PpVrbuhPqXQG8OMGskvIs576oH9/NbXjizOtxVTqvoeWf8GDeb/CmAvLNS7ZIIeR5dbcBClKrifiovs3fFCHzVxHyAgXHIjE6h8uwBjdeKE/XhbtdepKsaZVp9Se15Fl48Ijxi9SA1kvVtKfzRE85twW1RPYVs5bd1mRhlLTIMe6jFwZWNceTnGHkFf6slfGfWg8oVwF6iDJTWqMamntndX+TXaTPOak4EIYonhHHeYl2vDNHPFbzyQZE6dcD+tHqo47CeuawiH/nAes479bjuYzl5NSkvPLcVyoda0izP576Kn84hlT/nyxf13SRhK8D/O0wH8uuYcU/IkoxSfXcYolgF1PmvWUDinSalX/aF7gZcH+Zbcc/K0OZBYuWyQ3dqex9fOZd0ghmoJfbnbWoxapjP4PP4LNj1eV4buzWvf11ao0sTLG+X3cdPqwAeuWiZPyEpfFz6OUTxO8lYil+jLjG8FEaYsmitYs0eVdV15M7Q4RyDavlVz8pKj1YS/Kq/zAjXdMUP6KLiWSKGat8L9eH8wDtMxQHw9mJRECEdit6vllyHxBd9/dGJO6N3NGD4jlCs3pKymqi4nIORS3uqumcBRd1SR5qBsaOKJfuGHZPsRkQ6jleqJOPYXX7vAflO1wSrYm/4Q=
+    

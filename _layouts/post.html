@@ -29,3 +29,6 @@ layout: default
     <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
   </p>
 {% endif %}
+
+{% include comments.html %}
+{% include comment_form.html %}
