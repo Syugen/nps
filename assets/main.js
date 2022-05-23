@@ -23,31 +23,53 @@ var addComment = function() {
     }
   };
 
+  var errorHandler = function(title, err) {
+    console.log(err);
+    var ecode = err.errorCode || "未知错误";
+    showModal(title, '发生了以下错误：<br>[' + ecode + ']<br>' + err.message);
+    form.doReset();
+  }
+
+  var postComment = function() {
+    fetch(form.getAttribute('action'), {
+      method: 'POST',
+      body: new URLSearchParams(new FormData(form)),
+      headers: new Headers({'content-type': 'application/x-www-form-urlencoded'})
+    }).then(
+      function (data) {
+        if (data.ok) {
+          //showModal('评论已提交', '您的评论<a href="https://github.com/Syugen/nps/pulls">正在审核中</a>。博主选择后将会显示。');
+          showModal('评论已提交', '您的评论将在几分钟后展示。');
+          form.reset();
+          form.doReset();
+        } else {
+          data.json().then(function(err) {
+            errorHandler('信息有误', err);
+          });
+        }
+      }
+    ).catch(function (err) {
+      console.error(err);
+      errorHandler('意外错误', err);
+    });
+  }
+
   form.addEventListener('submit', function (event) {
     event.preventDefault();
 
     submitButton.innerHTML =
       '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> 提交中...';
 
-    var errorHandler = function(title, err) {
-      console.log(err);
-      var ecode = err.errorCode || "未知错误";
-      showModal(title, '发生了以下错误：<br>[' + ecode + ']<br>' + err.message);
-      form.doReset();
-    }
-
     form.classList.add('disabled');
 
-    fetch(this.getAttribute('action'), {
-      method: 'POST',
-      body: new URLSearchParams(new FormData(this)),
-      headers: new Headers({'content-type': 'application/x-www-form-urlencoded'})
-    }).then(
+    fetch(this.getAttribute('encrypt') + I('comment-form-email').value).then(
       function (data) {
         if (data.ok) {
-          showModal('评论已提交', '您的评论<a href="https://github.com/Syugen/nps/pulls">正在审核中</a>。博主选择后将会显示。');
-          form.reset();
-          form.doReset();
+          data.text().then(async function(data2) {
+            I('comment-encryped-email').value = data2;
+            //await new Promise(r => setTimeout(r, 2000));
+            postComment();
+          });
         } else {
           data.json().then(function(err) {
             errorHandler('信息有误', err);
@@ -120,7 +142,7 @@ var addComment = function() {
         temp.parentNode.removeChild(temp);            // remove the bookmark div
         this.style.display = 'none';                  // make the cancel link invisible
         this.onclick = null;                          // retire the onclick handler
-        I( 'comment-h2' ).innerHTML = "评论";
+        I( 'comment-h2' ).innerHTML = "添加评论";
       respond.style.margin = '0px 0px 0px 0px';
         return false;
       };

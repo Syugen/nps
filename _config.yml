@@ -10,7 +10,8 @@ description: 记录所有NPS的旅游经历
 author: Syugen
 avatar: /image/avatar.jpg
 
-staticman_url: "https://staticman-syugen.herokuapp.com/v2/entry/Syugen/nps/gh-pages/comments"
+staticman_comment: "https://staticman-syugen.herokuapp.com/v2/entry/Syugen/nps/gh-pages/comments"
+staticman_encrypt: "https://staticman-syugen.herokuapp.com/v2/encrypt/"
 
 reCaptcha:
     enabled: true
