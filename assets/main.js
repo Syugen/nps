@@ -67,25 +67,30 @@ var addComment = function() {
 
     form.classList.add('disabled');
 
-    fetch(this.getAttribute('encrypt') + I('comment-form-email').value).then(
-      function (data) {
-        if (data.ok) {
-          data.text().then(async function(data2) {
-            I('comment-encryped-email').value = data2;
-            //await new Promise(r => setTimeout(r, 2000));
-            postComment();
-          });
-        } else {
-          data.json().then(function(err) {
-            errorHandler('信息有误', err);
-          });
+    var email = select('#comment-form-email');
+    if (email.value)
+    {
+      fetch(this.getAttribute('encrypt') + email.value).then(
+        function (data) {
+          if (data.ok) {
+            data.text().then(async function(data2) {
+              I('comment-encryped-email').value = data2;
+              await new Promise(r => setTimeout(r, 1000));
+              postComment();
+            });
+          } else {
+            data.json().then(function(err) {
+              errorHandler('信息有误', err);
+            });
+          }
         }
-      }
-    ).catch(function (err) {
-      console.error(err);
-      errorHandler('意外错误', err);
-    });
-
+      ).catch(function (err) {
+        console.error(err);
+        errorHandler('意外错误', err);
+      });
+    } else {
+postComment();
+    }
   });
 
   select('.js-close-modal').addEventListener('click', function () {
