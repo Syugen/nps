@@ -25,8 +25,13 @@ var addComment = function() {
 
   var errorHandler = function(title, err) {
     console.log(err);
-    var ecode = err.errorCode || "未知错误";
-    showModal(title, '发生了以下错误：<br>[' + ecode + ']<br>' + err.message);
+    var msg = '发生了以下错误：<br>';
+    if (err.errorCode)
+      msg += '[' + err.errorCode + ']<br>' + err.message;
+    else
+      msg += err;
+    msg += '<br>球球好心人访问<a href="https://github.com/Syugen/nps/issues">这里</a>，创建新issue然后把上面的内容粘过去。拜托拜托🙏🏻！';
+    showModal(title, msg);
     form.doReset();
   }
 
