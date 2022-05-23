@@ -16,7 +16,7 @@ var addComment = function() {
 
   var form = select('#comment-form');
   form.doReset = function() {
-    submitButton.innerHTML = "Submit";
+    submitButton.innerHTML = "提交";
     this.classList.remove('disabled');
     if (window.grecaptcha) {
       grecaptcha.reset();

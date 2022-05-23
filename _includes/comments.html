@@ -25,12 +25,8 @@
 {% endif %}
 
 <script type="text/javascript">
-  function convertUTCDateToLocalDate(date) {
-    return new Date(date*1000 - new Date().getTimezoneOffset()*60*1000);
-  }
-
   var dates = document.getElementsByClassName("utc-date");
   for (let i = 0; i < dates.length; i++) {
-    dates[i].innerHTML = convertUTCDateToLocalDate(parseInt(dates[i].innerHTML));
+    dates[i].innerHTML = new Date(parseInt(dates[i].innerHTML)*1000);
   }
 </script>
