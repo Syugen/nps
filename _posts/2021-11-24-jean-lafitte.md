@@ -6,11 +6,9 @@ idx: 29
 extras: ["30. New Orleans Jazz NHP"]
 ---
 
-从安静祥和（除了砸车）的硅谷到达新奥尔良，第一感受即是这里的豪放，和迈阿密有一拼的豪放。豪放从另一个角度看其实是混乱，我还是有些不习惯与不喜欢这样的混乱。
+不管是“奥尔良”还是“路易斯安那”，听上去都是一股法国风味。再加上传统南方州百年前的黑奴历史，这使得新奥尔良是一个特点鲜明的城市。本篇的主题仍然是国家公园，因此就略过大部分参观城市的部分了。不过简单来说，这里的两大特色——爵士乐发源地，以及无处不在的鳄鱼肉，恰好对应了新奥尔良的两个NPS unit的主题：一个是沼泽保护地，一个是爵士乐博物馆。
 
-新奥尔良的第二印象是无处不在的音乐和鳄鱼（肉）（好吧还有炸鸡）。而位于新奥尔良的两个NPS unit也正好对应的一个主要是沼泽保护地，一个是爵士乐博物馆。
-
-Jean Lafitte保护区附近有很多游船公司有tour可以坐船进入河道围观大鳄鱼。而很多tour中途还会给乘船游客体验与小鳄鱼的亲密接触。本次的体验选择了Airboat Adventure的大船，一人$35。
+Jean Lafitte保护区对于国家公园系统来讲是一个奇怪的存在。它是全系统下唯一一个“NHP & PRES”，即National Historical Park & Preserve，也就是公园内既包括历史公园，又包括自然保护区。该公园本身没有什么值得参观的，因此在这里推荐一些附近的游船tour，可以坐船进入河道围观大鳄鱼。而很多tour中途还会给乘船游客体验与小鳄鱼的亲密接触。本次的体验选择了Airboat Adventure的大船，一人$35。
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d443422.8299871526!2d-90.1337662!3d29.7417417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862099caaea6dddd%3A0x538e347f2f01b65e!2sAirboat%20Adventures!5e0!3m2!1sen!2sus!4v1652561630482!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -22,8 +20,6 @@ Jean Lafitte保护区附近有很多游船公司有tour可以坐船进入河道�
 {% include image.md filename="2021-11/029-03.jpeg" %}
 
 Jean Lafitte据说是一个来到新奥尔良的法国人，在这里搞走私，属于法外狂徒。但后来一系列转变成为了传奇人物。
-
-盖章可在Barataria Preserve的游客中心，如果关门了他们有可能会把章房门口。也可以在其他分址，如Chalmette Battlefield的游客中心。
 
 {% include image.md filename="2021-11/029-04.jpeg" %}
 

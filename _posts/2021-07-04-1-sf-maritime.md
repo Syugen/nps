@@ -1,15 +1,11 @@
 ---
 title: San Francisco Maritime NHP
-sub: 旧金山海洋历史公园
+sub: 旧金山海事历史公园
 tags: [california, nhp]
 idx: 11
 ---
 
-在湾区附近一共有9个NPS公园，其中有8个一般人都可以去，但有1个由于位于军事基地里，因此只开放给美国公民/绿卡持有者。
-
-7月4日独立日这天打卡了7个地方，这些地方我打多之前就来过但是并没盖章打卡。
-
-一大早的第一站是位于旧金山北面的旧金山海洋国家历史公园。
+旧金山市内著名的渔人码头附近有一个海事历史公园San Francisco Maritime，如果对于船舶感兴趣的话可以花上一两个小时在这里小小的参观一下。票价$15，如果有国家公园通票的话免费。
 
 {% include image.md filename="2021-07/011-01.jpeg" %}
 
@@ -18,7 +14,7 @@ idx: 11
 {% include image.md filename="2021-07/011-06.jpeg" %}
 {% include image.md filename="2021-07/011-02.jpeg" %}
 
-Hyde Street Pier码头建于1922年，是在金门大桥存在之前给旧金山与Sausalito之间通勤的枢纽（算是US-101 highway的一部分！）。
+Hyde Street Pier海德街码头建于1922年，是在金门大桥存在之前给旧金山与海峡北面的城市Sausalito之间通勤的枢纽（曾经也算是US-101公路的一部分！）。
 
 {% include image.md filename="2021-07/011-04.jpeg" %}
 

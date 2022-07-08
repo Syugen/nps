@@ -4,7 +4,7 @@ tags: [utah, nm]
 idx: 3
 ---
 
-从Bryce Canyon出发的下一个大站是Zion，但是稍微绕了一下路我们来到了这个名叫Cedar Breaks National Monument的地方打个卡。
+Cedar Breaks公园是一个距离Zion和Bryce Canyon都不远的地方。
 
 这里的景色与Bryce Canyon相当同质，可以说是个低配版的Bryce Canyon，所以旅游的话没什么必要两个都去。但是如果旅行路线是从拉斯维加斯或者盐湖城沿I-15到Zion而不方便岔路太远去Bryce Canyon以及Capitol Reef的话，可以选择简单参观一下。虽说是低配，但其实远观的风景基本是同样的优美，只是没有什么可以让人身临其境的trail可以走。
 
@@ -12,12 +12,10 @@ idx: 3
 {% include image.md filename="2021-05/003-02.jpeg" %}
 {% include image.md filename="2021-05/003-03.jpeg" %}
 
-由于我们刚刚从Bryce Canyon过来，这里并没有太震撼到我。于是乎停车在观景台走了一走便继续出发了。
+由于我是从Bryce Canyon过来，这里并没有太震撼到我。于是乎停车在观景台走了一走便继续出发了。
 
 {% include image.md filename="2021-05/003-04.jpeg" %}
 {% include image.md filename="2021-05/003-05.jpeg" %}
-
-这一晚住在Zion脚下的Springdale，这样第二天直接进山！
 
 2021.5.31
 

@@ -60,6 +60,6 @@ Ellis岛（下图）以前是美国海关，从欧洲坐船来纽约的游客基
 
 总督岛需要坐渡轮才能去，由于没什么看点又不好去遂未安排。
 
-2021.12.27
+2021.11.27
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d24197.833344205443!2d-74.04150780304504!3d40.70196202729261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e2!4m5!1s0x89c25a2190b87633%3A0x71825082795d1c0d!2sAfrican%20Burial%20Ground%20National%20Monument%2C%20290%20Broadway%2C%20New%20York%2C%20NY%2010007!3m2!1d40.714549399999996!2d-74.00432889999999!4m5!1s0x89c25a170305a201%3A0x700fdb83dd5cdcf2!2sFederal%20Hall%20National%20Memorial%2C%20Wall%20Street%2C%20New%20York%2C%20NY!3m2!1d40.7073993!2d-74.0102088!4m5!1s0x89c25a125d8ed33f%3A0x5e6e972422c6ef71!2sCastle%20Clinton%20National%20Monument%2C%20Battery%20Park%20-%20Liberty%20Island%2C%20New%20York%2C%20NY!3m2!1d40.7034796!2d-74.01663119999999!4m5!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty%2C%20New%20York%2C%20NY!3m2!1d40.6892494!2d-74.04450039999999!5e0!3m2!1sen!2sus!4v1652562450617!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -1,7 +1,7 @@
 ---
-title: 2022.5.24-6.1 El Paso与新墨西哥
+title: 2022.5.24-6.1 新墨西哥（与El Paso）
 tags: [head]
-total: 1
+total: 0
 ---
 
 {% include genurl.liquid %}

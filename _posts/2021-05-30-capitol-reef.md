@@ -6,8 +6,6 @@ idx: 1
 
 圆顶礁国家公园位于犹他州中部，是犹他州五个国家公园（被统称为Mighty Five）之一。
 
-2021年的Memorial Day假期，我和Luke飞至Las Vegas后租车出发，开始了犹他州的国家公园之旅。第一站来到旅途的最远端Capitol Reef。
-
 在[开篇](../index.md)提到，我在本次出行之前才决定开始收集NPS纪念章，因此以此地作为系列第一篇。
 
 {% include image.md filename="2021-05/001-01.jpeg" %}

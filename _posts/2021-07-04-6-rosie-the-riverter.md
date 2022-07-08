@@ -1,5 +1,5 @@
 ---
-title: Rosie the Riverter NHP
+title: Rosie the Riveter NHP
 sub: 二战大后方的铆钉女工
 tags: [california, nhp]
 idx: 16
