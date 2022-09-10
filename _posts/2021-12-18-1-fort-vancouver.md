@@ -3,6 +3,7 @@ title: Fort Vancouver NHS
 sub: 这才是第一个温哥华
 tags: [washington, nhs]
 idx: 41
+order: 20211298
 ---
 
 波特兰位于俄勒冈北部边界，它与华盛顿州仅隔一条哥伦比亚河。开车到达河对岸即是华盛顿的温哥华，人称小温哥华。

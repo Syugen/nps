@@ -3,6 +3,7 @@ title: San Francisco Maritime NHP
 sub: 旧金山海事历史公园
 tags: [california, nhp]
 idx: 11
+order: 20210798
 ---
 
 旧金山市内著名的渔人码头附近有一个海事历史公园San Francisco Maritime，如果对于船舶感兴趣的话可以花上一两个小时在这里小小的参观一下。票价$15，如果有国家公园通票的话免费。

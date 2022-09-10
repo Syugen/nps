@@ -2,8 +2,8 @@
 title: White Sands
 sub: 
 tags: [newmexico, np]
-idx: 54
-extras: ["55. Salinas Pueblo Missions NM"]
+idx: 55
+order: 20220595
 ---
 
 新墨西哥的自然景观除了上一篇提到的Carlsbad钟乳石洞外，最有特点和有名的非白沙公园莫属。白沙公园在2019年由National Monument升格为National Park，目前还有很多路牌没有改（包括小红书这个定位）。
@@ -16,21 +16,14 @@ extras: ["55. Salinas Pueblo Missions NM"]
 
 另外，该公园位于导弹靶场之中，因此可能会因为导弹试射而暂时关闭，不过一般都很短暂，不会影响到行程。也正是因此，该公园升级为国家公园和世界遗产的提案受到了很大阻碍。
 
-{% include image.md filename="2022-05/054-01.jpeg" %}
-{% include image.md filename="2022-05/054-02.jpeg" %}
-{% include image.md filename="2022-05/054-03.jpeg" %}
-{% include image.md filename="2022-05/054-04.jpeg" %}
-{% include image.md filename="2022-05/054-05.jpeg" %}
-{% include image.md filename="2022-05/054-06.jpeg" %}
-{% include image.md filename="2022-05/054-07.jpeg" %}
-{% include image.md filename="2022-05/054-08.jpeg" %}
-
-借用此篇介绍附近的另一处NPS单位：
-
-Salinas Pueblo Missions：从ABQ到白沙的路上绕点路的话会经过这个原住民遗址公园。公园内除了一些残垣断壁外没有什么特别的地方，因此如果稍有兴趣+行程允许可以考虑前来参观，稍微看看以前的部落居住地的样子，了解一下他们的历史。公园由三个分散的部分组成，其中Abo距离主路最近更易到访。
-
-{% include image.md filename="2022-05/054-09.jpeg" %}
-{% include image.md filename="2022-05/054-10.jpeg" %}
+{% include image.md filename="2022-05/055-01.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/055-02.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/055-03.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/055-04.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/055-05.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/055-06.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/055-07.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/055-08.jpeg" w="49.8%" a="right" %}
 
 2022.5.28
 

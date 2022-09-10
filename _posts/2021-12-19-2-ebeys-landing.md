@@ -3,11 +3,14 @@ title: Ebey's Landing NH RES
 sub: 温哥华绕路之行最后一站
 tags: [washington, nhres]
 idx: 44
+order: 20211295
 ---
 
 离开了西雅图的淘金博物馆，开往北向i-5。西雅图的i-5北向指示牌已经无法再用合适的美国城市来指向了，直接搬上了Vancouver, BC。如果此地的南向指示牌用Vancouver, WA的话那就相当有趣了（然而实际用的是Portland）。
 
-{% include image.md filename="2021-12/044-01.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-12/044-01.jpeg" w="60%" %}
+</p>
 
 从西雅图到温哥华直接沿i-5两个多小时就能到达边境。然而如果有一天的闲工夫的话，不妨可以绕路开一开。从Mukilteo可以选择乘坐渡轮到Clinton，登上Whidbey Island。这段渡轮相当短，纯水上行驶时间不到半个小时。小轿车的票价也只有大概$11。
 
@@ -16,8 +19,8 @@ idx: 44
 岛上相当大的区域是保护区，自然风景秀丽。我主要停留的是中部的Coupeville小镇，以及既然是来盖章的，于是还去了国家公园旗下的Ebey's Landing保护区。
 
 {% include image.md filename="2021-12/044-03.jpeg" %}
-{% include image.md filename="2021-12/044-04.jpeg" %}
-{% include image.md filename="2021-12/044-05.jpeg" %}
+{% include image.md filename="2021-12/044-04.jpeg" w="49.8%" %}
+{% include image.md filename="2021-12/044-05.jpeg" w="49.8%" a="right" %}
 {% include image.md filename="2021-12/044-06.jpeg" %}
 
 这个公园的打卡章很多景点都有，包括

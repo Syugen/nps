@@ -3,6 +3,7 @@ title: macOS High Sierra
 sub: 毕晓普之北湖高山
 tags: [california, special]
 special: 1
+order: 20211097
 ---
 
 在讲述国家公园全记录之余插播一段不是国家公园但是也很值得记录的一次出行。

@@ -3,27 +3,36 @@ title: Statue of Liberty NM 自由女神🗽
 tags: [newyork, nm]
 idx: 32
 extras: ["33. African Burial Ground NM", "34. Federal Hall N MEM", "35. Castle Clinton NM", "36. Governors Island NM"]
+order: 20211196
 ---
 
 自由女神像还用多介绍吗？不用了。好。
 
-{% include image.md filename="2021-11/032-01.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-11/032-01.jpeg" w="60%" %}
+</p>
 
 不过介绍一下登上雕像的方式。自由女神像也属于国家公园管理局管辖，他们仅授权了唯一一家叫Statue City Cruises的公司卖【登岛】和【登雕像】的票。任何其他打着自由女神cruise旗号的都是水上巡游。
 
 如果只登岛，基本没有票量限制，甚至没必要提前买，价格$23.5。但如果要登雕像，因为票很少一定提前预定，价格$23.8（包括船票）。相当于登雕像三毛钱。疫情期间最高只能登到女神的脚底板高度，也就是到底座顶（pedestal），不开放登到皇冠的高度，如果开放的话估计会更难抢（不管等到底座还是皇冠，如果开放的话票价都是良心的$23.8）。
 
-{% include image.md filename="2021-11/032-02.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-11/032-02.jpeg" w="80%" %}
+</p>
 
 出发地点可选择从曼哈顿或新泽西。从新泽西出发的优点是排队的人少，但到达港口的公共交通不便，对于local的人来说开车去最佳。如果是纯游客坐地铁的话从曼哈顿出发更方便，但是人极多，因为所有人都要排队安检。
 
 该游轮的线路是从曼哈顿/新泽西出发，第一站到自由女神岛，第二站到Ellis岛，最后回到出发地。因此在停靠Ellis岛的时候可以下船参观，也可以直接走人。
 
-{% include image.md filename="2021-11/032-03.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-11/032-03.jpeg" w="60%" %}
+</p>
 
 Ellis岛（下图）以前是美国海关，从欧洲坐船来纽约的游客基本都从这里入关。《神奇动物在哪里》第一部开场前两分钟男主到达纽约就是在这里下船的。
 
-{% include image.md filename="2021-11/032-04.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-11/032-04.jpeg" w="80%" %}
+</p>
 
 有个冷知识，如果你去谷歌地图看Ellis岛会发现，它位于哈德逊河西侧的新泽西水域上，但岛上却有一圈极不规则的小圈属于纽约州。1834年，两州达成协议，哈德逊河上的州界是河道中点线，但自由女神岛和Ellis岛例外，归属于纽约州。后来1987年泽西市市长起诉纽约市，认为它们应归属新泽西，因为它们位于新泽西水域。1998年最高法院裁定对于Ellis岛，填海造陆之前的部分属于纽约，填出来的地方属于新泽西。于是就有了这么个奇怪的边界。不过这个边界显示了Ellis岛本来的形状。
 
@@ -35,7 +44,9 @@ Ellis岛（下图）以前是美国海关，从欧洲坐船来纽约的游客基
 
 从百老汇大街在金融区开始向南步行，IRS纽约办公室所在地大楼是个zf建筑，我一开始并不知道。里面有个NPS纪念馆我要去盖章，进去还给我们安检了个通透。此处纪念的是殖民时期的非洲奴隶，因为在大楼建造开挖之时发现了大量奴隶的骸骨。这里可以盖到纪念馆本身的章还有石墙的章。
 
-{% include image.md filename="2021-11/032-05.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-11/032-05.jpeg" w="80%" %}
+</p>
 
 ---
 
@@ -45,8 +56,8 @@ Ellis岛（下图）以前是美国海关，从欧洲坐船来纽约的游客基
 
 （于是在边上随便拍拍纽交所和华尔街铜牛）
 
-{% include image.md filename="2021-11/032-06.jpeg" %}
-{% include image.md filename="2021-11/032-07.jpeg" %}
+{% include image.md filename="2021-11/032-06.jpeg" w="49.8%" %}
+{% include image.md filename="2021-11/032-07.jpeg" w="49.8%" a="right" %}
 
 ---
 

@@ -4,6 +4,7 @@ sub: 硫磺温泉与越野滑雪很配哦
 tags: [california, nm]
 idx: 49
 extras: ["50. Whiskeytown NRA"]
+order: 20220295
 ---
 
 从温哥华返回湾区的这次旅途中我也在Lassen火山打卡盖了个章。由于是在2月，公园里的雪都没有清理，道路只开到公园门口，公园内部仅供越野滑雪者开放（当然你想雪中步行也可以）。而上一次来正值夏天，可以开车自驾穿越公园。
@@ -16,18 +17,20 @@ extras: ["50. Whiskeytown NRA"]
 
 {% include image.md filename="2022-02/049-01.jpeg" %}
 {% include image.md filename="2022-02/049-02.jpeg" %}
-{% include image.md filename="2022-02/049-03.jpeg" %}
-{% include image.md filename="2022-02/049-04.jpeg" %}
-{% include image.md filename="2022-02/049-05.jpeg" %}
-{% include image.md filename="2022-02/049-06.jpeg" %}
+{% include image.md filename="2022-02/049-03.jpeg" w="49.8%" %}
+{% include image.md filename="2022-02/049-04.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-02/049-05.jpeg" w="49.8%" %}
+{% include image.md filename="2022-02/049-06.jpeg" w="49.8%" a="right" %}
 
 ### 2022.2.27
 
 冬日的拉森火山有着与夏天完全不同的景色。由于我没有滑雪装备，我并没有试图深入雪地之中。从铲了雪与没铲雪的交界处能看到这雪有两米深。
 
-{% include image.md filename="2022-02/049-07.jpeg" %}
-{% include image.md filename="2022-02/049-08.jpeg" %}
-{% include image.md filename="2022-02/049-09.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2022-02/049-09.jpeg" w="60%" %}
+{% include image.md filename="2022-02/049-07.jpeg" w="49.8%" %}
+{% include image.md filename="2022-02/049-08.jpeg" w="49.8%" a="right" %}
+</p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d388920.4293456617!2d-121.8450943!3d40.3990835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809d56012eb5ee07%3A0x4c14ea653c44d56e!2sKohm%20Yah-mah-nee%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1653174257076!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

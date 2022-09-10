@@ -2,8 +2,9 @@
 title: Carlsbad Caverns
 sub: 
 tags: [newmexico, np]
-idx: 51
-extras: ["52. Guadalupe"]
+idx: 52
+extras: ["53. Guadalupe Mountains"]
+order: 20220597
 ---
 
 Carlsbad Caverns是一个以钟乳石洞出名的国家公园，它位于新墨西哥州东南部。公园拥有北美最大的钟乳石洞（放在世界范围就只有三十多名了，毕竟我国南部和东南亚的地理条件使得那里有更多更大的洞穴），同时也是世界自然遗产。目前入园门票是每人$15，如果有国家公园通票则可以包四个人免票。无论是否有通票，需要提前在网上预约进洞，每人$1，不过据观察基本上票量不紧张，提前一天都能预约到（高峰节假日除外）。
@@ -14,11 +15,11 @@ Carlsbad Caverns是一个以钟乳石洞出名的国家公园，它位于新墨�
 
 进入地下后基本上沿着Big Room的步行线路绕行一圈就完事了，大约1.25英里长。洞穴内可以参观到各种奇形怪状的钟乳石。此时不妨发挥想象力给它们起名字。什么仙人指路，什么猴子捞月，把国内景区景点的起名套路放到这里完全适用！下图在我看来就像三个菩萨雕像。
 
-{% include image.md filename="2022-05/051-01.jpeg" %}
-{% include image.md filename="2022-05/051-02.jpeg" %}
-{% include image.md filename="2022-05/051-03.jpeg" %}
-{% include image.md filename="2022-05/051-04.jpeg" %}
-{% include image.md filename="2022-05/051-05.jpeg" %}
+{% include image.md filename="2022-05/052-01.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/052-02.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/052-03.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/052-04.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/052-05.jpeg" %}
 
 ---
 
@@ -26,7 +27,7 @@ Carlsbad Caverns是一个以钟乳石洞出名的国家公园，它位于新墨�
 
 从El Paso到Carlsbad Caverns的路上会经过得州的Guadalupe Mountains国家公园。这个公园似乎没有什么特点，除了hiking和camping以外也就没什么别的有意思活动了。或许当地人周末来这里玩一玩比较合适，如果是游客的话并不值得参观。这里最有意思的或许是时区。得州西部的两个县（包括El Paso），以及新墨西哥都使用山区时间，但途径的此处官方使用中部时间，但该公园又自行私下使用山区时间。智能手机会自动改时区的话会有些许的令人困惑。
 
-{% include image.md filename="2022-05/051-06.jpeg" %}
+{% include image.md filename="2022-05/052-06.jpeg" %}
 
 2022.5.27
 

@@ -1,1 +1,1 @@
-![{{ include.filename }}]( {{ "/images/" | append: include.filename | relative_url }})
+<img src="/nps/images/{{include.filename}}" alt="{{include.filename}}" width="{{ include.w }}" align="{{ include.a }}">

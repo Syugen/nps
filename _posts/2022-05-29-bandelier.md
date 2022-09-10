@@ -4,6 +4,7 @@ sub:
 tags: [newmexico, nm]
 idx: 56
 extras: ["57. Manhattan Project NHP (Los Alamos)"]
+order: 20220594
 ---
 
 新墨西哥的圣达菲（Santa Fe）是一个很有特色的城市，你满城都能看到传统特色的建筑。这种以前原住民居住的房子或村落可以统称为Pueblo。离圣达菲几十英里远的Los Alamos有一处这种pueblo的遗址Bandelier National Monument。同时Los Alamos也是著名的洛斯阿拉莫斯国家实验室所在地，以研制出世界上第一颗原子弹而闻名于世。最近重读《三体》，神奇地发现其中的面壁者雷迪亚兹战胜霉菌后，就是前往了该实验室以进行其面壁计划。
@@ -14,13 +15,15 @@ extras: ["57. Manhattan Project NHP (Los Alamos)"]
 
 如果前往参观的话，夏天的高峰时段需要开车至White Rock Visitor Center然后乘坐摆渡车进入公园。其余时间可以直接开进公园。从公园里的游客中心走Main Loop Trail一圈就可以收揽几乎全部的cliff dwelling。
 
-{% include image.md filename="2022-05/056-01.jpeg" %}
-{% include image.md filename="2022-05/056-02.jpeg" %}
-{% include image.md filename="2022-05/056-03.jpeg" %}
-{% include image.md filename="2022-05/056-04.jpeg" %}
-{% include image.md filename="2022-05/056-05.jpeg" %}
-{% include image.md filename="2022-05/056-06.jpeg" %}
-{% include image.md filename="2022-05/056-07.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2022-05/056-01.jpeg" w="60%" %}
+{% include image.md filename="2022-05/056-02.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/056-03.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/056-04.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/056-05.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2022-05/056-06.jpeg" w="49.8%" %}
+{% include image.md filename="2022-05/056-07.jpeg" w="49.8%" a="right" %}
+</p>
 
 ---
 

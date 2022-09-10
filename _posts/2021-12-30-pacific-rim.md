@@ -3,6 +3,7 @@ title: Pacific Rim
 sub: 2021之终章
 tags: [canada, special]
 special: 3
+order: 20211294
 ---
 
 踩着2021年的尾巴，与刚在加拿大认识的小伙伴们一起从温哥华踏上了温哥华岛的旅程。作为记录国家公园旅程的小红书系列，还是要收编这个美国以外的国家公园（流水账）。
@@ -14,8 +15,8 @@ special: 3
 第二天首先去品尝了温哥华很火的Tacofino发源地，位于Tofino的一辆卖taco的餐车，在雪地里吃taco不算违和。接下来开到Combers Beach沿着小树林走到沙滩、再到浅滩、有人脱了鞋狂奔起来（加入其中）。此时已是下午三点即将日落。
 
 {% include image.md filename="2021-12/044-s2.jpeg" %}
-{% include image.md filename="2021-12/044-s3.jpeg" %}
-{% include image.md filename="2021-12/044-s4.jpeg" %}
+{% include image.md filename="2021-12/044-s3.jpeg" w="49.8%" %}
+{% include image.md filename="2021-12/044-s4.jpeg" w="49.8%" a="right" %}
 {% include image.md filename="2021-12/044-s5.jpeg" %}
 {% include image.md filename="2021-12/044-s6.jpeg" %}
 
@@ -23,10 +24,12 @@ special: 3
 
 新年第一天，开始返程回到温哥华。很开心认识了很多新伙伴（包括一些活宝），在之后等签证的两个月因为大家的存在而变得非常精彩。
 
-{% include image.md filename="2021-12/044-s7.jpeg" %}
-{% include image.md filename="2021-12/044-s8.jpeg" %}
-{% include image.md filename="2021-12/044-s9.jpeg" %}
+<p style="text-align: center">
+{% include image.md filename="2021-12/044-s7.jpeg" w="49.8%" %}
+{% include image.md filename="2021-12/044-s8.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2021-12/044-s9.jpeg" w="60%" %}
 {% include image.md filename="2021-12/044-s10.jpeg" %}
+</p>
 
 2021.12.29-2022.1.1
 

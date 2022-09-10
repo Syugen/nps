@@ -3,6 +3,7 @@ title: Klondike Gold Rush NHP
 sub: 育空淘金 是喜是愁
 tags: [washington, nhp]
 idx: 43
+order: 20211296
 ---
 
 在西雅图市中心有着这样一个纪念百年之前一股淘金热的历史博物馆：Klondike Gold Rush。
@@ -13,11 +14,13 @@ idx: 43
 
 如果途径西雅图，在有时间的情况下除了Space Needle和Pike Place这种著名景点外，参观一下这样小众的历史博物馆也是很有意思的。而且免费！
 
+<p style="text-align: center">
 {% include image.md filename="2021-12/043-01.jpeg" %}
 {% include image.md filename="2021-12/043-02.jpeg" %}
-{% include image.md filename="2021-12/043-03.jpeg" %}
-{% include image.md filename="2021-12/043-04.jpeg" %}
-{% include image.md filename="2021-12/043-05.jpeg" %}
+{% include image.md filename="2021-12/043-03.jpeg" w="49.8%" %}
+{% include image.md filename="2021-12/043-04.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2021-12/043-05.jpeg" w="60%" %}
+</p>
 
 不太清楚这个地方治安如何，走的时候看到街头有流浪汉，然后有几个警察（应该是？）过来了……
 

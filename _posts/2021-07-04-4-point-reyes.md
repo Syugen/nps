@@ -3,6 +3,7 @@ title: Point Reyes NS
 sub: 雷耶斯岬之日落
 tags: [california, ns]
 idx: 14
+order: 20210795
 ---
 
 旧金山北部的Point Reyes一个半岛的海角尽头。以此命名了附近的一段海岸，和所在的公园。

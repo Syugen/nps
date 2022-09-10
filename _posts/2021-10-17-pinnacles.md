@@ -2,6 +2,7 @@
 title: Pinnacles 尖顶
 tags: [california, np]
 idx: 28
+order: 20211093
 ---
 
 Pinnacles是2013年由National Monument升格成National Park的。从NM变为NP会得到更多的保护，也会获得更多的名气。不过访问了众多国家公园之后，我感觉这是目前唯一一个没能给我留下特殊印象的一个。（听说东部还有一些国家公园也是类似的没有什么特点，不过毕竟这是我亲自发现的第一个）
@@ -10,8 +11,8 @@ Pinnacles是2013年由National Monument升格成National Park的。从NM变为NP
 
 Ranger说上去也没有车位，我说只开车看看就走，于是就让我们上去了。开到Bear Gulch这里的trailhead转了一圈竟然发现有一个车位，那就当仁不让停了下来。然后选择了Condor Gulch Trail来走。最终走到了overlook看了看，就原路返回了。
 
-{% include image.md filename="2021-10/028-01.jpeg" %}
-{% include image.md filename="2021-10/028-01.jpeg" %}
+{% include image.md filename="2021-10/028-01.jpeg" w="49.8%" %}
+{% include image.md filename="2021-10/028-02.jpeg" w="49.8%" a="right" %}
 
 这公园其实是有洞穴可以进去的，但也就是些普通山洞，相比起稍远一些就能体验到的熔岩洞与钟乳石洞还是差了不少。东门进入的话可以去Bear Gulch Cave，西门的话可以去Balconies Cave。但还是要考虑到没地方停车的问题（希望疫情过后shuttle恢复了就不会有这个问题了）。因此综合考虑，我认为这个公园并不是很适合day tour来hiking。如果是一家人来到这里露营一晚，然后早上起来爬山则应该会是不错的体验！
 

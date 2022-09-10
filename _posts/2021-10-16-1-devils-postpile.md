@@ -3,6 +3,7 @@ title: Devils Postpile NM 恶魔柱
 sub: 猛犸湖的隐藏遗迹
 tags: [california, nm]
 idx: 25
+order: 20211098
 ---
 
 猛犸湖有什么？
@@ -24,9 +25,9 @@ trail可以选择爬上恶魔柱顶端（下图），也可以继续往里可以
 
 下面几张图介绍了这些石柱的形成历史。最神奇的是他们大多裂开成截面为正六边形的柱子，这背后隐藏着物理和数学的美！
 
-{% include image.md filename="2021-10/025-04.jpeg" %}
-{% include image.md filename="2021-10/025-05.jpeg" %}
-{% include image.md filename="2021-10/025-06.jpeg" %}
+{% include image.md filename="2021-10/025-04.jpeg" w="33%" %}
+{% include image.md filename="2021-10/025-05.jpeg" w="33%" %}
+{% include image.md filename="2021-10/025-06.jpeg" w="33%" a="right" %}
 
 2021.10.16
 

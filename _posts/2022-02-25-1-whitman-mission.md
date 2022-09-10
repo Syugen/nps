@@ -4,6 +4,7 @@ sub: 传教与殖民
 tags: [washington, nhs]
 idx: 45
 extras: ["46. Manhattan Project NHP (Hanford)"]
+order: 20220298
 ---
 
 在温哥华滞留了甜蜜的两个月后，我终于踏上了返回加州的旅程。在东雅图朋友家住了一晚后，开启了一段围绕哥伦比亚河盆地区域的自驾旅行。

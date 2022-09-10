@@ -2,6 +2,7 @@
 title: Capitol Reef 圆顶礁
 tags: [utah, np]
 idx: 1
+order: 20210598
 ---
 
 圆顶礁国家公园位于犹他州中部，是犹他州五个国家公园（被统称为Mighty Five）之一。
@@ -24,8 +25,8 @@ idx: 1
 
 下去之后原路返回到了车上，原路驶离公园，路上的风景是另一个角度的壮阔（下图）。
 
-{% include image.md filename="2021-05/001-05.jpeg" %}
-{% include image.md filename="2021-05/001-06.jpeg" %}
+{% include image.md filename="2021-05/001-05.jpeg" w="49.8%" %}
+{% include image.md filename="2021-05/001-06.jpeg" w="49.8%" a="right" %}
 
 总结起来，这个公园一般都是游客去犹他州其他几个公园路途上稍带过的一个。似乎的确是这样，在车上欣赏美景足够了。大老远来hiking这种trail多少有点觉得没啥必要。
 

@@ -4,6 +4,7 @@ sub: 长夜漫漫路迢迢
 tags: [california, nhs]
 idx: 23
 head: 2021.8.14 东湾
+order: 20210899
 ---
 
 今年两度参观一位诺贝尔文学奖得主Eugene O'Neill的故居，位于旧金山东湾Dublin/Pleasanton北边的一个小城市Danville。这里镇上是典型的加州小镇风格，而往山上也有不少豪宅，某条路的尽头就是Eugene的故居。
@@ -16,20 +17,23 @@ head: 2021.8.14 东湾
 
 来到故居正门首先看到的就是这门上四个不明所以的字“道大别墅”，而他的房子他自己就称作Tao House，可见他对道教的喜爱。他对东方文化的兴趣还有很多，家里有很多瓷器上面印着古诗（虽然没看懂写的是什么诗），有日本能剧的面具，在书架上看到有《西厢记》、林语堂写的《吾国与吾民》等等。（问了ranger他说这些书不是当时他自己的原书，因为他家曾经被卖过，NPS重新买回来这片地之后根据当时他的记录去复原的）
 
+<p style="text-align: center">
+{% include image.md filename="2021-08/023-02.jpeg" w="60%" %}
+</p>
+
 他的家里也有LV的包包，也有船模（年轻的时候放过水手），还有一张罗汉床。这张床后来也是被卖到了旧金山的一家家具店，最后在一位女演员的劝说下被这家家具店免费送给了NPS。
 
 他的一生经历比较坎坷，最著名的可能是《长夜漫漫路迢迢》。我为了在private tour里不显得自己什么也不懂硬生生看完了一部改编的同名、摄于1962年的黑白电影。实在有点压抑。电影里的女主角演员Katharine Hepburn就是上面帮助还原家具的那一位。（虽然她也姓赫本，但是她和奥黛丽赫本没有一点关系）
 
 外景图中大部分是三月拍的，漫山的绿色。第一张的路牌是八月拍的，全都枯完了。湾区的雨季是拜访的好时候！
 
-{% include image.md filename="2021-08/023-02.jpeg" %}
 {% include image.md filename="2021-08/023-03.jpeg" %}
-{% include image.md filename="2021-08/023-04.jpeg" %}
-{% include image.md filename="2021-08/023-07.jpeg" %}
-{% include image.md filename="2021-08/023-05.jpeg" %}
-{% include image.md filename="2021-08/023-06.jpeg" %}
-{% include image.md filename="2021-08/023-08.jpeg" %}
-{% include image.md filename="2021-08/023-09.jpeg" %}
+{% include image.md filename="2021-08/023-04.jpeg" w="49.8%" %}
+{% include image.md filename="2021-08/023-07.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2021-08/023-05.jpeg" w="49.8%" %}
+{% include image.md filename="2021-08/023-06.jpeg" w="49.8%" a="right" %}
+{% include image.md filename="2021-08/023-08.jpeg" w="49.8%" %}
+{% include image.md filename="2021-08/023-09.jpeg" w="49.8%" a="right" %}
 
 2021.3.21<br>
 2021.8.14

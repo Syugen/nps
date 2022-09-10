@@ -3,6 +3,7 @@ title: Crater Lake 火山口湖
 tags: [oregon, np]
 idx: 20
 extras: ["21. Oregon Caves NM & PRES"]
+order: 20210896
 ---
 
 如果问俄勒冈州最著名的自然景观是什么，那么Crater Lake或许毫无疑问可以排在第一。这个景点对于湾区人民来说距离还是有些远的。如果专门为了这样稀有的景色前来旅行的话，我会建议住在湖边的lodge住上一晚，享受这火山与湖从晚霞到晨光的静谧。
