@@ -16,18 +16,18 @@ order: 20211098
 
 一大早来到山谷里，还没有多少人（甚至收费处都还没上班，直接开车进来了），走在trail上十分chill，没几分钟就看到这神奇的石柱。
 
-{% include image.md filename="2021-10/025-01.jpeg" %}
+{% include image.html filename="2021-10/025-01.jpeg" %}
 
 trail可以选择爬上恶魔柱顶端（下图），也可以继续往里可以走到彩虹瀑布。然而我就没有继续，因为这一天的行程还很多。
 
-{% include image.md filename="2021-10/025-02.jpeg" %}
-{% include image.md filename="2021-10/025-03.jpeg" %}
+{% include image.html filename="2021-10/025-02.jpeg" %}
+{% include image.html filename="2021-10/025-03.jpeg" %}
 
 下面几张图介绍了这些石柱的形成历史。最神奇的是他们大多裂开成截面为正六边形的柱子，这背后隐藏着物理和数学的美！
 
-{% include image.md filename="2021-10/025-04.jpeg" w="33%" %}
-{% include image.md filename="2021-10/025-05.jpeg" w="33%" %}
-{% include image.md filename="2021-10/025-06.jpeg" w="33%" a="right" %}
+{% include image.html filename="2021-10/025-04.jpeg" w="33%" %}
+{% include image.html filename="2021-10/025-05.jpeg" w="33%" %}
+{% include image.html filename="2021-10/025-06.jpeg" w="33%" a="right" %}
 
 2021.10.16
 

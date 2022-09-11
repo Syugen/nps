@@ -10,7 +10,7 @@ Great Basin，大盆地，内华达州唯一的国家公园，相当的偏远。
 如果从加州湾区自驾过来，可以同时感受美国最孤独的公路：内华达段的美国50号公路。以前上学的时候看到过一张图，上面一条笔直的路通向一座山。我试着找了个角度也拍一张，似乎效果差了些…但一直开在这笔直笔直的路上几乎没一辆车，确实有一种孤独感。
 
 <p style="text-align: center">
-{% include image.md filename="2021-06/008-05.jpeg" w="60%" %}
+{% include image.html filename="2021-06/008-05.jpeg" w="60%" %}
 </p>
 
 到达Great Basin后，这里的最有名的活动就是cave tour了，需要在recreation.gov上订票（请参考官网以获取最新信息）。洞穴里的景观不必多描述，久居城市而感受一下自然的熏陶感觉非常神奇。
@@ -19,10 +19,10 @@ Great Basin，大盆地，内华达州唯一的国家公园，相当的偏远。
 Great Basin，大盆地，内华达州唯一的国家公园，相当的偏远。它距离最近的像样点的城市如盐湖城、圣乔治、拉斯维加斯都是三四个小时车程，即使是从那些城市出发也需花费整整一天往返加游玩。
 
 <p style="text-align: center">
-{% include image.md filename="2021-06/008-01.jpeg" %}
-{% include image.md filename="2021-06/008-02.jpeg" w="60%" %}
-{% include image.md filename="2021-06/008-03.jpeg" w="49.8%" %}
-{% include image.md filename="2021-06/008-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-06/008-01.jpeg" %}
+{% include image.html filename="2021-06/008-02.jpeg" w="60%" %}
+{% include image.html filename="2021-06/008-03.jpeg" w="49.8%" %}
+{% include image.html filename="2021-06/008-04.jpeg" w="49.8%" a="right" %}
 </p>
 
 2019.5.26<br>

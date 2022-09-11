@@ -14,12 +14,12 @@ order: 20211297
 
 游客中心内的雕塑，上中下分别是Lewis、当地原住民、以及Clark。雕塑中的纽芬兰狗狗是Lewis的宠物（看他们的日记这狗还被一些原住民部落的人给偷过）。
 
-{% include image.md filename="2021-12/042-01.jpeg" %}
-{% include image.md filename="2021-12/042-02.jpeg" %}
+{% include image.html filename="2021-12/042-01.jpeg" %}
+{% include image.html filename="2021-12/042-02.jpeg" %}
 
 展览中的情景再现能看到二人在与原住民交流。这情景很像《博物馆奇妙夜》里面的展览场景！电影里的原住民角色Sacagawea是他们的向导和翻译。
 
-{% include image.md filename="2021-12/042-03.jpeg" %}
+{% include image.html filename="2021-12/042-03.jpeg" %}
 
 2021.12.18
 

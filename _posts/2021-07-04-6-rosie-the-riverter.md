@@ -10,23 +10,23 @@ order: 20210793
 
 城市里的劳动力大多去了战争前线，留下的妇女开始在这里进行工业生产提供军需品和生活补给。
 
-{% include image.md filename="2021-07/016-01.jpeg" %}
+{% include image.html filename="2021-07/016-01.jpeg" %}
 
 在Richmond的这个纪念馆便以当时对于战时女性劳动力的称呼rosie the riveter铆钉女工命名。
 
 <p style="text-align: center">
-{% include image.md filename="2021-07/016-02.jpeg" w="60%" %}
+{% include image.html filename="2021-07/016-02.jpeg" w="60%" %}
 </p>
 
 该纪念馆主要以美国视角记录该城市在二战时的经历，属于美国的爱国主义教育，我对此并无兴趣甚至有些抵触，因此草草看过。不过纪念馆里有一本书，里面放了许多当时美国的政治宣传海报，很有意思。
 
-{% include image.md filename="2021-07/016-03.jpeg" %}
-{% include image.md filename="2021-07/016-04.jpeg" w="49.8%" %}
-{% include image.md filename="2021-07/016-05.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2021-07/016-06.jpeg" w="49.8%" %}
-{% include image.md filename="2021-07/016-07.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2021-07/016-08.jpeg" w="49.8%" %}
-{% include image.md filename="2021-07/016-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/016-03.jpeg" %}
+{% include image.html filename="2021-07/016-04.jpeg" w="49.8%" %}
+{% include image.html filename="2021-07/016-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/016-06.jpeg" w="49.8%" %}
+{% include image.html filename="2021-07/016-07.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/016-08.jpeg" w="49.8%" %}
+{% include image.html filename="2021-07/016-09.jpeg" w="49.8%" a="right" %}
 
 2021.7.4
 

@@ -15,21 +15,21 @@ order: 20220295
 
 公园内的Lassen Highway一共长34英里，经过山顶继续行驶，最终到达北门附近的Manzanita Lake。绕湖走了一圈，没什么特别的地方，但很恬静。
 
-{% include image.md filename="2022-02/049-01.jpeg" %}
-{% include image.md filename="2022-02/049-02.jpeg" %}
-{% include image.md filename="2022-02/049-03.jpeg" w="49.8%" %}
-{% include image.md filename="2022-02/049-04.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-02/049-05.jpeg" w="49.8%" %}
-{% include image.md filename="2022-02/049-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/049-01.jpeg" %}
+{% include image.html filename="2022-02/049-02.jpeg" %}
+{% include image.html filename="2022-02/049-03.jpeg" w="49.8%" %}
+{% include image.html filename="2022-02/049-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/049-05.jpeg" w="49.8%" %}
+{% include image.html filename="2022-02/049-06.jpeg" w="49.8%" a="right" %}
 
 ### 2022.2.27
 
 冬日的拉森火山有着与夏天完全不同的景色。由于我没有滑雪装备，我并没有试图深入雪地之中。从铲了雪与没铲雪的交界处能看到这雪有两米深。
 
 <p style="text-align: center">
-{% include image.md filename="2022-02/049-09.jpeg" w="60%" %}
-{% include image.md filename="2022-02/049-07.jpeg" w="49.8%" %}
-{% include image.md filename="2022-02/049-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/049-09.jpeg" w="60%" %}
+{% include image.html filename="2022-02/049-07.jpeg" w="49.8%" %}
+{% include image.html filename="2022-02/049-08.jpeg" w="49.8%" a="right" %}
 </p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d388920.4293456617!2d-121.8450943!3d40.3990835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809d56012eb5ee07%3A0x4c14ea653c44d56e!2sKohm%20Yah-mah-nee%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1653174257076!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

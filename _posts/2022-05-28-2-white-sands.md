@@ -16,14 +16,14 @@ order: 20220595
 
 另外，该公园位于导弹靶场之中，因此可能会因为导弹试射而暂时关闭，不过一般都很短暂，不会影响到行程。也正是因此，该公园升级为国家公园和世界遗产的提案受到了很大阻碍。
 
-{% include image.md filename="2022-05/055-01.jpeg" w="49.8%" %}
-{% include image.md filename="2022-05/055-02.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-05/055-03.jpeg" w="49.8%" %}
-{% include image.md filename="2022-05/055-04.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-05/055-05.jpeg" w="49.8%" %}
-{% include image.md filename="2022-05/055-06.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-05/055-07.jpeg" w="49.8%" %}
-{% include image.md filename="2022-05/055-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-05/055-01.jpeg" w="49.8%" %}
+{% include image.html filename="2022-05/055-02.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-05/055-03.jpeg" w="49.8%" %}
+{% include image.html filename="2022-05/055-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-05/055-05.jpeg" w="49.8%" %}
+{% include image.html filename="2022-05/055-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-05/055-07.jpeg" w="49.8%" %}
+{% include image.html filename="2022-05/055-08.jpeg" w="49.8%" a="right" %}
 
 2022.5.28
 

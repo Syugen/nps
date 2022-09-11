@@ -9,13 +9,13 @@ order: 20210594
 
 Pipe Spring，位于亚利桑那州与犹他州的交界之处。我实在想不到理由推荐任何人到访此地，除非有人的行程是从Zion离开后前往大峡谷北边缘或者Page（马蹄湾）中途会稍微经过（还得绕点路）的时候想歇歇脚。巧的是在我查阅资料的过程中发现一百年前这里被设为国家公园旗下单位的时候，竟然就是考虑到从Zion到大峡谷的游客可能需要个歇脚的地方，而这个地方又有着不多不少的一些历史故事。于是修缮一番申请成为了NPS的一部分。
 
-{% include image.md filename="2021-06/005-01.jpeg" %}
-{% include image.md filename="2021-06/005-03.jpeg" %}
+{% include image.html filename="2021-06/005-01.jpeg" %}
+{% include image.html filename="2021-06/005-03.jpeg" %}
 
 此地由于地质断层缘故地下含有大量水源，虽然地表略显荒凉，但印第安的一些部落很早就发现了这里的泉水并扎根落下近千年。
 
-{% include image.md filename="2021-06/005-02.jpeg" w="49.8%" %}
-{% include image.md filename="2021-06/005-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-06/005-02.jpeg" w="49.8%" %}
+{% include image.html filename="2021-06/005-04.jpeg" w="49.8%" a="right" %}
 
 白人第一次到来是在1829年西部大开发中开拓贸易路线的时候发现的。而后于1858年犹他的摩门教南下向亚利桑那的印第安部落传教时命名，并在此扎根放牧。然后便是摩门教徒与当地部落的各种打架…摩门教徒最后修了个堡垒来保护泉水，而后摩门教的头儿伯明翰杨买了这块地雇了附近教堂主角来维护碉堡和牧场，取名为“温莎城堡”（因为主教姓温莎），最后成为了一个传教/旅游的前哨站。（以及犹他州认定一夫多妻为重罪后【摩门教传统艺能】一些男人防止被罚而藏身多余老婆的地方）
 
@@ -23,10 +23,10 @@ Pipe Spring，位于亚利桑那州与犹他州的交界之处。我实在想不
 
 需要稍稍注意的是，亚利桑那州大部分地方不实行夏令时，夏天也是用MST，而邻近的犹他州夏天使用夏令时为MDT，因此夏天两州差一小时；冬天则时间一致，均为MST。
 
-{% include image.md filename="2021-06/005-05.jpeg" w="49.8%" %}
-{% include image.md filename="2021-06/005-06.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2021-06/005-07.jpeg" w="49.8%" %}
-{% include image.md filename="2021-06/005-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-06/005-05.jpeg" w="49.8%" %}
+{% include image.html filename="2021-06/005-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-06/005-07.jpeg" w="49.8%" %}
+{% include image.html filename="2021-06/005-08.jpeg" w="49.8%" a="right" %}
 
 ---
 

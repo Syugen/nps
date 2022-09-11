@@ -12,22 +12,22 @@ John Day Fossil Beds公园的确远离任何一个大城市，最近的较大城
 
 这个公园有三个unit相距很远，我只访问了游客中心所在的Sheep Rock Unit。进入游客中心，直接就把我震惊住了。展览介绍了从6500万年之前开始的地质历史，影像、声音、化石，身临其境仿佛自己真的置身于千万年前。具体详细的地质知识值得感兴趣的小伙伴亲自前往体验。二月底的周末在这荒无人烟的地方，还是看到很多家长带着孩子前来参观。
 
-{% include image.md filename="2022-02/048-01.jpeg" %}
-{% include image.md filename="2022-02/048-02.jpeg" %}
-{% include image.md filename="2022-02/048-04.jpeg" %}
-{% include image.md filename="2022-02/048-05.jpeg" %}
-{% include image.md filename="2022-02/048-03.jpeg" w="49.8%" %}
-{% include image.md filename="2022-02/048-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/048-01.jpeg" %}
+{% include image.html filename="2022-02/048-02.jpeg" %}
+{% include image.html filename="2022-02/048-04.jpeg" %}
+{% include image.html filename="2022-02/048-05.jpeg" %}
+{% include image.html filename="2022-02/048-03.jpeg" w="49.8%" %}
+{% include image.html filename="2022-02/048-06.jpeg" w="49.8%" a="right" %}
 
 你可能会注意到，其实这个游客中心根本不叫“visitor center”，因为他本身就是一个研究所，可以看到里面有个长得很像TBBT里Amy的人在研究石头。
 
-{% include image.md filename="2022-02/048-07.jpeg" %}
+{% include image.html filename="2022-02/048-07.jpeg" %}
 
 游客中心外面有些trail可以走，不过如今基本上不太可能在地上看到化石。如果见到化石要联系工作人员让他们来处理。我随便走了走，只捡到一株风滚草LOL。
 
 <p style="text-align: center">
-{% include image.md filename="2022-02/048-09.jpeg" w="60%" %}
-{% include image.md filename="2022-02/048-08.jpeg" %}
+{% include image.html filename="2022-02/048-09.jpeg" w="60%" %}
+{% include image.html filename="2022-02/048-08.jpeg" %}
 </p>
 
 2022.2.26

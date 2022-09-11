@@ -7,21 +7,21 @@ order: 20210796
 
 说到Golden Gate，十个人里可能有11个人会第一时间想到Golden Gate Bridge，毕竟这是旧金山，甚至整个北加州（甚至美国西海岸）的标志。实际上Golden Gate指的是大桥下面的海峡，它是连接太平洋和旧金山湾的咽喉。
 
-{% include image.md filename="2021-07/013-01.jpeg" %}
+{% include image.html filename="2021-07/013-01.jpeg" %}
 
 围绕着海峡，国家公园管理局拥有着一大片地，设立了一个休闲公园。这片区域其实相当的大，北至Point Reyes，南至San Mateo。（面积虽然这么大但其实公园并不包含大桥本身）
 
-{% include image.md filename="2021-07/013-02.jpeg" %}
+{% include image.html filename="2021-07/013-02.jpeg" %}
 
 除了给本地人供休息的各种小trail以外，大桥南边的Presidio（西班牙语意为碉堡/要塞，参见上篇Fort Point碉堡），北边的Marin Headlands是比较值得走一走的。桥北的Conzelman Road上一路都有停车点，下车走走就是制高点欣赏大桥和旧金山天际线。桥南边的话则推荐Baker Beach。
 
-{% include image.md filename="2021-07/013-03.jpeg" w="49.8%" %}
-{% include image.md filename="2021-07/013-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/013-03.jpeg" w="49.8%" %}
+{% include image.html filename="2021-07/013-04.jpeg" w="49.8%" a="right" %}
 
 相比之下Presidio更像是一个城市里的大型自然公园，或许可以类比纽约的中央公园。有次拜访注意到里面有个有意思的擎天柱…艺术家的作品，不过之前被人搞破坏放火烧了…
 
-{% include image.md filename="2021-07/013-05.jpeg" w="49.8%" %}
-{% include image.md filename="2021-07/013-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/013-05.jpeg" w="49.8%" %}
+{% include image.html filename="2021-07/013-06.jpeg" w="49.8%" a="right" %}
 
 唯一要注意的就是旧金山的砸车状况十分严重。一定不要在车里放任何东西…
 

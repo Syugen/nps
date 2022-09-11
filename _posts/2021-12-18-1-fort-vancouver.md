@@ -16,10 +16,10 @@ order: 20211298
 
 再来看加拿大的温哥华市。毕竟乔治·温哥华是英国人，搞了半天温哥华市成美国的了，不行，我们才应该有温哥华市，后来1886年他们把当时叫“Gastown”（1870年以前）/“Granville”（1870-1886）的这个地方改叫温哥华。Gastown也是温哥华著名景点。（这段改名动机部分是我瞎编的，但这改名肯定是考虑到了乔治·温哥华对于英国殖民的“贡献”）
 
-{% include image.md filename="2021-12/041-01.jpeg" %}
-{% include image.md filename="2021-12/041-02.jpeg" %}
-{% include image.md filename="2021-12/041-03.jpeg" %}
-{% include image.md filename="2021-12/041-04.jpeg" %}
+{% include image.html filename="2021-12/041-01.jpeg" %}
+{% include image.html filename="2021-12/041-02.jpeg" %}
+{% include image.html filename="2021-12/041-03.jpeg" %}
+{% include image.html filename="2021-12/041-04.jpeg" %}
 
 2021.12.18
 

@@ -17,12 +17,12 @@ order: 20220298
 
 以两方分别的角度出发，旁观者可以对此事站以不同立场。原住民的栖息地被殖民而发起反抗无可非议。而传教者将移民搬运至此客观上帮助了美国对于俄勒冈领地的主权主张。以纪念Whitman而命名的道路、学校、雕塑数不胜数，包括这个遗址本身。加上一些文字资料，多少可以看出社会对此更多的持有一种“这是发展中必然会出现的遗憾的事件”。毕竟在这里的原住民能有多少话语权。
 
-{% include image.md filename="2022-02/045-01.jpeg" %}
-{% include image.md filename="2022-02/045-02.jpeg" %}
-{% include image.md filename="2022-02/045-03.jpeg" %}
-{% include image.md filename="2022-02/045-04.jpeg" %}
-{% include image.md filename="2022-02/045-05.jpeg" %}
-{% include image.md filename="2022-02/045-06.jpeg" %}
+{% include image.html filename="2022-02/045-01.jpeg" %}
+{% include image.html filename="2022-02/045-02.jpeg" %}
+{% include image.html filename="2022-02/045-03.jpeg" %}
+{% include image.html filename="2022-02/045-04.jpeg" %}
+{% include image.html filename="2022-02/045-05.jpeg" %}
+{% include image.html filename="2022-02/045-06.jpeg" %}
 
 ---
 

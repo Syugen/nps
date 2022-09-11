@@ -18,35 +18,35 @@ order: 20220798
 #### 📍Gila Cliff Dwellings NM
 相当不好到达的一处。无论从哪里出发，最后都要开1.5小时山路。到达后从某些角度来看有点像Tonto，不过建筑数量更多，更加身临其境。
 
-{% include image.md filename="2022-07/061-01.jpeg" w="49.8%" %}
-{% include image.md filename="2022-07/061-02.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-07/061-03.jpeg" %}
-{% include image.md filename="2022-07/061-04.jpeg" w="49.8%" %}
-{% include image.md filename="2022-07/061-05.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-07/061-06.jpeg" %}
+{% include image.html filename="2022-07/061-01.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/061-02.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-03.jpeg" %}
+{% include image.html filename="2022-07/061-04.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/061-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-06.jpeg" %}
 
 ### Phoenix附近
 
 #### 📍Tonto NM
 距离Phoenix两个小时车程。从山下出发爬一小段山后到达洞中小屋。往下望可以看到Theodore Roosevelt Lake，这里充足的水源也是古代部落驻扎于此的原因之一。另外这里地处亚利桑那中南部，也生长着高大的saguaro。
 
-{% include image.md filename="2022-07/061-07.jpeg" w="49.8%" %}
-{% include image.md filename="2022-07/061-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-07.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/061-08.jpeg" w="49.8%" a="right" %}
 
 #### 📍Montezuma Castle NM
 位于Phoenix前往Sedona/Flagstaff之间，靠近主干高速，因此很方便安排行程。公园内延trail走在峡谷之下，抬头看到在悬崖上的建筑颇为壮观，感叹于他们是如何做到的。
 
-{% include image.md filename="2022-07/061-09.jpeg" %}
+{% include image.html filename="2022-07/061-09.jpeg" %}
 
 ### 亚利桑那东北部
 
 #### 📍Walnut Canyon NM
 距离Flagstaff很近。此处的体验是trail从山顶出发，往下走进山谷崖壁上的小屋。图6下里山顶的房子就是出发点游客中心。
 
-{% include image.md filename="2022-07/061-10.jpeg" w="49.8%" %}
-{% include image.md filename="2022-07/061-11.jpeg" w="49.8%" a="right" %}
-{% include image.md filename="2022-07/061-12.jpeg" w="49.8%" %}
-{% include image.md filename="2022-07/061-13.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-10.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/061-11.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-12.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/061-13.jpeg" w="49.8%" a="right" %}
 
 #### 📍Canyon de Chelly NM
 #### 📍Navajo NM

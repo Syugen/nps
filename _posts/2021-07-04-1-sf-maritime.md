@@ -8,29 +8,29 @@ order: 20210798
 
 旧金山市内著名的渔人码头附近有一个海事历史公园San Francisco Maritime，如果对于船舶感兴趣的话可以花上一两个小时在这里小小的参观一下。票价$15，如果有国家公园通票的话免费。
 
-{% include image.md filename="2021-07/011-01.jpeg" %}
+{% include image.html filename="2021-07/011-01.jpeg" %}
 
 这个小公园分成了好几个部分，疫情的关系我只去了露天的码头，室内的游客中心、博物馆和研究中心统统没去（或者没开门）。
 
-{% include image.md filename="2021-07/011-06.jpeg" %}
-{% include image.md filename="2021-07/011-02.jpeg" %}
+{% include image.html filename="2021-07/011-06.jpeg" %}
+{% include image.html filename="2021-07/011-02.jpeg" %}
 
 Hyde Street Pier海德街码头建于1922年，是在金门大桥存在之前给旧金山与海峡北面的城市Sausalito之间通勤的枢纽（曾经也算是US-101公路的一部分！）。
 
-{% include image.md filename="2021-07/011-04.jpeg" %}
+{% include image.html filename="2021-07/011-04.jpeg" %}
 
 目前在码头上停泊了大大小小7艘船，其中有好几艘可以登船参观。最大的Eureka号最早是给火车渡湾的，后来被改造成了给人和汽车渡湾。
 
-{% include image.md filename="2021-07/011-05.jpeg" %}
+{% include image.html filename="2021-07/011-05.jpeg" %}
 
 从海上望过去，不远处就是恶魔岛。
 
-{% include image.md filename="2021-07/011-03.jpeg" %}
+{% include image.html filename="2021-07/011-03.jpeg" %}
 
 公园里不知道为什么会有一个给你讲利用滑轮省力的装置……
 
-{% include image.md filename="2021-07/011-07.jpeg" %}
-{% include image.md filename="2021-07/011-08.jpeg" %}
+{% include image.html filename="2021-07/011-07.jpeg" %}
+{% include image.html filename="2021-07/011-08.jpeg" %}
 
 2021.7.4
 

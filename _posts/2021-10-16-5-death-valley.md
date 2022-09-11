@@ -13,17 +13,17 @@ order: 20211094
 
 死亡谷的夏天可以热到50摄氏度以上。我有幸在9月初体验过一次50摄氏度的炙烤。不过即使再热也要穿上长袖做好遮阳，宁愿流汗不要把皮肤晒伤。我下身就因为只有短裤，在烈日下待了十分钟就有点晒疼了。
 
-{% include image.md filename="2021-10/027-01.jpeg" w="49.8%" %}
-{% include image.md filename="2021-10/027-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-10/027-01.jpeg" w="49.8%" %}
+{% include image.html filename="2021-10/027-03.jpeg" w="49.8%" a="right" %}
 
 来到Badwater Basin，北美大陆最低点海拔-282英尺（-86米）。
 
-{% include image.md filename="2021-10/027-04.jpeg" w="49.8%" %}
-{% include image.md filename="2021-10/027-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-10/027-04.jpeg" w="49.8%" %}
+{% include image.html filename="2021-10/027-05.jpeg" w="49.8%" a="right" %}
 
 Zabriskie Point。
 
-{% include image.md filename="2021-10/027-06.jpeg" %}
+{% include image.html filename="2021-10/027-06.jpeg" %}
 
 ---
 
@@ -35,21 +35,21 @@ Zabriskie Point。
 
 我下午四点到达Mesquite沙漠，因为预期半小时内能回来，所以我停了车后，无视了警告牌，连水也没带就往沙漠里走起来了。
 
-{% include image.md filename="2021-10/027-02.jpeg" w="49.8%" %}
-{% include image.md filename="2021-10/027-11.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-10/027-02.jpeg" w="49.8%" %}
+{% include image.html filename="2021-10/027-11.jpeg" w="49.8%" a="right" %}
 
 我远远望去就看到了一个疑似壁纸的沙堆。
 
-{% include image.md filename="2021-10/027-08.jpeg" %}
+{% include image.html filename="2021-10/027-08.jpeg" %}
 
 可是我低估了沙堆的高度和数量。翻过每个沙堆大概算是爬两三层楼，到我想要的目的地大概要单程翻10个，而且最后一个陡峭得我手脚并用终于登顶。
 
-{% include image.md filename="2021-10/027-07.jpeg" w="49.8%" %}
-{% include image.md filename="2021-10/027-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-10/027-07.jpeg" w="49.8%" %}
+{% include image.html filename="2021-10/027-09.jpeg" w="49.8%" a="right" %}
 
 我评估了一番，最后觉得角度还是不对，但也不值得继续往前走了，因为我当时坚信那图就不是这里，而就是合成出来的。于是休息休息开始返程。此时在沙丘最高处能看到停车场，但是却如同旧金山与温哥华一般遥远。
 
-{% include image.md filename="2021-10/027-10.jpeg" %}
+{% include image.html filename="2021-10/027-10.jpeg" %}
 
 虽然登上沙丘可以手脚并用就上来了，但下去似乎相当可怕…心理建设了许久后我选择坐了下来“划船”下去…代价就是弄了全身的沙子。
 

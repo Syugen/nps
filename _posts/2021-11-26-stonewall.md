@@ -9,7 +9,7 @@ order: 20211197
 纽约曼哈顿的每个建筑似乎都有着数不完的故事。在第七大道和Christopher街有个普普通通的酒吧也讲述着它的历史。
 
 <p style="text-align: center">
-{% include image.md filename="2021-11/031-01.jpeg" w="60%" %}
+{% include image.html filename="2021-11/031-01.jpeg" w="60%" %}
 </p>
 
 这个酒吧叫石墙酒吧，在1967年3月18日于该建筑物内开幕。在当时是美国最大的同志商业设施，经营状况十分良好，但也与当时大多数的同志酒吧一样经常成为警察突袭的目标。
@@ -19,8 +19,8 @@ order: 20211197
 酒吧从此就关门了，该处之后换过多次商家，而最后在2007年在彩虹风潮的推动下重新在原址开张。
 
 <p style="text-align: center">
-{% include image.md filename="2021-11/031-02.jpeg" w="60%" %}
-{% include image.md filename="2021-11/031-03.jpeg" %}
+{% include image.html filename="2021-11/031-02.jpeg" w="60%" %}
+{% include image.html filename="2021-11/031-03.jpeg" %}
 </p>
 
 拜访之日早上虽已开业但也不会有人早上来酒吧。我问了调酒师是否有公园章可以盖，他说章不久前被偷了。幸好石墙的章在曼哈顿很多其他的NPS公园里也有。
