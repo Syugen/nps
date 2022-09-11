@@ -1,9 +1,10 @@
 ---
 title: Cumberland Island NS
-sub: 
+sub: 最初的起点
 tags: [georgia, ns]
 idx: 70
 extras: ["71. Fort Frederica NM", "72. Fort Pulaski NM", "73. Reconstruction Era NHP", "74. Fort Matanzas NM", "75. Castillo de San Marcos NM", "76. Fort Caroline N MEM", "77. Timucuan Ecological and Historical Preserve"]
+image: /images/2022-08/070-01.jpeg
 order: 20220898
 ---
 
