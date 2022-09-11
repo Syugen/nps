@@ -179,6 +179,11 @@ section {
   padding-bottom:50px;
 }
 
+header img {
+  display: block;
+  margin: auto;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -229,6 +234,10 @@ section {
 
   pre, code {
     word-wrap:normal;
+  }
+
+  header img {
+    max-width: 50%;
   }
 }
 
