@@ -1,9 +1,9 @@
 ---
-title: Jean Lafitte NHP & PRES
+title: New Orleans, LA
 sub: 沼泽与鳄鱼🐊
 tags: [louisiana, nhp]
-idx: 29
-extras: ["30. New Orleans Jazz NHP"]
+idx:
+extras: ["29. Jean Lafitte NHP & PRES" ,"30. New Orleans Jazz NHP"]
 order: 20211198
 ---
 

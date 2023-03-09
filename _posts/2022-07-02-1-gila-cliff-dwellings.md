@@ -6,17 +6,11 @@ idx: 61
 order: 20220798
 ---
 
-【利用本篇总结美洲大陆的崖壁洞屋】
+Gila崖壁洞屋位于新墨西哥州中西部的山上。这里远离周围任何大城市，因此较为冷门。它距离得州El Paso近4小时车程，距离亚利桑那Tucson四个半小时，距离新墨西哥Albuquerque五个小时。
 
-欧洲人到达美洲大陆之前，位于西部沙漠的原住民有很多会选择住在崖壁的洞穴中。有些是人工开挖的洞穴，有些是天然洞穴的基础上进行了建筑。亚利桑那和新墨西哥有多处这样遗址，之前写到的Bandelier（第56篇）也是其中之一。本篇简要总结一下这些公园。
+最后一段上山的路蜿蜒曲折，部分路段甚至没有分道线，需要小心驾驶。到达后首先在游客中心的小展览看一看，然后便可前往上山小路开始hiking了。走最简单的loop trail就可以进入到遗址内部，走路加参观大约耗时在一小时以内。
 
-### 新墨西哥
-
-#### 📍Bandelier NM（见前篇）
-位于Santa Fe附近，Los Alamos国家实验室旁边。比较值得一去。
-
-#### 📍Gila Cliff Dwellings NM
-相当不好到达的一处。无论从哪里出发，最后都要开1.5小时山路。到达后从某些角度来看有点像Tonto，不过建筑数量更多，更加身临其境。
+公园附近也有其他更野一点的trail，不过我相信不太会有远途的游客来走那些hiking线路。
 
 {% include image.html filename="2022-07/061-01.jpeg" w="49.8%" %}
 {% include image.html filename="2022-07/061-02.jpeg" w="49.8%" a="right" %}
@@ -25,40 +19,6 @@ order: 20220798
 {% include image.html filename="2022-07/061-05.jpeg" w="49.8%" a="right" %}
 {% include image.html filename="2022-07/061-06.jpeg" %}
 
-### Phoenix附近
+2022.7.2
 
-#### 📍Tonto NM
-距离Phoenix两个小时车程。从山下出发爬一小段山后到达洞中小屋。往下望可以看到Theodore Roosevelt Lake，这里充足的水源也是古代部落驻扎于此的原因之一。另外这里地处亚利桑那中南部，也生长着高大的saguaro。
-
-{% include image.html filename="2022-07/061-07.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-08.jpeg" w="49.8%" a="right" %}
-
-#### 📍Montezuma Castle NM
-位于Phoenix前往Sedona/Flagstaff之间，靠近主干高速，因此很方便安排行程。公园内延trail走在峡谷之下，抬头看到在悬崖上的建筑颇为壮观，感叹于他们是如何做到的。
-
-{% include image.html filename="2022-07/061-09.jpeg" %}
-
-### 亚利桑那东北部
-
-#### 📍Walnut Canyon NM
-距离Flagstaff很近。此处的体验是trail从山顶出发，往下走进山谷崖壁上的小屋。图6下里山顶的房子就是出发点游客中心。
-
-{% include image.html filename="2022-07/061-10.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-11.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-07/061-12.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-13.jpeg" w="49.8%" a="right" %}
-
-#### 📍Canyon de Chelly NM
-#### 📍Navajo NM
-这两处都位于Navajo Nation领地范围内，距离周围的城市都比较远，比较不好安排行程。
-
-### 科罗拉多西南角
-
-#### 📍Mesa Verde NP
-Mesa Verde是一个已经成为真正的国家公园、以及世界遗产的著名景点，不过也是距离城市较远。
-
-2020.11.8 - Tonto<br>
-2020.11.11 - Montezuma<br>
-2020.11.13 - Walnut Canyon<br>
-2022.7.2 - Gila<br>
-2022.7.4 - Tonto, Montezuma
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1708801.5845429501!2d-108.2727841!3d33.227121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87275a27c8136e5f%3A0x3f23db089c7eeb93!2sGila%20Cliff%20Dwellings%20National%20Monument!5e0!3m2!1sen!2sus!4v1678257065329!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

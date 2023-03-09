@@ -3,7 +3,6 @@ title: Cumberland Island NS
 sub: 最初的起点
 tags: [georgia, ns]
 idx: 70
-extras: ["71. Fort Frederica NM", "72. Fort Pulaski NM", "73. Reconstruction Era NHP", "74. Fort Matanzas NM", "75. Castillo de San Marcos NM", "76. Fort Caroline N MEM", "77. Timucuan Ecological and Historical Preserve"]
 image: /images/2022-08/070-01.jpeg
 order: 20220898
 ---
@@ -33,7 +32,7 @@ Jacksonville是美国下48州面积最大的独立城市。从Jacksonville出发
 {% include image.html filename="2022-08/070-11.jpeg" w="49.8%" %}
 {% include image.html filename="2022-08/070-12.jpeg" w="49.8%" a="right" %}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d878062.9991642981!2d-81.5518646!3d30.7202673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5022f76a5cf47%3A0x67d2f6a7339dcb45!2sCumberland%20Island%20National%20Seashore%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1662850429208!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-2020.9.21<br>
+2019.9.21<br>
 2022.8.29
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d878062.9991642981!2d-81.5518646!3d30.7202673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5022f76a5cf47%3A0x67d2f6a7339dcb45!2sCumberland%20Island%20National%20Seashore%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1662850429208!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

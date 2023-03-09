@@ -1,5 +1,5 @@
 ---
-title: White Sands
+title: White Sands 白沙
 sub: 
 tags: [newmexico, np]
 idx: 55

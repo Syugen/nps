@@ -1,9 +1,9 @@
 ---
-title: Home of Franklin D. Roosevelt NHS
+title: Hyde Park, NY (& Paterson, NJ)
 sub: 总统与情史
-tags: [newyork, nhs]
-idx: 37
-extras: ["38. Eleanor Roosevelt NHS", "39. Vanderbild Mansion NHS", "40. Paterson Great Falls NHP"]
+tags: [newyork, newjersey, nhs]
+idx:
+extras: ["37. Home of Franklin D. Roosevelt NHS", "38. Eleanor Roosevelt NHS", "39. Vanderbild Mansion NHS", "40. Paterson Great Falls NHP"]
 order: 20211195
 ---
 

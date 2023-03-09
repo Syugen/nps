@@ -3,7 +3,6 @@ title: Organ Pipe Cactus NM
 sub: 
 tags: [arizona, nm]
 idx: 67
-extras: ["68. Tonto NM", "69. Montezuma Castle NM"]
 order: 20220793
 ---
 
@@ -43,7 +42,7 @@ Ranger建议我走这条长21英里的Ajo Mountain Drive，虽然几乎全程砂
 
 北边还有一个叫Ajo的小镇（要是会日语总觉得在骂人），在空无一人的主街上，我跟着前车，25的限速开到了30被pull了。他看到我放在副驾坐上的相机后开始跟我唠嗑，还指着我的旺旺雪饼问那是啥，最后给了个warning。我怀疑他们在这地方是不是太无聊了得找点事情做。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1733237.0859837516!2d-112.80326!3d31.9546922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x812ac8a2fbc87f2f%3A0x777a71e8ef089f03!2sKris%20Eggle%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1662833068058!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
 2020.11.9<br>
 2022.7.3
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1733237.0859837516!2d-112.80326!3d31.9546922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x812ac8a2fbc87f2f%3A0x777a71e8ef089f03!2sKris%20Eggle%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1662833068058!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

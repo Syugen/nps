@@ -1,8 +1,8 @@
 ---
-title: Statue of Liberty NM 自由女神🗽
+title: 曼哈顿的尽头 纽约港
 tags: [newyork, nm]
-idx: 32
-extras: ["33. African Burial Ground NM", "34. Federal Hall N MEM", "35. Castle Clinton NM", "36. Governors Island NM"]
+idx:
+extras: ["32. Statue of Liberty NM 自由女神🗽", "33. African Burial Ground NM", "34. Federal Hall N MEM", "35. Castle Clinton NM", "36. Governors Island NM"]
 order: 20211196
 ---
 

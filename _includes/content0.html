@@ -18,9 +18,15 @@
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
   {% endif %}
 
+  {% unless post.idx %}
+<ul style="margin: 0 0 0 0">
+  {% endunless %}
   {% for title in post.extras %}
 <li>{{ title }}</li>
   {% endfor %}
+  {% unless post.idx %}
+</ul>
+  {% endunless %}
 
   {% if post.next == nil or post.next.tags contains "head" or post.next.head %}
 </ul>
