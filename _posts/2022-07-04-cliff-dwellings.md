@@ -11,10 +11,10 @@ order: 20220792
 
 ## 新墨西哥
 
-### 📍[Bandelier NM](/nps/2022/05/29/bandelier.html)
+### 📍[Bandelier NM]({{ "/2022/05/29/bandelier.html" | relative_url }})
 位于Santa Fe附近，Los Alamos国家实验室旁边。比较值得一去。
 
-### 📍[Gila Cliff Dwellings NM](/nps/2022/07/02/1-gila-cliff-dwellings.html)
+### 📍[Gila Cliff Dwellings NM]({{ "/2022/07/02/1-gila-cliff-dwellings.html" | relative_url }})
 相当不好到达的一处。无论从哪里出发，最后都要开1.5小时山路。到达后从某些角度来看有点像Tonto，不过建筑数量更多，更加身临其境。
 
 ---
@@ -44,7 +44,7 @@ order: 20220792
 {% include image.html filename="2022-07/061-12.jpeg" w="49.8%" %}
 {% include image.html filename="2022-07/061-13.jpeg" w="49.8%" a="right" %}
 
-### 📍[Canyon de Chelly NM](/nps/2023/01/15/2-canyon-de-chelly.html)
+### 📍[Canyon de Chelly NM]({{ "/2023/01/15/2-canyon-de-chelly.html" | relative_url }})
 ### 📍Navajo NM
 这两处都位于Navajo Nation领地范围内，距离周围的城市都比较远，比较不好安排行程。
 
