@@ -3,6 +3,7 @@ title: <i>Forrest Gump</i>
 sub: 
 tags: [georgia, southcarolina, nm]
 idx:
+image: /images/2022-08/071-04.jpeg
 extras: ["71. Fort Frederica NM", "72. Fort Pulaski NM", "73. Reconstruction Era NHP"]
 image: 
 order: 20220897

@@ -3,6 +3,7 @@ title: Jacksonville, FL
 sub:
 tags: [florida, nm]
 idx:
+image: /images/2022-09/076-04.jpeg
 extras: ["76. Fort Caroline N MEM", "77. Timucuan Ecological and Historical Preserve"]
 image: 
 order: 20220893

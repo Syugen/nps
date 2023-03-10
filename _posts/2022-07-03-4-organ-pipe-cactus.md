@@ -3,6 +3,7 @@ title: Organ Pipe Cactus NM
 sub: 
 tags: [arizona, nm]
 idx: 67
+image: /images/2022-07/067-01.jpeg
 order: 20220793
 ---
 

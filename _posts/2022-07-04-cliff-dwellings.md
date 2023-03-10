@@ -3,6 +3,7 @@ title: 美洲西部的崖壁洞屋合集
 sub: 
 tags: [arizona, newmexico, colorado, special]
 idx:
+image: /images/2022-07/068-01.jpeg
 extras: ["68. Tonto NM", "69. Montezuma Castle NM"]
 order: 20220792
 ---
@@ -24,13 +25,13 @@ order: 20220792
 ### 📍Tonto NM
 距离Phoenix两个小时车程。从山下出发爬一小段山后到达洞中小屋。往下望可以看到Theodore Roosevelt Lake，这里充足的水源也是古代部落驻扎于此的原因之一。另外这里地处亚利桑那中南部，也生长着高大的saguaro。
 
-{% include image.html filename="2022-07/061-07.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/068-01.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/068-02.jpeg" w="49.8%" a="right" %}
 
 ### 📍Montezuma Castle NM
 位于Phoenix前往Sedona/Flagstaff之间，靠近主干高速，因此很方便安排行程。公园内延trail走在峡谷之下，抬头看到在悬崖上的建筑颇为壮观，感叹于他们如何在如此绝境之下建造出这样的石屋。
 
-{% include image.html filename="2022-07/061-09.jpeg" %}
+{% include image.html filename="2022-07/069-01.jpeg" %}
 
 ---
 
@@ -39,10 +40,10 @@ order: 20220792
 ### 📍Walnut Canyon NM
 距离Flagstaff很近。此处的体验是trail从山顶出发，往下走进山谷崖壁上的小屋。图6下里山顶的房子就是出发点游客中心。
 
-{% include image.html filename="2022-07/061-10.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-11.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-07/061-12.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-13.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/069-a.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/069-b.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/069-c.jpeg" w="49.8%" %}
+{% include image.html filename="2022-07/069-d.jpeg" w="49.8%" a="right" %}
 
 ### 📍[Canyon de Chelly NM]({{ "/2023/01/15/2-canyon-de-chelly.html" | relative_url }})
 ### 📍Navajo NM

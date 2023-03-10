@@ -3,6 +3,7 @@ title: Tumacacori NHP
 sub: 
 tags: [arizona, nhp]
 idx: 65
+image: /images/2022-07/065-01.jpeg
 order: 20220795
 ---
 
