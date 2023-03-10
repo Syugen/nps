@@ -3,9 +3,8 @@ title: St. Augustine, FL
 sub:
 tags: [florida, nm]
 idx:
-image: /images/2022-08/074-01.jpeg
 extras: ["74. Fort Matanzas NM", "75. Castillo de San Marcos NM"]
-image: 
+image: /images/2022-08/074-01.jpeg
 order: 20220895
 ---
 
