@@ -1,4 +1,5 @@
 {% if post.tags contains "head" %}
+---
 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
   {% if post.total %}
 <ul>
@@ -6,6 +7,7 @@
 {% else %}
 
   {% if post.head %}
+---
 <h3>{{ post.head }}</h3>
 <ul>
   {% endif %}
