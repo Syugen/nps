@@ -59,7 +59,7 @@ order: 20240598
 
 🗺️ 结束了化石之旅，继续一路向北进入到南达科他州，在山区里又即将见到完全不一样的自然遗迹。下一篇继续。
 
-Fort Laramie: 2021.5.15, 2024.5.22
+Fort Laramie: 2021.5.15, 2024.5.22<br>
 Scotts Bluff, Agate Fossil Beds: 2021.5.17, 2024.5.22
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d378759.1296860577!2d-104.4646765333911!3d42.12769078298476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x8765b3828e45a49f%3A0x1e4ee4bf0a23a45b!2sFort%20Laramie%20National%20Historic%20Site%2C%20965%20Grey%20Rocks%20Road%2C%20Fort%20Laramie%2C%20WY%2082212!3m2!1d42.203663399999996!2d-104.5560459!4m5!1s0x87655092be71b949%3A0xb0bdbfc59d74c4d!2sScotts%20Bluff%20National%20Monument%2C%20Old%20Oregon%20Trail%2C%20Gering%2C%20NE!3m2!1d41.8343571!2d-103.7072063!4m5!1s0x8764d9f6278d486b%3A0xbce2315db4f2bdf7!2sAgate%20Fossil%20Beds%20National%20Monument%2C%20Agate%20Fossil%20Beds%20National%20Monument%2C%20River%20Road%2C%20Harrison%2C%20NE!3m2!1d42.420665799999995!2d-103.7480788!5e0!3m2!1sen!2sus!4v1716099158782!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
