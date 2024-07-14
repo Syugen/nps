@@ -7,7 +7,7 @@ image: /images/2024-05/106-01.jpeg
 order: 20240591
 ---
 
-{% include image.html filename="2024-05/105-01.jpeg" %}
+{% include image.html filename="2024-05/106-01.jpeg" %}
 
 2024年落基山国家公园沿用前几年启用的抢票入园政策，6月1日可抢7月份的入园资格。7月1日可抢8月份。
 
@@ -32,10 +32,10 @@ Bear Lake Road的尽头停车场往往会很早就停满车，因此建议在中
 
 山上天气变化莫测，五月底的落基山甚至会在晴天下雪。
 
-{% include image.html filename="2024-05/105-02.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/105-03.jpeg" %}
-{% include image.html filename="2024-05/105-04.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/105-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/106-02.jpeg" w="49.8%" %}
+{% include image.html filename="2024-05/106-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/106-04.jpeg" w="49.8%" %}
+{% include image.html filename="2024-05/106-05.jpeg" w="49.8%" a="right" %}
 
 2024.5.25
 
