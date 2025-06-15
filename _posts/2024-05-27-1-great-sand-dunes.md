@@ -19,14 +19,14 @@ order: 20240588
 
 冬天时来到大沙丘是另一番风景。四下无人，完全干涸的河床，远处的雪山更添一层雪顶。
 
-2018.11.10<br>
-2024.5.27
-
 {% include image.html filename="2024-05/110-01.jpeg" %}
 {% include image.html filename="2024-05/110-02.jpeg" %}
 {% include image.html filename="2024-05/110-03.jpeg" w="49.8%" %}
 {% include image.html filename="2024-05/110-04.jpeg" w="49.8%" a="right" %}
 {% include image.html filename="2024-05/110-05.jpeg" w="49.8%" %}
 {% include image.html filename="2024-05/110-06.jpeg" w="49.8%" a="right" %}
+
+2018.11.10<br>
+2024.5.27
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933707.180949041!2d-106.24125842101037!3d38.03980876844947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87142fe61dd9cbc7%3A0x33d7918ad00f83d9!2sGreat%20Sand%20Dunes%20National%20Park%20and%20Preserve!5e0!3m2!1sen!2sus!4v1717432688487!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
