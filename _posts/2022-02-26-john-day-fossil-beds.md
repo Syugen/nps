@@ -16,8 +16,8 @@ John Day Fossil Beds公园的确远离任何一个大城市，最近的较大城
 {% include image.html filename="2022-02/048-02.jpeg" %}
 {% include image.html filename="2022-02/048-04.jpeg" %}
 {% include image.html filename="2022-02/048-05.jpeg" %}
-{% include image.html filename="2022-02/048-03.jpeg" w="49.8%" %}
-{% include image.html filename="2022-02/048-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/048-03.jpeg" l=1 %}
+{% include image.html filename="2022-02/048-06.jpeg" r=1 %}
 
 你可能会注意到，其实这个游客中心根本不叫“visitor center”，因为他本身就是一个研究所，可以看到里面有个长得很像TBBT里Amy的人在研究石头。
 

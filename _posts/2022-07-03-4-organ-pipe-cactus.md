@@ -15,20 +15,20 @@ Ranger建议我走这条长21英里的Ajo Mountain Drive，虽然几乎全程砂
 
 我在公园里找到的最大的几株Organ Pipe，我甚至觉得最大的是visitor center里种的那株。
 
-{% include image.html filename="2022-07/067-01.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/067-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-07/067-03.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/067-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/067-01.jpeg" l=1 %}
+{% include image.html filename="2022-07/067-02.jpeg" r=1 %}
+{% include image.html filename="2022-07/067-03.jpeg" l=1 %}
+{% include image.html filename="2022-07/067-04.jpeg" r=1 %}
 
 此处曾经非法越境者泛滥，2004年开始在边境上修了一堵30英里长，低矮的、仅防汽车的铁栅栏，有效地阻止了开车越野的偷渡者破坏此地生态。不过川同志临走前要搞的修墙工程已经开工了，一堵10米高的铁墙多少反而会破坏生态。
 
-{% include image.html filename="2022-07/067-05.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/067-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/067-05.jpeg" l=1 %}
+{% include image.html filename="2022-07/067-06.jpeg" r=1 %}
 
 上篇Saguaro提到我认为Organ Pipe公园其实就是“高配版“Saguaro公园，因为我在这里看到了更多、更奇形怪状的巨人柱。
 
-{% include image.html filename="2022-07/067-07.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/067-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/067-07.jpeg" l=1 %}
+{% include image.html filename="2022-07/067-08.jpeg" r=1 %}
 {% include image.html filename="2022-07/067-09.jpeg" %}
 
 这里还有大拱门，还去什么Arches NP？

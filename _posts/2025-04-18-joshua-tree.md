@@ -1,5 +1,5 @@
 ---
-title: Joshua Tree 约书亚树
+title: Joshua Tree 约书亚树【TODO】
 sub: 
 tags: [california, np]
 idx: 118
@@ -8,6 +8,16 @@ order: 20250498
 ---
 
 TODO
+
+<video width="100%" controls autoplay>
+	<source src='{{"/images/2025-04/118-01.mov"|relative_url}}' type="video/mp4">
+	HTML5 video not supported.
+</video>
+
+<video width="100%" controls autoplay>
+	<source src='{{"/images/2025-04/118-02.mov"|relative_url}}' type="video/mp4">
+	HTML5 video not supported.
+</video>
 
 2020.9.6<br>
 2025.4.18

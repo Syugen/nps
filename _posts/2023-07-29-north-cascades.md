@@ -14,12 +14,12 @@ Diablo Lake（暗黑破坏湖？？），广义上属于 North Cascades 国家�
 
 <p style="text-align: center">
 {% include image.html filename="2023-07/087-01.jpeg" w="80%" %}
-{% include image.html filename="2023-07/087-02.jpeg" w="49.8%" %}
-{% include image.html filename="2023-07/087-03.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2023-07/087-04.jpeg" w="49.8%" %}
-{% include image.html filename="2023-07/087-05.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2023-07/087-06.jpeg" w="49.8%" %}
-{% include image.html filename="2023-07/087-07.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-07/087-02.jpeg" l=1 %}
+{% include image.html filename="2023-07/087-03.jpeg" r=1 %}
+{% include image.html filename="2023-07/087-04.jpeg" l=1 %}
+{% include image.html filename="2023-07/087-05.jpeg" r=1 %}
+{% include image.html filename="2023-07/087-06.jpeg" l=1 %}
+{% include image.html filename="2023-07/087-07.jpeg" r=1 %}
 </p>
 
 2023.7.29

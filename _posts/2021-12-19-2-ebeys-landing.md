@@ -19,8 +19,8 @@ order: 20211295
 岛上相当大的区域是保护区，自然风景秀丽。我主要停留的是中部的Coupeville小镇，以及既然是来盖章的，于是还去了国家公园旗下的Ebey's Landing保护区。
 
 {% include image.html filename="2021-12/044-03.jpeg" %}
-{% include image.html filename="2021-12/044-04.jpeg" w="49.8%" %}
-{% include image.html filename="2021-12/044-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-12/044-04.jpeg" l=1 %}
+{% include image.html filename="2021-12/044-05.jpeg" r=1 %}
 {% include image.html filename="2021-12/044-06.jpeg" %}
 
 这个公园的打卡章很多景点都有，包括

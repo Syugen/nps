@@ -21,12 +21,12 @@ order: 20210793
 该纪念馆主要以美国视角记录该城市在二战时的经历，属于美国的爱国主义教育，我对此并无兴趣甚至有些抵触，因此草草看过。不过纪念馆里有一本书，里面放了许多当时美国的政治宣传海报，很有意思。
 
 {% include image.html filename="2021-07/016-03.jpeg" %}
-{% include image.html filename="2021-07/016-04.jpeg" w="49.8%" %}
-{% include image.html filename="2021-07/016-05.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2021-07/016-06.jpeg" w="49.8%" %}
-{% include image.html filename="2021-07/016-07.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2021-07/016-08.jpeg" w="49.8%" %}
-{% include image.html filename="2021-07/016-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/016-04.jpeg" l=1 %}
+{% include image.html filename="2021-07/016-05.jpeg" r=1 %}
+{% include image.html filename="2021-07/016-06.jpeg" l=1 %}
+{% include image.html filename="2021-07/016-07.jpeg" r=1 %}
+{% include image.html filename="2021-07/016-08.jpeg" l=1 %}
+{% include image.html filename="2021-07/016-09.jpeg" r=1 %}
 
 2021.7.4
 

@@ -18,10 +18,10 @@ order: 20240598
 
 顺便看到这荒无人烟处的限速80可谓不多见。
 
-{% include image.html filename="2024-05/092-01.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/092-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/092-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/092-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/092-01.jpeg" l=1 %}
+{% include image.html filename="2024-05/092-02.jpeg" r=1 %}
+{% include image.html filename="2024-05/092-03.jpeg" l=1 %}
+{% include image.html filename="2024-05/092-04.jpeg" r=1 %}
 
 ---
 
@@ -31,10 +31,10 @@ order: 20240598
 
 这个景点同样可免费参观。
 
-{% include image.html filename="2024-05/093-01.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/093-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/093-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/093-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/093-01.jpeg" l=1 %}
+{% include image.html filename="2024-05/093-02.jpeg" r=1 %}
+{% include image.html filename="2024-05/093-03.jpeg" l=1 %}
+{% include image.html filename="2024-05/093-04.jpeg" r=1 %}
 
 ---
 
@@ -47,12 +47,12 @@ order: 20240598
 <p style="text-align: center">
 {% include image.html filename="2024-05/094-01.jpeg" w="60%" %}
 {% include image.html filename="2024-05/094-02.jpeg" %}
-{% include image.html filename="2024-05/094-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/094-04.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/094-05.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/094-06.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/094-07.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/094-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/094-03.jpeg" l=1 %}
+{% include image.html filename="2024-05/094-04.jpeg" r=1 %}
+{% include image.html filename="2024-05/094-05.jpeg" l=1 %}
+{% include image.html filename="2024-05/094-06.jpeg" r=1 %}
+{% include image.html filename="2024-05/094-07.jpeg" l=1 %}
+{% include image.html filename="2024-05/094-08.jpeg" r=1 %}
 </p>
 
 ---

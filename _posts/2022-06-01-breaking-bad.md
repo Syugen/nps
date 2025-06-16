@@ -25,9 +25,9 @@ order: 20220591
 接下来前往了城南部有段距离的炸鸡店。该店实际为墨西哥风味快餐，但进入后也到处是该剧的痕迹。早上刚开门，店内空荡无食客。与店员相谈得知该剧在拍电影，也就是后来的小粉续作。我买了两份餐够一天伙食了。
 
 <p style="text-align: center">
-{% include image.html filename="2022-06/060-s02.jpeg" w="49.8%" %}
-{% include image.html filename="2022-06/060-s03.jpeg" w="49.8%" %}
-{% include image.html filename="2022-06/060-s04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-06/060-s02.jpeg" l=1 %}
+{% include image.html filename="2022-06/060-s03.jpeg" l=1 %}
+{% include image.html filename="2022-06/060-s04.jpeg" r=1 %}
 {% include image.html filename="2022-06/060-s05.jpeg" w="60%" %}
 </p>
 
@@ -40,7 +40,7 @@ order: 20220591
 所幸平安返回。此次自驾如启蒙般激活了我对于西部荒野的自驾热情，开启了我兴趣探索的新篇章。
 
 <p style="text-align: center">
-{% include image.html filename="2022-06/060-s06.jpeg" w="49.8%" %}
+{% include image.html filename="2022-06/060-s06.jpeg" l=1 %}
 {% include image.html filename="2022-06/060-s07.jpeg" w="60%" %}
 </p>
 

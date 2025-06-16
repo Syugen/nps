@@ -16,10 +16,10 @@ Sonora沙漠的原著居民时常迁徙，大概在公元1450年这里似乎就�
 无论是往返于Phoenix还是从Phoenix前往Tucson，在这里稍作停留参观一下这个蛮有视觉冲击的遗址很值得。这里免费哦！
 
 {% include image.html filename="2023-01/086-01.jpeg" %}
-{% include image.html filename="2023-01/086-02.jpeg" w="49.8%" %}
-{% include image.html filename="2023-01/086-03.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2023-01/086-04.jpeg" w="49.8%" %}
-{% include image.html filename="2023-01/086-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-01/086-02.jpeg" l=1 %}
+{% include image.html filename="2023-01/086-03.jpeg" r=1 %}
+{% include image.html filename="2023-01/086-04.jpeg" l=1 %}
+{% include image.html filename="2023-01/086-05.jpeg" r=1 %}
 
 2020.11.10<br>
 2023.1.16

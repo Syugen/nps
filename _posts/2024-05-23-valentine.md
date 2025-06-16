@@ -18,10 +18,10 @@ Valentine 位于内布拉斯加州，与南达科他交界的地方。也是山�
 
 <p style="text-align: center">
 {% include image.html filename="2024-05/101-01.jpeg" w="80%" %}
-{% include image.html filename="2024-05/101-02.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/101-03.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/101-04.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/101-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/101-02.jpeg" l=1 %}
+{% include image.html filename="2024-05/101-03.jpeg" r=1 %}
+{% include image.html filename="2024-05/101-04.jpeg" l=1 %}
+{% include image.html filename="2024-05/101-05.jpeg" r=1 %}
 </p>
 
 ### Yankton, SD & Missouri NRR
@@ -32,10 +32,10 @@ Valentine 位于内布拉斯加州，与南达科他交界的地方。也是山�
 
 小镇西侧不远处有一个密苏里河上的水坝 Gavins Point Dam。曾经西部开发时期著名的探险家 Lewis 和 Clark 沿密苏里河西行，此处以他们命名的游客中心也隶属于NPS，里面有介绍这条河以及周围相关历史的介绍（顺道又盖章+1）。
 
-{% include image.html filename="2024-05/102-01.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/102-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/102-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/102-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/102-01.jpeg" l=1 %}
+{% include image.html filename="2024-05/102-02.jpeg" r=1 %}
+{% include image.html filename="2024-05/102-03.jpeg" l=1 %}
+{% include image.html filename="2024-05/102-04.jpeg" r=1 %}
 
 2024.5.23
 

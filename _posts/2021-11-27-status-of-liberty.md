@@ -56,8 +56,8 @@ Ellis岛（下图）以前是美国海关，从欧洲坐船来纽约的游客基
 
 （于是在边上随便拍拍纽交所和华尔街铜牛）
 
-{% include image.html filename="2021-11/032-06.jpeg" w="49.8%" %}
-{% include image.html filename="2021-11/032-07.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-11/032-06.jpeg" l=1 %}
+{% include image.html filename="2021-11/032-07.jpeg" r=1 %}
 
 ---
 

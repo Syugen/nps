@@ -21,8 +21,8 @@ Great Basin，大盆地，内华达州唯一的国家公园，相当的偏远。
 <p style="text-align: center">
 {% include image.html filename="2021-06/008-01.jpeg" %}
 {% include image.html filename="2021-06/008-02.jpeg" w="60%" %}
-{% include image.html filename="2021-06/008-03.jpeg" w="49.8%" %}
-{% include image.html filename="2021-06/008-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-06/008-03.jpeg" l=1 %}
+{% include image.html filename="2021-06/008-04.jpeg" r=1 %}
 </p>
 
 2019.5.26<br>

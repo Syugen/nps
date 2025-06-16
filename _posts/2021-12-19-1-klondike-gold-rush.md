@@ -17,8 +17,8 @@ order: 20211296
 <p style="text-align: center">
 {% include image.html filename="2021-12/043-01.jpeg" %}
 {% include image.html filename="2021-12/043-02.jpeg" %}
-{% include image.html filename="2021-12/043-03.jpeg" w="49.8%" %}
-{% include image.html filename="2021-12/043-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-12/043-03.jpeg" l=1 %}
+{% include image.html filename="2021-12/043-04.jpeg" r=1 %}
 {% include image.html filename="2021-12/043-05.jpeg" w="60%" %}
 </p>
 

@@ -28,12 +28,12 @@ order: 20210899
 外景图中大部分是三月拍的，漫山的绿色。第一张的路牌是八月拍的，全都枯完了。湾区的雨季是拜访的好时候！
 
 {% include image.html filename="2021-08/023-03.jpeg" %}
-{% include image.html filename="2021-08/023-04.jpeg" w="49.8%" %}
-{% include image.html filename="2021-08/023-07.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2021-08/023-05.jpeg" w="49.8%" %}
-{% include image.html filename="2021-08/023-06.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2021-08/023-08.jpeg" w="49.8%" %}
-{% include image.html filename="2021-08/023-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-08/023-04.jpeg" l=1 %}
+{% include image.html filename="2021-08/023-07.jpeg" r=1 %}
+{% include image.html filename="2021-08/023-05.jpeg" l=1 %}
+{% include image.html filename="2021-08/023-06.jpeg" r=1 %}
+{% include image.html filename="2021-08/023-08.jpeg" l=1 %}
+{% include image.html filename="2021-08/023-09.jpeg" r=1 %}
 
 2021.3.21<br>
 2021.8.14

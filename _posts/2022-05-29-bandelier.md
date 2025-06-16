@@ -17,12 +17,12 @@ order: 20220594
 
 <p style="text-align: center">
 {% include image.html filename="2022-05/056-01.jpeg" w="60%" %}
-{% include image.html filename="2022-05/056-02.jpeg" w="49.8%" %}
-{% include image.html filename="2022-05/056-03.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-05/056-04.jpeg" w="49.8%" %}
-{% include image.html filename="2022-05/056-05.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-05/056-06.jpeg" w="49.8%" %}
-{% include image.html filename="2022-05/056-07.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-05/056-02.jpeg" l=1 %}
+{% include image.html filename="2022-05/056-03.jpeg" r=1 %}
+{% include image.html filename="2022-05/056-04.jpeg" l=1 %}
+{% include image.html filename="2022-05/056-05.jpeg" r=1 %}
+{% include image.html filename="2022-05/056-06.jpeg" l=1 %}
+{% include image.html filename="2022-05/056-07.jpeg" r=1 %}
 </p>
 
 ---

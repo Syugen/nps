@@ -25,8 +25,8 @@ order: 20220792
 ### 📍Tonto NM
 距离Phoenix两个小时车程。从山下出发爬一小段山后到达洞中小屋。往下望可以看到Theodore Roosevelt Lake，这里充足的水源也是古代部落驻扎于此的原因之一。另外这里地处亚利桑那中南部，也生长着高大的saguaro。
 
-{% include image.html filename="2022-07/068-01.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/068-02.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/068-01.jpeg" l=1 %}
+{% include image.html filename="2022-07/068-02.jpeg" r=1 %}
 
 ### 📍Montezuma Castle NM
 位于Phoenix前往Sedona/Flagstaff之间，靠近主干高速，因此很方便安排行程。公园内延trail走在峡谷之下，抬头看到在悬崖上的建筑颇为壮观，感叹于他们如何在如此绝境之下建造出这样的石屋。
@@ -40,10 +40,10 @@ order: 20220792
 ### 📍Walnut Canyon NM
 距离Flagstaff很近。此处的体验是trail从山顶出发，往下走进山谷崖壁上的小屋。图6下里山顶的房子就是出发点游客中心。
 
-{% include image.html filename="2022-07/069-a.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/069-b.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-07/069-c.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/069-d.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/069-a.jpeg" l=1 %}
+{% include image.html filename="2022-07/069-b.jpeg" r=1 %}
+{% include image.html filename="2022-07/069-c.jpeg" l=1 %}
+{% include image.html filename="2022-07/069-d.jpeg" r=1 %}
 
 ### 📍[Canyon de Chelly NM]({{ "/2023/01/15/2-canyon-de-chelly.html" | relative_url }})
 ### 📍Navajo NM

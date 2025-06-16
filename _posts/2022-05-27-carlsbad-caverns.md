@@ -15,10 +15,10 @@ Carlsbad Caverns是一个以钟乳石洞出名的国家公园，它位于新墨�
 
 进入地下后基本上沿着Big Room的步行线路绕行一圈就完事了，大约1.25英里长。洞穴内可以参观到各种奇形怪状的钟乳石。此时不妨发挥想象力给它们起名字。什么仙人指路，什么猴子捞月，把国内景区景点的起名套路放到这里完全适用！下图在我看来就像三个菩萨雕像。
 
-{% include image.html filename="2022-05/052-01.jpeg" w="49.8%" %}
-{% include image.html filename="2022-05/052-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-05/052-03.jpeg" w="49.8%" %}
-{% include image.html filename="2022-05/052-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-05/052-01.jpeg" l=1 %}
+{% include image.html filename="2022-05/052-02.jpeg" r=1 %}
+{% include image.html filename="2022-05/052-03.jpeg" l=1 %}
+{% include image.html filename="2022-05/052-04.jpeg" r=1 %}
 {% include image.html filename="2022-05/052-05.jpeg" %}
 
 ---

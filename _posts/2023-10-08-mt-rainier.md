@@ -11,10 +11,10 @@ order: 20231099
 
 <p style="text-align: center">
 {% include image.html filename="2023-10/090-01.jpeg" %}
-{% include image.html filename="2023-10/090-02.jpeg" w="49.8%" %}
-{% include image.html filename="2023-10/090-03.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2023-10/090-04.jpeg" w="49.8%" %}
-{% include image.html filename="2023-10/090-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-10/090-02.jpeg" l=1 %}
+{% include image.html filename="2023-10/090-03.jpeg" r=1 %}
+{% include image.html filename="2023-10/090-04.jpeg" l=1 %}
+{% include image.html filename="2023-10/090-05.jpeg" r=1 %}
 </p>
 
 2023.10.8

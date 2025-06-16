@@ -14,8 +14,8 @@ order: 20221198
 
 在爱达荷州南部，这个公园直接取名“月球陨石坑”，是因为这里酷似月球表面的缘故。然而早冬之时已有积雪，银装素裹的月球表面有谁见过？这里贫瘠的土壤是其实是遍地的火山灰。其面积之大一望无际。公园内部在冬季不清理积雪也不通车，只能步行进入，加上大部分都被积雪覆盖着，并不能很好地体会到其独特之处，因此春夏秋前来整体体验会更佳。
 
-{% include image.html filename="2022-11/078-01.jpeg" w="49.8%" %}
-{% include image.html filename="2022-11/078-02.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-11/078-01.jpeg" l=1 %}
+{% include image.html filename="2022-11/078-02.jpeg" r=1 %}
 {% include image.html filename="2022-11/078-03.jpeg" %}
 
 ---
@@ -44,10 +44,10 @@ order: 20221198
 
 他们起名字都挺抽象。“石头城”公园地处偏远的爱达荷与犹他/内华达交界附近。保护区内基本没有铺路，只能土路飞沙走石。此处怪石嶙峋，因此得名。但从任何地方专门来此处多少有点没必要。
 
-{% include image.html filename="2022-11/078-06.jpeg" w="49.8%" %}
-{% include image.html filename="2022-11/078-07.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-11/078-08.jpeg" w="49.8%" %}
-{% include image.html filename="2022-11/078-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-11/078-06.jpeg" l=1 %}
+{% include image.html filename="2022-11/078-07.jpeg" r=1 %}
+{% include image.html filename="2022-11/078-08.jpeg" l=1 %}
+{% include image.html filename="2022-11/078-09.jpeg" r=1 %}
 
 ---
 

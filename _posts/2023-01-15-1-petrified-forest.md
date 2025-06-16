@@ -18,8 +18,8 @@ order: 20230198
 
 <p style="text-align: center">
 {% include image.html filename="2023-01/082-02.jpeg" %}
-{% include image.html filename="2023-01/082-03.jpeg" w="49.8%" %}
-{% include image.html filename="2023-01/082-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-01/082-03.jpeg" l=1 %}
+{% include image.html filename="2023-01/082-04.jpeg" r=1 %}
 {% include image.html filename="2023-01/082-06.jpeg" %}
 {% include image.html filename="2023-01/082-07.jpeg" %}
 </p>
@@ -32,8 +32,8 @@ order: 20230198
 
 我到达此处时天降大雪，草草参观了一下游客中心和建筑外围就离开了。这个trading post现在虽然是国家公园的一部分，但实际仍在运营。游客可以在这里购买小商品、食品杂货、首饰等等，很有传统特色。
 
-{% include image.html filename="2023-01/082-08.jpeg" w="49.8%" %}
-{% include image.html filename="2023-01/082-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-01/082-08.jpeg" l=1 %}
+{% include image.html filename="2023-01/082-09.jpeg" r=1 %}
 
 2023.1.15
 

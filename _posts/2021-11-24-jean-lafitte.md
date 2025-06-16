@@ -20,8 +20,8 @@ Jean Lafitte保护区对于国家公园系统来讲是一个奇怪的存在。�
 
 Jean Lafitte据说是一个来到新奥尔良的法国人，在这里搞走私，属于法外狂徒。但后来一系列转变成为了传奇人物。
 
-{% include image.html filename="2021-11/029-03.jpeg" w="49.8%" %}
-{% include image.html filename="2021-11/029-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-11/029-03.jpeg" l=1 %}
+{% include image.html filename="2021-11/029-04.jpeg" r=1 %}
 
 ---
 
@@ -29,8 +29,8 @@ Jean Lafitte据说是一个来到新奥尔良的法国人，在这里搞走私�
 
 关于爵士乐，这里的NPS unit一直没开，但是旁边的Jazz Museum跟他们有合作，所以我就去那里打卡了。只不过这博物馆确实也没啥意思。
 
-{% include image.html filename="2021-11/029-05.jpeg" w="49.8%" %}
-{% include image.html filename="2021-11/029-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-11/029-05.jpeg" l=1 %}
+{% include image.html filename="2021-11/029-06.jpeg" r=1 %}
 
 2021.11.23-24
 

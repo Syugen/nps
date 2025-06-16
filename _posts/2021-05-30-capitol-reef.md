@@ -25,8 +25,8 @@ order: 20210598
 
 下去之后原路返回到了车上，原路驶离公园，路上的风景是另一个角度的壮阔（下图）。
 
-{% include image.html filename="2021-05/001-05.jpeg" w="49.8%" %}
-{% include image.html filename="2021-05/001-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-05/001-05.jpeg" l=1 %}
+{% include image.html filename="2021-05/001-06.jpeg" r=1 %}
 
 总结起来，这个公园一般都是游客去犹他州其他几个公园路途上稍带过的一个。似乎的确是这样，在车上欣赏美景足够了。大老远来hiking这种trail多少有点觉得没啥必要。
 

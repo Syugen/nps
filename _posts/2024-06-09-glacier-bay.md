@@ -23,21 +23,21 @@ order: 20240699
 3️⃣第三天可以选择在附近活动，hiking、kayaking、看原住民的表演，或者单纯的放松心情什么也不做。❗️但是要注意的是小木屋里没有手机信号，WiFi也只有在大厅/公园游客中心才有。因此属于是与世隔绝的地方。晚上五点再坐上阿拉斯加航空的飞机，经朱诺回到西雅图。
 
 <p style="text-align: center">
-{% include image.html filename="2024-06/112-01.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-06/112-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-04.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-06/112-05.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-06.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-06/112-07.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-09.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-06/112-01.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-02.jpeg" r=1 %}
+{% include image.html filename="2024-06/112-03.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-04.jpeg" r=1 %}
+{% include image.html filename="2024-06/112-05.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-06.jpeg" r=1 %}
+{% include image.html filename="2024-06/112-07.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-09.jpeg" r=1 %}
 {% include image.html filename="2024-06/112-08.jpeg" w="80%" %}
-{% include image.html filename="2024-06/112-10.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-11.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-06/112-12.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-13.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-06/112-14.jpeg" w="49.8%" %}
-{% include image.html filename="2024-06/112-15.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-06/112-10.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-11.jpeg" r=1 %}
+{% include image.html filename="2024-06/112-12.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-13.jpeg" r=1 %}
+{% include image.html filename="2024-06/112-14.jpeg" l=1 %}
+{% include image.html filename="2024-06/112-15.jpeg" r=1 %}
 </p>
 
 2024.6.8-10

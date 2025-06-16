@@ -25,8 +25,8 @@ Bryce Canyon是一个International Dark Sky Park，很适合晚上拍摄星空�
 第二天一早再度来到Sunset Point，此时已经太阳高照。
 
 {% include image.html filename="2021-05/002-01.jpeg" %}
-{% include image.html filename="2021-05/002-02.jpeg" w="49.8%" %}
-{% include image.html filename="2021-05/002-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-05/002-02.jpeg" l=1 %}
+{% include image.html filename="2021-05/002-03.jpeg" r=1 %}
 
 这里的Navajo Loop Trail相当推荐，它能让你近距离接触这里特色的石柱。这条trail不长，但需要下到峡谷底下再爬上来，略硬核。不过相比起[Capitol Reef](2021-05-30-capitol-reef.md)的trail那是值得太多了。
 

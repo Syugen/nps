@@ -15,8 +15,8 @@ order: 20211294
 第二天首先去品尝了温哥华很火的Tacofino发源地，位于Tofino的一辆卖taco的餐车，在雪地里吃taco不算违和。接下来开到Combers Beach沿着小树林走到沙滩、再到浅滩、有人脱了鞋狂奔起来（加入其中）。此时已是下午三点即将日落。
 
 {% include image.html filename="2021-12/044-s2.jpeg" %}
-{% include image.html filename="2021-12/044-s3.jpeg" w="49.8%" %}
-{% include image.html filename="2021-12/044-s4.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-12/044-s3.jpeg" l=1 %}
+{% include image.html filename="2021-12/044-s4.jpeg" r=1 %}
 {% include image.html filename="2021-12/044-s5.jpeg" %}
 {% include image.html filename="2021-12/044-s6.jpeg" %}
 
@@ -25,8 +25,8 @@ order: 20211294
 新年第一天，开始返程回到温哥华。很开心认识了很多新伙伴（包括一些活宝），在之后等签证的两个月因为大家的存在而变得非常精彩。
 
 <p style="text-align: center">
-{% include image.html filename="2021-12/044-s7.jpeg" w="49.8%" %}
-{% include image.html filename="2021-12/044-s8.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-12/044-s7.jpeg" l=1 %}
+{% include image.html filename="2021-12/044-s8.jpeg" r=1 %}
 {% include image.html filename="2021-12/044-s9.jpeg" w="60%" %}
 {% include image.html filename="2021-12/044-s10.jpeg" %}
 </p>

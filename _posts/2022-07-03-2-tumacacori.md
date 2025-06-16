@@ -14,12 +14,12 @@ i-19靠近南部边境的地方叫做Tumacacori的地方是一个国家历史公
 西班牙人对从大约1700年开始来到Tumacacori并逐渐产生影响。直到1821年墨西哥独立，驱逐了西班牙人（墨西哥独立时此地属于墨西哥）。之后1848年美墨战争结束后此地成为美国领土，当地原住民也逐渐离开了这里。
 
 {% include image.html filename="2022-07/065-01.jpeg" %}
-{% include image.html filename="2022-07/065-02.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/065-03.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-07/065-04.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/065-05.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-07/065-06.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/065-07.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/065-02.jpeg" l=1 %}
+{% include image.html filename="2022-07/065-03.jpeg" r=1 %}
+{% include image.html filename="2022-07/065-04.jpeg" l=1 %}
+{% include image.html filename="2022-07/065-05.jpeg" r=1 %}
+{% include image.html filename="2022-07/065-06.jpeg" l=1 %}
+{% include image.html filename="2022-07/065-07.jpeg" r=1 %}
 
 ---
 

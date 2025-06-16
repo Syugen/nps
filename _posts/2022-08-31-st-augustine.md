@@ -20,10 +20,10 @@ St. Augustine也是一个浪漫的小镇，值得花上一天时间沉浸在古�
 
 <p style="text-align: center">
 {% include image.html filename="2022-08/074-01.jpeg" w="60%" %}
-{% include image.html filename="2022-08/074-04.jpeg" w="49.8%" %}
-{% include image.html filename="2022-08/074-05.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-08/074-02.jpeg" w="49.8%" %}
-{% include image.html filename="2022-08/074-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-08/074-04.jpeg" l=1 %}
+{% include image.html filename="2022-08/074-05.jpeg" r=1 %}
+{% include image.html filename="2022-08/074-02.jpeg" l=1 %}
+{% include image.html filename="2022-08/074-03.jpeg" r=1 %}
 {% include image.html filename="2022-08/074-06.jpeg" %}
 </p>
 
@@ -42,8 +42,8 @@ St. Augustine也是一个浪漫的小镇，值得花上一天时间沉浸在古�
 <p style="text-align: center">
 {% include image.html filename="2022-08/074-07.jpeg" w="80%" %}
 {% include image.html filename="2022-08/074-08.jpeg" w="80%" %}
-{% include image.html filename="2022-08/074-09.jpeg" w="49.8%" %}
-{% include image.html filename="2022-08/074-10.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-08/074-09.jpeg" l=1 %}
+{% include image.html filename="2022-08/074-10.jpeg" r=1 %}
 </p>
 
 2022.8.31

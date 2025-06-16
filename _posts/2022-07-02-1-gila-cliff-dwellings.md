@@ -13,11 +13,11 @@ Gila崖壁洞屋位于新墨西哥州中西部的山上。这里远离周围任�
 
 公园附近也有其他更野一点的trail，不过我相信不太会有远途的游客来走那些hiking线路。
 
-{% include image.html filename="2022-07/061-01.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-02.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-01.jpeg" l=1 %}
+{% include image.html filename="2022-07/061-02.jpeg" r=1 %}
 {% include image.html filename="2022-07/061-03.jpeg" %}
-{% include image.html filename="2022-07/061-04.jpeg" w="49.8%" %}
-{% include image.html filename="2022-07/061-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-07/061-04.jpeg" l=1 %}
+{% include image.html filename="2022-07/061-05.jpeg" r=1 %}
 {% include image.html filename="2022-07/061-06.jpeg" %}
 
 2022.7.2

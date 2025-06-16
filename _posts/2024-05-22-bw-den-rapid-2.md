@@ -26,12 +26,12 @@ order: 20240597
 
 另外需要注意，如果从Rapid City出发前往风洞的游客中心，谷歌导航可能会让你走一段土路。建议选择走另一条。
 
-{% include image.html filename="2024-05/095-01.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/095-02.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/095-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/095-04.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2024-05/095-05.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/095-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/095-01.jpeg" l=1 %}
+{% include image.html filename="2024-05/095-02.jpeg" r=1 %}
+{% include image.html filename="2024-05/095-03.jpeg" l=1 %}
+{% include image.html filename="2024-05/095-04.jpeg" r=1 %}
+{% include image.html filename="2024-05/095-05.jpeg" l=1 %}
+{% include image.html filename="2024-05/095-06.jpeg" r=1 %}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d701454.2546220894!2d-103.83604513950195!3d43.66339978641567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877cd6682456d573%3A0x39ed508f2559a57f!2sWind%20Cave%20National%20Park!5e0!3m2!1sen!2sus!4v1716147894416!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -49,9 +49,9 @@ Jewel Cave就在风洞附近半小时的车程。从历史和地质角度说他�
 
 <p style="text-align: center">
 {% include image.html filename="2024-05/096-01.jpeg" %}
-{% include image.html filename="2024-05/096-03.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/096-02.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/096-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/096-03.jpeg" l=1 %}
+{% include image.html filename="2024-05/096-02.jpeg" l=1 %}
+{% include image.html filename="2024-05/096-04.jpeg" r=1 %}
 </p>
 
 2021.5.16

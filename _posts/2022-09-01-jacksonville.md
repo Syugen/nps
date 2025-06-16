@@ -19,8 +19,8 @@ Timucua是位于如今佛罗里达中北部和乔治亚州南部的原始部落�
 保护区附近可以沿海边的沙滩走一走trail，不过我觉得佛罗里达最不缺的就是沙滩了，在没有计划南下奥兰多/迈阿密的情况下可以值得一看。trail包括Little Talbot和Large Talbot。这些沙滩属于州立公园，因此有些停车要自觉交费。夏天来的时候一定要全副武装喷好防蚊液！喷好防蚊液！喷好防蚊液！
 
 {% include image.html filename="2022-09/076-01.jpeg" %}
-{% include image.html filename="2022-09/076-02.jpeg" w="49.8%" %}
-{% include image.html filename="2022-09/076-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-09/076-02.jpeg" l=1 %}
+{% include image.html filename="2022-09/076-03.jpeg" r=1 %}
 
 ---
 

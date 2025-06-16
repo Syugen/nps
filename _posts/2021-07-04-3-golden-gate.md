@@ -15,13 +15,13 @@ order: 20210796
 
 除了给本地人供休息的各种小trail以外，大桥南边的Presidio（西班牙语意为碉堡/要塞，参见上篇Fort Point碉堡），北边的Marin Headlands是比较值得走一走的。桥北的Conzelman Road上一路都有停车点，下车走走就是制高点欣赏大桥和旧金山天际线。桥南边的话则推荐Baker Beach。
 
-{% include image.html filename="2021-07/013-03.jpeg" w="49.8%" %}
-{% include image.html filename="2021-07/013-04.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/013-03.jpeg" l=1 %}
+{% include image.html filename="2021-07/013-04.jpeg" r=1 %}
 
 相比之下Presidio更像是一个城市里的大型自然公园，或许可以类比纽约的中央公园。有次拜访注意到里面有个有意思的擎天柱…艺术家的作品，不过之前被人搞破坏放火烧了…
 
-{% include image.html filename="2021-07/013-05.jpeg" w="49.8%" %}
-{% include image.html filename="2021-07/013-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2021-07/013-05.jpeg" l=1 %}
+{% include image.html filename="2021-07/013-06.jpeg" r=1 %}
 
 唯一要注意的就是旧金山的砸车状况十分严重。一定不要在车里放任何东西…
 

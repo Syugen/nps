@@ -20,8 +20,8 @@ Lakota 自此不断对此有所反抗，但却能奈何？他们试图发起过�
 
 这片地，还是不可能还的。最多让印第安人当个公园主管，收收停车费挣钱。目前总统山参观免费，但是乘车进入要交$10停车费（即使有公园年票也得付）。疯马巨石票价取决于季节和车里人数，在$12-$35不等。
 
-{% include image.html filename="2024-05/097-02.jpeg" w="49.8%" %}
-{% include image.html filename="2024-05/097-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2024-05/097-02.jpeg" l=1 %}
+{% include image.html filename="2024-05/097-03.jpeg" r=1 %}
 
 
 2015.5.3 (Mt Rushmore, Crazy Horse)<br>

@@ -17,10 +17,10 @@ order: 20220295
 
 {% include image.html filename="2022-02/049-01.jpeg" %}
 {% include image.html filename="2022-02/049-02.jpeg" %}
-{% include image.html filename="2022-02/049-03.jpeg" w="49.8%" %}
-{% include image.html filename="2022-02/049-04.jpeg" w="49.8%" a="right" %}
-{% include image.html filename="2022-02/049-05.jpeg" w="49.8%" %}
-{% include image.html filename="2022-02/049-06.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/049-03.jpeg" l=1 %}
+{% include image.html filename="2022-02/049-04.jpeg" r=1 %}
+{% include image.html filename="2022-02/049-05.jpeg" l=1 %}
+{% include image.html filename="2022-02/049-06.jpeg" r=1 %}
 
 ### 2022.2.27
 
@@ -28,8 +28,8 @@ order: 20220295
 
 <p style="text-align: center">
 {% include image.html filename="2022-02/049-09.jpeg" w="60%" %}
-{% include image.html filename="2022-02/049-07.jpeg" w="49.8%" %}
-{% include image.html filename="2022-02/049-08.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2022-02/049-07.jpeg" l=1 %}
+{% include image.html filename="2022-02/049-08.jpeg" r=1 %}
 </p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d388920.4293456617!2d-121.8450943!3d40.3990835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809d56012eb5ee07%3A0x4c14ea653c44d56e!2sKohm%20Yah-mah-nee%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1653174257076!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
