@@ -19,8 +19,6 @@ order: 20240994
 
 位于湖中上游附近的 Fort Spokane 展示了印第安寄宿学校、早期贸易站和军营的历史。
 
-#LakeRoosevelt #GrandCouleeDam #国家休闲区 #美国旅行 #华盛顿州 #自然与历史结合
-
 <p style="text-align: center">
 {% include image.html filename="2024-10/117-01.jpeg" w="49.8%" %}
 {% include image.html filename="2024-10/117-02.jpeg" w="49.8%" a="right" %}

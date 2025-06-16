@@ -6,6 +6,13 @@
 @import "fonts";
 @import "rouge-github";
 
+@media (max-width: 560px) {
+  .responsive-img {
+    width: 100%;
+    align: mid;
+  }
+}
+
 $brand-color: rgba(0,128,255,.5);
 $brand-color-light: rgba(0,128,255,.5);
 $small-font-size: 11px;

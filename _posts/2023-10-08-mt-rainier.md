@@ -1,5 +1,5 @@
 ---
-title: Mount Rainier 雷尼尔山【TODO】
+title: Mount Rainier 雷尼尔山
 sub: 
 tags: [washington, np]
 idx: 90
@@ -7,7 +7,15 @@ head: 2023.10.8 西雅图南
 order: 20231099
 ---
 
-TODO
+雷尼尔无需多言。
+
+<p style="text-align: center">
+{% include image.html filename="2023-10/090-01.jpeg" %}
+{% include image.html filename="2023-10/090-02.jpeg" w="49.8%" %}
+{% include image.html filename="2023-10/090-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-10/090-04.jpeg" w="49.8%" %}
+{% include image.html filename="2023-10/090-05.jpeg" w="49.8%" a="right" %}
+</p>
 
 2023.10.8
 

@@ -1,14 +1,26 @@
 ---
-title: North Cascades【TODO】
-sub: 
+title: North Cascades
+sub: Mt Baker & Diablo Lake
 tags: [washington, np, nra]
 idx: 87
 extras: ["88. Ross Lake NRA", "89. Lake Chelan NRA"]
-head: 2023.7.29 华盛顿州北部
+head: 2023.7.29, 10.21 西雅图北
 order: 20230799
 ---
 
-TODO
+Mt Baker，华州第三高峰，十月秋高气爽。在Mt Baker Parking 走 Chain Lake Loop Trail，沿途风光无限。
+ 
+Diablo Lake（暗黑破坏湖？？），广义上属于 North Cascades 国家公园的一部分，可在湖上划船、paddle board。我划的那天风有点大，差点滑不回来，中途直接靠边上岸了。
+
+<p style="text-align: center">
+{% include image.html filename="2023-07/087-01.jpeg" w="80%" %}
+{% include image.html filename="2023-07/087-02.jpeg" w="49.8%" %}
+{% include image.html filename="2023-07/087-03.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-07/087-04.jpeg" w="49.8%" %}
+{% include image.html filename="2023-07/087-05.jpeg" w="49.8%" a="right" %}
+{% include image.html filename="2023-07/087-06.jpeg" w="49.8%" %}
+{% include image.html filename="2023-07/087-07.jpeg" w="49.8%" a="right" %}
+</p>
 
 2023.7.29
 

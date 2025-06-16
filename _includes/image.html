@@ -1,1 +1,7 @@
-<img src="/nps/images/{{include.filename}}" alt="{{include.filename}}" width="{{ include.w }}" align="{{ include.a }}">
+<a href="/nps/images/{{include.filename}}" target="_blank">
+	<img src="/nps/images/{{include.filename}}" 
+	alt="{{include.filename}}" 
+	width="{{ include.w }}" 
+	{% if include.a %} align="right" style="margin-bottom: 5px;" {% endif %} 
+	class="responsive-img" >
+</a>
