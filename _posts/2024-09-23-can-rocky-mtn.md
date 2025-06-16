@@ -2,6 +2,7 @@
 title: 2024.9.23-10.1 北纬49度上下落基山
 tags: [head]
 total: 5
+image: /images/2024-09/114-a.jpeg
 order: 20240999
 ---
 

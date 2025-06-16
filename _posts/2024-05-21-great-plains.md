@@ -2,6 +2,7 @@
 title: 2024.5.21-5.27 大平原与落基山
 tags: [head]
 total: 12
+image: /images/2024-05/092-a.jpeg
 order: 20240599
 ---
 
