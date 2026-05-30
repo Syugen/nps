@@ -1,5 +1,5 @@
 ---
-title: Joshua Tree 约书亚树【TODO】
+title: Joshua Tree 约书亚树
 sub: 
 tags: [california, np]
 idx: 118
@@ -7,8 +7,15 @@ image: /images/2024-09/118-01.jpeg
 order: 20250498
 ---
 
-TODO
+从洛杉矶驱车出发，大约三到四个小时抵达 Joshua Tree。公园最具代表性的自然景观就是遍布荒漠的约书亚树。沿着主干道行驶，窗外的景色荒凉又壮丽。但讲真，同样的风光看久了也容易有些单调。若不是硬核旅游来此挑战攀岩或徒步穿越，夜晚的观星才是这片沙漠最迷人的亮点。这里的夜空纯净通透，被认证为“国际黑暗天空公园”，是仰望银河与繁星的绝佳之地。
 
+白天在公园里走走停停，傍晚入住公园附近一家带有 glamping 帐篷的旅宿：The Castle House Estate。Glamping 是 glamorous camping 的缩写，即“豪华露营”。虽说带着“豪华”二字，但终究还是露营：夏夜闷热，帐篷里自然没有空调。索性在镇上的 7-11 买了几袋冰，放进帐篷消暑。洗澡则需要去营地公共浴室解决。虽有些简陋，却别有一番野趣。
+
+夜幕降临，架好相机，拍下银河缓缓旋转的轨迹，北斗七星在天际静静游移。第二天清晨，也佛系地记录了一个沙漠的日出。
+
+返程出现一个小插曲，谷歌导航让我离开旅馆后向北，结果走了一段沙地路，一开始还觉得侥幸能过，之后越来越不对劲，车差点陷在里面，赶紧折腾了几下掉头换了条路。
+
+相比公园里的树，这次旅行中在沙漠里露营与观星的体验，反而成了更令人难忘的亮点。
 <video width="100%" controls autoplay>
 	<source src='{{"/images/2025-04/118-01.mov"|relative_url}}' type="video/mp4">
 	HTML5 video not supported.
@@ -18,6 +25,12 @@ TODO
 	<source src='{{"/images/2025-04/118-02.mov"|relative_url}}' type="video/mp4">
 	HTML5 video not supported.
 </video>
+
+{% include image.html filename="2025-04/118-03.jpeg" %}
+{% include image.html filename="2025-04/118-04.jpeg" %}
+{% include image.html filename="2025-04/118-05.jpeg" %}
+{% include image.html filename="2025-04/118-06.jpeg" l=1 %}
+{% include image.html filename="2025-04/118-07.jpeg" r=1 %}
 
 2020.9.6<br>
 2025.4.18
