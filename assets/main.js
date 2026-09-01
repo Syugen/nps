@@ -163,3 +163,47 @@ postComment();
     }
   }
 }();
+
+// On wide screens, gradually hide the sidebar and center the article while
+// scrolling through the first 200px of the page.
+(function() {
+  var wideScreen = window.matchMedia('(min-width: 961px)');
+  var wrapper = document.querySelector('.wrapper');
+  var header = wrapper && wrapper.querySelector('header');
+  var section = wrapper && wrapper.querySelector('section');
+  var ticking = false;
+
+  if (!wrapper || !header || !section) {
+    return;
+  }
+
+  function updateLayout() {
+    ticking = false;
+
+    if (!wideScreen.matches) {
+      header.style.opacity = '';
+      header.style.visibility = '';
+      section.style.transform = '';
+      return;
+    }
+
+    var progress = Math.min(Math.max(window.pageYOffset / 200, 0), 1);
+    var sidebarWidth = wrapper.clientWidth - section.offsetWidth;
+    var sectionShift = sidebarWidth / 2 * progress;
+
+    header.style.opacity = 1 - progress;
+    header.style.visibility = progress >= 1 ? 'hidden' : 'visible';
+    section.style.transform = 'translateX(-' + sectionShift + 'px)';
+  }
+
+  function requestLayoutUpdate() {
+    if (!ticking) {
+      window.requestAnimationFrame(updateLayout);
+      ticking = true;
+    }
+  }
+
+  window.addEventListener('scroll', requestLayoutUpdate, { passive: true });
+  window.addEventListener('resize', requestLayoutUpdate);
+  updateLayout();
+}());
