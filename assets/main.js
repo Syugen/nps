@@ -164,16 +164,176 @@ postComment();
   }
 }();
 
+// 在文章图片上悬停时显示独立的放大预览层；原图本身不会被改变。
+(function() {
+  var section = document.querySelector('.wrapper section');
+  var images = section && section.querySelectorAll('img.responsive-img');
+  var activePreview = null;
+
+  if (!section || !images || !images.length) {
+    return;
+  }
+
+  function removePreview(immediately) {
+    if (!activePreview) {
+      return;
+    }
+
+    var preview = activePreview;
+
+    // 立即移除必须能打断正在缩回的旧预览；否则快速重新进入时它会遗留在屏幕上。
+    if (immediately) {
+      activePreview = null;
+      preview.element.remove();
+      return;
+    }
+
+    if (preview.closing) {
+      return;
+    }
+
+    // 鼠标离开后，预览先缩回原图的位置；动画结束后才移除这一层。
+    preview.closing = true;
+    var sourceRect = preview.source.getBoundingClientRect();
+    preview.element.style.top = sourceRect.top + 'px';
+    preview.element.style.left = sourceRect.left + 'px';
+    preview.element.style.width = sourceRect.width + 'px';
+
+    var finish = function() {
+      if (activePreview === preview) {
+        activePreview = null;
+        preview.element.remove();
+      }
+    };
+
+    preview.element.addEventListener('transitionend', function(event) {
+      if (event.propertyName === 'width') {
+        finish();
+      }
+    });
+    window.setTimeout(finish, 200);
+  }
+
+  function isInside(rect, x, y) {
+    return x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom;
+  }
+
+  function showPreview(image) {
+    removePreview(true);
+
+    var imageRect = image.getBoundingClientRect();
+    var sectionRect = section.getBoundingClientRect();
+
+    // 已经几乎占满正文宽度的图片没有可见的放大空间，不显示预览。
+    if (imageRect.width >= sectionRect.width - 2) {
+      return;
+    }
+
+    var viewportPadding = 8;
+    var targetWidth = sectionRect.width;
+    var expandedHeight = imageRect.height * targetWidth / imageRect.width;
+    var imageCenter = imageRect.top + imageRect.height / 2;
+    var targetTop;
+
+    // 若按正文全宽展开会超出视口，等比缩小预览，使它始终与上下边缘留出 8px。
+    // 只有在这种极高图片的情况，预览才会小于正文宽度，并在正文范围内居中。
+    if (expandedHeight > window.innerHeight - viewportPadding * 2) {
+      expandedHeight = window.innerHeight - viewportPadding * 2;
+      targetWidth = expandedHeight * imageRect.width / imageRect.height;
+    }
+
+    // 中间区域收窄为视口高度的中间 20%：上段向下、下段向上、中段保持中心不动。
+    if (imageCenter < window.innerHeight * 0.4) {
+      targetTop = imageRect.top;
+    } else if (imageCenter > window.innerHeight * 0.6) {
+      targetTop = imageRect.bottom - expandedHeight;
+    } else {
+      targetTop = imageCenter - expandedHeight / 2;
+    }
+
+    // 无论图片原先是否已有一部分在屏幕外，展开后的上下边界都限制在视口内。
+    targetTop = Math.max(
+      viewportPadding,
+      Math.min(targetTop, window.innerHeight - viewportPadding - expandedHeight)
+    );
+
+    var preview = document.createElement('div');
+    var previewImage = document.createElement('img');
+
+    preview.className = 'image-hover-preview';
+    preview.style.top = imageRect.top + 'px';
+    preview.style.left = imageRect.left + 'px';
+    preview.style.width = imageRect.width + 'px';
+    previewImage.src = image.currentSrc || image.src;
+    previewImage.alt = image.alt;
+    preview.appendChild(previewImage);
+    document.body.appendChild(preview);
+
+    activePreview = {
+      element: preview,
+      source: image,
+      closing: false
+    };
+
+    // 浏览器先绘制与原图完全重合的预览，再在下一帧展开到正文宽度和对应的纵向位置。
+    window.requestAnimationFrame(function() {
+      if (!activePreview || activePreview.element !== preview) {
+        return;
+      }
+
+      preview.style.top = targetTop + 'px';
+      preview.style.left = (sectionRect.left + (sectionRect.width - targetWidth) / 2) + 'px';
+      preview.style.width = targetWidth + 'px';
+    });
+  }
+
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener('pointerenter', function(event) {
+      showPreview(event.currentTarget);
+    });
+  }
+
+  document.addEventListener('pointermove', function(event) {
+    if (!activePreview || activePreview.closing) {
+      return;
+    }
+
+    var sourceRect = activePreview.source.getBoundingClientRect();
+    var previewRect = activePreview.element.getBoundingClientRect();
+
+    if (!isInside(sourceRect, event.clientX, event.clientY) &&
+        !isInside(previewRect, event.clientX, event.clientY)) {
+      removePreview();
+    }
+  });
+
+  window.addEventListener('scroll', function() {
+    removePreview(true);
+  }, { passive: true });
+  window.addEventListener('resize', function() {
+    removePreview(true);
+  });
+}());
+
 // On wide screens, gradually hide the sidebar and center the article while
 // scrolling through the first 200px of the page.
 (function() {
-  var wideScreen = window.matchMedia('(min-width: 961px)');
+  // 暂时关闭滚动淡出效果；保留后续代码，日后只需改为 true 即可重新启用。
+  var sidebarScrollTransitionEnabled = false;
+  var wideScreen = window.matchMedia('(min-width: 1150px)');
   var wrapper = document.querySelector('.wrapper');
   var header = wrapper && wrapper.querySelector('header');
   var section = wrapper && wrapper.querySelector('section');
   var ticking = false;
 
   if (!wrapper || !header || !section) {
+    return;
+  }
+
+  if (!sidebarScrollTransitionEnabled) {
+    header.style.opacity = '';
+    header.style.visibility = '';
+    section.style.transform = '';
     return;
   }
 

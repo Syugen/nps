@@ -1,13 +1,14 @@
 // 正文阅读列的最大宽度；普通文字、标题和单张普通图片都以此为上限。
-$layout-content-width: 600px;
+$layout-content-width: 800px;
 // 页面左右两侧的留白；与 body 的 50px padding 保持一致。
 $layout-page-gutter: 50px;
-// 宽屏时左侧标题栏的最大宽度。
-$layout-max-sidebar-width: 324px;
-// 宽屏时照片区域的最大宽度；左右两张图各占约一半。
-$layout-section-width: 800px;
+// 宽屏时左侧标题栏的固定宽度。
+$layout-sidebar-width: 200px;
+// 宽屏两栏之间的固定留白，避免标题栏和正文贴得过近。
+$layout-column-gap: 50px;
 // 到达此宽度后，页面从上下单栏切换为左侧栏 + 文章的两栏布局。
-$layout-wide-breakpoint: 961px;
+// 此时正好容纳 200px 标题栏、50px 两栏留白、800px 正文，以及两侧各 50px 页面留白。
+$layout-wide-breakpoint: 1150px;
 
 // 页面最外层容器。小屏时宽度跟随可用空间，并用自动左右外边距居中。
 .wrapper {
@@ -15,13 +16,16 @@ $layout-wide-breakpoint: 961px;
   margin: 0 auto;
 }
 
-// 文章主体。默认（单栏）状态下正文最多 600px，并在页面中居中。
+// 文章主体。默认（单栏）状态下正文最多 800px，并在页面中居中；
+// 正文使用 16px 的深灰文字，保留一点柔和度，同时比主题默认灰色更清晰。
 section {
   width: 100%;
   max-width: $layout-content-width;
   margin: 0 auto 20px;
   padding-bottom: 50px;
   box-sizing: border-box;
+  font-size: 16px;
+  color: #555;
   // 让下方的 @container 能基于文章实际宽度判断图片是否过窄。
   container-type: inline-size;
 }
@@ -32,6 +36,41 @@ header img {
   max-width: 180px;
   height: auto;
   margin: auto;
+}
+
+// 当一个图片段落中还夹有未标注 l/r 的普通图片时：
+// 让该图片链接独占一行、清除前面左右图片的浮动，并在这一行内居中。
+section > p:has(.image-half) > a:has(> .responsive-img:not(.image-half)) {
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+// 上述普通图片最多仍为正文宽度，避免它占满整个图片段落。
+section > p:has(.image-half) .responsive-img:not(.image-half) {
+  display: inline-block;
+  max-width: $layout-content-width;
+}
+
+// 鼠标悬停文章图片时由 JavaScript 创建的放大预览层。
+// fixed 让它以当前窗口为坐标系；宽度对齐 section 的文字范围，纵向位置由脚本按图片所在视口区域决定。
+// pointer-events: none 保证预览层不会挡住鼠标，便于脚本判断何时真正移出预览范围。
+// transition 让预览从原图位置快速展开；离开时按相同路径缩回。
+.image-hover-preview {
+  position: fixed;
+  z-index: 10000;
+  pointer-events: none;
+  // outline 绘制在盒模型之外，不会缩小或遮挡预览图片本身。
+  outline: 2px solid #fff;
+  transition: top 160ms ease-out, left 160ms ease-out, width 160ms ease-out;
+  will-change: top, left, width;
+}
+
+// 预览层中的图片始终填满预览层宽度，并保持原始宽高比例。
+.image-hover-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 // 当文章实际可用宽度不超过约 505px 时，左右图片若继续并排会小于 250px。
@@ -52,17 +91,18 @@ header img {
   }
 }
 
-// 屏幕至少 961px 宽时启用两栏布局；打印时也使用这一套稳定的布局规则。
+// 屏幕至少 1150px 宽时启用两栏布局；打印时也使用这一套稳定的布局规则。
 @media print, screen and (min-width: $layout-wide-breakpoint) {
-  // 两栏的外层容器。它最多容纳 324px 标题栏和 800px 照片区域；
-  // 屏幕较窄时则自动缩小，避免出现横向滚动条。
+  // 两栏的外层容器固定容纳 200px 标题栏、50px 两栏留白和 800px 正文；
+  // 到达这个总宽度后不再继续变宽，因此整组内容始终居中。
   .wrapper {
     width: unquote(
-      "min(#{$layout-section-width + $layout-max-sidebar-width}, " +
+      "min(#{$layout-content-width + $layout-column-gap + $layout-sidebar-width}, " +
       "calc(100vw - #{2 * $layout-page-gutter}))"
     );
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, $layout-content-width);
+    grid-template-columns: $layout-sidebar-width $layout-content-width;
+    column-gap: $layout-column-gap;
     align-items: start;
   }
 
@@ -104,51 +144,8 @@ header img {
   }
 }
 
-// 屏幕至少 1024px 宽时，左栏停止变宽；额外空间优先分给右侧 section。
-@media print, screen and (min-width: 1024px) {
-  // 第一列固定为最多 324px 的标题栏；第二列从 600px 起随空间增长，
-  // 直到外层容器的 800px 上限。
-  .wrapper {
-    grid-template-columns: $layout-max-sidebar-width minmax($layout-content-width, 1fr);
-  }
-
-  // section 的直接子元素（如 h1、p、ul、hr、评论容器）默认仍限制为 600px，
-  // 并通过 auto 外边距在较宽的 section 中居中，保证文字阅读宽度不变。
-  section > * {
-    max-width: $layout-content-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  // 文章日期使用的是直接放在 section 内的 <small>。small 默认是行内元素，
-  // 行内元素不会应用 max-width；改为块级后才能和正文一样限制在 600px 并居中。
-  section > small {
-    display: block;
-  }
-
-  // 含有 l/r 图片标记的段落不受 600px 限制，使用完整 section 宽度。
-  // 文章中的左右图片原本就位于同一个 p 内，图片自身的 49.5% 宽度会因此变大。
-  section > p:has(.image-half) {
-    max-width: none;
-  }
-
-  // 当一个图片段落中还夹有未标注 l/r 的普通图片时：
-  // 让该图片链接独占一行、清除前面左右图片的浮动，并在这一行内居中。
-  section > p:has(.image-half) > a:has(> .responsive-img:not(.image-half)) {
-    display: block;
-    clear: both;
-    text-align: center;
-  }
-
-  // 上述普通图片本身最多仍为 600px，避免它跟随图片段落扩展到 800px。
-  section > p:has(.image-half) .responsive-img:not(.image-half) {
-    display: inline-block;
-    max-width: $layout-content-width;
-  }
-}
-
-// 屏幕最多 960px 宽时恢复单栏：标题、正文和页脚按正常文档顺序从上到下排列。
-@media print, screen and (max-width: 960px) {
+// 屏幕最多 1149px 宽时使用单栏：标题、正文和页脚按正常文档顺序从上到下排列。
+@media print, screen and (max-width: 1149px) {
   // 重置外层容器的固定宽度，让它随小屏可用空间伸缩。
   div.wrapper {
     width: auto;
