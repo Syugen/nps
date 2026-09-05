@@ -4,7 +4,7 @@ sub:
 tags: [arizona, nm]
 idx: 82
 extras: ["83. Hubbell Trading Post NHS"]
-image: /images/2023-01/082-01.jpeg
+image: /images/2023-01/082-02.jpeg
 order: 20230198
 ---
 

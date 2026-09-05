@@ -31,8 +31,10 @@ Savannah本身是一座恬静的小城市，充满着古老欧洲建筑气息。
 
 Savannah附近的Fort Pulaski是一座防御工事。19世纪处建筑之时是为了抵御外敌，结果在内战中成为了南北交火的战场。如今的城墙上还能看到当时的炮弹砸出来的坑。
 
-{% include image.html filename="2022-08/071-06.jpeg" l=1 %}
-{% include image.html filename="2022-08/071-07.jpeg" r=1 %}
+{% include image.html filename="2022-08/071-06a.jpeg" l=1 %}
+{% include image.html filename="2022-08/071-06b.jpeg" r=1 %}
+{% include image.html filename="2022-08/071-07a.jpeg" l=1 %}
+{% include image.html filename="2022-08/071-07b.jpeg" r=1 %}
 
 ### Reconstruction Era
 

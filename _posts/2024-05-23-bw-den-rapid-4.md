@@ -4,7 +4,7 @@ sub:
 tags: [wyoming, nm]
 idx:
 extras: ["98. Devils Tower NM"]
-image: /images/2024-05/099=8-01.jpeg
+image: /images/2024-05/098-01.jpeg
 order: 20240595
 ---
 

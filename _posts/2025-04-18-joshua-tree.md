@@ -3,7 +3,7 @@ title: Joshua Tree 约书亚树
 sub: 
 tags: [california, np]
 idx: 118
-image: /images/2024-09/118-01.jpeg
+image: /images/2025-04/118-05.jpeg
 order: 20250498
 ---
 
