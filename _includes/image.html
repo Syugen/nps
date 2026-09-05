@@ -1,5 +1,8 @@
 <a href="/nps/images/{{include.filename}}" target="_blank">
-	<img src="/nps/images/{{include.filename}}" 
+	<img src="/nps/images/{{include.filename}}"
+	loading="lazy"
+	decoding="async"
+	data-gallery-url="{{ '/gallery/' | relative_url }}"
 	alt="{{include.filename}}" {% if include.l %} width="49.5%" {% elsif include.r %} width="49.5%" align="right" style="margin-bottom: 5px;" {% else %} width="{{ include.w }}"  {% endif %} 
 	class="responsive-img{% if include.l or include.r %} image-half{% endif %}" >
 </a>{%- comment -%}{%- endcomment -%}

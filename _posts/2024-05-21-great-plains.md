@@ -2,7 +2,7 @@
 title: 2024.5.21-5.27 大平原与落基山
 tags: [head]
 total: 12
-image: /images/2024-05/092-a.jpeg
+image: /images/webp/2024-05/092-a.webp
 order: 20240599
 ---
 
@@ -44,5 +44,5 @@ order: 20240599
 - 下午到 [Florissant NM]({{arr[11]}}) 看古树化石。
 - 晚上到达丹佛机场 DEN->SEA。
 
-{% include image.html filename="2024-05/092-a.jpeg" %}
+{% include image.html filename="webp/2024-05/092-a.webp" %}
 

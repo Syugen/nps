@@ -15,11 +15,11 @@ Carlsbad Caverns是一个以钟乳石洞出名的国家公园，它位于新墨�
 
 进入地下后基本上沿着Big Room的步行线路绕行一圈就完事了，大约1.25英里长。洞穴内可以参观到各种奇形怪状的钟乳石。此时不妨发挥想象力给它们起名字。什么仙人指路，什么猴子捞月，把国内景区景点的起名套路放到这里完全适用！下图在我看来就像三个菩萨雕像。
 
-{% include image.html filename="2022-05/052-01.jpeg" l=1 %}
-{% include image.html filename="2022-05/052-02.jpeg" r=1 %}
-{% include image.html filename="2022-05/052-03.jpeg" l=1 %}
-{% include image.html filename="2022-05/052-04.jpeg" r=1 %}
-{% include image.html filename="2022-05/052-05.jpeg" %}
+{% include image.html filename="webp/2022-05/052-01.webp" l=1 %}
+{% include image.html filename="webp/2022-05/052-02.webp" r=1 %}
+{% include image.html filename="webp/2022-05/052-03.webp" l=1 %}
+{% include image.html filename="webp/2022-05/052-04.webp" r=1 %}
+{% include image.html filename="webp/2022-05/052-05.webp" %}
 
 ---
 
@@ -27,7 +27,7 @@ Carlsbad Caverns是一个以钟乳石洞出名的国家公园，它位于新墨�
 
 从El Paso到Carlsbad Caverns的路上会经过得州的Guadalupe Mountains国家公园。这个公园似乎没有什么特点，除了hiking和camping以外也就没什么别的有意思活动了。或许当地人周末来这里玩一玩比较合适，如果是游客的话并不值得参观。这里最有意思的或许是时区。得州西部的两个县（包括El Paso），以及新墨西哥都使用山区时间，但途径的此处官方使用中部时间，但该公园又自行私下使用山区时间。智能手机会自动改时区的话会有些许的令人困惑。
 
-{% include image.html filename="2022-05/052-06.jpeg" %}
+{% include image.html filename="webp/2022-05/052-06.webp" %}
 
 2022.5.27
 

@@ -293,6 +293,27 @@ postComment();
     });
   }
 
+  function openImageGallery(image) {
+    var galleryUrl = new URL(image.dataset.galleryUrl, window.location.origin);
+    var imageUrl = new URL(image.currentSrc || image.src, window.location.href);
+
+    galleryUrl.searchParams.set('post', window.location.pathname);
+    galleryUrl.searchParams.set('image', imageUrl.pathname);
+    window.open(galleryUrl.href, '_blank');
+  }
+
+  for (var imageIndex = 0; imageIndex < images.length; imageIndex++) {
+    (function(index) {
+      images[index].addEventListener('click', function(event) {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+          return;
+        }
+        event.preventDefault();
+        openImageGallery(images[index]);
+      });
+    })(imageIndex);
+  }
+
   document.addEventListener('pointermove', function(event) {
     if (!activePreview || activePreview.closing) {
       return;

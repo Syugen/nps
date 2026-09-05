@@ -4,7 +4,7 @@ sub: 大草原上的遗址、地标、与化石
 tags: [Wyoming, nebraska, nhs, nm]
 idx:
 extras: ["92. Fort Laramie NHS", "93. Scotts Bluff NM", "94. Agate Fossil Beds NM"]
-image: /images/2024-05/092-01.jpeg
+image: /images/webp/2024-05/092-01.webp
 order: 20240598
 ---
 
@@ -18,10 +18,10 @@ order: 20240598
 
 顺便看到这荒无人烟处的限速80可谓不多见。
 
-{% include image.html filename="2024-05/092-01.jpeg" l=1 %}
-{% include image.html filename="2024-05/092-02.jpeg" r=1 %}
-{% include image.html filename="2024-05/092-03.jpeg" l=1 %}
-{% include image.html filename="2024-05/092-04.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/092-01.webp" l=1 %}
+{% include image.html filename="webp/2024-05/092-02.webp" r=1 %}
+{% include image.html filename="webp/2024-05/092-03.webp" l=1 %}
+{% include image.html filename="webp/2024-05/092-04.webp" r=1 %}
 
 ---
 
@@ -31,10 +31,10 @@ order: 20240598
 
 这个景点同样可免费参观。
 
-{% include image.html filename="2024-05/093-01.jpeg" l=1 %}
-{% include image.html filename="2024-05/093-02.jpeg" r=1 %}
-{% include image.html filename="2024-05/093-03.jpeg" l=1 %}
-{% include image.html filename="2024-05/093-04.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/093-01.webp" l=1 %}
+{% include image.html filename="webp/2024-05/093-02.webp" r=1 %}
+{% include image.html filename="webp/2024-05/093-03.webp" l=1 %}
+{% include image.html filename="webp/2024-05/093-04.webp" r=1 %}
 
 ---
 
@@ -45,14 +45,14 @@ order: 20240598
 不出意外，这又是个免费景点。
 
 <p style="text-align: center">
-{% include image.html filename="2024-05/094-01.jpeg" w="60%" %}
-{% include image.html filename="2024-05/094-02.jpeg" %}
-{% include image.html filename="2024-05/094-03.jpeg" l=1 %}
-{% include image.html filename="2024-05/094-04.jpeg" r=1 %}
-{% include image.html filename="2024-05/094-05.jpeg" l=1 %}
-{% include image.html filename="2024-05/094-06.jpeg" r=1 %}
-{% include image.html filename="2024-05/094-07.jpeg" l=1 %}
-{% include image.html filename="2024-05/094-08.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/094-01.webp" w="60%" %}
+{% include image.html filename="webp/2024-05/094-02.webp" %}
+{% include image.html filename="webp/2024-05/094-03.webp" l=1 %}
+{% include image.html filename="webp/2024-05/094-04.webp" r=1 %}
+{% include image.html filename="webp/2024-05/094-05.webp" l=1 %}
+{% include image.html filename="webp/2024-05/094-06.webp" r=1 %}
+{% include image.html filename="webp/2024-05/094-07.webp" l=1 %}
+{% include image.html filename="webp/2024-05/094-08.webp" r=1 %}
 </p>
 
 ---

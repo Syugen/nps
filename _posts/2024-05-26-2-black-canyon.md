@@ -4,7 +4,7 @@ sub:
 tags: [colorado, np]
 idx: 108
 extras: ["109. Curecanti NRA"]
-image: /images/2024-05/108-01.jpeg
+image: /images/webp/2024-05/108-01.webp
 order: 20240589
 ---
 
@@ -19,7 +19,7 @@ order: 20240589
 继续向东到达小镇 Gunnison，这里并无任何特别，不过这小镇上也有一家中国餐厅 Double Dragon，深受老外喜爱。
 
 <p style="text-align: center">
-{% include image.html filename="2024-05/108-01.jpeg" w="80%" %}
+{% include image.html filename="webp/2024-05/108-01.webp" w="80%" %}
 </p>
 
 2024.5.26

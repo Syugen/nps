@@ -3,11 +3,11 @@ title: Rocky Mountain 落基山
 sub: 大分水岭
 tags: [colorado, np]
 idx: 106
-image: /images/2024-05/106-01.jpeg
+image: /images/webp/2024-05/106-01.webp
 order: 20240591
 ---
 
-{% include image.html filename="2024-05/106-01.jpeg" %}
+{% include image.html filename="webp/2024-05/106-01.webp" %}
 
 2024年落基山国家公园沿用前几年启用的抢票入园政策，6月1日可抢7月份的入园资格。7月1日可抢8月份。
 
@@ -32,10 +32,10 @@ Bear Lake Road的尽头停车场往往会很早就停满车，因此建议在中
 
 山上天气变化莫测，五月底的落基山甚至会在晴天下雪。
 
-{% include image.html filename="2024-05/106-02.jpeg" l=1 %}
-{% include image.html filename="2024-05/106-03.jpeg" r=1 %}
-{% include image.html filename="2024-05/106-04.jpeg" l=1 %}
-{% include image.html filename="2024-05/106-05.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/106-02.webp" l=1 %}
+{% include image.html filename="webp/2024-05/106-03.webp" r=1 %}
+{% include image.html filename="webp/2024-05/106-04.webp" l=1 %}
+{% include image.html filename="webp/2024-05/106-05.webp" r=1 %}
 
 2024.5.25
 

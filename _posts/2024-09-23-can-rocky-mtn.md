@@ -2,7 +2,7 @@
 title: 2024.9.23-10.1 北纬49度上下落基山
 tags: [head]
 total: 5
-image: /images/2024-09/114-a.jpeg
+image: /images/webp/2024-09/114-a.webp
 order: 20240999
 ---
 
@@ -51,5 +51,5 @@ order: 20240999
 - 下午回到温馨的家。
 
 
-{% include image.html filename="2024-09/114-a.jpeg" %}
+{% include image.html filename="webp/2024-09/114-a.webp" %}
 

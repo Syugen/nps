@@ -4,7 +4,7 @@ sub:
 tags: [nebraska, nsr, nrr]
 idx: 
 extras: ["101. Niobrara NSR", "102. Missouri NRR"]
-image: /images/2024-05/101-01.jpeg
+image: /images/webp/2024-05/101-01.webp
 order: 20240593
 ---
 
@@ -17,12 +17,14 @@ Valentine 位于内布拉斯加州，与南达科他交界的地方。也是山�
 小镇附近的 Fort Niobrara 曾经是一座堡垒，如今这里保护野生动物，可以到访这里的访客中心。我到达了一处“Fort Niobrara Scenic Overlook”，此处与荒野大镖客2中第二章的营地马掌望台颇为相似。从台地向下望去可以看到流经 Valentine 小镇的 Niobrara River。这条河也隶属于NPS（因此我可以顺道打卡盖章）。
 
 <p style="text-align: center">
-{% include image.html filename="2024-05/101-01.jpeg" w="80%" %}
-{% include image.html filename="2024-05/101-02.jpeg" l=1 %}
-{% include image.html filename="2024-05/101-03.jpeg" r=1 %}
-{% include image.html filename="2024-05/101-04.jpeg" l=1 %}
-{% include image.html filename="2024-05/101-05.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/101-01.webp" w="80%" %}
+{% include image.html filename="webp/2024-05/101-02.webp" l=1 %}
+{% include image.html filename="webp/2024-05/101-03.webp" r=1 %}
+{% include image.html filename="webp/2024-05/101-04.webp" l=1 %}
+{% include image.html filename="webp/2024-05/101-05.webp" r=1 %}
 </p>
+
+---
 
 ### Yankton, SD & Missouri NRR
 
@@ -32,10 +34,10 @@ Valentine 位于内布拉斯加州，与南达科他交界的地方。也是山�
 
 小镇西侧不远处有一个密苏里河上的水坝 Gavins Point Dam。曾经西部开发时期著名的探险家 Lewis 和 Clark 沿密苏里河西行，此处以他们命名的游客中心也隶属于NPS，里面有介绍这条河以及周围相关历史的介绍（顺道又盖章+1）。
 
-{% include image.html filename="2024-05/102-01.jpeg" l=1 %}
-{% include image.html filename="2024-05/102-02.jpeg" r=1 %}
-{% include image.html filename="2024-05/102-03.jpeg" l=1 %}
-{% include image.html filename="2024-05/102-04.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/102-01.webp" l=1 %}
+{% include image.html filename="webp/2024-05/102-02.webp" r=1 %}
+{% include image.html filename="webp/2024-05/102-03.webp" l=1 %}
+{% include image.html filename="webp/2024-05/102-04.webp" r=1 %}
 
 2024.5.23
 

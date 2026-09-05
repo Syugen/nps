@@ -16,13 +16,13 @@ order: 20220594
 如果前往参观的话，夏天的高峰时段需要开车至White Rock Visitor Center然后乘坐摆渡车进入公园。其余时间可以直接开进公园。从公园里的游客中心走Main Loop Trail一圈就可以收揽几乎全部的cliff dwelling。
 
 <p style="text-align: center">
-{% include image.html filename="2022-05/056-01.jpeg" w="60%" %}
-{% include image.html filename="2022-05/056-02.jpeg" l=1 %}
-{% include image.html filename="2022-05/056-03.jpeg" r=1 %}
-{% include image.html filename="2022-05/056-04.jpeg" l=1 %}
-{% include image.html filename="2022-05/056-05.jpeg" r=1 %}
-{% include image.html filename="2022-05/056-06.jpeg" l=1 %}
-{% include image.html filename="2022-05/056-07.jpeg" r=1 %}
+{% include image.html filename="webp/2022-05/056-01.webp" w="60%" %}
+{% include image.html filename="webp/2022-05/056-02.webp" l=1 %}
+{% include image.html filename="webp/2022-05/056-03.webp" r=1 %}
+{% include image.html filename="webp/2022-05/056-04.webp" l=1 %}
+{% include image.html filename="webp/2022-05/056-05.webp" r=1 %}
+{% include image.html filename="webp/2022-05/056-06.webp" l=1 %}
+{% include image.html filename="webp/2022-05/056-07.webp" r=1 %}
 </p>
 
 ---
@@ -35,7 +35,7 @@ order: 20220594
 
 如果从Los Alamos出发去Bandelier的话会经过国家实验室的园区内部，会经过一个checkpoint需要检查ID。变相地可以算参观了一下。不过我去的时候并不知道会进到园区里面，突如其来的停车检查搞得一脸懵逼。
 
-{% include image.html filename="2022-05/056-08.jpeg" %}
+{% include image.html filename="webp/2022-05/056-08.webp" %}
 
 2022.5.29
 

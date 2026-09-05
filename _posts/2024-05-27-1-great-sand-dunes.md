@@ -3,7 +3,7 @@ title: Great Sand Dunes 大沙丘
 sub: 雪山、沙漠、溪流
 tags: [colorado, np]
 idx: 110
-image: /images/2024-05/110-01.jpeg
+image: /images/webp/2024-05/110-01.webp
 order: 20240588
 ---
 
@@ -19,12 +19,12 @@ order: 20240588
 
 冬天时来到大沙丘是另一番风景。四下无人，完全干涸的河床，远处的雪山更添一层雪顶。
 
-{% include image.html filename="2024-05/110-01.jpeg" %}
-{% include image.html filename="2024-05/110-02.jpeg" %}
-{% include image.html filename="2024-05/110-03.jpeg" l=1 %}
-{% include image.html filename="2024-05/110-04.jpeg" r=1 %}
-{% include image.html filename="2024-05/110-05.jpeg" l=1 %}
-{% include image.html filename="2024-05/110-06.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/110-01.webp" %}
+{% include image.html filename="webp/2024-05/110-02.webp" %}
+{% include image.html filename="webp/2024-05/110-03.webp" l=1 %}
+{% include image.html filename="webp/2024-05/110-04.webp" r=1 %}
+{% include image.html filename="webp/2024-05/110-05.webp" l=1 %}
+{% include image.html filename="webp/2024-05/110-06.webp" r=1 %}
 
 2018.11.10<br>
 2024.5.27

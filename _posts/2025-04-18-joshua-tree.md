@@ -3,7 +3,7 @@ title: Joshua Tree 约书亚树
 sub: 
 tags: [california, np]
 idx: 118
-image: /images/2025-04/118-05.jpeg
+image: /images/webp/2025-04/118-05.webp
 order: 20250498
 ---
 
@@ -26,11 +26,11 @@ order: 20250498
 	HTML5 video not supported.
 </video>
 
-{% include image.html filename="2025-04/118-03.jpeg" %}
-{% include image.html filename="2025-04/118-04.jpeg" %}
-{% include image.html filename="2025-04/118-05.jpeg" %}
-{% include image.html filename="2025-04/118-06.jpeg" l=1 %}
-{% include image.html filename="2025-04/118-07.jpeg" r=1 %}
+{% include image.html filename="webp/2025-04/118-03.webp" %}
+{% include image.html filename="webp/2025-04/118-04.webp" %}
+{% include image.html filename="webp/2025-04/118-05.webp" %}
+{% include image.html filename="webp/2025-04/118-06.webp" l=1 %}
+{% include image.html filename="webp/2025-04/118-07.webp" r=1 %}
 
 2020.9.6<br>
 2025.4.18

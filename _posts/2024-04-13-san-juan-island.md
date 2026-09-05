@@ -28,12 +28,12 @@ order: 20240499
 如今，游客可在圣胡安岛上的美军营地（American Camp）和英军营地（English Camp）中深入了解这段独特历史，两处游客中心皆有详尽展示与介绍。
 
 <p style="text-align: center">
-{% include image.html filename="2024-04/091-01.jpeg" w="80%" %}
-{% include image.html filename="2024-04/091-02.jpeg" l=1 %}
-{% include image.html filename="2024-04/091-03.jpeg" r=1 %}
-{% include image.html filename="2024-04/091-04.jpeg" w="80%" %}
-{% include image.html filename="2024-04/091-05.jpeg" l=1 %}
-{% include image.html filename="2024-04/091-06.jpeg" r=1 %}
+{% include image.html filename="webp/2024-04/091-01.webp" w="80%" %}
+{% include image.html filename="webp/2024-04/091-02.webp" l=1 %}
+{% include image.html filename="webp/2024-04/091-03.webp" r=1 %}
+{% include image.html filename="webp/2024-04/091-04.webp" w="80%" %}
+{% include image.html filename="webp/2024-04/091-05.webp" l=1 %}
+{% include image.html filename="webp/2024-04/091-06.webp" r=1 %}
 </p>
 
 2024.4.13

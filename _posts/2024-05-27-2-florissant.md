@@ -3,7 +3,7 @@ title: Florissant Fossil Beds NM
 sub: 
 tags: [colorado, nm]
 idx: 111
-image: /images/2024-05/111-01.jpeg
+image: /images/webp/2024-05/111-01.webp
 order: 20240587
 ---
 
@@ -15,10 +15,10 @@ Florissant Fossil Beds 位于科罗拉多州 Colorado Springs 西边的山上，
 
 在公园主体之外的 Hornbek Homestead 是一个建于1878年的小木屋。木屋及周围的土地被国家公园收购并划入化石公园的范围，之后这座老宅也得以保护。如今木屋内部保留了当时屋主的布局，是典型的西进运动中建立的宅地样貌。
 
-{% include image.html filename="2024-05/111-01.jpeg" l=1 %}
-{% include image.html filename="2024-05/111-02.jpeg" r=1 %}
-{% include image.html filename="2024-05/111-03.jpeg" l=1 %}
-{% include image.html filename="2024-05/111-04.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/111-01.webp" l=1 %}
+{% include image.html filename="webp/2024-05/111-02.webp" r=1 %}
+{% include image.html filename="webp/2024-05/111-03.webp" l=1 %}
+{% include image.html filename="webp/2024-05/111-04.webp" r=1 %}
 
 2024.5.27
 

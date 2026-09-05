@@ -4,7 +4,7 @@ sub: 布拉克山森林人工与自然的雕刻
 tags: [southdakota, nmem]
 idx:
 extras: ["97. Mount Rushmore N MEM", "Crazy Horse"]
-image: /images/2024-05/097-01.jpeg
+image: /images/webp/2024-05/097-01.webp
 order: 20240596
 ---
 
@@ -14,14 +14,14 @@ order: 20240596
 
 总统山所在的布拉克山（Black Hill）曾经长期是印第安部落 Lakota 的地盘，而且被认为是圣山。在白人西部开发的过程中，他们的活动范围从整个大平原被迫逐渐缩小。到了1868年，美国与 Lakota 人签署了条约，至少给予了该部落在布拉克山的独有使用权。可是他们还是在短短不到10年内通过战争占领了这里，之后允许白人在此定居。
 
-{% include image.html filename="2024-05/097-01.jpeg" %}
+{% include image.html filename="webp/2024-05/097-01.webp" %}
 
 Lakota 自此不断对此有所反抗，但却能奈何？他们试图发起过运动，上过法庭。他们拒绝法庭判决的赔款，只声索领地。如今他们在总统山不远的地方开始雕刻自己的民族英雄疯马，并且全过程拒绝美国政府的任何捐赠。从这个角度来看，在占领原住民的圣山雕刻上美国总统，这完全可以说成是“虚伪的殿堂”（Shrine of Hypocrisy）。
 
 这片地，还是不可能还的。最多让印第安人当个公园主管，收收停车费挣钱。目前总统山参观免费，但是乘车进入要交$10停车费（即使有公园年票也得付）。疯马巨石票价取决于季节和车里人数，在$12-$35不等。
 
-{% include image.html filename="2024-05/097-02.jpeg" l=1 %}
-{% include image.html filename="2024-05/097-03.jpeg" r=1 %}
+{% include image.html filename="webp/2024-05/097-02.webp" l=1 %}
+{% include image.html filename="webp/2024-05/097-03.webp" r=1 %}
 
 
 2015.5.3 (Mt Rushmore, Crazy Horse)<br>

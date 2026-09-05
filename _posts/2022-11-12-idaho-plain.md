@@ -4,7 +4,7 @@ sub:
 tags: [idaho, nm]
 idx:
 extras: ["78. Craters of the Moon NM & PRES", "79. Hagerman Fossil Beds NM", "80. Minidoka NHS", "81. City of Rocks N RES"]
-image: /images/2022-11/078-01.jpeg
+image: /images/webp/2022-11/078-01.webp
 order: 20221198
 ---
 
@@ -14,9 +14,9 @@ order: 20221198
 
 在爱达荷州南部，这个公园直接取名“月球陨石坑”，是因为这里酷似月球表面的缘故。然而早冬之时已有积雪，银装素裹的月球表面有谁见过？这里贫瘠的土壤是其实是遍地的火山灰。其面积之大一望无际。公园内部在冬季不清理积雪也不通车，只能步行进入，加上大部分都被积雪覆盖着，并不能很好地体会到其独特之处，因此春夏秋前来整体体验会更佳。
 
-{% include image.html filename="2022-11/078-01.jpeg" l=1 %}
-{% include image.html filename="2022-11/078-02.jpeg" r=1 %}
-{% include image.html filename="2022-11/078-03.jpeg" %}
+{% include image.html filename="webp/2022-11/078-01.webp" l=1 %}
+{% include image.html filename="webp/2022-11/078-02.webp" r=1 %}
+{% include image.html filename="webp/2022-11/078-03.webp" %}
 
 ---
 
@@ -25,7 +25,7 @@ order: 20221198
 公园是一片化石地，但是却只能在游客中心里才能看到真正的化石。除了打卡来了个寂寞。对比化石公园，还是强烈推荐俄勒冈的John Day Fossil Beds主要是游客中心身临其境；位于Nebraska的Agate Fossil Beds有实地化石也很不错。
 
 <p style="text-align: center">
-{% include image.html filename="2022-11/078-04.jpeg" w="80%" %}
+{% include image.html filename="webp/2022-11/078-04.webp" w="80%" %}
 </p>
 
 ---
@@ -35,7 +35,7 @@ order: 20221198
 与加州395公路上的Manzania一样，是珍珠港事件后美国大批囚禁日裔的集中营。
 
 <p style="text-align: center">
-{% include image.html filename="2022-11/078-05.jpeg" w="60%" %}
+{% include image.html filename="webp/2022-11/078-05.webp" w="60%" %}
 </p>
 
 ---
@@ -44,10 +44,10 @@ order: 20221198
 
 他们起名字都挺抽象。“石头城”公园地处偏远的爱达荷与犹他/内华达交界附近。保护区内基本没有铺路，只能土路飞沙走石。此处怪石嶙峋，因此得名。但从任何地方专门来此处多少有点没必要。
 
-{% include image.html filename="2022-11/078-06.jpeg" l=1 %}
-{% include image.html filename="2022-11/078-07.jpeg" r=1 %}
-{% include image.html filename="2022-11/078-08.jpeg" l=1 %}
-{% include image.html filename="2022-11/078-09.jpeg" r=1 %}
+{% include image.html filename="webp/2022-11/078-06.webp" l=1 %}
+{% include image.html filename="webp/2022-11/078-07.webp" r=1 %}
+{% include image.html filename="webp/2022-11/078-08.webp" l=1 %}
+{% include image.html filename="webp/2022-11/078-09.webp" r=1 %}
 
 ---
 
@@ -59,13 +59,13 @@ order: 20221198
 
 这全程200英里，除了在Malta镇上会有加油站，中途一片荒芜。当我离开Malta不久后才意识到油量的问题。汽车显示大约还能开150英里。赶紧搜索了一下，除了一个到达时肯定已关门的加油站之外，最近的竟也是150英里外。
 
-{% include image.html filename="2022-11/078-11.jpeg" %}
+{% include image.html filename="webp/2022-11/078-11.webp" %}
 
 是绕个路返回Malta加油，还是赌一把？
 
 我想到我曾经把我的车开到range显示为0后还能开一段，最后我还是选择了继续前行。接下来的两个小时在车上我甚至大气不敢喘一口，生怕多耗一毫升汽油。意想不到的是，GMC这车在range降到50英里以下后就不显示具体数值了，而只有一个Fuel Low的标志。我设想了无数种可能——如果我当时听了导航的话，里程肯定够；如果我返回去找加油站了……
 
-{% include image.html filename="2022-11/078-10.jpeg" %}
+{% include image.html filename="webp/2022-11/078-10.webp" %}
 
 最后上到I-80后，距离加油站还有最后的10英里。这段I-80坡起坡落。上坡时引擎高速轰鸣的声音揪着我的紧张的心。
 
