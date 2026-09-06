@@ -16,13 +16,11 @@ order: 20230198
 
 公园内的化石主要在南区，我选择走了Crystal Forest和Blue Mesa两个trail。另外公园内我正好赶上有ranger查超速，我确实因为赶路超速了不少，不过他最后给我了个warning放了我一马……
 
-<p style="text-align: center">
 {% include image.html filename="webp/2023-01/082-02.webp" %}
-{% include image.html filename="webp/2023-01/082-03.webp" l=1 %}
-{% include image.html filename="webp/2023-01/082-04.webp" r=1 %}
+{% include image.html filename="webp/2023-01/082-03.webp" hf=1 %}
+{% include image.html filename="webp/2023-01/082-04.webp" hf=1 %}
 {% include image.html filename="webp/2023-01/082-06.webp" %}
 {% include image.html filename="webp/2023-01/082-07.webp" %}
-</p>
 
 ---
 
@@ -32,8 +30,8 @@ order: 20230198
 
 我到达此处时天降大雪，草草参观了一下游客中心和建筑外围就离开了。这个trading post现在虽然是国家公园的一部分，但实际仍在运营。游客可以在这里购买小商品、食品杂货、首饰等等，很有传统特色。
 
-{% include image.html filename="webp/2023-01/082-08.webp" l=1 %}
-{% include image.html filename="webp/2023-01/082-09.webp" r=1 %}
+{% include image.html filename="webp/2023-01/082-08.webp" hf=1 %}
+{% include image.html filename="webp/2023-01/082-09.webp" hf=1 %}
 
 2023.1.15
 

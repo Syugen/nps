@@ -17,20 +17,18 @@ order: 20220295
 
 {% include image.html filename="webp/2022-02/049-01.webp" %}
 {% include image.html filename="webp/2022-02/049-02.webp" %}
-{% include image.html filename="webp/2022-02/049-03.webp" l=1 %}
-{% include image.html filename="webp/2022-02/049-04.webp" r=1 %}
-{% include image.html filename="webp/2022-02/049-05.webp" l=1 %}
-{% include image.html filename="webp/2022-02/049-06.webp" r=1 %}
+{% include image.html filename="webp/2022-02/049-03.webp" hf=1 %}
+{% include image.html filename="webp/2022-02/049-04.webp" hf=1 %}
+{% include image.html filename="webp/2022-02/049-05.webp" hf=1 %}
+{% include image.html filename="webp/2022-02/049-06.webp" hf=1 %}
 
 ### 2022.2.27
 
 冬日的拉森火山有着与夏天完全不同的景色。由于我没有滑雪装备，我并没有试图深入雪地之中。从铲了雪与没铲雪的交界处能看到这雪有两米深。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-02/049-09.webp" w="60%" %}
-{% include image.html filename="webp/2022-02/049-07.webp" l=1 %}
-{% include image.html filename="webp/2022-02/049-08.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2022-02/049-09.webp" %}
+{% include image.html filename="webp/2022-02/049-07.webp" hf=1 %}
+{% include image.html filename="webp/2022-02/049-08.webp" hf=1 %}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d388920.4293456617!2d-121.8450943!3d40.3990835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809d56012eb5ee07%3A0x4c14ea653c44d56e!2sKohm%20Yah-mah-nee%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1653174257076!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

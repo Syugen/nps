@@ -15,8 +15,8 @@ order: 20260592
 博主接头小霸王有一期来到这里做了深度体验，我觉得我们的感受相似。这个城市的有钱人早都搬出去了，感觉除了给州政府工作的员工，没什么像样的产业的样子。而这些打工人也不住在这里，很多通勤者居住卫星城市，比如 Ridgeland，也是我们住宿所在。人口资料显示，Jackson 的黑人人口占80%，白人只有15%，而 Ridgeland 白人则有40%多。
 
 {% include image.html filename="webp/2026-05/144-01.webp" %}
-{% include image.html filename="webp/2026-05/144-02.webp" l=1 %}
-{% include image.html filename="webp/2026-05/144-03.webp" r=1 %}
+{% include image.html filename="webp/2026-05/144-02.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/144-03.webp" hf=1 %}
 
 ---
 
@@ -26,8 +26,8 @@ order: 20260592
 
 Medgar Evers是当地黑人运动中的重要人物，于1963年在自家车道上遭到暗杀。如今，这座故居里仍保留着枪击留下的痕迹：墙上的弹孔，以及冰箱门上被子弹撞出的凹痕。尽管事件已经过去半个多世纪，这里依然透着一种高度戒备的气氛，仿佛至今仍可能成为极端袭击的目标。院子里安装着摄像头，屋内的公园管理员也不时朝窗外张望。我说不准他是在留意访客，还是在警戒周围的动静。不过，我们刚一下车，他便从屋里出来迎接了。
 
-{% include image.html filename="webp/2026-05/144-04.webp" l=1 %}
-{% include image.html filename="webp/2026-05/144-05.webp" r=1 %}
+{% include image.html filename="webp/2026-05/144-04.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/144-05.webp" hf=1 %}
 {% include image.html filename="webp/2026-05/144-06.webp" %}
 
 ---
@@ -45,8 +45,8 @@ Medgar Evers是当地黑人运动中的重要人物，于1963年在自家车道�
 国家公园系统在密西西比州除了这两个关于黑人的，基本就是南北战争了。我悉数纯打卡盖了章而已。在Vicksburg公园有一艘USS Cairo（开罗号）倒是略微值得一看，毕竟快两个世纪前的一艘木头战船的真品。
 
 {% include image.html filename="webp/2026-05/144-08.webp" %}
-{% include image.html filename="webp/2026-05/144-09.webp" l=1 %}
-{% include image.html filename="webp/2026-05/144-10.webp" r=1 %}
+{% include image.html filename="webp/2026-05/144-09.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/144-10.webp" hf=1 %}
 
 ---
 
@@ -58,8 +58,8 @@ Medgar Evers是当地黑人运动中的重要人物，于1963年在自家车道�
 ### Natchez Trace National Scenic Trail
 ### Natchez Trace Parkway
 
-{% include image.html filename="webp/2026-05/144-11.webp" l=1 %}
-{% include image.html filename="webp/2026-05/144-12.webp" r=1 %}
+{% include image.html filename="webp/2026-05/144-11.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/144-12.webp" hf=1 %}
 
 2026.5.16 (Natchez)<br>
 2026.5.19 (Jackson, etc.)

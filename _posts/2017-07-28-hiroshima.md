@@ -13,8 +13,8 @@ tag: [japan]
 
 插播：期间在舞子站返回等车时，偶然看到一辆车写着开往“学园都市”。马萨卡！便想到了《某科学的超电磁炮》中以东京都为背景虚构的学园都市，没想到还真有？不过后来查了一些资料发现，其实学园都市大概就是大学城的意思，并没什么奇怪的。这个学园都市位于兵库县神户市。
 
-{% include image.html filename="japan/05-01.jpeg" l=1 %}
-{% include image.html filename="japan/05-02.jpeg" r=1 %}
+{% include image.html filename="japan/05-01.jpeg" hf=1 %}
+{% include image.html filename="japan/05-02.jpeg" hf=1 %}
 
 ### 姬路
 
@@ -24,15 +24,15 @@ tag: [japan]
 
 现在是这个样子：
 
-{% include image.html filename="japan/05-03.jpeg" l=1 %}
-{% include image.html filename="japan/05-04.jpeg" r=1 %}
+{% include image.html filename="japan/05-03.jpeg" hf=1 %}
+{% include image.html filename="japan/05-04.jpeg" hf=1 %}
 
 如果没记错的话，当时门票只要290日元，进去的地方是脚手架搭的展厅，冷气开放。现在修好了，门票是1000日元，拖鞋后可以爬到天守阁的最高层展望远处（然而没有空调够热的）。
 
 可能是因为太热了……我基本上没拍什么照片……这是在天守阁内的姬路城沙盘模型。
 
-{% include image.html filename="japan/05-05.jpeg" l=1 %}
-{% include image.html filename="japan/05-06.jpeg" r=1 %}
+{% include image.html filename="japan/05-05.jpeg" hf=1 %}
+{% include image.html filename="japan/05-06.jpeg" hf=1 %}
 
 虽然没怎么拍照片，不过吃饭是忘不掉拍照的。
 
@@ -46,8 +46,8 @@ tag: [japan]
 
 后来查资料发现，这个车刚运行的时候，想进到一号车厢的展览室，尤其是EVA驾驶室，需要预约，然而这次碰巧遇上的已经没有之前的那份火爆了，一号车厢和体验驾驶室随便进，并且有列车员帮忙给照相留影。不过我对此还是没有什么执念，觉得做进去有点二，就小小参观了一下下。
 
-{% include image.html filename="japan/05-08.jpeg" l=1 %}
-{% include image.html filename="japan/05-09.jpeg" r=1 %}
+{% include image.html filename="japan/05-08.jpeg" hf=1 %}
+{% include image.html filename="japan/05-09.jpeg" hf=1 %}
 
 可以说，从0系到N700系的新干线，0、100、300系很像普通的火车，不过毕竟那都是1960年代之后的产物了，其中300系还是《铁胆火车侠》中希望号（のぞみ，nozomi）的原型；700系系列车头像鸭子；而500系虽是1990年代的产物，却足有一种现代感。
 
@@ -57,12 +57,12 @@ tag: [japan]
 
 从姬路站坐到广岛站，下车又拍了拍。
 
-{% include image.html filename="japan/05-12.jpeg" l=1 %}
-{% include image.html filename="japan/05-10.jpeg" r=1 %}
-{% include image.html filename="japan/05-13.jpeg" l=1 %}
-{% include image.html filename="japan/05-11.jpeg" r=1 %}
-{% include image.html filename="japan/05-14.jpeg" l=1 %}
-{% include image.html filename="japan/05-15.jpeg" r=1 %}
+{% include image.html filename="japan/05-12.jpeg" hf=1 %}
+{% include image.html filename="japan/05-10.jpeg" hf=1 %}
+{% include image.html filename="japan/05-13.jpeg" hf=1 %}
+{% include image.html filename="japan/05-11.jpeg" hf=1 %}
+{% include image.html filename="japan/05-14.jpeg" hf=1 %}
+{% include image.html filename="japan/05-15.jpeg" hf=1 %}
 
 ### 吴市大和博物馆
 
@@ -72,15 +72,15 @@ tag: [japan]
 
 位于车站的观光地图，很二次元。
 
-{% include image.html filename="japan/05-16.jpeg" l=1 %}
-{% include image.html filename="japan/05-17.jpeg" r=1 %}
+{% include image.html filename="japan/05-16.jpeg" hf=1 %}
+{% include image.html filename="japan/05-17.jpeg" hf=1 %}
 
 吴（呉，くれ，kure）是一个城市，以造船为主。热爱舰船的B哥自然不会不来这里，位于这里的大和号博物馆更是展列了各式二战时期的日本战舰。
 
 位于博物馆内的大和号模型。
 
-{% include image.html filename="japan/05-18.jpeg" l=1 %}
-{% include image.html filename="japan/05-19.jpeg" r=1 %}
+{% include image.html filename="japan/05-18.jpeg" hf=1 %}
+{% include image.html filename="japan/05-19.jpeg" hf=1 %}
 {% include image.html filename="japan/05-20.jpeg" %}
 
 虽然来到这里的主题是“船”，但是这里由于其在二战中的重要地位，自然在博物馆里少不了关于战争的话题。不得不说，日本对于二战的态度多多少少把自己归为了受害者，大喊着“我们要和平！”。广岛被炸，多少不是因为吴市的海军造船厂？长崎被炸，多少不是因为佐世保的基地？对于在广岛和长崎无辜死亡的平民，他们确实是受害者，然而这丝毫无法掩盖其军队在侵略他国时的嚣张跋扈。然而针对这段侵略历史，他们的重点却放在了“我们感觉受到了西方科技发展的威胁，所以引进西方技术，所以我们很厉害”。看到此不禁呵呵一笑。本馆的主题大和号，是日本海军最大、集结了日本最高技术的战舰了，被美军击沉后数十年的今天，他们还原了一个模型出来。可是在解说词中的话（大致）“建造大和号模型是为了呼吁和平”真的给人此地无银三百两的感觉。这个模型，甚至这个博物馆，真的不是为了炫耀这搜战舰的吗？
@@ -93,8 +93,8 @@ tag: [japan]
 
 广岛平和公园。
 
-{% include image.html filename="japan/05-21.jpeg" l=1 %}
-{% include image.html filename="japan/05-22.jpeg" r=1 %}
+{% include image.html filename="japan/05-21.jpeg" hf=1 %}
+{% include image.html filename="japan/05-22.jpeg" hf=1 %}
 
 平民是无辜的，爱好和平是没有错的。但如果以此作为借口而淡化历史中的错误，那绝对是不可原谅的。
 

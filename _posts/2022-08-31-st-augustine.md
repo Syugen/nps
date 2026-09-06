@@ -18,14 +18,12 @@ St. Augustine也是一个浪漫的小镇，值得花上一天时间沉浸在古�
 
 在美国南北战争之后的时代，这个城堡在军事上的意义已经落后，它被当成监狱，专门关押抓获的西部原住民反抗者。如今在城堡内部还能参观到还原当时监狱的场景。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-08/074-01.webp" w="60%" %}
-{% include image.html filename="webp/2022-08/074-04.webp" l=1 %}
-{% include image.html filename="webp/2022-08/074-05.webp" r=1 %}
-{% include image.html filename="webp/2022-08/074-02.webp" l=1 %}
-{% include image.html filename="webp/2022-08/074-03.webp" r=1 %}
+{% include image.html filename="webp/2022-08/074-01.webp" %}
+{% include image.html filename="webp/2022-08/074-04.webp" hf=1 %}
+{% include image.html filename="webp/2022-08/074-05.webp" hf=1 %}
+{% include image.html filename="webp/2022-08/074-02.webp" hf=1 %}
+{% include image.html filename="webp/2022-08/074-03.webp" hf=1 %}
 {% include image.html filename="webp/2022-08/074-06.webp" %}
-</p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d441888.24488190055!2d-81.62951063359371!3d30.08697089047759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e427be77f3a81f%3A0xd9c00b8eaa5a8ab1!2sCastillo%20de%20San%20Marcos%20National%20Monument!5e0!3m2!1sen!2sus!4v1678171487515!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -39,12 +37,10 @@ St. Augustine也是一个浪漫的小镇，值得花上一天时间沉浸在古�
 
 参观此景点的方式是在游客中心免费领取一个游船的boarding pass，游船一小时一班，从游客中心到碉堡旁边。下船后ranger介绍历史，之后自由活动可以亲自爬到碉堡顶上，体验一把18世纪的西班牙哨兵。
 
-<p style="text-align: center">
 {% include image.html filename="webp/2022-08/074-07.webp" w="80%" %}
 {% include image.html filename="webp/2022-08/074-08.webp" w="80%" %}
-{% include image.html filename="webp/2022-08/074-09.webp" l=1 %}
-{% include image.html filename="webp/2022-08/074-10.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2022-08/074-09.webp" hf=1 %}
+{% include image.html filename="webp/2022-08/074-10.webp" hf=1 %}
 
 2022.8.31
 

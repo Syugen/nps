@@ -14,8 +14,8 @@ order: 20221198
 
 在爱达荷州南部，这个公园直接取名“月球陨石坑”，是因为这里酷似月球表面的缘故。然而早冬之时已有积雪，银装素裹的月球表面有谁见过？这里贫瘠的土壤是其实是遍地的火山灰。其面积之大一望无际。公园内部在冬季不清理积雪也不通车，只能步行进入，加上大部分都被积雪覆盖着，并不能很好地体会到其独特之处，因此春夏秋前来整体体验会更佳。
 
-{% include image.html filename="webp/2022-11/078-01.webp" l=1 %}
-{% include image.html filename="webp/2022-11/078-02.webp" r=1 %}
+{% include image.html filename="webp/2022-11/078-01.webp" hf=1 %}
+{% include image.html filename="webp/2022-11/078-02.webp" hf=1 %}
 {% include image.html filename="webp/2022-11/078-03.webp" %}
 
 ---
@@ -24,9 +24,7 @@ order: 20221198
 
 公园是一片化石地，但是却只能在游客中心里才能看到真正的化石。除了打卡来了个寂寞。对比化石公园，还是强烈推荐俄勒冈的John Day Fossil Beds主要是游客中心身临其境；位于Nebraska的Agate Fossil Beds有实地化石也很不错。
 
-<p style="text-align: center">
 {% include image.html filename="webp/2022-11/078-04.webp" w="80%" %}
-</p>
 
 ---
 
@@ -34,20 +32,18 @@ order: 20221198
 
 与加州395公路上的Manzania一样，是珍珠港事件后美国大批囚禁日裔的集中营。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-11/078-05.webp" w="60%" %}
-</p>
+{% include image.html filename="webp/2022-11/078-05.webp" %}
 
 ---
 
-### City of Rocks National Preserve（图6-9）
+### City of Rocks National Preserve
 
 他们起名字都挺抽象。“石头城”公园地处偏远的爱达荷与犹他/内华达交界附近。保护区内基本没有铺路，只能土路飞沙走石。此处怪石嶙峋，因此得名。但从任何地方专门来此处多少有点没必要。
 
-{% include image.html filename="webp/2022-11/078-06.webp" l=1 %}
-{% include image.html filename="webp/2022-11/078-07.webp" r=1 %}
-{% include image.html filename="webp/2022-11/078-08.webp" l=1 %}
-{% include image.html filename="webp/2022-11/078-09.webp" r=1 %}
+{% include image.html filename="webp/2022-11/078-06.webp" hf=1 %}
+{% include image.html filename="webp/2022-11/078-07.webp" hf=1 %}
+{% include image.html filename="webp/2022-11/078-08.webp" hf=1 %}
+{% include image.html filename="webp/2022-11/078-09.webp" hf=1 %}
 
 ---
 

@@ -32,10 +32,10 @@ Bear Lake Road的尽头停车场往往会很早就停满车，因此建议在中
 
 山上天气变化莫测，五月底的落基山甚至会在晴天下雪。
 
-{% include image.html filename="webp/2024-05/106-02.webp" l=1 %}
-{% include image.html filename="webp/2024-05/106-03.webp" r=1 %}
-{% include image.html filename="webp/2024-05/106-04.webp" l=1 %}
-{% include image.html filename="webp/2024-05/106-05.webp" r=1 %}
+{% include image.html filename="webp/2024-05/106-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/106-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/106-04.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/106-05.webp" hf=1 %}
 
 2024.5.25
 

@@ -9,13 +9,11 @@ order: 20231099
 
 雷尼尔无需多言。
 
-<p style="text-align: center">
 {% include image.html filename="webp/2023-10/090-01.webp" %}
-{% include image.html filename="webp/2023-10/090-02.webp" l=1 %}
-{% include image.html filename="webp/2023-10/090-03.webp" r=1 %}
-{% include image.html filename="webp/2023-10/090-04.webp" l=1 %}
-{% include image.html filename="webp/2023-10/090-05.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2023-10/090-02.webp" hf=1 %}
+{% include image.html filename="webp/2023-10/090-03.webp" hf=1 %}
+{% include image.html filename="webp/2023-10/090-04.webp" hf=1 %}
+{% include image.html filename="webp/2023-10/090-05.webp" hf=1 %}
 
 2023.10.8
 

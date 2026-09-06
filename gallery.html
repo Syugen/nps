@@ -13,16 +13,24 @@ permalink: /gallery/
     html, body { height: 100%; }
     body { margin: 0; overflow: hidden; background: #111; color: #fff; font: 16px system-ui, sans-serif; }
     body.gallery-actual-size { overflow: auto; }
-    .gallery-page { box-sizing: border-box; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; height: 100%; padding: 0; }
-    .gallery-page > img { align-self: center; justify-self: center; max-width: 100vw; max-height: 100vh; width: auto; height: auto; object-fit: contain; }
+    .gallery-page { box-sizing: border-box; position: relative; height: 100%; padding: 0; }
+    .gallery-page > img { position: absolute; inset: 0; display: block; margin: auto; max-width: 100vw; max-height: 100vh; width: auto; height: auto; object-fit: contain; }
     .gallery-page.gallery-zoomable > img { cursor: zoom-in; }
     .gallery-page.gallery-actual-size { display: block; height: auto; min-height: 100%; padding: 0; }
-    .gallery-page.gallery-actual-size > img { display: block; max-width: none; max-height: none; width: auto; height: auto; margin: 0 auto; cursor: zoom-out; }
-    .gallery-page nav { position: fixed; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 16px; transform: translate(-50%, -50%); opacity: 0; pointer-events: none; transition: opacity 240ms ease; }
+    .gallery-page.gallery-actual-size > img { position: static; inset: auto; display: block; max-width: none; max-height: none; width: auto; height: auto; margin: 0 auto; cursor: zoom-out; }
+    .gallery-page nav { position: fixed; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 16px; transform: translate(-50%, -50%); white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 240ms ease; }
     .gallery-page nav.gallery-controls-visible { opacity: 1; pointer-events: auto; }
-    button { padding: 8px 16px; border: 1px solid #777; border-radius: 4px; background: #292929; color: #fff; font: inherit; cursor: pointer; }
+    button { flex: 0 0 auto; padding: 8px 16px; border: 1px solid #777; border-radius: 4px; background: #292929; color: #fff; font: inherit; white-space: nowrap; cursor: pointer; }
     button:disabled { opacity: .35; cursor: default; }
     .gallery-error { display: flex; align-items: center; justify-content: center; }
+    @media (max-width: 250px) {
+      .gallery-page nav { gap: 8px; }
+      button { padding-inline: 10px; }
+    }
+    @media (max-width: 190px) {
+      .gallery-page nav { gap: 4px; }
+      button { padding-inline: 6px; }
+    }
   </style>
 </head>
 <body>

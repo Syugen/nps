@@ -25,17 +25,15 @@ order: 20240995
 
 1972年，这座牧场被正式纳入国家公园体系，成为“国家历史遗址”，以纪念美国西部牛仔文化和开放牧场制度对国家发展历程的重要贡献。至今，它仍然是一个活跃运作的牧场，既能盖章留念，也能亲眼见证那段野性与梦想并存的西部传奇。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2024-09/116-01.webp" l=1 %}
-{% include image.html filename="webp/2024-09/116-02.webp" r=1 %}
+{% include image.html filename="webp/2024-09/116-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-09/116-02.webp" hf=1 %}
 {% include image.html filename="webp/2024-09/116-03.webp" w="80%" %}
 {% include image.html filename="webp/2024-09/116-04.webp" w="80%" %}
-{% include image.html filename="webp/2024-09/116-05.webp" l=1 %}
-{% include image.html filename="webp/2024-09/116-06.webp" r=1 %}
-{% include image.html filename="webp/2024-09/116-07.webp" l=1 %}
-{% include image.html filename="webp/2024-09/116-08.webp" r=1 %}
-{% include image.html filename="webp/2024-09/116-09.webp" w="60%" %}
-</p>
+{% include image.html filename="webp/2024-09/116-05.webp" hf=1 %}
+{% include image.html filename="webp/2024-09/116-06.webp" hf=1 %}
+{% include image.html filename="webp/2024-09/116-07.webp" hf=1 %}
+{% include image.html filename="webp/2024-09/116-08.webp" hf=1 %}
+{% include image.html filename="webp/2024-09/116-09.webp" %}
 
 2024.9.30
 

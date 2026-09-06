@@ -14,12 +14,12 @@ i-19靠近南部边境的地方叫做Tumacacori的地方是一个国家历史公
 西班牙人对从大约1700年开始来到Tumacacori并逐渐产生影响。直到1821年墨西哥独立，驱逐了西班牙人（墨西哥独立时此地属于墨西哥）。之后1848年美墨战争结束后此地成为美国领土，当地原住民也逐渐离开了这里。
 
 {% include image.html filename="webp/2022-07/065-01.webp" %}
-{% include image.html filename="webp/2022-07/065-02.webp" l=1 %}
-{% include image.html filename="webp/2022-07/065-03.webp" r=1 %}
-{% include image.html filename="webp/2022-07/065-04.webp" l=1 %}
-{% include image.html filename="webp/2022-07/065-05.webp" r=1 %}
-{% include image.html filename="webp/2022-07/065-06.webp" l=1 %}
-{% include image.html filename="webp/2022-07/065-07.webp" r=1 %}
+{% include image.html filename="webp/2022-07/065-02.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/065-03.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/065-04.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/065-05.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/065-06.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/065-07.webp" hf=1 %}
 
 ---
 
@@ -27,9 +27,7 @@ i-19靠近南部边境的地方叫做Tumacacori的地方是一个国家历史公
 
 仅仅过了7年后的1982年，公制委员会就被里根解散了。i-19也就成为了唯一。尽管有人希望i-19改成常用的英里制，但这意味着匝道口号码要重新编排（大多数高速的出口编号是从高速起点开始的里程数），会造成信息混乱，因此反向的推动也没能成功。
 
-<p style="text-align: center">
 {% include image.html filename="webp/2022-07/065-08.webp" w="60%" %}
-</p>
 
 2022.7.3
 

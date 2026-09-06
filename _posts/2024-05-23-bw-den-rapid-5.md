@@ -20,14 +20,14 @@ Bandlands 的游览方式可以很简单，沿着公园内一条贯穿北部园�
 
 公园南区一般游客较少，位于印第安保留区内，开发也比较少。二战时期，南区部分被用作导弹演习的区域。尽管之后有所清理，但或许还留有未引爆点弹药。在I-80上的民兵导弹的展览馆有对此的更多介绍。
 
-{% include image.html filename="webp/2024-05/099-01.webp" l=1 %}
-{% include image.html filename="webp/2024-05/099-02.webp" r=1 %}
-{% include image.html filename="webp/2024-05/099-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/099-04.webp" r=1 %}
-{% include image.html filename="webp/2024-05/099-05.webp" l=1 %}
-{% include image.html filename="webp/2024-05/099-06.webp" r=1 %}
-{% include image.html filename="webp/2024-05/099-07.webp" l=1 %}
-{% include image.html filename="webp/2024-05/099-08.webp" r=1 %}
+{% include image.html filename="webp/2024-05/099-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-04.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-05.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-06.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-07.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/099-08.webp" hf=1 %}
 
 ---
 
@@ -39,10 +39,10 @@ Bandlands 的游览方式可以很简单，沿着公园内一条贯穿北部园�
 
 展览馆里能够了解到当事方对于如此部署的意识形态和相关历史，或许在此不宜过多展示，如有兴趣最好现场免费参观。
 
-{% include image.html filename="webp/2024-05/100-01.webp" l=1 %}
-{% include image.html filename="webp/2024-05/100-02.webp" r=1 %}
-{% include image.html filename="webp/2024-05/100-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/100-04.webp" r=1 %}
+{% include image.html filename="webp/2024-05/100-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/100-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/100-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/100-04.webp" hf=1 %}
 
 2021.5.16<br>
 2024.5.23

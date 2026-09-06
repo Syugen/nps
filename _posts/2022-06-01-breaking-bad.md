@@ -12,8 +12,8 @@ order: 20220591
 
 第一日从丹佛经大沙丘和Taos后，开到ABQ住下。次日因要继续赶路，不到7点就起了床。既白之时便悄咪咪来到了所有“朝圣者”的必访之处老白家。拍摄原址的住户仍住于此，尽管每日游客繁多，却坚持不卖房不搬走。反之，不胜其扰的屋主加装了防护围栏，以防止trespassing者向他们房顶扔披萨。相传屋主家的老太太每日坐于前院，向所有到访者大喊，甚至直接911，因此我到访之时甚是紧张。所幸起得早，估计老太尚未起床。车停在马路对面，狗仔一样偷拍数张便草草离开。
 
-{% include image.html filename="webp/2022-06/060-s01a.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-s01b.webp" r=1 %}
+{% include image.html filename="webp/2022-06/060-s01a.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-s01b.webp" hf=1 %}
 
 今年（2022）随同为该剧的粉丝的朋友再次造访，见老太在院中看报纸。虽然全程未下车，但她发现我们的车鬼鬼祟祟地停在路边，直接开始打起电话，目测是在911。
 
@@ -24,10 +24,10 @@ order: 20220591
 接下来前往了城南部有段距离的炸鸡店。该店实际为墨西哥风味快餐，但进入后也到处是该剧的痕迹。早上刚开门，店内空荡无食客。与店员相谈得知该剧在拍电影，也就是后来的小粉续作。我买了两份餐够一天伙食了。
 
 {% include image.html filename="webp/2022-06/060-s02b.webp"%}
-{% include image.html filename="webp/2022-06/060-s03b.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-s04b.webp" r=1 %}
-{% include image.html filename="webp/2022-06/060-s05a.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-s05b.webp" r=1 %}
+{% include image.html filename="webp/2022-06/060-s03b.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-s04b.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-s05a.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-s05b.webp" hf=1 %}
 
 
 离开ABQ向西北进发，前往四角地。途径的Chaco公园因为是世界遗产所以前来一探，却被迫开了几十分钟的土路，获得了驾驶新经验，该公园只能走土路进入。
@@ -39,7 +39,7 @@ order: 20220591
 所幸平安返回。此次自驾如启蒙般激活了我对于西部荒野的自驾热情，开启了我兴趣探索的新篇章。
 
 {% include image.html filename="webp/2022-06/060-s06.webp" w="60%" %}
-{% include image.html filename="webp/2022-06/060-s07a.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-s07b.webp" r=1 %}
+{% include image.html filename="webp/2022-06/060-s07a.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-s07b.webp" hf=1 %}
 
 2018.11.10-12

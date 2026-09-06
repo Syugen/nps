@@ -9,16 +9,16 @@ tag: [japan]
 
 小柜台，点单。
 
-{% include image.html filename="japan/10-01.jpeg" l=1 %}
-{% include image.html filename="japan/10-03.jpeg" r=1 %}
+{% include image.html filename="japan/10-01.jpeg" hf=1 %}
+{% include image.html filename="japan/10-03.jpeg" hf=1 %}
 {% include image.html filename="japan/10-02.jpeg" %}
 
 偷拍了一张厨房。
 
 很好吃，只是最后的汤被辣椒浸染了……有点喝不下去了，外加这店空调吹的贼凉，最后没干完汤。
 
-{% include image.html filename="japan/10-04.jpeg" l=1 %}
-{% include image.html filename="japan/10-05.jpeg" r=1%}
+{% include image.html filename="japan/10-04.jpeg" hf=1 %}
+{% include image.html filename="japan/10-05.jpeg" hf=1%}
 
 终于要结束了所有的行程，吃完回到旅店拿行李，乘坐地铁前往福冈机场。
 
@@ -26,8 +26,8 @@ tag: [japan]
 
 在日本的最后一次花销……在机场的7-11买了一袋松果样子的小面包。（B哥给本图命名“举个栗子”，突然觉得好逗啊！虽然不是栗子）最终将65000日元现金花到只剩下6日元。
 
-{% include image.html filename="japan/10-06.jpeg" l=1 %}
-{% include image.html filename="japan/10-07.jpeg" r=1 %}
+{% include image.html filename="japan/10-06.jpeg" hf=1 %}
+{% include image.html filename="japan/10-07.jpeg" hf=1 %}
 
 返程航班选择的是MU536福冈-青岛+MU5677青岛-北京。本文最最最开头说到，之前看到2800元没有买的机票就是MU536福冈-青岛-北京的航班。然而等我们签证办下来，这个票买到了将近4000元，于是为了省钱还是买了更折腾的方法。
 

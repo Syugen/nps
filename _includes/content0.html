@@ -2,26 +2,29 @@
 ---
 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
   {% if post.total %}
-<ul>
+<ul class="toc-list">
   {% endif %}
 {% else %}
 
   {% if post.head %}
 ---
 <h3>{{ post.head }}</h3>
-<ul>
+<ul class="toc-list">
   {% endif %}
 
   {% if post.idx %}
-<li>{{ post.idx }}. <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+<li class="toc-entry">
+  {{ post.idx }}. <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   {% elsif post.special %}
-<li>番外{{ post.special }}：<a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+<li class="toc-entry">
+  番外{{ post.special }}：<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   {% else %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+<li class="toc-entry">
+  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   {% endif %}
 
   {% unless post.idx %}
-<ul style="margin: 0; padding-left: 20px">
+<ul class="toc-extras" style="margin: 0; padding-left: 20px">
   {% endunless %}
   {% for title in post.extras %}
 <li>{{ title }}</li>
@@ -29,6 +32,8 @@
   {% unless post.idx %}
 </ul>
   {% endunless %}
+
+</li>
 
   {% if post.next == nil or post.next.tags contains "head" or post.next.head %}
 </ul>

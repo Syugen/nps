@@ -26,12 +26,12 @@ order: 20240597
 
 另外需要注意，如果从Rapid City出发前往风洞的游客中心，谷歌导航可能会让你走一段土路。建议选择走另一条。
 
-{% include image.html filename="webp/2024-05/095-01.webp" l=1 %}
-{% include image.html filename="webp/2024-05/095-02.webp" r=1 %}
-{% include image.html filename="webp/2024-05/095-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/095-04.webp" r=1 %}
-{% include image.html filename="webp/2024-05/095-05.webp" l=1 %}
-{% include image.html filename="webp/2024-05/095-06.webp" r=1 %}
+{% include image.html filename="webp/2024-05/095-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/095-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/095-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/095-04.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/095-05.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/095-06.webp" hf=1 %}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d701454.2546220894!2d-103.83604513950195!3d43.66339978641567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877cd6682456d573%3A0x39ed508f2559a57f!2sWind%20Cave%20National%20Park!5e0!3m2!1sen!2sus!4v1716147894416!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -47,14 +47,12 @@ Jewel Cave就在风洞附近半小时的车程。从历史和地质角度说他�
 
 下期继续。
 
-<p style="text-align: center">
 {% include image.html filename="webp/2024-05/096-01.webp" %}
-{% include image.html filename="webp/2024-05/096-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/096-02.webp" l=1 %}
-{% include image.html filename="webp/2024-05/096-04.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2024-05/096-03.webp" %}
+{% include image.html filename="webp/2024-05/096-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/096-04.webp" hf=1 %}
 
-2021.5.16
+2021.5.16<br>
 2024.5.22
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d961371.1996899835!2d-104.53927575460723!3d43.84682712685446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8762c36686ad1c09%3A0xc30026e14fe68816!2sJewel%20Cave%20National%20Monument!5e0!3m2!1sen!2sus!4v1716147926009!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

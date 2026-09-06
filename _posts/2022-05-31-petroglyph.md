@@ -20,16 +20,16 @@ Rinconada Canyon的线路最长，可能看到的壁画数量也较多。但基�
 
 Piedras Marcadas Canyon能看到的壁画数量最多，距离城区最远。
 
-{% include image.html filename="webp/2022-06/060-01.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-02.webp" r=1 %}
-{% include image.html filename="webp/2022-06/060-03.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-04.webp" r=1 %}
-{% include image.html filename="webp/2022-06/060-05.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-06.webp" r=1 %}
-{% include image.html filename="webp/2022-06/060-07.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-08.webp" r=1 %}
-{% include image.html filename="webp/2022-06/060-09.webp" l=1 %}
-{% include image.html filename="webp/2022-06/060-10.webp" r=1 %}
+{% include image.html filename="webp/2022-06/060-01.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-02.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-03.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-04.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-05.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-06.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-07.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-08.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-09.webp" hf=1 %}
+{% include image.html filename="webp/2022-06/060-10.webp" hf=1 %}
 
 2022.5.31
 

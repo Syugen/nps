@@ -18,10 +18,10 @@ order: 20240598
 
 顺便看到这荒无人烟处的限速80可谓不多见。
 
-{% include image.html filename="webp/2024-05/092-01.webp" l=1 %}
-{% include image.html filename="webp/2024-05/092-02.webp" r=1 %}
-{% include image.html filename="webp/2024-05/092-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/092-04.webp" r=1 %}
+{% include image.html filename="webp/2024-05/092-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/092-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/092-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/092-04.webp" hf=1 %}
 
 ---
 
@@ -31,10 +31,10 @@ order: 20240598
 
 这个景点同样可免费参观。
 
-{% include image.html filename="webp/2024-05/093-01.webp" l=1 %}
-{% include image.html filename="webp/2024-05/093-02.webp" r=1 %}
-{% include image.html filename="webp/2024-05/093-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/093-04.webp" r=1 %}
+{% include image.html filename="webp/2024-05/093-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/093-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/093-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/093-04.webp" hf=1 %}
 
 ---
 
@@ -44,16 +44,14 @@ order: 20240598
 
 不出意外，这又是个免费景点。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2024-05/094-01.webp" w="60%" %}
+{% include image.html filename="webp/2024-05/094-01.webp" %}
 {% include image.html filename="webp/2024-05/094-02.webp" %}
-{% include image.html filename="webp/2024-05/094-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/094-04.webp" r=1 %}
-{% include image.html filename="webp/2024-05/094-05.webp" l=1 %}
-{% include image.html filename="webp/2024-05/094-06.webp" r=1 %}
-{% include image.html filename="webp/2024-05/094-07.webp" l=1 %}
-{% include image.html filename="webp/2024-05/094-08.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2024-05/094-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/094-04.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/094-05.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/094-06.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/094-07.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/094-08.webp" hf=1 %}
 
 ---
 

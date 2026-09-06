@@ -19,8 +19,8 @@ Timucua是位于如今佛罗里达中北部和乔治亚州南部的原始部落�
 保护区附近可以沿海边的沙滩走一走trail，不过我觉得佛罗里达最不缺的就是沙滩了，在没有计划南下奥兰多/迈阿密的情况下可以值得一看。trail包括Little Talbot和Large Talbot。这些沙滩属于州立公园，因此有些停车要自觉交费。夏天来的时候一定要全副武装喷好防蚊液！喷好防蚊液！喷好防蚊液！
 
 {% include image.html filename="webp/2022-09/076-01.webp" %}
-{% include image.html filename="webp/2022-09/076-02.webp" l=1 %}
-{% include image.html filename="webp/2022-09/076-03.webp" r=1 %}
+{% include image.html filename="webp/2022-09/076-02.webp" hf=1 %}
+{% include image.html filename="webp/2022-09/076-03.webp" hf=1 %}
 
 ---
 
@@ -28,10 +28,8 @@ Timucua是位于如今佛罗里达中北部和乔治亚州南部的原始部落�
 
 在这片曾经西班牙人和英国人争斗的土地上，可曾想到Fort Caroline是一个法国人建立的堡垒。这16世纪修建的堡垒早已被摧毁，且如今没人知道最初的堡垒的位置。因此现在的是一个“赝品”，根据推测当时的堡垒位置重建了一座。从游客中心的停车场走到遗址，路途上还能见到复原的Timucua土著的小草屋。（我为什么没拍几张照片？因为夏天来的，下雨过后的潮湿天里，没涂防蚊液，停下来一秒钟能多出俩包）
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-09/076-04.webp" w="60%" %}
+{% include image.html filename="webp/2022-09/076-04.webp" %}
 {% include image.html filename="webp/2022-09/076-05.webp" %}
-</p>
 
 2022.9.1
 

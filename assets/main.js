@@ -218,6 +218,15 @@ postComment();
     return x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom;
   }
 
+  function imageAt(x, y) {
+    for (var index = 0; index < images.length; index++) {
+      if (isInside(images[index].getBoundingClientRect(), x, y)) {
+        return images[index];
+      }
+    }
+    return null;
+  }
+
   function showPreview(image) {
     removePreview(true);
 
@@ -294,7 +303,7 @@ postComment();
   }
 
   function openImageGallery(image) {
-    var galleryUrl = new URL(image.dataset.galleryUrl, window.location.origin);
+    var galleryUrl = new URL('/nps/gallery/', window.location.origin);
     var imageUrl = new URL(image.currentSrc || image.src, window.location.href);
 
     galleryUrl.searchParams.set('post', window.location.pathname);
@@ -316,6 +325,12 @@ postComment();
 
   document.addEventListener('pointermove', function(event) {
     if (!activePreview || activePreview.closing) {
+      // Scrolling can move an image beneath a stationary pointer without firing
+      // pointerenter. The next pointer movement checks the current coordinates.
+      var hoveredImage = imageAt(event.clientX, event.clientY);
+      if (hoveredImage) {
+        showPreview(hoveredImage);
+      }
       return;
     }
 
@@ -333,6 +348,73 @@ postComment();
   }, { passive: true });
   window.addEventListener('resize', function() {
     removePreview(true);
+  });
+}());
+
+// Within one rendered paragraph, consecutive hf=1 image includes alternate
+// left/right automatically.
+(function() {
+  var paragraphs = document.querySelectorAll('section > p');
+
+  for (var paragraphIndex = 0; paragraphIndex < paragraphs.length; paragraphIndex++) {
+    var nextIsLeft = true;
+    var children = paragraphs[paragraphIndex].children;
+
+    for (var childIndex = 0; childIndex < children.length; childIndex++) {
+      var image = children[childIndex].querySelector('img.image-half-auto');
+      if (image) {
+        image.classList.add(nextIsLeft ? 'image-half-left' : 'image-half-right');
+        nextIsLeft = !nextIsLeft;
+      } else if (children[childIndex].querySelector('img.responsive-img')) {
+        nextIsLeft = true;
+      }
+    }
+  }
+}());
+
+// After intrinsic dimensions are known, calculate a proportional display width
+// for each full-width image without an explicit w attribute. On a wide content
+// column, this avoids combining min-width and max-height constraints, which can
+// distort an image when those limits conflict.
+(function() {
+  var narrowColumnWidth = 504;
+  var minimumImageWidth = 400;
+  var maximumImageWidth = 800;
+  var images = document.querySelectorAll('img.responsive-img.image-full-auto-size');
+
+  function updateDisplaySize(image) {
+    var section = image.closest('section');
+    if (!section || section.clientWidth <= narrowColumnWidth) {
+      image.style.removeProperty('--full-image-display-width');
+      return;
+    }
+
+    var aspectRatio = image.naturalHeight / image.naturalWidth;
+    var heightLimitedWidth = window.innerHeight * 2 / 3 / aspectRatio;
+    var targetWidth = Math.min(
+      section.clientWidth,
+      maximumImageWidth,
+      Math.max(minimumImageWidth, Math.min(image.naturalWidth, heightLimitedWidth))
+    );
+    image.style.setProperty('--full-image-display-width', targetWidth + 'px');
+  }
+
+  for (var index = 0; index < images.length; index++) {
+    if (images[index].complete && images[index].naturalWidth) {
+      updateDisplaySize(images[index]);
+    } else {
+      images[index].addEventListener('load', function(event) {
+        updateDisplaySize(event.currentTarget);
+      });
+    }
+  }
+
+  window.addEventListener('resize', function() {
+    for (var index = 0; index < images.length; index++) {
+      if (images[index].naturalWidth) {
+        updateDisplaySize(images[index]);
+      }
+    }
   });
 }());
 

@@ -13,15 +13,15 @@ Jean Lafitte保护区对于国家公园系统来讲是一个奇怪的存在。�
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d443422.8299871526!2d-90.1337662!3d29.7417417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862099caaea6dddd%3A0x538e347f2f01b65e!2sAirboat%20Adventures!5e0!3m2!1sen!2sus!4v1652561630482!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-{% include image.html filename="2021-11/029-01.jpeg" %}
-{% include image.html filename="2021-11/029-02.jpeg" %}
+{% include image.html filename="webp/2021-11/029-01.webp" %}
+{% include image.html filename="webp/2021-11/029-02.webp" %}
 
 从Jean Lafitte的码头出发，最深开到了在谷歌地图上“Princess and the Frog Filming”的地方。这个地方提到的《公主与青蛙》是一部迪士尼电影，主要是讲的在新奥尔良的故事。我没看过但我猜测里面有个场景是以这个沼泽为原型画的。
 
 Jean Lafitte据说是一个来到新奥尔良的法国人，在这里搞走私，属于法外狂徒。但后来一系列转变成为了传奇人物。
 
-{% include image.html filename="2021-11/029-03.jpeg" l=1 %}
-{% include image.html filename="2021-11/029-04.jpeg" r=1 %}
+{% include image.html filename="webp/2021-11/029-03.webp" hf=1 %}
+{% include image.html filename="webp/2021-11/029-04.webp" hf=1 %}
 
 ---
 
@@ -29,8 +29,8 @@ Jean Lafitte据说是一个来到新奥尔良的法国人，在这里搞走私�
 
 关于爵士乐，这里的NPS unit一直没开，但是旁边的Jazz Museum跟他们有合作，所以我就去那里打卡了。只不过这博物馆确实也没啥意思。
 
-{% include image.html filename="2021-11/029-05.jpeg" l=1 %}
-{% include image.html filename="2021-11/029-06.jpeg" r=1 %}
+{% include image.html filename="webp/2021-11/029-05.webp" hf=1 %}
+{% include image.html filename="webp/2021-11/029-06.webp" hf=1 %}
 
 2021.11.23-24
 

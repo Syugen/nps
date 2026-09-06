@@ -14,17 +14,15 @@ order: 20211296
 
 如果途径西雅图，在有时间的情况下除了Space Needle和Pike Place这种著名景点外，参观一下这样小众的历史博物馆也是很有意思的。而且免费！
 
-<p style="text-align: center">
-{% include image.html filename="2021-12/043-01.jpeg" %}
-{% include image.html filename="2021-12/043-02.jpeg" %}
-{% include image.html filename="2021-12/043-03.jpeg" l=1 %}
-{% include image.html filename="2021-12/043-04.jpeg" r=1 %}
-{% include image.html filename="2021-12/043-05.jpeg" w="60%" %}
-</p>
+{% include image.html filename="webp/2021-12/043-01.webp" %}
+{% include image.html filename="webp/2021-12/043-02.webp" %}
+{% include image.html filename="webp/2021-12/043-03.webp" hf=1 %}
+{% include image.html filename="webp/2021-12/043-04.webp" hf=1 %}
+{% include image.html filename="webp/2021-12/043-05.webp" %}
 
 不太清楚这个地方治安如何，走的时候看到街头有流浪汉，然后有几个警察（应该是？）过来了……
 
-{% include image.html filename="2021-12/043-06.jpeg" %}
+{% include image.html filename="webp/2021-12/043-06.webp" %}
 
 2021.12.19
 

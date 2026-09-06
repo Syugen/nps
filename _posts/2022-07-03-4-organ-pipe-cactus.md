@@ -15,27 +15,25 @@ Ranger建议我走这条长21英里的Ajo Mountain Drive，虽然几乎全程砂
 
 我在公园里找到的最大的几株Organ Pipe，我甚至觉得最大的是visitor center里种的那株。
 
-{% include image.html filename="webp/2022-07/067-01.webp" l=1 %}
-{% include image.html filename="webp/2022-07/067-02.webp" r=1 %}
-{% include image.html filename="webp/2022-07/067-03.webp" l=1 %}
-{% include image.html filename="webp/2022-07/067-04.webp" r=1 %}
+{% include image.html filename="webp/2022-07/067-01.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/067-02.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/067-03.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/067-04.webp" hf=1 %}
 
 此处曾经非法越境者泛滥，2004年开始在边境上修了一堵30英里长，低矮的、仅防汽车的铁栅栏，有效地阻止了开车越野的偷渡者破坏此地生态。不过川同志临走前要搞的修墙工程已经开工了，一堵10米高的铁墙多少反而会破坏生态。
 
-{% include image.html filename="webp/2022-07/067-05.webp" l=1 %}
-{% include image.html filename="webp/2022-07/067-06.webp" r=1 %}
+{% include image.html filename="webp/2022-07/067-05.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/067-06.webp" hf=1 %}
 
 上篇Saguaro提到我认为Organ Pipe公园其实就是“高配版“Saguaro公园，因为我在这里看到了更多、更奇形怪状的巨人柱。
 
-{% include image.html filename="webp/2022-07/067-07.webp" l=1 %}
-{% include image.html filename="webp/2022-07/067-08.webp" r=1 %}
+{% include image.html filename="webp/2022-07/067-07.webp" hf=1 %}
+{% include image.html filename="webp/2022-07/067-08.webp" hf=1 %}
 {% include image.html filename="webp/2022-07/067-09.webp" %}
 
 这里还有大拱门，还去什么Arches NP？
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-07/067-10.webp" w="60%" %}
-</p>
+{% include image.html filename="webp/2022-07/067-10.webp" %}
 
 从Phoenix/Tucson过来一定会经过的的一个地方叫Why。为什么呢？仅仅是最早这里的两条公路以Y字形交叉，所以在此处成立小镇的人就想命名其为Y。但是亚利桑那州规定城镇名字至少三个字母，于是乎便使用了Why这个同音词。后来处于交通安全原因，把两条公路的交叉点被重新建设了，所以现在也不是Y字形了。
 

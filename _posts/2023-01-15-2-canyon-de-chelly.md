@@ -14,10 +14,10 @@ Canyon de Chelly（读/də-SHAY/），在我看来可以看做是低配版的科
 从Chinle向东可以选择南北两条线路。南线有更多的overlook，其中Junction Overlook、White House Overlook 等多处都能看到原始人在崖壁上建筑的房子。可惜最方便看的White House Overlook以及全园唯一可以下到峡谷之下的White House Trail在我去的时候都关了。
 
 {% include image.html filename="webp/2023-01/084-01.webp" %}
-{% include image.html filename="webp/2023-01/084-02.webp" l=1 %}
-{% include image.html filename="webp/2023-01/084-03.webp" r=1 %}
-{% include image.html filename="webp/2023-01/084-04.webp" l=1 %}
-{% include image.html filename="webp/2023-01/084-05.webp" r=1 %}
+{% include image.html filename="webp/2023-01/084-02.webp" hf=1 %}
+{% include image.html filename="webp/2023-01/084-03.webp" hf=1 %}
+{% include image.html filename="webp/2023-01/084-04.webp" hf=1 %}
+{% include image.html filename="webp/2023-01/084-05.webp" hf=1 %}
 
 2023.1.15
 

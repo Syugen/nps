@@ -21,10 +21,10 @@ order: 20240588
 
 {% include image.html filename="webp/2024-05/110-01.webp" %}
 {% include image.html filename="webp/2024-05/110-02.webp" %}
-{% include image.html filename="webp/2024-05/110-03.webp" l=1 %}
-{% include image.html filename="webp/2024-05/110-04.webp" r=1 %}
-{% include image.html filename="webp/2024-05/110-05.webp" l=1 %}
-{% include image.html filename="webp/2024-05/110-06.webp" r=1 %}
+{% include image.html filename="webp/2024-05/110-03.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/110-04.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/110-05.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/110-06.webp" hf=1 %}
 
 2018.11.10<br>
 2024.5.27

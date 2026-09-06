@@ -17,8 +17,8 @@ order: 20240595
 公园门票是每辆车$25，可使用公园年票。
 
 {% include image.html filename="webp/2024-05/098-01.webp" %}
-{% include image.html filename="webp/2024-05/098-02.webp" l=1 %}
-{% include image.html filename="webp/2024-05/098-03.webp" r=1 %}
+{% include image.html filename="webp/2024-05/098-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-05/098-03.webp" hf=1 %}
 
 
 2021.5.15<br>

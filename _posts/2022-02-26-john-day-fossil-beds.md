@@ -16,8 +16,8 @@ John Day Fossil Beds公园的确远离任何一个大城市，最近的较大城
 {% include image.html filename="webp/2022-02/048-02.webp" %}
 {% include image.html filename="webp/2022-02/048-04.webp" %}
 {% include image.html filename="webp/2022-02/048-05.webp" %}
-{% include image.html filename="webp/2022-02/048-03.webp" l=1 %}
-{% include image.html filename="webp/2022-02/048-06.webp" r=1 %}
+{% include image.html filename="webp/2022-02/048-03.webp" hf=1 %}
+{% include image.html filename="webp/2022-02/048-06.webp" hf=1 %}
 
 你可能会注意到，其实这个游客中心根本不叫“visitor center”，因为他本身就是一个研究所，可以看到里面有个长得很像TBBT里Amy的人在研究石头。
 
@@ -25,10 +25,8 @@ John Day Fossil Beds公园的确远离任何一个大城市，最近的较大城
 
 游客中心外面有些trail可以走，不过如今基本上不太可能在地上看到化石。如果见到化石要联系工作人员让他们来处理。我随便走了走，只捡到一株风滚草LOL。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-02/048-09.webp" w="60%" %}
+{% include image.html filename="webp/2022-02/048-09.webp" %}
 {% include image.html filename="webp/2022-02/048-08.webp" %}
-</p>
 
 2022.2.26
 

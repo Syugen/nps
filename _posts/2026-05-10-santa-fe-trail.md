@@ -20,10 +20,10 @@ order: 20260598
 
 这是理解圣达菲古道最直观的地点之一。原来的堡垒已不再，这里重建了一座。它的作用包括了军事堡垒、贸易、外交、信息和权力交换的节点。毛皮商人、商队、平原部落、美国与墨西哥边疆势力，都曾在这类地点发生接触。它夹在商业利益、边疆秩序和文化冲突之中。此处遇到了很热心的 park ranger 给每个路人讲解这里的历史。
 
-{% include image.html filename="webp/2026-05/122-01.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-02.webp" r=1 %}
-{% include image.html filename="webp/2026-05/122-03.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-04.webp" r=1 %}
+{% include image.html filename="webp/2026-05/122-01.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-02.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-03.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-04.webp" hf=1 %}
 
 ---
 
@@ -31,8 +31,8 @@ order: 20260598
 
 这里是新墨西哥地区重要的军事和补给中心，也和圣达菲古道、西部军道、边疆防务紧密相关。如今留下的是大片断壁残垣，散落在开阔草地上，看起来像被风和时间慢慢拆解的军事遗迹。如果你在I-25上旅行，不妨在这里一停。
 
-{% include image.html filename="webp/2026-05/122-05.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-06.webp" r=1 %}
+{% include image.html filename="webp/2026-05/122-05.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-06.webp" hf=1 %}
 
 ---
 
@@ -40,8 +40,8 @@ order: 20260598
 
 Pecos NHP 的层次更复杂。这里既有古代普韦布洛人遗址（见上篇笔记），也有西班牙传教历史、圣达菲古道遗迹，以及南北战争战役的相关内容。它像是一处历史交汇点：原住民社会、西班牙殖民、美国扩张和内战战场，在同一片地景中彼此重叠。
 
-{% include image.html filename="webp/2026-05/122-07.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-08.webp" r=1 %}
+{% include image.html filename="webp/2026-05/122-07.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-08.webp" hf=1 %}
 
 ---
 
@@ -65,10 +65,10 @@ Pecos NHP 的层次更复杂。这里既有古代普韦布洛人遗址（见上�
 
 这座已经熄灭的火山渣锥是这条历史线上的自然插曲。游客可以绕火山口步行一圈，远眺新墨西哥和科罗拉多交界一带的开阔地貌。一个火山口，一圈步道，一片辽阔视野。它让行程从人类历史暂时切换到更长尺度的地质时间。
 
-{% include image.html filename="webp/2026-05/122-10.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-11.webp" r=1 %}
-{% include image.html filename="webp/2026-05/122-12.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-13.webp" r=1 %}
+{% include image.html filename="webp/2026-05/122-10.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-11.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-12.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-13.webp" hf=1 %}
 
 ---
 
@@ -76,8 +76,8 @@ Pecos NHP 的层次更复杂。这里既有古代普韦布洛人遗址（见上�
 
 这里是约120万年前巨大火山喷发后形成的巨大火山口（caldera），地貌尺度非常开阔。这里最直观的是草甸、溪流、森林和野生动物栖息地。个人感觉这个很大的保护区没有什么特别的可参观的，只是如果去Los Alamos或者Bandelier参观，可以顺带来看一看。
 
-{% include image.html filename="webp/2026-05/122-14.webp" l=1 %}
-{% include image.html filename="webp/2026-05/122-15.webp" r=1 %}
+{% include image.html filename="webp/2026-05/122-14.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/122-15.webp" hf=1 %}
 
 
 2026.5.10-11

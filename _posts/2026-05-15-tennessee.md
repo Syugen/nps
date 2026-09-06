@@ -26,8 +26,8 @@ order: 20260594
 
 这个棉花博物馆是当年的棉花交易大厅。通过棉花样品、交易设备、照片和互动展览，介绍种植、加工、运输和定价方式，以及棉花贸易对美国南方经济的影响。它也是田纳西州唯一专门讲述棉花历史的博物馆。
 
-{% include image.html filename="webp/2026-05/137-02.webp" l=1 %}
-{% include image.html filename="webp/2026-05/137-03.webp" r=1 %}
+{% include image.html filename="webp/2026-05/137-02.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/137-03.webp" hf=1 %}
 
 ---
 
@@ -39,10 +39,10 @@ order: 20260594
 
 从孟菲斯往东开，去纳什维尔附近的两个历史公园打卡，很神奇地经过了米兰和巴黎…
 
-{% include image.html filename="webp/2026-05/137-04.webp" l=1 %}
-{% include image.html filename="webp/2026-05/137-05.webp" r=1 %}
-{% include image.html filename="webp/2026-05/137-06.webp" l=1 %}
-{% include image.html filename="webp/2026-05/137-07.webp" r=1 %}
+{% include image.html filename="webp/2026-05/137-04.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/137-05.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/137-06.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/137-07.webp" hf=1 %}
 {% include image.html filename="webp/2026-05/137-08.webp" %}
 
 ---
@@ -61,7 +61,7 @@ order: 20260594
 
 下次有机会再来田纳西的话应该在纳什维尔多待一待。
 
-{% include image.html filename="webp/2026-05/137-10.webp" l=1 %}
-{% include image.html filename="webp/2026-05/137-11.webp" r=1 %}
+{% include image.html filename="webp/2026-05/137-10.webp" hf=1 %}
+{% include image.html filename="webp/2026-05/137-11.webp" hf=1 %}
 
 2026.5.15-16

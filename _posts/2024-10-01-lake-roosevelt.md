@@ -19,14 +19,12 @@ order: 20240994
 
 位于湖中上游附近的 Fort Spokane 展示了印第安寄宿学校、早期贸易站和军营的历史。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2024-10/117-01.webp" l=1 %}
-{% include image.html filename="webp/2024-10/117-02.webp" r=1 %}
-{% include image.html filename="webp/2024-10/117-03.webp" w="80%" %}
-{% include image.html filename="webp/2024-10/117-04.webp" w="80%" %}
-{% include image.html filename="webp/2024-10/117-05.webp" l=1 %}
-{% include image.html filename="webp/2024-10/117-06.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2024-10/117-01.webp" hf=1 %}
+{% include image.html filename="webp/2024-10/117-02.webp" hf=1 %}
+{% include image.html filename="webp/2024-10/117-03.webp" %}
+{% include image.html filename="webp/2024-10/117-04.webp" %}
+{% include image.html filename="webp/2024-10/117-05.webp" hf=1 %}
+{% include image.html filename="webp/2024-10/117-06.webp" hf=1 %}
 
 2024.10.01
 

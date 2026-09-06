@@ -12,15 +12,13 @@ Mt Baker，华州第三高峰，十月秋高气爽。在Mt Baker Parking 走 Cha
  
 Diablo Lake（暗黑破坏湖？？），广义上属于 North Cascades 国家公园的一部分，可在湖上划船、paddle board。我划的那天风有点大，差点滑不回来，中途直接靠边上岸了。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2023-07/087-01.webp" w="80%" %}
-{% include image.html filename="webp/2023-07/087-02.webp" l=1 %}
-{% include image.html filename="webp/2023-07/087-03.webp" r=1 %}
-{% include image.html filename="webp/2023-07/087-04.webp" l=1 %}
-{% include image.html filename="webp/2023-07/087-05.webp" r=1 %}
-{% include image.html filename="webp/2023-07/087-06.webp" l=1 %}
-{% include image.html filename="webp/2023-07/087-07.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2023-07/087-01.webp" %}
+{% include image.html filename="webp/2023-07/087-02.webp" hf=1 %}
+{% include image.html filename="webp/2023-07/087-03.webp" hf=1 %}
+{% include image.html filename="webp/2023-07/087-04.webp" hf=1 %}
+{% include image.html filename="webp/2023-07/087-05.webp" hf=1 %}
+{% include image.html filename="webp/2023-07/087-06.webp" hf=1 %}
+{% include image.html filename="webp/2023-07/087-07.webp" hf=1 %}
 
 2023.7.29
 

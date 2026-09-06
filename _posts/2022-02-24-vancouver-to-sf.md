@@ -15,7 +15,7 @@ order: 20220299
 下午从Burnaby出发直奔边境，入境之后第一件事就是去Costco加了一箱油，体验一加仑便宜1.5刀馈赠。然后奔向Bellevue聚餐、住在朋友家一晚。
 
 <video width="100%" controls autoplay>
-	<source src='{{"/images/2022-02/045-a.mp4"|relative_url}}' type="video/mp4">
+	<source src='{{"/images/misc/045-a.mp4"|relative_url}}' type="video/mp4">
 	HTML5 video not supported.
 </video>
 

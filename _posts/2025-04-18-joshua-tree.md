@@ -16,21 +16,15 @@ order: 20250498
 返程出现一个小插曲，谷歌导航让我离开旅馆后向北，结果走了一段沙地路，一开始还觉得侥幸能过，之后越来越不对劲，车差点陷在里面，赶紧折腾了几下掉头换了条路。
 
 相比公园里的树，这次旅行中在沙漠里露营与观星的体验，反而成了更令人难忘的亮点。
-<video width="100%" controls autoplay>
-	<source src='{{"/images/2025-04/118-01.mov"|relative_url}}' type="video/mp4">
-	HTML5 video not supported.
-</video>
 
-<video width="100%" controls autoplay>
-	<source src='{{"/images/2025-04/118-02.mov"|relative_url}}' type="video/mp4">
-	HTML5 video not supported.
-</video>
 
+{% include image.html filename="webp/2025-04/118-01.webp" %}
+{% include image.html filename="webp/2025-04/118-02.webp" %}
 {% include image.html filename="webp/2025-04/118-03.webp" %}
 {% include image.html filename="webp/2025-04/118-04.webp" %}
 {% include image.html filename="webp/2025-04/118-05.webp" %}
-{% include image.html filename="webp/2025-04/118-06.webp" l=1 %}
-{% include image.html filename="webp/2025-04/118-07.webp" r=1 %}
+{% include image.html filename="webp/2025-04/118-06.webp" hf=1 %}
+{% include image.html filename="webp/2025-04/118-07.webp" hf=1 %}
 
 2020.9.6<br>
 2025.4.18

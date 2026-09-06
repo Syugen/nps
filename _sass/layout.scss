@@ -1,5 +1,7 @@
 // 正文阅读列的最大宽度；普通文字、标题和单张普通图片都以此为上限。
 $layout-content-width: 800px;
+// 窄屏上单张图和左右半图的统一最大显示宽度。
+$layout-narrow-image-max-width: 400px;
 // 页面左右两侧的留白；与 body 的 50px padding 保持一致。
 $layout-page-gutter: 50px;
 // 宽屏时左侧标题栏的固定宽度。
@@ -38,18 +40,59 @@ header img {
   margin: auto;
 }
 
-// 当一个图片段落中还夹有未标注 l/r 的普通图片时：
-// 让该图片链接独占一行、清除前面左右图片的浮动，并在这一行内居中。
-section > p:has(.image-half) > a:has(> .responsive-img:not(.image-half)) {
+// 单张图片链接本身独占一行、清除前面左右图片的浮动，并在这一行内居中。
+// 因此文章源码不需要再额外用 <p style="text-align: center"> 包裹图片。
+section > a:has(> .responsive-img.image-full),
+section > p > a:has(> .responsive-img.image-full) {
   display: block;
   clear: both;
   text-align: center;
 }
 
-// 上述普通图片最多仍为正文宽度，避免它占满整个图片段落。
-section > p:has(.image-half) .responsive-img:not(.image-half) {
+// 所有图片都不会超出正文列。没有 hf 标记的单张图片保持原始宽度，
+// 但会随较窄的屏幕缩小。
+section .responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+// 两张并排图的尺寸与右侧浮动统一由 class 控制，不再依赖 HTML 的 width、
+// align 或内联 style 属性。
+section .responsive-img.image-half {
+  width: 49.5%;
+}
+
+section .responsive-img.image-half-right {
+  float: right;
+}
+
+// 单张图片最多为其所在正文列的宽度。
+section .responsive-img.image-full {
   display: inline-block;
-  max-width: $layout-content-width;
+}
+
+// 正文列足够宽时，未设置 w 的独占图由 main.js 按原始比例计算：宽度介于
+// 400px 和 800px 之间，能满足时高度最多为视口的 2/3，且不超过正文列。
+// 使用明确的宽度而非同时声明 min-width 与 max-height，避免两项约束冲突时图片变形。
+@container (min-width: 505px) {
+  section .responsive-img.image-full.image-full-auto-size {
+    width: var(--full-image-display-width, auto);
+    max-width: 100%;
+    max-height: none;
+  }
+}
+
+// 首页目录在正文宽度达到 800px、且一个小节的 bullet 总数超过 10 时，
+// 由 toc-columns.js 将一级条目分配到这两个列表中。一级条目中的二级列表
+// 始终留在同一个 <li> 内，因此不会在两列之间被拆开。
+.toc-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+}
+
+.toc-columns > .toc-list {
+  min-width: 0;
 }
 
 // 鼠标悬停文章图片时由 JavaScript 创建的放大预览层。
@@ -74,20 +117,34 @@ section > p:has(.image-half) .responsive-img:not(.image-half) {
 }
 
 // 当文章实际可用宽度不超过约 505px 时，左右图片若继续并排会小于 250px。
-// 此时将每张 l/r 图片改为独占一行、水平居中，并把显示宽度限制在 400px。
-// 普通单张图片不受这组规则影响。
+// 此时将每张并排图片改为独占一行、水平居中，并将所有图片的显示宽度
+// 统一限制在 400px。
 @container (max-width: 504px) {
+  // 窄屏时，不论横竖，单张图片的显示宽度最多为 400px。
+  section .responsive-img.image-full {
+    max-width: $layout-narrow-image-max-width;
+  }
+
+  section > a:has(> .image-half),
   section > p:has(.image-half) > a:has(> .image-half) {
     display: block;
     clear: both;
     text-align: center;
   }
 
+  section > a:has(> .image-half) .image-half,
   section > p:has(.image-half) .image-half {
     display: inline-block;
     float: none !important;
     width: 100% !important;
-    max-width: 400px;
+    max-width: $layout-narrow-image-max-width;
+  }
+}
+
+// 当正文列本身小于 400px 时，所有单张图片继续以列宽为上限。
+@container (max-width: 399px) {
+  section .responsive-img.image-full {
+    max-width: 100%;
   }
 }
 

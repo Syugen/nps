@@ -15,15 +15,13 @@ order: 20220594
 
 如果前往参观的话，夏天的高峰时段需要开车至White Rock Visitor Center然后乘坐摆渡车进入公园。其余时间可以直接开进公园。从公园里的游客中心走Main Loop Trail一圈就可以收揽几乎全部的cliff dwelling。
 
-<p style="text-align: center">
-{% include image.html filename="webp/2022-05/056-01.webp" w="60%" %}
-{% include image.html filename="webp/2022-05/056-02.webp" l=1 %}
-{% include image.html filename="webp/2022-05/056-03.webp" r=1 %}
-{% include image.html filename="webp/2022-05/056-04.webp" l=1 %}
-{% include image.html filename="webp/2022-05/056-05.webp" r=1 %}
-{% include image.html filename="webp/2022-05/056-06.webp" l=1 %}
-{% include image.html filename="webp/2022-05/056-07.webp" r=1 %}
-</p>
+{% include image.html filename="webp/2022-05/056-01.webp" %}
+{% include image.html filename="webp/2022-05/056-02.webp" hf=1 %}
+{% include image.html filename="webp/2022-05/056-03.webp" hf=1 %}
+{% include image.html filename="webp/2022-05/056-04.webp" hf=1 %}
+{% include image.html filename="webp/2022-05/056-05.webp" hf=1 %}
+{% include image.html filename="webp/2022-05/056-06.webp" hf=1 %}
+{% include image.html filename="webp/2022-05/056-07.webp" hf=1 %}
 
 ---
 
