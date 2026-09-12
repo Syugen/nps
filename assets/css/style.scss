@@ -121,6 +121,10 @@ body, input, textarea, button {
   overflow: hidden;
 }
 
+.map-embed-placeholder {
+  background: #f6f8fa;
+}
+
 .map-embed-crop > iframe {
   display: block;
   width: 100%;
