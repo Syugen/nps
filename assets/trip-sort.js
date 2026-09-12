@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const list = document.querySelector("#trip-list");
   const sorter = document.querySelector("#trip-sorter");
   const summary = document.querySelector("#trip-summary");
+  const contentSection = list?.closest("section");
   const buttons = document.querySelectorAll("#trip-sorter [data-sort]");
 
   if (!list || !sorter || !summary || !buttons.length) return;
@@ -30,6 +31,21 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const formatDistance = (value) => Math.round(value).toString();
+
+  const abbreviatedTitle = (title) =>
+    title.replace(
+      /^(\d{4}\.\d{2})\.\d{2}-(?:\d{4}\.)?\d{2}\.\d{2}/,
+      "$1"
+    );
+
+  const useCompactMileageTitles = () => contentSection?.clientWidth <= 504;
+
+  const updateMileageTitleWidths = () => {
+    const compact = useCompactMileageTitles();
+    summary.querySelectorAll(".trip-mileage-title").forEach((link) => {
+      link.textContent = compact ? link.dataset.shortTitle : link.dataset.fullTitle;
+    });
+  };
 
   const mileageOf = (entry) => {
     const mileNode = entry.querySelector("trip-mile");
@@ -125,8 +141,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const titleCell = document.createElement("td");
       const link = document.createElement("a");
+      const fullTitle = headingOf(entry)?.textContent.trim() || "未命名旅行";
       link.href = `#${headingIdOf(entry)}`;
-      link.textContent = headingOf(entry)?.textContent.trim() || "未命名旅行";
+      link.className = "trip-mileage-title";
+      link.dataset.fullTitle = fullTitle;
+      link.dataset.shortTitle = abbreviatedTitle(fullTitle);
+      link.textContent = useCompactMileageTitles()
+        ? link.dataset.shortTitle
+        : link.dataset.fullTitle;
       titleCell.appendChild(link);
 
       row.append(mileageCell, kilometerCell, titleCell);
@@ -207,9 +229,9 @@ document.addEventListener("DOMContentLoaded", () => {
     list.replaceChildren(fragment);
 
     summary.replaceChildren();
-    renderMileageSummary(entries);
-
-    if (sortType === "region") {
+    if (sortType === "mileage-desc") {
+      renderMileageSummary(entries);
+    } else if (sortType === "region") {
       renderRegionDirectory(regions);
     }
 
@@ -224,5 +246,9 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => sortEntries(button.dataset.sort));
   });
 
-  sortEntries("sequence-asc");
+  if (contentSection && "ResizeObserver" in window) {
+    new ResizeObserver(updateMileageTitleWidths).observe(contentSection);
+  }
+
+  sortEntries("mileage-desc");
 });

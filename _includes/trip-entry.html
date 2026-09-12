@@ -1,0 +1,24 @@
+<article class="trip-entry" data-region="{{ include.region | escape }}">
+  <div><small>人生旅行序号：<trip-seq>{{ include.sequence | escape }}</trip-seq></small></div>
+
+  <h3>{{ include.title | escape }}</h3>
+
+  <p>
+    里程：<trip-mile>{{ include.miles | default: "" | escape }}</trip-mile> 英里 |
+    <trip-km>{{ include.kilometers | default: "" | escape }}</trip-km> 公里{% if include.mileage_source %}（数据来源：{{ include.mileage_source | escape }}）{% endif %}
+  </p>
+
+  {% if include.body %}
+    {{ include.body | markdownify }}
+  {% endif %}
+
+  {% if include.image %}
+    {% include image.html filename=include.image %}
+  {% endif %}
+
+  {% if include.map_url %}
+    <iframe data-map-src="https://www.google.com/maps/d/embed?mid={{ include.map_url | escape }}&amp;ehbc=2E312F" width="100%" height="500"></iframe>
+  {% endif %}
+
+  <hr>
+</article>

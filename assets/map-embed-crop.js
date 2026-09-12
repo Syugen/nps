@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const bannerHeight = 60;
+  const bannerHeight = 62;
   const mapSelector = 'iframe[src*="google.com/maps"]';
   const lazyMapSelector = "iframe[data-map-src]";
 
