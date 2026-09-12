@@ -43,7 +43,9 @@ header img {
 // 单张图片链接本身独占一行、清除前面左右图片的浮动，并在这一行内居中。
 // 因此文章源码不需要再额外用 <p style="text-align: center"> 包裹图片。
 section > a:has(> .responsive-img.image-full),
-section > p > a:has(> .responsive-img.image-full) {
+section > p > a:has(> .responsive-img.image-full),
+#trip-list .trip-entry > a:has(> .responsive-img.image-full),
+#trip-list .trip-entry > p > a:has(> .responsive-img.image-full) {
   display: block;
   clear: both;
   text-align: center;

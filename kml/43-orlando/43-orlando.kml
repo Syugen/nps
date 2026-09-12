@@ -1,0 +1,1627 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>43-orlando — combined</name>
+    <Style id="day-01-red-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-01-red-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-01-red">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-01-red-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-01-red-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-02-orange-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-02-orange-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-02-orange">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-02-orange-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-02-orange-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-03-yellow-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-03-yellow-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-03-yellow">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-03-yellow-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-03-yellow-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-04-green-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-04-green-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-04-green">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-04-green-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-04-green-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-05-cyan-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-05-cyan-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-05-cyan">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-05-cyan-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-05-cyan-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-06-blue-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-06-blue-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-06-blue">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-06-blue-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-06-blue-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-07-purple-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-07-purple-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-07-purple">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-07-purple-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-07-purple-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="day-08-black-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="day-08-black-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="day-08-black">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#day-08-black-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#day-08-black-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1504-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1504-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1504-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1535-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1535-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1535-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>2019-09-24</name>
+      <StyleMap id="source-04-multiTrack">
+        <Pair>
+          <key>normal</key>
+          <styleUrl>#source-04-multiTrack_n</styleUrl>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <styleUrl>#source-04-multiTrack_h</styleUrl>
+        </Pair>
+      </StyleMap>
+      <Style id="source-04-multiTrack_n">
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>6</width>
+        </LineStyle>
+      </Style>
+      <Style id="source-04-multiTrack_h">
+        <IconStyle>
+          <scale>1.2</scale>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>8</width>
+        </LineStyle>
+      </Style>
+      <Placemark>
+        <name>Hampton Inn &amp; Suites Orlando/East UCF Area</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>3450 Quadrangle Blvd, Orlando, FL 32817</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Hotel from 2019-09-24T01:00:00.000Z to 2019-09-24T12:29:54.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2164763,28.599252999999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-24T01:00:00.000Z</begin>
+          <end>2019-09-24T12:29:54.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-04-green</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>3304</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-24T12:29:54.000Z to 2019-09-24T12:50:00.000Z. Distance 3304m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.21590119999999,28.5988731,0 -81.2159025,28.598854499999998,0 -81.21590839999999,28.598702999999997,0 -81.21591849999999,28.597747599999998,0 -81.21592279999999,28.5975887,0 -81.21574439999999,28.597595,0 -81.21353769999999,28.5976237,0 -81.21280369999998,28.597626,0 -81.21270089999999,28.597625,0 -81.21085379999998,28.5976487,0 -81.21037529999998,28.5976686,0 -81.21011289999998,28.597651499999998,0 -81.20968339999999,28.5976568,0 -81.20952329999999,28.5976552,0 -81.2078598,28.597659099999994,0 -81.207652,28.597657699999996,0 -81.20764849999999,28.597842699999998,0 -81.2076335,28.598433099999998,0 -81.2076376,28.598978099999997,0 -81.20763029999999,28.599415299999993,0 -81.2076257,28.600002899999993,0 -81.2076173,28.600185999999994,0 -81.2076185,28.600426999999993,0 -81.2076052,28.600944199999994,0 -81.20759620000001,28.601358399999995,0 -81.2075668,28.602252199999995,0 -81.2075678,28.602357399999995,0 -81.20750550000001,28.605197199999996,0 -81.20750780000002,28.605535399999994,0 -81.20751770000001,28.60626849999999,0 -81.20750800000002,28.606795399999992,0 -81.20750380000003,28.60749999999999,0 -81.20652640000002,28.60751069999999,0 -81.20594370000002,28.60751219999999,0 -81.20580180000002,28.60750999999999,0 -81.20561110000003,28.60750049999999,0 -81.20546550000002,28.60748649999999,0 -81.20539530000002,28.60747519999999,0 -81.20530740000002,28.60745829999999,0 -81.20517280000003,28.607429899999993,0 -81.20503090000003,28.60739259999999,0 -81.20489320000001,28.60735159999999,0 -81.20474380000002,28.607301299999992,0 -81.20461340000003,28.60724849999999,0 -81.20449960000003,28.60719929999999,0 -81.20438010000002,28.60713919999999,0 -81.20426290000003,28.607072999999993,0 -81.20414800000003,28.606996999999993,0 -81.20406310000003,28.60692969999999,0 -81.20400840000003,28.60687519999999,0 -81.20396120000004,28.606819799999993,0 -81.20389050000004,28.60671759999999,0 -81.20383400000004,28.60663119999999,0 -81.20371780000005,28.60646169999999,0 -81.20365140000006,28.60637099999999,0 -81.20353100000005,28.60620939999999,0 -81.20340650000006,28.60603889999999,0 -81.20331050000006,28.60591459999999,0 -81.20327200000007,28.60587159999999,0 -81.20323370000006,28.605834799999986,0 -81.20309550000006,28.60571949999999,0 -81.20302390000006,28.605672899999988,0 -81.20294110000006,28.605626299999987,0 -81.20287900000007,28.605593899999985,0 -81.20280160000006,28.605564499999986,0 -81.20270500000007,28.605531899999985,0 -81.20261400000005,28.605505999999988,0 -81.20251640000005,28.605486799999984,0 -81.20241910000006,28.605475899999984,0 -81.20224760000005,28.605461399999985,0 -81.20206510000006,28.605452699999983,0 -81.20195740000005,28.605448499999984,0 -81.20183190000006,28.605447999999985,0 -81.20173260000006,28.605456799999985,0 -81.20161070000006,28.605475099999985,0 -81.20149240000005,28.605501499999985,0 -81.20133810000004,28.605547399999985,0 -81.20082810000005,28.605716499999986,0 -81.19973340000006,28.606072999999984,0 -81.19950140000006,28.606147499999985,0 -81.19927050000005,28.606217899999987,0 -81.19914760000005,28.606254499999984,0 -81.19901680000005,28.606285799999984,0 -81.19888260000005,28.60631139999998,0 -81.19878740000004,28.606323399999983,0 -81.19869810000004,28.606329299999985,0 -81.19861050000004,28.606330899999985,0 -81.19849250000004,28.606330099999987,0 -81.19852350000004,28.606446499999983,0 -81.19852740000005,28.606482899999985,0 -81.19852740000005,28.60650929999998,0 -81.19852110000004,28.606537399999983,0 -81.19851080000005,28.606561799999984,0 -81.19849580000005,28.606595199999983,0 -81.19847600000006,28.606632399999985,0 -81.19795750000006,28.607543799999984,0 -81.19731400000005,28.608656399999983,0 -81.19695770000006,28.609287099999985,0 -81.19645980000006,28.609054799999985,0 -81.19621350000006,28.608945699999985,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T12:29:54.000Z</begin>
+          <end>2019-09-24T12:50:00.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>University of Central Florida</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>4000 Central Florida Blvd, Orlando, FL 32816</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Public university</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Public university from 2019-09-24T12:50:00.000Z to 2019-09-24T12:52:00.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2000599,28.6024274,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-24T12:50:00.000Z</begin>
+          <end>2019-09-24T12:52:00.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Hiking</name>
+        <styleUrl>#day-04-green</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hiking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1646</value>
+          </Data>
+        </ExtendedData>
+        <description> Hiking from 2019-09-24T12:52:00.000Z to 2019-09-24T19:13:44.000Z. Distance 1646m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.1964639,28.6084411,0 -81.1964639,28.6084411,0 -81.1961506,28.6081241,0 -81.1971341,28.6075942,0 -81.1964007,28.6088236,0 -81.197387,28.6081907,0 -81.196776,28.6076539,0 -81.1979093,28.6076419,0 -81.1970998,28.6074377,0 -81.1976615,28.6075724,0 -81.1970024,28.6073331,0 -81.1976582,28.6076574,0 -81.1976582,28.6076574,0 -81.1976582,28.6076574,0 -81.1976582,28.6076574,0 -81.1969337,28.6074389,0 -81.1972784,28.6083773,0 -81.1969337,28.6074389,0 -81.1969337,28.6074389,0 -81.1972784,28.6083773,0 -81.1969337,28.6074389,0 -81.1966436,28.6089142,0 -81.1961947,28.6085983,0 -81.1961947,28.6085983,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T12:52:00.000Z</begin>
+          <end>2019-09-24T19:13:44.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-04-green</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>23869</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-24T19:13:44.000Z to 2019-09-24T19:53:06.419Z. Distance 23869m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.1960842,28.608008100000003,0 -81.1972915,28.606254800000002,0 -81.1973394,28.6062023,0 -81.1975296,28.606271500000002,0 -81.1978037,28.606355200000003,0 -81.19812719999999,28.6064162,0 -81.19839189999999,28.606446700000003,0 -81.1984463,28.606448800000003,0 -81.19870289999999,28.6064362,0 -81.19896879999999,28.6064061,0 -81.19923019999999,28.606352600000005,0 -81.20150819999999,28.605620000000005,0 -81.20161809999999,28.605591300000004,0 -81.201707,28.605574100000005,0 -81.20183149999998,28.605559600000003,0 -81.20193219999999,28.605559000000003,0 -81.20243609999999,28.605592900000005,0 -81.20261809999998,28.605625900000003,0 -81.20276389999998,28.605673900000003,0 -81.20286059999998,28.605716200000003,0 -81.20293869999998,28.605759300000003,0 -81.20307339999998,28.605852700000003,0 -81.20317289999998,28.605940100000005,0 -81.20323259999998,28.606009500000006,0 -81.20387239999998,28.606889200000005,0 -81.20394879999998,28.606980100000005,0 -81.20399149999999,28.607022500000003,0 -81.20412119999997,28.607125200000002,0 -81.20425359999999,28.6072081,0 -81.20451959999998,28.607333500000003,0 -81.20486599999998,28.607459300000002,0 -81.20512809999998,28.6075319,0 -81.20540909999998,28.6075839,0 -81.20559229999998,28.6076076,0 -81.20855849999998,28.6076626,0 -81.2087797,28.607699500000003,0 -81.20980099999998,28.607975000000003,0 -81.20998569999999,28.608013600000003,0 -81.21006509999998,28.6080086,0 -81.21045529999999,28.6081232,0 -81.21070469999998,28.6081694,0 -81.21089789999998,28.6081912,0 -81.21112529999998,28.6082004,0 -81.21134679999997,28.6081948,0 -81.21161519999997,28.6081753,0 -81.21187539999997,28.6081309,0 -81.21207969999998,28.6080857,0 -81.21236479999997,28.6079938,0 -81.21266569999997,28.6078547,0 -81.21309659999997,28.6075936,0 -81.21552889999998,28.605352,0 -81.21572769999999,28.6052666,0 -81.21589839999997,28.605103800000002,0 -81.21653319999997,28.6045476,0 -81.21705409999997,28.604214600000002,0 -81.21737889999999,28.604041700000003,0 -81.21799219999998,28.603834000000003,0 -81.21856999999999,28.603714700000005,0 -81.21923599999998,28.603550500000004,0 -81.21934429999997,28.603471600000006,0 -81.21967089999998,28.603416700000004,0 -81.21998839999998,28.603321200000007,0 -81.22027379999997,28.603203300000004,0 -81.22052689999998,28.603052600000005,0 -81.22078079999999,28.602870000000006,0 -81.22115299999999,28.602580600000007,0 -81.22154859999999,28.602237900000006,0 -81.2217989,28.602073500000003,0 -81.221842,28.602081400000003,0 -81.22191009999999,28.6020554,0 -81.2220959,28.601957000000002,0 -81.22269899999999,28.601745800000003,0 -81.22279379999999,28.601731,0 -81.22337089999999,28.601700900000004,0 -81.2242492,28.601707800000003,0 -81.2243859,28.601714600000005,0 -81.2244223,28.600027100000005,0 -81.224456,28.599595000000004,0 -81.2246016,28.598727500000003,0 -81.2246383,28.5982884,0 -81.2246191,28.5960408,0 -81.2245902,28.5956947,0 -81.2244809,28.5950171,0 -81.22443969999999,28.5945684,0 -81.22430779999999,28.5858374,0 -81.22430949999999,28.582914,0 -81.22426329999999,28.5802361,0 -81.22425369999999,28.5802106,0 -81.22409769999999,28.5702218,0 -81.22399469999999,28.568804999999998,0 -81.23228559999998,28.5697538,0 -81.2327507,28.5697748,0 -81.2329329,28.5698099,0 -81.234175,28.5698966,0 -81.23662479999999,28.5699327,0 -81.23850219999999,28.5698912,0 -81.2395409,28.569818200000004,0 -81.2434093,28.569445800000004,0 -81.2466874,28.569080300000003,0 -81.25080879999999,28.5686837,0 -81.25126479999999,28.5686174,0 -81.25226939999999,28.5685159,0 -81.2532995,28.5684346,0 -81.2540866,28.5684166,0 -81.25928379999999,28.5684196,0 -81.25996819999999,28.5684424,0 -81.26131579999999,28.568458899999996,0 -81.26869939999999,28.568445599999997,0 -81.27084539999998,28.568400299999997,0 -81.28256399999998,28.568397299999997,0 -81.28615469999997,28.5683649,0 -81.28707119999997,28.5683123,0 -81.28766439999997,28.5682625,0 -81.28900769999997,28.568117700000002,0 -81.28901789999996,28.568114400000002,0 -81.28939139999997,28.568074100000004,0 -81.29021389999997,28.567944300000004,0 -81.29140949999997,28.567726600000004,0 -81.29230439999998,28.567530800000004,0 -81.29339839999997,28.567259000000004,0 -81.29438189999998,28.566987500000003,0 -81.29566609999996,28.566559500000004,0 -81.29702469999997,28.566053900000004,0 -81.29772079999996,28.565761100000007,0 -81.29912189999997,28.565109300000007,0 -81.29934869999997,28.565012800000005,0 -81.30047039999997,28.564444500000004,0 -81.30212119999997,28.563478500000006,0 -81.30387279999998,28.562299100000004,0 -81.30590589999997,28.560804700000006,0 -81.30697879999997,28.559961700000006,0 -81.30708159999998,28.559948500000008,0 -81.30712649999998,28.559935700000008,0 -81.30722669999997,28.55988480000001,0 -81.30735329999997,28.559808200000006,0 -81.30800969999999,28.559358800000005,0 -81.30930099999998,28.558372100000007,0 -81.31022809999997,28.557720300000007,0 -81.31030679999998,28.557590300000008,0 -81.31044699999998,28.557423600000007,0 -81.31070139999999,28.557061200000007,0 -81.31086559999997,28.556797600000007,0 -81.31085709999998,28.555574000000007,0 -81.31083229999999,28.554999200000005,0 -81.31064409999998,28.538974500000005,0 -81.31061319999998,28.538032800000007,0 -81.31051829999998,28.530965700000007,0 -81.31052739999998,28.529436200000006,0 -81.31047419999997,28.524456200000003,0 -81.31048289999998,28.523644600000004,0 -81.31049639999999,28.523499300000005,0 -81.31030739999999,28.498950600000004,0 -81.310316,28.498820300000006,0 -81.310328,28.497820600000004,0 -81.3102141,28.480668900000005,0 -81.3117218,28.480666900000003,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T19:13:44.000Z</begin>
+          <end>2019-09-24T19:53:06.419Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Mobil</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>5630 Hoffner Ave, Orlando, FL 32812</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Gas station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Gas station from 2019-09-24T19:53:06.419Z to 2019-09-24T19:59:06.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.3107328,28.4801897,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-24T19:53:06.419Z</begin>
+          <end>2019-09-24T19:59:06.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-04-green</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>6161</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-24T19:59:06.000Z to 2019-09-24T20:15:30.000Z. Distance 6161m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.31068619999999,28.4803651,0 -81.31058269999998,28.480368300000002,0 -81.31055669999999,28.4803631,0 -81.31053949999999,28.4803547,0 -81.31052729999999,28.4803414,0 -81.31052099999998,28.4803257,0 -81.31051079999999,28.480274,0 -81.3105052,28.480165200000002,0 -81.31048889999998,28.480136400000003,0 -81.31048089999997,28.480130000000003,0 -81.31046559999997,28.4801234,0 -81.31035149999997,28.4801104,0 -81.31021439999996,28.4801063,0 -81.31017949999996,28.465974499999998,0 -81.31012259999997,28.463276399999998,0 -81.31013269999997,28.4630838,0 -81.31014229999997,28.4602629,0 -81.31016339999996,28.4599077,0 -81.31016499999997,28.457277100000002,0 -81.31014199999997,28.456945400000002,0 -81.31014979999996,28.4563813,0 -81.31009609999997,28.4552553,0 -81.31002949999996,28.4545552,0 -81.30992479999996,28.453851700000005,0 -81.30965909999995,28.452584500000004,0 -81.30945009999995,28.451871500000003,0 -81.30928049999996,28.451194900000004,0 -81.30901669999996,28.449889100000004,0 -81.30900999999996,28.449745300000004,0 -81.30891329999996,28.448967800000002,0 -81.30889829999997,28.448288100000003,0 -81.30897549999996,28.44742,0 -81.30910669999997,28.446778000000002,0 -81.30917919999996,28.4465008,0 -81.30926429999997,28.4462497,0 -81.30954769999997,28.4455413,0 -81.30990769999997,28.444878799999998,0 -81.31064539999997,28.4433711,0 -81.31105449999997,28.442415099999998,0 -81.31118229999997,28.442172999999997,0 -81.31157029999996,28.441343699999997,0 -81.31162809999996,28.4411557,0 -81.31170089999996,28.440739999999998,0 -81.31170359999997,28.4405656,0 -81.31167219999998,28.4402538,0 -81.31160779999996,28.4399984,0 -81.31151099999997,28.439747699999998,0 -81.31148139999996,28.439698899999996,0 -81.31129899999996,28.439312599999997,0 -81.31046239999996,28.437860599999997,0 -81.31026589999996,28.437438699999998,0 -81.31028519999997,28.437351099999997,0 -81.31024209999997,28.437144899999996,0 -81.31020779999997,28.436800599999998,0 -81.31022789999997,28.436318299999996,0 -81.31026809999997,28.4360537,0 -81.31036679999997,28.4356868,0 -81.31039179999998,28.435629399999996,0 -81.31042979999997,28.435567299999995,0 -81.31058719999997,28.435055699999996,0 -81.31117319999997,28.433386199999994,0 -81.31128699999996,28.432892899999995,0 -81.31130789999996,28.43272719999999,0 -81.31132039999996,28.432301099999993,0 -81.31130529999996,28.429945899999993,0 -81.31129239999996,28.429731199999992,0 -81.31126509999996,28.42951159999999,0 -81.31115429999996,28.42901759999999,0 -81.31103469999995,28.42869249999999,0 -81.31034029999995,28.42703769999999,0 -81.31026579999995,28.42692159999999,0 -81.31017099999995,28.42681579999999,0 -81.30999829999995,28.42666149999999,0 -81.30990849999995,28.426598299999988,0 -81.30964279999995,28.42649329999999,0 -81.30934779999995,28.42641489999999,0 -81.30917549999995,28.42638259999999,0 -81.30881969999996,28.426352699999992,0 -81.30865049999996,28.42635169999999,0 -81.30839419999995,28.42637069999999,0 -81.30798559999995,28.42643989999999,0 -81.30776109999995,28.42649269999999,0 -81.30760349999996,28.42654569999999,0 -81.30746769999996,28.42660169999999,0 -81.30717889999995,28.42674599999999,0 -81.30698399999996,28.42686839999999,0 -81.30690629999997,28.426926299999987,0 -81.30684499999997,28.42700499999999,0 -81.30645999999996,28.42734359999999,0 -81.30631029999996,28.427531299999988,0 -81.30623569999996,28.427646799999987,0 -81.30579659999997,28.428449899999986,0 -81.30583179999995,28.428558299999985,0 -81.30581179999996,28.428803199999987,0 -81.30579839999994,28.429258699999988,0 -81.30582569999994,28.429352899999984,0 -81.30586769999995,28.429406399999984,0 -81.30592869999994,28.429432299999984,0 -81.30603579999995,28.429450799999984,0 -81.30649789999995,28.429417499999985,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T19:59:06.000Z</begin>
+          <end>2019-09-24T20:15:30.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <styleUrl>#day-04-green</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>652</value>
+          </Data>
+        </ExtendedData>
+        <description> On the subway from 2019-09-24T20:15:30.000Z to 2019-09-24T20:39:41.000Z. Distance 652m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3085767,28.4309568,0 -81.3085767,28.4309568,0 -81.3140371,28.427583799999997,0 -81.3140371,28.427583799999997,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T20:15:30.000Z</begin>
+          <end>2019-09-24T20:39:41.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Terminal B</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>1 Airport Blvd, Orlando, FL 32827</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Building</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Building from 2019-09-24T20:39:41.000Z to 2019-09-24T21:45:46.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.3140371,28.427583799999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-24T20:39:41.000Z</begin>
+          <end>2019-09-24T21:45:46.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Flying</name>
+        <styleUrl>#day-04-green</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Flying</value>
+          </Data>
+          <Data name="Distance">
+            <value>3931036</value>
+          </Data>
+        </ExtendedData>
+        <description> Flying from 2019-09-24T21:45:46.330Z to 2019-09-25T03:09:21.198Z. Distance 3931036m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3140371,28.427583799999997,0 -81.3155309,28.427529,0 -122.3939604,37.6203613,0 -122.3881557,37.6194577,0 -122.38808480481633,37.619681311145705,0 -122.38808480481633,37.619681311145705,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T21:45:46.330Z</begin>
+          <end>2019-09-25T03:09:21.198Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>San Francisco International Airport</name>
+        <styleUrl>#icon-1504-0288D1-nodesc</styleUrl>
+        <address>San Francisco, CA 94128</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Airport</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Airport from 2019-09-25T03:09:21.198Z to 2019-09-25T03:21:31.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-122.3789554,37.6213129,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-25T03:09:21.198Z</begin>
+          <end>2019-09-25T03:21:31.000Z</end>
+        </TimeSpan>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>2019-09-23</name>
+      <StyleMap id="source-03-multiTrack">
+        <Pair>
+          <key>normal</key>
+          <styleUrl>#source-03-multiTrack_n</styleUrl>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <styleUrl>#source-03-multiTrack_h</styleUrl>
+        </Pair>
+      </StyleMap>
+      <Style id="source-03-multiTrack_n">
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>6</width>
+        </LineStyle>
+      </Style>
+      <Style id="source-03-multiTrack_h">
+        <IconStyle>
+          <scale>1.2</scale>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>8</width>
+        </LineStyle>
+      </Style>
+      <Placemark>
+        <name>Hampton Inn &amp; Suites Orlando/East UCF Area</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>3450 Quadrangle Blvd, Orlando, FL 32817</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Hotel from 2019-09-22T22:49:56.098Z to 2019-09-23T19:04:05.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2164763,28.599252999999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-22T22:49:56.098Z</begin>
+          <end>2019-09-23T19:04:05.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-03-yellow</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>2006</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-23T19:04:05.000Z to 2019-09-23T19:07:34.000Z. Distance 2006m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.2161363,28.5995404,0 -81.2161391,28.599555300000002,0 -81.2161458,28.5995707,0 -81.21615380000001,28.5995811,0 -81.2161688,28.5995935,0 -81.21618390000002,28.599602800000003,0 -81.21620640000002,28.599609700000002,0 -81.21625560000001,28.599616000000005,0 -81.21687130000001,28.599589600000005,0 -81.21691700000001,28.599574700000005,0 -81.2169456,28.599555400000007,0 -81.2169604,28.599539900000003,0 -81.2170181,28.599424900000006,0 -81.21716629999999,28.599525500000006,0 -81.2172243,28.599561100000006,0 -81.21715739999999,28.599628400000007,0 -81.2170721,28.59968060000001,0 -81.2170089,28.59970440000001,0 -81.2169318,28.59972820000001,0 -81.2157945,28.59978380000001,0 -81.2156452,28.59979560000001,0 -81.2156833,28.599981500000013,0 -81.2157273,28.600061800000013,0 -81.2157592,28.60036630000001,0 -81.21578469999999,28.600527500000013,0 -81.2158511,28.60080340000001,0 -81.21612939999999,28.601303600000012,0 -81.21626189999999,28.60150670000001,0 -81.21639409999999,28.60165670000001,0 -81.21659869999999,28.60185930000001,0 -81.216734,28.60196230000001,0 -81.2167227,28.60204110000001,0 -81.2168328,28.602235700000012,0 -81.2170796,28.60252480000001,0 -81.2173695,28.60292680000001,0 -81.2174945,28.60314450000001,0 -81.2177019,28.60366520000001,0 -81.2171206,28.60389630000001,0 -81.21681819999999,28.60407880000001,0 -81.2163382,28.604429700000008,0 -81.2157587,28.60500870000001,0 -81.21560249999999,28.605178500000008,0 -81.2155289,28.605352000000007,0 -81.2153489,28.60551330000001,0 -81.21456049999999,28.606257800000005,0 -81.21309659999999,28.60759360000001,0 -81.21266569999999,28.607854700000004,0 -81.21236479999999,28.607993800000006,0 -81.21207969999999,28.608085700000007,0 -81.21187539999998,28.608130900000006,0 -81.21161519999998,28.608175300000006,0 -81.21134679999999,28.608194800000007,0 -81.21112529999999,28.608200400000005,0 -81.21089789999999,28.608191200000007,0 -81.2107047,28.60816940000001,0 -81.21045529999999,28.60812320000001,0 -81.2100651,28.60800860000001,0 -81.2100094,28.60795620000001,0 -81.2096112,28.60777720000001,0 -81.2094659,28.60771730000001,0 -81.2092631,28.60764660000001,0 -81.2090364,28.60757570000001,0 -81.2088103,28.60753420000001,0 -81.20865219999999,28.60751160000001,0 -81.2084266,28.60749670000001,0 -81.20580179999999,28.60751000000001,0 -81.2056111,28.60750050000001,0 -81.2054655,28.607486500000007,0 -81.20539529999999,28.60747520000001,0 -81.20517279999999,28.60742990000001,0 -81.20489319999999,28.607351600000012,0 -81.2047438,28.60730130000001,0 -81.20449959999999,28.607199300000012,0 -81.2043801,28.60713920000001,0 -81.20426289999999,28.60707300000001,0 -81.20414799999999,28.60699700000001,0 -81.2040631,28.60692970000001,0 -81.2040084,28.60687520000001,0 -81.2039612,28.60681980000001,0 -81.2036514,28.606371000000014,0 -81.20354520000001,28.606440100000015,0 -81.2035328,28.606499200000012,0 -81.2035223,28.60652770000001,0 -81.2035068,28.606560300000012,0 -81.2034936,28.606599300000013,0 -81.20348340000001,28.606602700000014,0 -81.20347220000001,28.606604700000016,0 -81.20344560000001,28.606604500000017,0 -81.20343470000002,28.606601000000015,0 -81.20342570000001,28.606594600000015,0 -81.20341690000001,28.606586000000018,0 -81.20331030000001,28.606439500000015,0 -81.20324600000001,28.606371700000018,0 -81.20321860000001,28.60634960000002,0 -81.20320200000002,28.60634140000002,0 -81.20318780000001,28.60634050000002,0 -81.20315680000002,28.60634240000002,0 -81.20311960000002,28.60635600000002,0 -81.20306860000002,28.606389100000023,0 -81.20271210000003,28.60671370000002,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-23T19:04:05.000Z</begin>
+          <end>2019-09-23T19:07:34.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>University of Central Florida</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>4000 Central Florida Blvd, Orlando, FL 32816</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Public university</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Public university from 2019-09-23T19:07:34.000Z to 2019-09-23T23:10:00.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2000599,28.6024274,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-23T19:07:34.000Z</begin>
+          <end>2019-09-23T23:10:00.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-03-yellow</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>36629</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-23T23:10:00.000Z to 2019-09-24T00:10:21.000Z. Distance 36629m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.2027121,28.6067137,0 -81.2030686,28.6063891,0 -81.2031196,28.606356,0 -81.20315679999999,28.6063424,0 -81.20320199999999,28.6063414,0 -81.20321859999999,28.606349599999998,0 -81.20331029999998,28.606439499999997,0 -81.2034169,28.606585999999997,0 -81.20343469999999,28.606600999999998,0 -81.20344559999998,28.606604499999996,0 -81.20347219999998,28.606604699999995,0 -81.20352069999998,28.606590599999997,0 -81.20361599999998,28.6065385,0 -81.20387239999998,28.606889199999998,0 -81.20399149999999,28.6070225,0 -81.20412119999997,28.6071252,0 -81.20425359999999,28.6072081,0 -81.20451959999998,28.6073335,0 -81.20486599999998,28.6074593,0 -81.20512809999998,28.6075319,0 -81.20559229999998,28.607607599999998,0 -81.20749869999997,28.6076414,0 -81.20748499999998,28.611847799999996,0 -81.20750199999998,28.6119894,0 -81.21092289999999,28.6118952,0 -81.21106679999998,28.611869799999997,0 -81.22409619999998,28.6117881,0 -81.22409929999998,28.6115544,0 -81.22411779999997,28.611501099999998,0 -81.22415399999997,28.609530999999997,0 -81.22413289999997,28.609466099999995,0 -81.22425599999997,28.604027299999995,0 -81.22429449999997,28.603806199999998,0 -81.22436859999996,28.602394699999998,0 -81.22442229999997,28.6000271,0 -81.22445599999998,28.599594999999997,0 -81.22460159999997,28.598727499999995,0 -81.22463829999997,28.598288399999994,0 -81.22461909999998,28.596040799999994,0 -81.22459019999998,28.595694699999992,0 -81.22448089999997,28.595017099999993,0 -81.22443969999996,28.594568399999993,0 -81.22426329999996,28.580236099999993,0 -81.22425369999996,28.580210599999994,0 -81.22409769999996,28.57022179999999,0 -81.22399469999996,28.568804999999994,0 -81.23228559999997,28.569753799999994,0 -81.23275069999997,28.569774799999994,0 -81.23293289999997,28.569809899999992,0 -81.23417499999996,28.569896599999993,0 -81.23662479999996,28.569932699999992,0 -81.23850219999996,28.569891199999994,0 -81.23954089999997,28.569818199999997,0 -81.25080879999997,28.568683699999994,0 -81.25126479999996,28.568617399999994,0 -81.25329949999997,28.568434599999996,0 -81.25928379999996,28.568419599999995,0 -81.26131579999996,28.568458899999996,0 -81.26869939999996,28.568445599999997,0 -81.27084539999996,28.568400299999997,0 -81.28615469999997,28.5683649,0 -81.28707119999996,28.5683123,0 -81.28939139999996,28.5680741,0 -81.29140949999996,28.5677266,0 -81.29230439999996,28.5675308,0 -81.29438189999996,28.5669875,0 -81.29566609999995,28.5665595,0 -81.29702469999995,28.5660539,0 -81.29772079999995,28.565761100000003,0 -81.29934869999995,28.5650128,0 -81.30047039999997,28.564444500000004,0 -81.30212119999997,28.563478500000002,0 -81.30387279999997,28.562299100000004,0 -81.30590589999997,28.560804700000006,0 -81.30936379999996,28.558061700000003,0 -81.31075269999997,28.557143900000003,0 -81.31148199999997,28.556739400000005,0 -81.31246109999996,28.556256500000003,0 -81.31396599999997,28.555609000000004,0 -81.31480489999996,28.555283800000005,0 -81.31587049999996,28.554923700000007,0 -81.31760869999997,28.55440610000001,0 -81.31943519999996,28.553982200000007,0 -81.32014849999996,28.55384830000001,0 -81.32267329999996,28.553504900000007,0 -81.32364759999996,28.553439800000007,0 -81.33136509999996,28.553466200000006,0 -81.33237509999995,28.553521900000007,0 -81.33549869999995,28.553534700000004,0 -81.35316109999994,28.553250600000002,0 -81.35320589999995,28.553241600000003,0 -81.35331979999994,28.553180700000002,0 -81.35342719999994,28.553188100000003,0 -81.36030829999994,28.553117600000004,0 -81.36816289999994,28.553205300000005,0 -81.37905169999993,28.553106300000007,0 -81.37919169999994,28.553155000000007,0 -81.37965239999993,28.553175100000008,0 -81.38010029999994,28.55325880000001,0 -81.38075989999993,28.55329040000001,0 -81.38142569999994,28.55326040000001,0 -81.38221989999994,28.553160500000008,0 -81.38237689999994,28.55316240000001,0 -81.38242009999993,28.55299740000001,0 -81.38245549999994,28.55292860000001,0 -81.38248229999994,28.552911200000008,0 -81.38268959999994,28.552839300000006,0 -81.38277329999993,28.55278270000001,0 -81.38283549999993,28.551561700000008,0 -81.38291079999992,28.55114740000001,0 -81.38291389999992,28.550718100000008,0 -81.38283299999992,28.54909440000001,0 -81.38284319999991,28.549029300000008,0 -81.38283649999993,28.54900660000001,0 -81.38275319999991,28.548937400000007,0 -81.38260289999991,28.544475100000007,0 -81.38252059999992,28.543216500000007,0 -81.38247929999991,28.54049760000001,0 -81.38253419999991,28.539664700000007,0 -81.38267929999991,28.538648100000007,0 -81.38283859999991,28.537893900000007,0 -81.38310139999992,28.53685670000001,0 -81.38343229999991,28.535978800000006,0 -81.38369769999991,28.535405600000008,0 -81.38406339999992,28.53470980000001,0 -81.38421169999992,28.534487500000008,0 -81.38532719999992,28.53247720000001,0 -81.38557029999993,28.53199050000001,0 -81.38599499999991,28.53094780000001,0 -81.38631649999991,28.529780200000012,0 -81.38645279999992,28.52893250000001,0 -81.38652399999991,28.52790360000001,0 -81.3864991999999,28.521536300000008,0 -81.38651789999992,28.52098250000001,0 -81.38661089999991,28.52019870000001,0 -81.38674399999991,28.519631900000007,0 -81.38699179999992,28.518862200000008,0 -81.38733489999993,28.518089000000007,0 -81.38768739999992,28.51746900000001,0 -81.38789339999992,28.517155600000006,0 -81.38827259999992,28.51665370000001,0 -81.38847139999993,28.51642100000001,0 -81.38890629999993,28.51597180000001,0 -81.38922549999992,28.51567230000001,0 -81.38976759999993,28.515229100000006,0 -81.39453789999993,28.51192680000001,0 -81.39544929999994,28.51138840000001,0 -81.39620799999994,28.51101050000001,0 -81.39674189999994,28.51077740000001,0 -81.39758849999994,28.51046450000001,0 -81.39883469999994,28.510113800000006,0 -81.39955819999994,28.50996230000001,0 -81.40029109999995,28.50984770000001,0 -81.40108899999994,28.50976480000001,0 -81.40190409999994,28.509729500000006,0 -81.41569829999995,28.509653600000007,0 -81.41644759999994,28.509565600000006,0 -81.41691409999994,28.509490300000003,0 -81.41751069999995,28.509358000000002,0 -81.41787769999995,28.509257300000005,0 -81.41846189999995,28.509064800000004,0 -81.41938469999995,28.508675200000006,0 -81.41978309999995,28.508472900000005,0 -81.42050119999995,28.508037400000003,0 -81.42106929999996,28.507624800000006,0 -81.42163579999996,28.507137800000002,0 -81.42209339999995,28.506674800000003,0 -81.43634219999996,28.490240100000005,0 -81.43723509999995,28.489288300000005,0 -81.43846699999996,28.488128800000005,0 -81.44921219999996,28.479229900000004,0 -81.45352009999996,28.475931200000005,0 -81.45374479999997,28.475863600000004,0 -81.45562209999996,28.474477700000005,0 -81.45602899999996,28.474204200000003,0 -81.45616089999996,28.474128600000004,0 -81.45620709999996,28.4740718,0 -81.45624829999997,28.474040700000003,0 -81.45639249999996,28.473963,0 -81.45774629999997,28.4734006,0 -81.45801289999997,28.473271800000003,0 -81.45826989999996,28.473126400000005,0 -81.45847079999996,28.472983200000005,0 -81.45872239999996,28.472752800000002,0 -81.45884409999996,28.472609800000004,0 -81.45901869999997,28.472360100000003,0 -81.45914279999997,28.472124300000004,0 -81.45919389999996,28.472000100000006,0 -81.45926099999997,28.471773000000006,0 -81.45935029999997,28.471233100000006,0 -81.45939059999996,28.470846800000007,0 -81.45940419999997,28.47015190000001,0 -81.45946369999997,28.46976520000001,0 -81.45945619999996,28.468765500000007,0 -81.45940199999995,28.468208300000008,0 -81.45892249999996,28.46504450000001,0 -81.45881479999996,28.46383280000001,0 -81.45882389999996,28.46242650000001,0 -81.45880929999996,28.46227990000001,0 -81.45875729999995,28.45507940000001,0 -81.45875259999994,28.45505780000001,0 -81.45876369999995,28.45471320000001,0 -81.45879499999995,28.454679800000008,0 -81.45884319999995,28.45433790000001,0 -81.45889329999996,28.45411000000001,0 -81.45902889999995,28.453689000000008,0 -81.45923949999995,28.45324450000001,0 -81.45946079999996,28.45289350000001,0 -81.45967559999995,28.45261320000001,0 -81.45998289999996,28.452289000000007,0 -81.46027659999996,28.45203410000001,0 -81.46056419999996,28.451827800000007,0 -81.46114709999996,28.451483400000008,0 -81.46158339999997,28.451273900000007,0 -81.46226349999996,28.450993000000008,0 -81.46254609999995,28.450907000000008,0 -81.46297409999995,28.450802300000007,0 -81.46304499999997,28.45077730000001,0 -81.46320089999996,28.450701000000006,0 -81.46552439999996,28.45023520000001,0 -81.46567989999997,28.450221500000005,0 -81.46579829999996,28.449988000000005,0 -81.46591369999996,28.449477000000005,0 -81.46602059999996,28.448730000000005,0 -81.46595739999997,28.448641800000004,0 -81.46610049999997,28.447512400000004,0 -81.46617699999997,28.447437100000005,0 -81.46634989999997,28.446644200000005,0 -81.46700149999997,28.444427600000008,0 -81.46745779999998,28.444480700000007,0 -81.46777379999997,28.444500900000005,0 -81.46834779999998,28.444504300000006,0 -81.46862499999997,28.444486500000007,0 -81.46983709999998,28.444501900000006,0 -81.46991669999997,28.444586800000007,0 -81.46985659999996,28.444659800000007,0 -81.46982149999997,28.444742100000006,0 -81.46980979999996,28.445114600000007,0 -81.47034469999997,28.44512480000001,0 -81.47034859999997,28.445331600000006,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-23T23:10:00.000Z</begin>
+          <end>2019-09-24T00:10:21.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Orange County</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>Florida</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value />
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description>  from 2019-09-24T00:10:21.064Z to 2019-09-24T00:15:52.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2518833,28.4844995,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-24T00:10:21.064Z</begin>
+          <end>2019-09-24T00:15:52.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-03-yellow</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>32873</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-24T00:15:52.000Z to 2019-09-24T01:00:00.000Z. Distance 32873m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.4704208,28.4455629,0 -81.47037069999999,28.4455599,0 -81.47035129999999,28.445533299999997,0 -81.4703447,28.4451248,0 -81.4698098,28.445114599999997,0 -81.4698215,28.4447421,0 -81.4699167,28.4445868,0 -81.47001829999999,28.4446313,0 -81.4706039,28.4446165,0 -81.47080799999999,28.4455684,0 -81.4708845,28.4476549,0 -81.47091649999999,28.447779099999998,0 -81.4709573,28.447835,0 -81.4708577,28.4500104,0 -81.472616,28.450020700000003,0 -81.4726768,28.4500752,0 -81.473365,28.4501152,0 -81.47360540000001,28.450263500000002,0 -81.47397640000001,28.452338700000002,0 -81.4740799,28.4534014,0 -81.47418060000001,28.4535648,0 -81.4741382,28.4549186,0 -81.47402130000002,28.455755699999997,0 -81.47367630000001,28.4569266,0 -81.4732673,28.4578028,0 -81.4728453,28.4584722,0 -81.4720292,28.459480499999998,0 -81.4678552,28.4630223,0 -81.46780319999999,28.463188999999996,0 -81.45275369999999,28.475949599999996,0 -81.44375919999999,28.483174899999995,0 -81.44348729999999,28.483468699999996,0 -81.43812779999999,28.487863299999997,0 -81.43691439999999,28.489086,0 -81.42181619999998,28.5064711,0 -81.4211843,28.5070484,0 -81.42032669999999,28.5076919,0 -81.41922089999998,28.5083122,0 -81.41812099999999,28.5087537,0 -81.41709799999998,28.5090578,0 -81.41599029999999,28.5092417,0 -81.41480949999999,28.5093095,0 -81.4023448,28.5093693,0 -81.40050449999998,28.5094622,0 -81.39953639999999,28.509597000000003,0 -81.39759139999998,28.5100165,0 -81.39700179999998,28.5102118,0 -81.39673819999999,28.5101945,0 -81.39552339999999,28.5107806,0 -81.39478179999998,28.5112177,0 -81.38895599999998,28.5152993,0 -81.38783339999999,28.5164536,0 -81.38712069999998,28.5174814,0 -81.3867588,28.5181696,0 -81.38629659999998,28.5194181,0 -81.38606229999998,28.520598500000002,0 -81.38602079999998,28.5282136,0 -81.38577269999999,28.529931100000002,0 -81.38524349999999,28.5314139,0 -81.38281059999998,28.535652000000002,0 -81.38232109999998,28.5367849,0 -81.38204449999998,28.537967500000004,0 -81.38185309999999,28.539918800000006,0 -81.38216909999998,28.546767000000006,0 -81.38209059999998,28.546902900000003,0 -81.38206779999997,28.549399700000002,0 -81.38193519999997,28.5494024,0 -81.38187369999997,28.5524897,0 -81.38181599999999,28.5527582,0 -81.38175399999997,28.552894300000002,0 -81.38164799999998,28.552985400000004,0 -81.38140249999998,28.553040300000003,0 -81.37919759999997,28.553053300000002,0 -81.37905169999998,28.553106300000003,0 -81.35331979999998,28.553180700000002,0 -81.35318309999998,28.553129100000003,0 -81.33283199999998,28.553397200000003,0 -81.33139209999999,28.553307200000006,0 -81.32364409999998,28.553310700000004,0 -81.32178469999998,28.553469600000007,0 -81.31958029999998,28.553794100000008,0 -81.31776749999999,28.55417360000001,0 -81.31593129999997,28.554700600000007,0 -81.31404509999999,28.555365400000007,0 -81.31389969999998,28.55545770000001,0 -81.31249319999998,28.556045300000008,0 -81.31044509999997,28.55713400000001,0 -81.30311099999997,28.562588400000006,0 -81.30119119999996,28.563819100000007,0 -81.29860009999996,28.565179600000008,0 -81.29695679999996,28.56589500000001,0 -81.29435289999995,28.56679900000001,0 -81.29227089999996,28.56734830000001,0 -81.28909829999996,28.56793310000001,0 -81.28762549999996,28.568106000000007,0 -81.28605639999995,28.56818970000001,0 -81.28609279999995,28.57162040000001,0 -81.28614499999995,28.57168120000001,0 -81.28615279999994,28.57224510000001,0 -81.28608389999995,28.57234680000001,0 -81.28649279999995,28.597057800000012,0 -81.28638039999994,28.597209800000012,0 -81.28626599999996,28.59728390000001,0 -81.28611849999996,28.59732980000001,0 -81.27951049999996,28.597432000000012,0 -81.27857699999996,28.597579800000016,0 -81.27762559999995,28.597887700000012,0 -81.27704809999994,28.598149900000013,0 -81.27494509999995,28.599359600000014,0 -81.27410379999995,28.599732000000014,0 -81.27323769999995,28.599954700000016,0 -81.27271089999995,28.600032900000013,0 -81.27193039999996,28.600051400000012,0 -81.27118349999995,28.599982800000014,0 -81.27035179999996,28.59979840000001,0 -81.26398429999995,28.597642600000015,0 -81.26310669999997,28.597429600000012,0 -81.26227059999997,28.597324300000015,0 -81.25404499999996,28.597134800000017,0 -81.22447129999996,28.59753410000002,0 -81.22446569999997,28.598533300000014,0 -81.22428499999997,28.599864000000014,0 -81.22424989999998,28.601576300000016,0 -81.22314209999998,28.601558400000016,0 -81.22277769999997,28.601597500000015,0 -81.22237479999997,28.601722900000013,0 -81.22181029999996,28.60202310000001,0 -81.22179889999997,28.602073500000014,0 -81.22052689999995,28.603052600000016,0 -81.22027379999996,28.603203300000015,0 -81.21967089999995,28.603416700000015,0 -81.21934429999996,28.603471600000017,0 -81.21922529999996,28.603454600000013,0 -81.21793429999995,28.603603500000013,0 -81.21773679999995,28.603055300000015,0 -81.21745399999995,28.602575400000013,0 -81.21704719999994,28.602134900000014,0 -81.21682619999996,28.601965800000013,0 -81.21673399999995,28.60196230000001,0 -81.21626189999995,28.601506700000012,0 -81.21585109999995,28.600803400000014,0 -81.21572729999995,28.600061800000013,0 -81.21576469999995,28.599975900000015,0 -81.21579449999994,28.599783800000015,0 -81.21693179999994,28.599728200000012,0 -81.21715739999995,28.599628400000014,0 -81.21738559999994,28.599385300000012,0 -81.21797039999994,28.599401100000012,0 -81.21802159999993,28.599353600000015,0 -81.21800239999995,28.598595900000014,0 -81.21740419999995,28.59857140000001,0 -81.21738089999995,28.59858120000001,0 -81.21736779999995,28.59860960000001,0 -81.21738559999996,28.59938530000001,0 -81.21715739999996,28.59962840000001,0 -81.21693179999995,28.59972820000001,0 -81.21579449999996,28.59978380000001,0 -81.21590249999996,28.598854500000012,0 -81.21592279999994,28.59758870000001,0 -81.20765199999995,28.59765770000001,0 -81.20750379999996,28.607500000000012,0 -81.20546549999996,28.60748650000001,0 -81.20474379999996,28.607301300000014,0 -81.20426289999996,28.60707300000001,0 -81.20406309999996,28.606929700000013,0 -81.20331049999996,28.605914600000013,0 -81.20309549999996,28.605719500000014,0 -81.20287899999995,28.605593900000013,0 -81.20251639999995,28.605486800000012,0 -81.20183189999996,28.60544800000001,0 -81.20149239999996,28.60550150000001,0 -81.19888259999996,28.60631140000001,0 -81.19849249999997,28.606330100000008,0 -81.19852349999996,28.606446500000004,0 -81.19852109999997,28.606537400000004,0 -81.19757119999996,28.608211700000005,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-24T00:15:52.000Z</begin>
+          <end>2019-09-24T01:00:00.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Hampton Inn &amp; Suites Orlando/East UCF Area</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>3450 Quadrangle Blvd, Orlando, FL 32817</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Hotel from 2019-09-24T01:00:00.000Z to 2019-09-24T12:29:54.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2164763,28.599252999999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-24T01:00:00.000Z</begin>
+          <end>2019-09-24T12:29:54.000Z</end>
+        </TimeSpan>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>2019-09-22</name>
+      <StyleMap id="source-02-multiTrack">
+        <Pair>
+          <key>normal</key>
+          <styleUrl>#source-02-multiTrack_n</styleUrl>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <styleUrl>#source-02-multiTrack_h</styleUrl>
+        </Pair>
+      </StyleMap>
+      <Style id="source-02-multiTrack_n">
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>6</width>
+        </LineStyle>
+      </Style>
+      <Style id="source-02-multiTrack_h">
+        <IconStyle>
+          <scale>1.2</scale>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>8</width>
+        </LineStyle>
+      </Style>
+      <Placemark>
+        <name>Residence Inn by Marriott Orlando Convention Center</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>8800 Universal Blvd, Orlando, FL 32819</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Hotel from 2019-09-22T01:20:18.128Z to 2019-09-22T11:43:56.999Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.4684498,28.4377766,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-22T01:20:18.128Z</begin>
+          <end>2019-09-22T11:43:56.999Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-02-orange</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>4244</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-22T11:43:56.999Z to 2019-09-22T11:52:43.000Z. Distance 4244m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.4684584,28.437983300000003,0 -81.4683828,28.4379826,0 -81.46836370000001,28.4379754,0 -81.46834910000001,28.437959,0 -81.46834230000002,28.437945399999997,0 -81.46833730000002,28.437924099999996,0 -81.46833890000002,28.4373568,0 -81.46807480000002,28.4373825,0 -81.46784470000001,28.4373901,0 -81.46787510000001,28.437986099999996,0 -81.46787070000002,28.438189799999996,0 -81.46791910000002,28.438627399999998,0 -81.46796770000002,28.438885699999997,0 -81.46804180000002,28.439537699999995,0 -81.46801650000002,28.439652099999996,0 -81.46802110000002,28.439903099999995,0 -81.46800640000002,28.440355399999994,0 -81.46797740000001,28.440632399999995,0 -81.46790990000001,28.441039599999996,0 -81.46776340000002,28.441658599999993,0 -81.46759900000002,28.442163499999996,0 -81.46735220000002,28.442822499999995,0 -81.46710340000003,28.443395699999996,0 -81.46701040000002,28.443649399999995,0 -81.46624150000002,28.446506699999993,0 -81.46610150000002,28.447110099999993,0 -81.46604140000002,28.447419099999994,0 -81.46610050000002,28.447512399999994,0 -81.46595740000002,28.448641799999994,0 -81.46588260000003,28.44871789999999,0 -81.46583980000003,28.449059999999992,0 -81.46580960000003,28.449226599999996,0 -81.46578750000003,28.449394499999993,0 -81.46563820000003,28.449969599999992,0 -81.46552440000004,28.450235199999995,0 -81.46534370000003,28.450939399999996,0 -81.46490980000004,28.452351899999993,0 -81.46440490000003,28.454160599999994,0 -81.46436010000004,28.454372099999993,0 -81.46432720000003,28.454641599999995,0 -81.46431830000003,28.454837199999996,0 -81.46431990000004,28.455015199999995,0 -81.46447160000002,28.456991699999996,0 -81.46446070000003,28.457176099999998,0 -81.46444280000004,28.457260199999997,0 -81.46441970000004,28.457340399999996,0 -81.46437230000004,28.457452199999995,0 -81.46432410000004,28.457546599999997,0 -81.46426330000004,28.457649099999998,0 -81.46398340000003,28.458180999999996,0 -81.46381840000004,28.458554599999996,0 -81.46377810000004,28.458671799999998,0 -81.46371950000004,28.458889399999997,0 -81.46368790000004,28.459057099999995,0 -81.46367560000003,28.459152699999994,0 -81.46367000000004,28.459176499999995,0 -81.46364530000004,28.459375399999995,0 -81.46364050000004,28.459481899999997,0 -81.46364220000004,28.459610299999998,0 -81.46365260000005,28.4597527,0 -81.46368180000005,28.459986899999997,0 -81.46370230000005,28.460098199999997,0 -81.46373820000005,28.460243799999997,0 -81.46388090000005,28.460672799999998,0 -81.46390360000005,28.460761499999997,0 -81.46392740000005,28.460951999999995,0 -81.46395370000003,28.462176099999997,0 -81.46392750000004,28.462355499999997,0 -81.46395670000004,28.463616399999996,0 -81.46396150000004,28.463665599999995,0 -81.46400910000003,28.463899199999993,0 -81.46444920000003,28.465193699999997,0 -81.46454710000002,28.465381999999995,0 -81.46462870000002,28.465703699999995,0 -81.46470760000003,28.466087299999995,0 -81.46478260000002,28.466532699999995,0 -81.46484060000003,28.467092599999994,0 -81.46486480000003,28.467513899999993,0 -81.46487220000003,28.467830899999996,0 -81.46480160000003,28.470211799999994,0 -81.46472690000004,28.470275999999995,0 -81.46471900000004,28.470289399999995,0 -81.46469500000003,28.4703876,0 -81.46466710000004,28.4704759,0 -81.46462520000003,28.470576899999998,0 -81.46455750000004,28.470708499999997,0 -81.46446460000004,28.470857899999995,0 -81.46436770000004,28.470995399999996,0 -81.46423790000004,28.471150799999997,0 -81.46416440000004,28.471228199999995,0 -81.46407340000003,28.471302899999998,0 -81.46393840000003,28.471430099999996,0 -81.46386580000004,28.471510999999996,0 -81.46378390000004,28.471624499999997,0 -81.46372860000004,28.471718599999996,0 -81.46363770000004,28.471904699999996,0 -81.46363380000003,28.471920299999994,0 -81.46363330000003,28.47194019999999,0 -81.46364670000004,28.471981599999992,0 -81.46278530000004,28.473463699999993,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-22T11:43:56.999Z</begin>
+          <end>2019-09-22T11:52:43.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Universal Orlando Resort</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>6000 Universal Blvd, Orlando, FL 32819</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Theme park</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Theme park from 2019-09-22T11:52:43.000Z to 2019-09-22T12:05:08.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.4678193,28.4743207,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-22T11:52:43.000Z</begin>
+          <end>2019-09-22T12:05:08.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Hiking</name>
+        <styleUrl>#day-02-orange</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hiking</value>
+          </Data>
+          <Data name="Distance">
+            <value>6137</value>
+          </Data>
+        </ExtendedData>
+        <description> Hiking from 2019-09-22T12:05:08.000Z to 2019-09-22T22:06:00.000Z. Distance 6137m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.46137654122855,28.474000535626264,0 -81.46137654122855,28.474000535626264,0 -81.4642191,28.4739708,0 -81.4658316,28.4734531,0 -81.4665352,28.475125,0 -81.4678044,28.475452,0 -81.4687027,28.4751023,0 -81.4685484,28.4767347,0 -81.4681408,28.4753055,0 -81.4691646,28.4761818,0 -81.4692069,28.4770059,0 -81.4695411,28.4781035,0 -81.4695226,28.4785504,0 -81.4693236,28.4792302,0 -81.4700164,28.4798006,0 -81.4687955,28.4797214,0 -81.4678752,28.4796926,0 -81.4680719,28.4807172,0 -81.4672726,28.480071,0 -81.4675566,28.480214,0 -81.4681932,28.4805629,0 -81.4695587,28.4791037,0 -81.4704366,28.4791999,0 -81.4726665,28.4740248,0 -81.4727021,28.4731337,0 -81.4735826,28.4727048,0 -81.4727537,28.4729559,0 -81.4735894,28.4717593,0 -81.4735894,28.4717593,0 -81.4730545,28.4728631,0 -81.4720435,28.4731952,0 -81.4727712,28.4728987,0 -81.472935,28.4715208,0 -81.4736022,28.470767,0 -81.4729836,28.4702233,0 -81.47304,28.4695515,0 -81.4718148,28.4699212,0 -81.4732276,28.4704047,0 -81.4724716,28.469733,0 -81.471233,28.4698662,0 -81.469435,28.4706365,0 -81.4680253,28.4719005,0 -81.4646338,28.4735607,0 -81.4627605,28.4742138,0 -81.4608342,28.472773,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-22T12:05:08.000Z</begin>
+          <end>2019-09-22T22:06:00.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-02-orange</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>31885</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-22T22:06:00.000Z to 2019-09-22T22:49:56.000Z. Distance 31885m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.4615774,28.473578399999997,0 -81.4621581,28.473825599999998,0 -81.46227040000001,28.473847099999997,0 -81.4623582,28.473826299999995,0 -81.462473,28.473746399999996,0 -81.46350840000001,28.471928199999997,0 -81.4637404,28.471384099999998,0 -81.4637524,28.471251499999997,0 -81.46374,28.471186799999998,0 -81.4636942,28.471093299999996,0 -81.46362690000001,28.471016099999996,0 -81.4635344,28.470960299999994,0 -81.46276110000001,28.470722599999995,0 -81.462653,28.4706475,0 -81.4625149,28.470489199999996,0 -81.4624352,28.470324299999998,0 -81.4624185,28.470089399999996,0 -81.4624663,28.469917899999995,0 -81.4630313,28.468850599999996,0 -81.4634986,28.468301199999996,0 -81.4652781,28.466654699999996,0 -81.4654523,28.466536199999997,0 -81.46570279999999,28.466461799999994,0 -81.4659247,28.46645519999999,0 -81.4660864,28.466491299999994,0 -81.46626649999999,28.466575899999995,0 -81.46645749999999,28.466743099999995,0 -81.4665437,28.466896999999996,0 -81.46659129999999,28.467123599999994,0 -81.46656429999999,28.467288999999997,0 -81.46644059999998,28.467520299999997,0 -81.46632629999999,28.467628299999998,0 -81.4661941,28.467709099999997,0 -81.46603509999998,28.4677692,0 -81.46579949999999,28.467793999999998,0 -81.46566639999999,28.4677786,0 -81.46546249999999,28.467710999999998,0 -81.4653247,28.467627399999998,0 -81.46520439999999,28.467505199999998,0 -81.46509999999999,28.467332199999998,0 -81.4650429,28.467274599999996,0 -81.46485340000001,28.465838899999998,0 -81.4647612,28.465473799999998,0 -81.464697,28.465423699999995,0 -81.4644871,28.465155699999993,0 -81.4644492,28.465193699999997,0 -81.4642716,28.465259199999995,0 -81.4632876,28.465973399999996,0 -81.4594925,28.469955199999998,0 -81.4594037,28.4701085,0 -81.43811720000001,28.487678199999998,0 -81.4365354,28.489152199999996,0 -81.4219443,28.5060616,0 -81.42144630000001,28.506567099999998,0 -81.4207829,28.5071297,0 -81.4198044,28.5077911,0 -81.41840420000001,28.508465299999997,0 -81.4172439,28.508837099999997,0 -81.41663210000002,28.508972299999996,0 -81.41516890000001,28.509147899999995,0 -81.40097970000001,28.509261399999996,0 -81.39970310000002,28.509377999999998,0 -81.39894860000001,28.5095094,0 -81.39753070000002,28.509892699999998,0 -81.39673820000002,28.510194499999997,0 -81.39552340000002,28.510780599999997,0 -81.3947818,28.511217699999996,0 -81.38895600000001,28.515299299999995,0 -81.3884305,28.5157937,0 -81.3878334,28.5164536,0 -81.3871207,28.5174814,0 -81.3867588,28.5181696,0 -81.3862966,28.5194181,0 -81.38606229999999,28.520598500000002,0 -81.386009,28.5213709,0 -81.3860208,28.5282136,0 -81.3857727,28.529931100000002,0 -81.3855514,28.530662600000003,0 -81.3852435,28.5314139,0 -81.3828106,28.535652000000002,0 -81.38232109999998,28.5367849,0 -81.38204449999999,28.537967500000004,0 -81.3818531,28.539918800000006,0 -81.382284,28.548564000000006,0 -81.3822109,28.548705500000004,0 -81.3821363,28.5505616,0 -81.38199630000001,28.551895100000003,0 -81.38191560000001,28.5520035,0 -81.38181600000001,28.5527582,0 -81.38175400000002,28.552894300000002,0 -81.38164800000001,28.552985400000004,0 -81.38140250000001,28.553040300000003,0 -81.37919760000001,28.553053300000002,0 -81.37905170000002,28.553106300000003,0 -81.35331980000002,28.553180700000002,0 -81.35318310000002,28.553129100000003,0 -81.33283200000002,28.553397200000003,0 -81.33139210000002,28.553307200000006,0 -81.32364410000002,28.553310700000004,0 -81.32178470000002,28.553469600000007,0 -81.31958030000001,28.553794100000008,0 -81.31776750000002,28.55417360000001,0 -81.31593130000002,28.554700600000007,0 -81.31404510000002,28.555365400000007,0 -81.31389970000001,28.55545770000001,0 -81.3124932,28.556045300000008,0 -81.31044510000001,28.55713400000001,0 -81.30948590000001,28.557781200000008,0 -81.303111,28.562588400000006,0 -81.3011912,28.563819100000007,0 -81.2986001,28.565179600000008,0 -81.2969568,28.56589500000001,0 -81.29435289999999,28.56679900000001,0 -81.29227089999999,28.56734830000001,0 -81.28909829999999,28.56793310000001,0 -81.28762549999999,28.568106000000007,0 -81.28605639999999,28.56818970000001,0 -81.28609279999998,28.57162040000001,0 -81.28614499999998,28.57168120000001,0 -81.28615279999998,28.57224510000001,0 -81.28608389999998,28.57234680000001,0 -81.28649279999999,28.597057800000012,0 -81.28638039999998,28.597209800000012,0 -81.28626599999998,28.59728390000001,0 -81.28611849999999,28.59732980000001,0 -81.27951049999999,28.597432000000012,0 -81.278577,28.597579800000016,0 -81.2776256,28.597887700000012,0 -81.27704809999999,28.598149900000013,0 -81.2749451,28.599359600000014,0 -81.27410379999999,28.599732000000014,0 -81.2732377,28.599954700000016,0 -81.27271089999999,28.600032900000013,0 -81.2719304,28.600051400000012,0 -81.27118349999999,28.599982800000014,0 -81.27035179999999,28.59979840000001,0 -81.26398429999999,28.597642600000015,0 -81.2631067,28.597429600000012,0 -81.26227060000001,28.597324300000015,0 -81.254045,28.597134800000017,0 -81.244577,28.597393700000016,0 -81.2244713,28.59753410000002,0 -81.22446570000001,28.598533300000014,0 -81.22428500000001,28.599864000000014,0 -81.22424990000002,28.601576300000016,0 -81.22314210000002,28.601558400000016,0 -81.22277770000001,28.601597500000015,0 -81.22237480000001,28.601722900000013,0 -81.2218103,28.60202310000001,0 -81.2217989,28.602073500000014,0 -81.2205269,28.603052600000016,0 -81.22027379999999,28.603203300000015,0 -81.2196709,28.603416700000015,0 -81.21934429999999,28.603471600000017,0 -81.21922529999999,28.603454600000013,0 -81.2179343,28.603603500000013,0 -81.21773679999998,28.603055300000015,0 -81.21745399999999,28.602575400000013,0 -81.21704719999998,28.602134900000014,0 -81.21682619999999,28.601965800000013,0 -81.21673399999999,28.60196230000001,0 -81.21659869999998,28.60185930000001,0 -81.21626189999998,28.601506700000012,0 -81.21585109999998,28.600803400000014,0 -81.21572729999998,28.600061800000013,0 -81.21576469999998,28.599975900000015,0 -81.21590249999998,28.598854500000016,0 -81.21617999999998,28.598861400000015,0 -81.21613399999998,28.599528200000016,0 -81.21615379999997,28.599581100000012,0 -81.21618389999998,28.599602800000014,0 -81.21631279999998,28.599613900000016,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-22T22:06:00.000Z</begin>
+          <end>2019-09-22T22:49:56.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Hampton Inn &amp; Suites Orlando/East UCF Area</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>3450 Quadrangle Blvd, Orlando, FL 32817</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Hotel from 2019-09-22T22:49:56.098Z to 2019-09-23T19:04:05.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.2164763,28.599252999999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-22T22:49:56.098Z</begin>
+          <end>2019-09-23T19:04:05.000Z</end>
+        </TimeSpan>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>2019-09-21</name>
+      <StyleMap id="source-01-multiTrack">
+        <Pair>
+          <key>normal</key>
+          <styleUrl>#source-01-multiTrack_n</styleUrl>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <styleUrl>#source-01-multiTrack_h</styleUrl>
+        </Pair>
+      </StyleMap>
+      <Style id="source-01-multiTrack_n">
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>6</width>
+        </LineStyle>
+      </Style>
+      <Style id="source-01-multiTrack_h">
+        <IconStyle>
+          <scale>1.2</scale>
+          <Icon>
+            <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle>
+          <color>99ffac59</color>
+          <width>8</width>
+        </LineStyle>
+      </Style>
+      <Placemark>
+        <name>Flying</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Flying</value>
+          </Data>
+          <Data name="Distance">
+            <value>3931578</value>
+          </Data>
+        </ExtendedData>
+        <description> Flying from 2019-09-21T04:39:11.445Z to 2019-09-21T10:03:43.000Z. Distance 3931578m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3140371,28.427583799999997,0 -81.3140371,28.427583799999997,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T04:39:11.445Z</begin>
+          <end>2019-09-21T10:03:43.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Terminal B</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>1 Airport Blvd, Orlando, FL 32827</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Building</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Building from 2019-09-21T10:03:43.000Z to 2019-09-21T10:13:19.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.3140371,28.427583799999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-21T10:03:43.000Z</begin>
+          <end>2019-09-21T10:13:19.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>723</value>
+          </Data>
+        </ExtendedData>
+        <description> On the subway from 2019-09-21T10:13:19.681Z to 2019-09-21T10:15:56.000Z. Distance 723m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3140371,28.427583799999997,0 -81.3138989,28.4278632,0 -81.3083072,28.4316372,0 -81.3083072,28.4316372,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T10:13:19.681Z</begin>
+          <end>2019-09-21T10:15:56.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Alamo Rent A Car</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>1 Jeff Fuqua Blvd, Orlando, FL 32827</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Car rental agency</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Car rental agency from 2019-09-21T10:15:56.000Z to 2019-09-21T10:17:59.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.3083072,28.431637199999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-21T10:15:56.000Z</begin>
+          <end>2019-09-21T10:17:59.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>631</value>
+          </Data>
+        </ExtendedData>
+        <description> Walking from 2019-09-21T10:17:59.000Z to 2019-09-21T10:42:08.000Z. Distance 631m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3083072,28.4316372,0 -81.3083072,28.4316372,0 -81.3091417,28.4306802,0 -81.3077392,28.430107,0 -81.3075871,28.4291495,0 -81.3080302,28.428876,0 -81.3085734,28.4284943,0 -81.3095997,28.4290558,0 -81.3095997,28.4290558,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T10:17:59.000Z</begin>
+          <end>2019-09-21T10:42:08.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>4774</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-21T10:42:08.000Z to 2019-09-21T10:48:35.000Z. Distance 4774m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3098887,28.4290482,0 -81.31000010000001,28.4290944,0 -81.310298,28.429160500000002,0 -81.3104022,28.4291539,0 -81.31045350000001,28.429142600000002,0 -81.31050300000001,28.4291265,0 -81.3105506,28.4291023,0 -81.31059090000001,28.4290491,0 -81.3106111,28.4289895,0 -81.3106092,28.428889599999998,0 -81.3105928,28.4287962,0 -81.3105891,28.428457899999998,0 -81.3106129,28.4283564,0 -81.3106756,28.4281877,0 -81.3102846,28.4272816,0 -81.31022420000001,28.427176099999997,0 -81.31014820000001,28.4270793,0 -81.31003730000002,28.4269698,0 -81.30996170000002,28.4269137,0 -81.30989830000001,28.426874399999996,0 -81.30983030000002,28.426843499999997,0 -81.30973450000002,28.426810699999994,0 -81.30946050000001,28.426817499999995,0 -81.30746740000001,28.4267865,0 -81.3074113,28.426789499999995,0 -81.30732689999999,28.4268035,0 -81.30724369999999,28.426823799999998,0 -81.30716489999999,28.4268495,0 -81.3070676,28.4268909,0 -81.3069054,28.426982099999996,0 -81.306845,28.427004999999998,0 -81.30669639999999,28.427128,0 -81.30646,28.4273436,0 -81.3063103,28.4275313,0 -81.3062357,28.427646799999998,0 -81.3060811,28.427918599999998,0 -81.30602460000001,28.4280324,0 -81.30570000000002,28.4286215,0 -81.30560170000001,28.428722899999997,0 -81.30555380000001,28.4287961,0 -81.30538160000002,28.429132399999997,0 -81.30532990000002,28.429267099999997,0 -81.30530530000001,28.429356999999996,0 -81.30526890000002,28.429579899999997,0 -81.30522990000001,28.429732699999995,0 -81.30516570000002,28.429879099999994,0 -81.30510850000002,28.431725899999993,0 -81.30509000000002,28.431958199999993,0 -81.30508530000002,28.432460699999993,0 -81.30509230000003,28.432595199999994,0 -81.30511680000002,28.43281499999999,0 -81.30520050000001,28.433151399999993,0 -81.3052662,28.433349099999994,0 -81.30539770000001,28.433658499999993,0 -81.3055559,28.433949499999994,0 -81.30623360000001,28.435072899999994,0 -81.3063872,28.435359899999995,0 -81.30690270000001,28.43623639999999,0 -81.30731940000001,28.436898399999993,0 -81.3074792,28.437171899999992,0 -81.307631,28.437521599999993,0 -81.3077517,28.437845299999992,0 -81.3078114,28.43805739999999,0 -81.307879,28.43842369999999,0 -81.30790900000001,28.43852409999999,0 -81.3079438,28.438583099999992,0 -81.30794530000001,28.43877339999999,0 -81.30791680000002,28.43918129999999,0 -81.30784400000002,28.43957339999999,0 -81.30770640000003,28.44021059999999,0 -81.30765970000002,28.44046819999999,0 -81.30745900000002,28.441404999999992,0 -81.30682810000002,28.44477519999999,0 -81.30674100000002,28.445331299999992,0 -81.30668710000002,28.44576969999999,0 -81.30666390000002,28.446133899999992,0 -81.30665460000002,28.44658559999999,0 -81.30669370000003,28.44720739999999,0 -81.30669190000002,28.447399699999988,0 -81.30700990000001,28.448543099999988,0 -81.30720380000002,28.449175999999987,0 -81.30753310000001,28.449908099999988,0 -81.30781990000001,28.450428599999988,0 -81.30818390000002,28.451163599999987,0 -81.30862330000001,28.45196369999999,0 -81.30874560000002,28.45228529999999,0 -81.30907050000002,28.45300159999999,0 -81.30949070000003,28.45408019999999,0 -81.30952770000003,28.454155899999986,0 -81.30964910000003,28.454553899999986,0 -81.30979600000002,28.455195399999983,0 -81.30986390000002,28.455605099999985,0 -81.30989860000004,28.455899499999983,0 -81.30991180000004,28.456099799999983,0 -81.30991040000004,28.458481799999984,0 -81.30995870000004,28.459257399999984,0 -81.30992830000005,28.462252299999985,0 -81.30998690000004,28.468100399999987,0 -81.30938150000004,28.468091999999984,0 -81.30853270000004,28.468106299999985,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T10:42:08.000Z</begin>
+          <end>2019-09-21T10:48:35.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Starbucks</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>6605 S Semoran Blvd, Orlando, FL 32822</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Coffee shop</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Coffee shop from 2019-09-21T10:48:35.000Z to 2019-09-21T11:12:30.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.309237,28.467952,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-21T10:48:35.000Z</begin>
+          <end>2019-09-21T11:12:30.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>303066</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-21T11:12:30.118Z to 2019-09-21T14:04:26.417Z. Distance 303066m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.3071832,28.468712,0 -81.3072837,28.4687228,0 -81.3082263,28.4689264,0 -81.3090209,28.4690377,0 -81.30998179999999,28.4690401,0 -81.31018599999999,28.511418000000003,0 -81.31020099999999,28.5115805,0 -81.31023169999999,28.517066000000003,0 -81.31024799999999,28.517172800000004,0 -81.3102821,28.520489000000005,0 -81.31026250000001,28.5210365,0 -81.3102823,28.522347500000002,0 -81.3103108,28.522677400000003,0 -81.3105143,28.5417662,0 -81.3105733,28.543149200000006,0 -81.31054,28.543711500000004,0 -81.31070140000001,28.557061200000003,0 -81.31130990000001,28.557065600000005,0 -81.31152720000001,28.556937300000005,0 -81.3139519,28.555723200000006,0 -81.31431950000001,28.555559500000008,0 -81.31582580000001,28.554992400000007,0 -81.31583590000001,28.554984800000007,0 -81.3158705,28.554923700000007,0 -81.3176087,28.55440610000001,0 -81.31943519999999,28.553982200000007,0 -81.32014849999999,28.55384830000001,0 -81.32267329999999,28.553504900000007,0 -81.3236476,28.553439800000007,0 -81.3313651,28.553466200000006,0 -81.3323751,28.553521900000007,0 -81.33549869999999,28.553534700000004,0 -81.35316109999998,28.553250600000002,0 -81.35320589999999,28.553241600000003,0 -81.35331979999998,28.553180700000002,0 -81.35342719999997,28.553188100000003,0 -81.36030829999999,28.553117600000004,0 -81.36816289999997,28.553205300000005,0 -81.37686039999998,28.55313390000001,0 -81.37695669999998,28.559925300000007,0 -81.37704749999997,28.56010360000001,0 -81.37712769999997,28.560197500000005,0 -81.37722239999998,28.560286900000005,0 -81.37726159999997,28.560346300000006,0 -81.37731779999997,28.560398300000003,0 -81.37746529999997,28.560462800000003,0 -81.37755409999997,28.560486200000003,0 -81.37811039999997,28.560580100000003,0 -81.37822649999997,28.5606337,0 -81.37831209999997,28.560706200000002,0 -81.37839759999997,28.5608001,0 -81.37846479999997,28.560894,0 -81.37850449999998,28.5609826,0 -81.37852289999998,28.5611248,0 -81.37851059999997,28.5612697,0 -81.37842819999997,28.5615058,0 -81.37815279999998,28.5619112,0 -81.37773689999997,28.5623902,0 -81.37705699999998,28.5633008,0 -81.37661029999998,28.564011800000003,0 -81.37641709999998,28.5643901,0 -81.37640939999999,28.5644631,0 -81.37642999999998,28.5645387,0 -81.37617849999998,28.5650459,0 -81.37596959999998,28.5655595,0 -81.37590559999998,28.5656792,0 -81.37572619999997,28.5662434,0 -81.37564389999999,28.566658699999998,0 -81.37556719999998,28.5672711,0 -81.37557649999998,28.5673781,0 -81.37555279999998,28.5675999,0 -81.37559579999999,28.567759000000002,0 -81.375537,28.5713301,0 -81.37551669999999,28.5715018,0 -81.37553199999999,28.5743115,0 -81.3754804,28.575094,0 -81.37539349999999,28.5757171,0 -81.37488219999999,28.577903999999997,0 -81.37479419999998,28.578435,0 -81.37464479999998,28.5786559,0 -81.37453909999998,28.5797319,0 -81.37453659999998,28.582261099999997,0 -81.3731079,28.582281799999997,0 -81.3732368,28.5888594,0 -81.37331149999999,28.589641099999998,0 -81.3733475,28.5931681,0 -81.3770115,28.5931768,0 -81.38077709999999,28.5930855,0 -81.38095909999998,28.593130199999997,0 -81.3811739,28.5931462,0 -81.3814592,28.5931166,0 -81.3815791,28.593242999999998,0 -81.3817361,28.593347499999997,0 -81.3834837,28.5947708,0 -81.38409429999999,28.595377499999998,0 -81.38410549999999,28.595383299999998,0 -81.38422339999998,28.595384499999994,0 -81.38460119999998,28.595885099999993,0 -81.38497209999998,28.596480399999994,0 -81.38537179999999,28.597245499999996,0 -81.38557629999998,28.597759999999994,0 -81.38580059999998,28.598465299999994,0 -81.38597089999999,28.599251799999994,0 -81.38602589999999,28.599684999999994,0 -81.3860713,28.600330999999994,0 -81.38632729999999,28.609244199999996,0 -81.38622179999999,28.612254999999994,0 -81.3862509,28.620200399999995,0 -81.38634919999998,28.620327999999994,0 -81.38635919999999,28.620349999999995,0 -81.3864134,28.621192499999996,0 -81.3864929,28.621696999999998,0 -81.38656699999999,28.625990499999997,0 -81.38667379999998,28.627365199999996,0 -81.38676219999998,28.6279607,0 -81.38693969999999,28.6288664,0 -81.38749979999999,28.631246,0 -81.38755809999998,28.631727700000003,0 -81.38760539999997,28.6326198,0 -81.38746829999997,28.6357716,0 -81.38746739999996,28.6363318,0 -81.38832809999997,28.6457302,0 -81.38844859999998,28.648056000000004,0 -81.38863869999997,28.691166400000007,0 -81.38867529999997,28.692276900000007,0 -81.38861809999996,28.69282910000001,0 -81.38847769999997,28.693543000000012,0 -81.38825979999997,28.69424960000001,0 -81.38797689999997,28.694952200000014,0 -81.38758179999998,28.69565790000001,0 -81.38406199999997,28.70074280000001,0 -81.38243759999997,28.702987700000012,0 -81.38205559999997,28.70360990000001,0 -81.38204639999996,28.703617300000012,0 -81.38192619999997,28.703669800000007,0 -81.38146949999997,28.70456490000001,0 -81.38103559999998,28.70558580000001,0 -81.37962429999997,28.709520300000005,0 -81.37873429999998,28.712332900000003,0 -81.37493559999997,28.723070700000008,0 -81.37475139999998,28.723666200000007,0 -81.37397449999997,28.725681100000006,0 -81.36588659999998,28.74851540000001,0 -81.36584489999998,28.74868470000001,0 -81.35801489999999,28.77071120000001,0 -81.3571551,28.772748700000015,0 -81.35143839999999,28.784133900000015,0 -81.3513176,28.784417100000017,0 -81.34482039999999,28.797270600000015,0 -81.3440596,28.798965900000013,0 -81.3435177,28.799913300000014,0 -81.34025820000001,28.806336300000016,0 -81.33880710000001,28.809002700000015,0 -81.3366608,28.81334310000002,0 -81.335267,28.816429000000017,0 -81.333161,28.820596400000014,0 -81.33252860000002,28.821618200000014,0 -81.33198620000002,28.822379900000012,0 -81.33133430000002,28.82315570000001,0 -81.33078280000001,28.823752000000017,0 -81.32772620000001,28.82680570000002,0 -81.32472650000001,28.829625200000013,0 -81.31850870000002,28.83582170000001,0 -81.31836620000001,28.835990600000017,0 -81.31269780000002,28.841655800000012,0 -81.31001060000003,28.844571100000014,0 -81.28699660000002,28.867592500000015,0 -81.28616380000003,28.868560100000014,0 -81.28573690000002,28.869130000000013,0 -81.28521440000002,28.869907600000012,0 -81.28457120000003,28.871026900000007,0 -81.28428750000003,28.87161070000001,0 -81.28388690000003,28.872553000000003,0 -81.24185100000003,29.004571900000006,0 -81.24155290000002,29.005414800000008,0 -81.24107320000003,29.00651310000001,0 -81.24072360000002,29.00718680000001,0 -81.24023430000001,29.00801200000001,0 -81.23978330000001,29.00867920000001,0 -81.23944350000001,29.009135200000014,0 -81.23877070000002,29.009950900000014,0 -81.21661100000001,29.03340290000001,0 -81.21408380000003,29.035910500000014,0 -81.21236340000002,29.037699500000013,0 -81.20920000000001,29.041236700000013,0 -81.19075990000002,29.060695800000012,0 -81.18683650000003,29.064636000000014,0 -81.18386090000003,29.067957000000018,0 -81.16371310000002,29.089224200000015,0 -81.16137710000002,29.091533100000014,0 -81.15936410000003,29.093680500000016,0 -81.15782510000003,29.095432200000015,0 -81.12092790000003,29.13435450000001,0 -81.11961560000002,29.135576100000012,0 -81.11861460000002,29.136374100000012,0 -81.11740070000002,29.13721990000001,0 -81.11655080000001,29.13774440000001,0 -81.11521280000001,29.138473000000012,0 -81.11433310000001,29.138891800000014,0 -81.0815816,29.152782600000013,0 -81.08061070000001,29.153299000000015,0 -81.07993350000001,29.153717300000014,0 -81.07918670000002,29.154255600000017,0 -81.07856700000002,29.154797100000014,0 -81.07815780000001,29.155222700000017,0 -81.07785720000001,29.155579300000017,0 -81.07757840000002,29.15595160000002,0 -81.07733470000001,29.156348100000024,0 -81.0771929,29.15665300000002,0 -81.07706540000001,29.15703100000002,0 -81.07699530000002,29.157367300000022,0 -81.07696080000002,29.157659600000024,0 -81.07695610000002,29.158167600000024,0 -81.07700510000002,29.158528400000023,0 -81.07711130000001,29.15894530000002,0 -81.07722640000001,29.159250700000023,0 -81.07732700000001,29.15946210000002,0 -81.0774975,29.15975570000002,0 -81.07874620000001,29.161497000000022,0 -81.0794917,29.162661300000018,0 -81.07950199999999,29.162744600000014,0 -81.08151170000001,29.166152400000016,0 -81.08197630000001,29.167039300000013,0 -81.08272860000001,29.168722700000014,0 -81.08352870000002,29.170770000000015,0 -81.0841055,29.171952200000014,0 -81.08466880000002,29.172889900000015,0 -81.08501210000001,29.173389900000014,0 -81.08682120000002,29.175698800000013,0 -81.08736170000002,29.176449700000013,0 -81.08784000000001,29.177245200000016,0 -81.08815490000002,29.177854800000013,0 -81.08838620000002,29.17836720000001,0 -81.08913910000003,29.18025070000001,0 -81.08915180000001,29.18026490000001,0 -81.08925840000002,29.18033390000001,0 -81.10281670000002,29.219347100000014,0 -81.10290280000001,29.219647100000017,0 -81.12256210000002,29.276229500000017,0 -81.12417610000001,29.281437600000018,0 -81.12656550000001,29.287749300000023,0 -81.13102040000001,29.30054450000002,0 -81.13128640000001,29.301496800000017,0 -81.13148170000001,29.302468100000013,0 -81.1316085,29.303396700000015,0 -81.1316685,29.30474420000001,0 -81.131084,29.331487100000007,0 -81.1310912,29.331572400000006,0 -81.131018,29.335009600000003,0 -81.13099799999999,29.335092700000008,0 -81.1309632,29.336702000000006,0 -81.13097589999998,29.33682630000001,0 -81.13090119999998,29.340527800000007,0 -81.1308804,29.340617500000008,0 -81.13082799999998,29.343070600000008,0 -81.13084329999998,29.343197300000007,0 -81.13079939999999,29.346363400000005,0 -81.13087429999999,29.347161600000007,0 -81.130963,29.34769550000001,0 -81.1311176,29.348363800000012,0 -81.1313922,29.34921610000001,0 -81.1510721,29.39457170000001,0 -81.151089,29.39464980000001,0 -81.15182,29.39633100000001,0 -81.1518816,29.39642040000001,0 -81.1543407,29.402087200000015,0 -81.154341,29.402108200000015,0 -81.15432790000001,29.402150600000013,0 -81.1575432,29.40951160000001,0 -81.1575647,29.409594900000005,0 -81.1589402,29.412703800000006,0 -81.15901000000001,29.412816600000006,0 -81.16373,29.423651500000005,0 -81.2058757,29.534153900000003,0 -81.20613560000001,29.534706900000003,0 -81.20664660000001,29.535667200000002,0 -81.20703440000001,29.5363093,0 -81.24408290000001,29.592792699999997,0 -81.24518390000001,29.594579500000002,0 -81.27756800000002,29.6541454,0 -81.27803140000002,29.654926200000002,0 -81.27835730000002,29.65542,0 -81.27916990000003,29.656501399999996,0 -81.27967580000004,29.657087299999997,0 -81.28025210000003,29.657693499999997,0 -81.28115140000003,29.658530699999993,0 -81.28194300000001,29.659177099999994,0 -81.28276400000001,29.659770099999992,0 -81.28338550000002,29.66017089999999,0 -81.31269990000003,29.67673439999999,0 -81.31363310000002,29.67729709999999,0 -81.31483890000003,29.67811939999999,0 -81.31593560000003,29.67896649999999,0 -81.31731860000002,29.68021199999999,0 -81.31842020000002,29.681365099999994,0 -81.31924970000003,29.682356299999995,0 -81.32017120000003,29.683624199999993,0 -81.32064270000002,29.68436359999999,0 -81.32108580000002,29.68512519999999,0 -81.32173430000002,29.686407399999993,0 -81.32209830000001,29.687244099999994,0 -81.3709245,29.808951799999992,0 -81.37186670000001,29.810989399999993,0 -81.39122730000001,29.85018339999999,0 -81.39201940000001,29.852090199999992,0 -81.39227050000001,29.85279469999999,0 -81.41266940000001,29.920030899999986,0 -81.41304180000002,29.92099279999999,0 -81.4132696,29.921503499999986,0 -81.41381620000001,29.92253919999999,0 -81.41428810000001,29.923302899999985,0 -81.41473570000001,29.923946699999988,0 -81.4151774,29.924524299999984,0 -81.4156282,29.925056899999984,0 -81.4405693,29.952164499999984,0 -81.4414327,29.953184299999982,0 -81.44211609999999,29.95405229999998,0 -81.44293929999999,29.955179899999976,0 -81.4434701,29.955975599999974,0 -81.4948395,30.040970999999974,0 -81.4954494,30.042076599999973,0 -81.49599579999999,30.043327099999974,0 -81.49625879999999,30.044079999999976,0 -81.4964773,30.04482639999998,0 -81.49669309999999,30.045822899999983,0 -81.4968143,30.046621999999985,0 -81.4985824,30.072955899999986,0 -81.4985995,30.073788399999987,0 -81.4985546,30.075470699999986,0 -81.4975435,30.089038199999987,0 -81.4975127,30.09013039999999,0 -81.4975256,30.09076079999999,0 -81.4976053,30.091886599999988,0 -81.49771160000002,30.09276009999999,0 -81.49792290000002,30.09394869999999,0 -81.49823650000002,30.095213899999987,0 -81.49852170000003,30.09612819999999,0 -81.49901900000002,30.09741849999999,0 -81.49932700000002,30.098108299999986,0 -81.49984050000002,30.099123499999987,0 -81.50035610000002,30.100019699999986,0 -81.50077650000001,30.100677799999985,0 -81.50169760000001,30.101956399999988,0 -81.50243710000001,30.10285179999999,0 -81.50289310000001,30.103358799999988,0 -81.5402397,30.141144199999992,0 -81.5412194,30.142252599999996,0 -81.54215180000001,30.143391499999996,0 -81.5434316,30.145176499999994,0 -81.54415270000001,30.14630959999999,0 -81.5449497,30.14770329999999,0 -81.5574856,30.172052999999988,0 -81.5578574,30.17286099999999,0 -81.5582105,30.173804699999987,0 -81.5585604,30.175014399999988,0 -81.5586988,30.175667399999988,0 -81.55885660000001,30.17673979999999,0 -81.5589214,30.17758869999999,0 -81.5589299,30.178506599999988,0 -81.558873,30.179477299999984,0 -81.5588012,30.180084299999987,0 -81.5561718,30.194992199999987,0 -81.55611449999999,30.19575989999999,0 -81.5561202,30.19615739999999,0 -81.5562138,30.19692639999999,0 -81.5563153,30.19745259999999,0 -81.55644319999999,30.19793099999999,0 -81.55664949999999,30.19851009999999,0 -81.55693569999998,30.199131999999988,0 -81.55711669999998,30.199460699999985,0 -81.58108439999998,30.23615859999999,0 -81.58155569999998,30.23683339999999,0 -81.58158899999998,30.23691159999999,0 -81.58207329999998,30.237548999999987,0 -81.58266459999997,30.238264099999988,0 -81.58353819999998,30.23921769999999,0 -81.60344619999998,30.258263399999986,0 -81.60352079999998,30.258321799999987,0 -81.60474389999999,30.259548899999988,0 -81.60609259999998,30.261109999999988,0 -81.60728649999999,30.262683299999985,0 -81.62055889999999,30.28143399999999,0 -81.62160079999998,30.28278279999999,0 -81.62266969999999,30.28402659999999,0 -81.62377049999998,30.28518539999999,0 -81.63892009999999,30.299310499999986,0 -81.6394313,30.299860899999985,0 -81.639797,30.300332699999984,0 -81.641262,30.302682599999986,0 -81.64122520000001,30.302785099999983,0 -81.6416303,30.30356159999998,0 -81.64211250000001,30.304324299999983,0 -81.64247280000001,30.30480009999998,0 -81.64277270000001,30.305150699999977,0 -81.64316120000001,30.305557099999977,0 -81.64493870000001,30.30722639999998,0 -81.64500200000002,30.307262999999985,0 -81.64535990000002,30.307623999999986,0 -81.64590540000002,30.308243499999985,0 -81.64616810000003,30.308582399999985,0 -81.64704330000002,30.309879199999987,0 -81.64747590000002,30.310344599999983,0 -81.64795970000002,30.310785999999982,0 -81.64970110000002,30.311978599999982,0 -81.65012340000001,30.31230519999998,0 -81.65141370000002,30.31347429999998,0 -81.65178450000002,30.31374179999998,0 -81.65229610000002,30.314021699999984,0 -81.65262510000002,30.314158699999986,0 -81.65285150000001,30.314236099999984,0 -81.65334170000001,30.314361799999986,0 -81.65360200000002,30.31440369999999,0 -81.65385920000001,30.31442429999999,0 -81.65822170000001,30.314330099999992,0 -81.6584213,30.314356699999994,0 -81.6586765,30.314423099999992,0 -81.658832,30.31448169999999,0 -81.65902390000001,30.314585199999993,0 -81.65921130000001,30.31471249999999,0 -81.65933120000003,30.314810099999995,0 -81.65947660000002,30.314962899999994,0 -81.66084470000003,30.31668179999999,0 -81.66128350000002,30.31735579999999,0 -81.66217650000002,30.318918199999988,0 -81.66542240000001,30.323818599999992,0 -81.66638900000002,30.325475199999993,0 -81.66643330000002,30.325570099999997,0 -81.66647730000001,30.325783799999996,0 -81.66646840000001,30.325999999999993,0 -81.66644680000002,30.32608889999999,0 -81.66636100000002,30.32627489999999,0 -81.66626800000002,30.32640889999999,0 -81.66619190000002,30.32648559999999,0 -81.66576310000002,30.326836799999988,0 -81.66565620000002,30.326977399999986,0 -81.66551300000002,30.327348599999986,0 -81.66537190000003,30.327600299999986,0 -81.66486740000002,30.329345599999982,0 -81.67183000000001,30.330945999999983,0 -81.67204360000002,30.331006999999982,0 -81.67219010000001,30.33110029999998,0 -81.67226680000002,30.33118029999998,0 -81.67231540000002,30.33125219999998,0 -81.67272590000002,30.332076699999977,0 -81.67272240000001,30.332248399999976,0 -81.6727089,30.332319199999976,0 -81.67268480000001,30.332384399999974,0 -81.67264910000002,30.332449599999972,0 -81.67259210000002,30.332522299999976,0 -81.67245270000002,30.332618199999974,0 -81.67232720000003,30.332675999999974,0 -81.67183220000003,30.33282619999997,0 -81.67164860000003,30.33292039999997,0 -81.67151710000003,30.33300819999997,0 -81.67140800000003,30.333030599999972,0 -81.67101330000003,30.333383399999974,0 -81.67051850000003,30.333907299999975,0 -81.67021320000002,30.334269599999974,0 -81.66956560000001,30.335199199999977,0 -81.66932240000001,30.335595299999977,0 -81.66902620000002,30.336146399999976,0 -81.66847420000002,30.33736549999998,0 -81.66828190000003,30.337996699999977,0 -81.66809480000002,30.338878999999977,0 -81.66800430000002,30.33958929999998,0 -81.66797000000003,30.34050959999998,0 -81.66889540000003,30.37113489999998,0 -81.66901210000002,30.37188319999998,0 -81.66912120000002,30.37230349999998,0 -81.66935000000001,30.37292739999998,0 -81.6695353,30.37333029999998,0 -81.66981630000001,30.37383419999998,0 -81.67287900000002,30.37802539999998,0 -81.67309760000002,30.37840449999998,0 -81.67319980000002,30.378620999999978,0 -81.67332680000003,30.37896659999998,0 -81.67342530000002,30.379340399999982,0 -81.67349550000003,30.379776399999983,0 -81.67350640000002,30.38038149999998,0 -81.67344100000003,30.38090659999998,0 -81.67325450000003,30.38150109999998,0 -81.67312860000003,30.38180479999998,0 -81.67298060000002,30.382093199999975,0 -81.67272770000002,30.382502299999974,0 -81.67239090000002,30.38293169999998,0 -81.67221610000003,30.383114999999975,0 -81.67004080000002,30.38511049999998,0 -81.66949950000003,30.385711699999977,0 -81.66917430000004,30.38612979999998,0 -81.66887990000004,30.38657169999998,0 -81.66853680000003,30.38718979999998,0 -81.66837670000004,30.38753529999998,0 -81.66811990000004,30.388243699999975,0 -81.66795070000003,30.388894599999976,0 -81.66783260000004,30.389650799999977,0 -81.66780140000003,30.39031679999998,0 -81.66796620000002,30.396432199999975,0 -81.66795480000003,30.396832199999974,0 -81.66791390000003,30.397166499999972,0 -81.66783900000003,30.397529299999974,0 -81.66776270000003,30.397785499999976,0 -81.66755840000003,30.398289999999974,0 -81.66742830000003,30.398544299999973,0 -81.66711610000003,30.399030499999974,0 -81.66690910000003,30.399292699999975,0 -81.66664470000002,30.399578899999977,0 -81.66637550000002,30.399827399999978,0 -81.66584470000001,30.400226799999977,0 -81.66026260000001,30.403809299999978,0 -81.65987020000001,30.40408769999998,0 -81.6593536,30.40451869999998,0 -81.65877,30.405121699999977,0 -81.6583288,30.40570709999998,0 -81.65807140000001,30.40611589999998,0 -81.6578027,30.40665389999998,0 -81.65760470000001,30.407146099999984,0 -81.65749600000001,30.40751179999998,0 -81.65740070000001,30.407931899999976,0 -81.6573168,30.408562699999976,0 -81.6557578,30.43494569999998,0 -81.65559280000001,30.436552499999976,0 -81.6554426,30.437517199999977,0 -81.6551967,30.438777699999974,0 -81.6549133,30.43994139999997,0 -81.6454107,30.47321739999997,0 -81.6447289,30.47593699999997,0 -81.6434343,30.48202629999997,0 -81.6433685,30.48243229999997,0 -81.64218819999999,30.48803889999997,0 -81.6417319,30.489759699999972,0 -81.64109039999998,30.491657199999974,0 -81.64058769999998,30.492894099999976,0 -81.63523909999999,30.50459329999998,0 -81.63480729999999,30.505823299999975,0 -81.6345887,30.50664129999998,0 -81.6344307,30.507404499999975,0 -81.6342819,30.508485299999975,0 -81.634219,30.509664199999975,0 -81.6342517,30.51074409999997,0 -81.6374384,30.54023379999997,0 -81.63773939999999,30.54243659999997,0 -81.6380312,30.544123499999973,0 -81.6384569,30.54615589999997,0 -81.6464398,30.578401599999967,0 -81.6466154,30.57926029999997,0 -81.6467435,30.58006709999997,0 -81.6468755,30.58144989999997,0 -81.6469051,30.582211099999974,0 -81.646889,30.583320099999977,0 -81.6468163,30.584308699999976,0 -81.6445909,30.598958499999977,0 -81.6444739,30.600535899999976,0 -81.6444915,30.601986299999975,0 -81.6445836,30.603086399999977,0 -81.64468520000001,30.60385959999998,0 -81.64488770000001,30.604942199999975,0 -81.6451193,30.60588389999997,0 -81.6456369,30.60751519999997,0 -81.675594,30.692500599999974,0 -81.6758739,30.693424099999973,0 -81.67613200000001,30.694578499999974,0 -81.6762822,30.69552189999997,0 -81.676373,30.69641969999997,0 -81.6764192,30.69743049999997,0 -81.6763946,30.698529499999974,0 -81.6763084,30.69951619999997,0 -81.6761507,30.70056259999997,0 -81.6759687,30.70143899999997,0 -81.6755998,30.70275029999997,0 -81.6751349,30.70401859999997,0 -81.67478380000001,30.704805799999967,0 -81.65192,30.748487199999968,0 -81.651633,30.74914819999997,0 -81.6513502,30.749978299999967,0 -81.6511406,30.750867899999964,0 -81.6510234,30.751638899999964,0 -81.650987,30.752530699999966,0 -81.65101680000001,30.753281799999968,0 -81.6511051,30.75400839999997,0 -81.6510495,30.754143499999966,0 -81.6510623,30.754487199999968,0 -81.65103020000001,30.754837899999966,0 -81.6509424,30.755214199999966,0 -81.65077380000001,30.755663199999965,0 -81.65064980000001,30.75590699999997,0 -81.64953930000001,30.758583999999967,0 -81.64949900000002,30.75876709999997,0 -81.64947660000001,30.75895929999997,0 -81.64949150000001,30.759306299999967,0 -81.64951030000002,30.759411499999963,0 -81.64946030000002,30.759531899999967,0 -81.64941560000001,30.759588399999966,0 -81.64934250000002,30.75963629999997,0 -81.64917590000002,30.759695299999965,0 -81.64796370000002,30.759870899999964,0 -81.64425150000001,30.760526299999963,0 -81.63346340000002,30.762254199999965,0 -81.63305550000003,30.762290999999962,0 -81.63239210000002,30.762311399999962,0 -81.63208670000002,30.76229489999996,0 -81.6315368,30.762235399999962,0 -81.6311237,30.762157999999964,0 -81.63055150000001,30.762014699999966,0 -81.62988360000001,30.761773899999962,0 -81.62946660000001,30.761578199999963,0 -81.61957770000002,30.756023999999968,0 -81.61891830000002,30.755685899999968,0 -81.61869530000001,30.755587099999968,0 -81.61803660000001,30.755357199999963,0 -81.61750260000001,30.755212099999966,0 -81.61709680000001,30.75513599999997,0 -81.6162458,30.755057899999965,0 -81.61573270000001,30.755060099999962,0 -81.6151105,30.75511109999996,0 -81.6148863,30.75514259999996,0 -81.61444680000001,30.75523219999996,0 -81.6140834,30.75532669999996,0 -81.6094783,30.75676519999996,0 -81.6091225,30.756922499999956,0 -81.60861150000001,30.757182899999957,0 -81.6082712,30.75738979999996,0 -81.6077037,30.757827399999957,0 -81.6072614,30.758248399999953,0 -81.6070246,30.758512699999955,0 -81.60505529999999,30.761163999999955,0 -81.60494659999999,30.761222199999956,0 -81.6048958,30.761262299999952,0 -81.60404829999999,30.762228399999955,0 -81.60392299999998,30.762331799999952,0 -81.60376389999998,30.76241469999995,0 -81.60358859999998,30.762466799999952,0 -81.60348389999997,30.762479099999954,0 -81.60336069999998,30.762474999999952,0 -81.60319009999998,30.762447599999952,0 -81.60310569999997,30.762420199999948,0 -81.60295929999998,30.76235109999995,0 -81.60283969999998,30.76225929999995,0 -81.60278099999998,30.762202699999953,0 -81.60270779999998,30.762105199999954,0 -81.60265409999997,30.762001899999955,0 -81.60262119999996,30.761890499999957,0 -81.60260889999996,30.761775699999955,0 -81.60261449999996,30.761648499999954,0 -81.60263559999996,30.761578599999957,0 -81.60324879999996,30.760528799999953,0 -81.58911059999997,30.754168099999955,0 -81.58832629999996,30.753876199999954,0 -81.58794399999996,30.75377839999996,0 -81.58705669999996,30.753626699999955,0 -81.58659369999997,30.753594899999957,0 -81.58617649999997,30.753591599999957,0 -81.58255389999997,30.75381359999996,0 -81.58206379999996,30.75381409999996,0 -81.58133719999996,30.753748499999958,0 -81.58097589999997,30.753688499999956,0 -81.58039609999997,30.753543899999954,0 -81.57993089999998,30.753389599999956,0 -81.57615499999997,30.751751899999952,0 -81.57462259999997,30.751159399999953,0 -81.57449469999997,30.75115539999995,0 -81.56687589999997,30.74792359999995,0 -81.55605879999997,30.74403279999995,0 -81.55539499999998,30.743701299999948,0 -81.55415269999997,30.74291619999995,0 -81.55467279999999,30.74230089999995,0 -81.55484329999999,30.74206079999995,0 -81.55494269999998,30.74180729999995,0 -81.55626849999999,30.736271899999952,0 -81.55628329999999,30.73613189999995,0 -81.5585376,30.726354699999955,0 -81.5586038,30.725876699999954,0 -81.5586421,30.725231599999955,0 -81.5586383,30.72494289999996,0 -81.5585899,30.72453029999996,0 -81.5584785,30.724122299999962,0 -81.5582075,30.723542199999958,0 -81.55785270000001,30.72297669999996,0 -81.5574935,30.72254899999996,0 -81.55687820000001,30.722129199999962,0 -81.556199,30.721783399999964,0 -81.55604070000001,30.721721399999968,0 -81.55568770000002,30.721612299999965,0 -81.55541930000003,30.721549499999966,0 -81.55142990000003,30.720858699999965,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T11:12:30.118Z</begin>
+          <end>2019-09-21T14:04:26.417Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>St Marys</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>Georgia 31558</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value />
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description>  from 2019-09-21T14:04:26.417Z to 2019-09-21T14:44:21.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.57061089999999,30.747895399999997,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-21T14:04:26.417Z</begin>
+          <end>2019-09-21T14:44:21.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>On a ferry</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a ferry</value>
+          </Data>
+          <Data name="Distance">
+            <value>11254</value>
+          </Data>
+        </ExtendedData>
+        <description> On a ferry from 2019-09-21T14:44:21.000Z to 2019-09-21T16:38:20.000Z. Distance 11254m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.550767079111,30.72055390201365,0 -81.550767079111,30.72055390201365,0 -81.5500677,30.7204251,0 -81.549004,30.7202825,0 -81.5470486,30.7202326,0 -81.5464876,30.7199898,0 -81.5416985,30.7122028,0 -81.5331242,30.7102725,0 -81.5038973,30.722263,0 -81.4767439,30.7508183,0 -81.4715516,30.7639805,0 -81.4707471,30.7616797,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T14:44:21.000Z</begin>
+          <end>2019-09-21T16:38:20.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Hiking</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hiking</value>
+          </Data>
+          <Data name="Distance">
+            <value>5790</value>
+          </Data>
+        </ExtendedData>
+        <description> Hiking from 2019-09-21T16:38:20.000Z to 2019-09-21T20:17:27.999Z. Distance 5790m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.4707471,30.7616797,0 -81.4707471,30.7616797,0 -81.4712019,30.7598622,0 -81.4713835,30.7588158,0 -81.4716332,30.7571547,0 -81.4733843,30.7543571,0 -81.4734431,30.7542264,0 -81.4703321,30.7501034,0 -81.4705116,30.7491618,0 -81.468145,30.7469802,0 -81.4646854,30.7449541,0 -81.4585628,30.7480173,0 -81.4591508,30.7552184,0 -81.4592217,30.7586408,0 -81.4594663,30.7640322,0 -81.4635989,30.763994,0 -81.4706199,30.7642144,0 -81.4706199,30.7642144,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T16:38:20.000Z</begin>
+          <end>2019-09-21T20:17:27.999Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>On a ferry</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a ferry</value>
+          </Data>
+          <Data name="Distance">
+            <value>11351</value>
+          </Data>
+        </ExtendedData>
+        <description> On a ferry from 2019-09-21T20:17:27.999Z to 2019-09-21T21:35:00.505Z. Distance 11351m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.4706199,30.7642144,0 -81.4706199,30.7642144,0 -81.4759467,30.7528844,0 -81.5044223,30.7226137,0 -81.5309998,30.7236528,0 -81.5323222,30.7143021,0 -81.5431487,30.7159709,0 -81.5463709,30.7197632,0 -81.5492324,30.7205779,0 -81.5514061,30.7209555,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T20:17:27.999Z</begin>
+          <end>2019-09-21T21:35:00.505Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Cumberland Island NS Visitor Parking</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>300 St Marys St W, St Marys, GA 31558</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Free parking lot</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Free parking lot from 2019-09-21T21:35:00.505Z to 2019-09-21T21:41:30.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.5514061,30.7209555,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-21T21:35:00.505Z</begin>
+          <end>2019-09-21T21:41:30.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>226313</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-21T21:41:30.000Z to 2019-09-21T23:46:22.908Z. Distance 226313m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.5508806,30.720763299999998,0 -81.5556877,30.721612299999997,0 -81.55619899999999,30.721783399999996,0 -81.5568782,30.722129199999994,0 -81.55749349999999,30.722548999999994,0 -81.5578527,30.722976699999993,0 -81.5582075,30.72354219999999,0 -81.55847849999999,30.72412229999999,0 -81.55858989999999,30.72453029999999,0 -81.5586383,30.72494289999999,0 -81.5586038,30.725876699999993,0 -81.5585376,30.72635469999999,0 -81.55494269999998,30.74180729999999,0 -81.55484329999999,30.74206079999999,0 -81.55415269999997,30.74291619999999,0 -81.55539499999998,30.743701299999987,0 -81.55605879999997,30.74403279999999,0 -81.56687589999997,30.74792359999999,0 -81.57449469999997,30.751155399999988,0 -81.57457359999997,30.751242199999986,0 -81.57981469999996,30.75347749999999,0 -81.58031889999997,30.75364819999999,0 -81.58093269999996,30.75380259999999,0 -81.58181879999997,30.75392019999999,0 -81.58241909999997,30.75393789999999,0 -81.58608559999996,30.753712599999993,0 -81.58666109999996,30.75371649999999,0 -81.58755709999997,30.75382109999999,0 -81.58815179999998,30.753954899999986,0 -81.58898289999998,30.754245899999987,0 -81.60619609999998,30.76198639999999,0 -81.60630399999998,30.762079099999987,0 -81.60637559999998,30.762170299999987,0 -81.60643729999998,30.762353899999987,0 -81.60615339999997,30.762778199999982,0 -81.60606999999997,30.762855199999983,0 -81.60583329999997,30.762978299999983,0 -81.60554179999997,30.763027799999982,0 -81.60524929999997,30.762986299999984,0 -81.60502809999997,30.762875599999983,0 -81.60485809999997,30.762719899999983,0 -81.60475839999998,30.762547299999984,0 -81.60472169999997,30.76238109999999,0 -81.60474469999998,30.762144199999987,0 -81.60477429999997,30.76206599999999,0 -81.60563509999997,30.760847199999986,0 -81.60565819999998,30.76077809999999,0 -81.60565849999999,30.760691999999988,0 -81.60725469999998,30.758543499999988,0 -81.60790299999998,30.757900199999987,0 -81.60875269999997,30.757318399999985,0 -81.60937179999998,30.757013199999985,0 -81.60991619999999,30.756807199999987,0 -81.61450669999998,30.755395299999986,0 -81.61518819999998,30.755276799999987,0 -81.61575539999997,30.75523029999999,0 -81.61627199999998,30.755231799999986,0 -81.61726739999997,30.75534029999999,0 -81.61827769999998,30.75561209999999,0 -81.61914299999998,30.755998499999986,0 -81.62903059999998,30.76155639999999,0 -81.62973629999998,30.761906499999988,0 -81.63042989999998,30.76216199999999,0 -81.63101509999998,30.76232259999999,0 -81.63160509999999,30.76242069999999,0 -81.63238989999999,30.762482599999988,0 -81.6331931,30.762456699999984,0 -81.6442038,30.760714599999982,0 -81.64675419999999,30.760194799999983,0 -81.6529321,30.75915449999998,0 -81.65315489999999,30.759139399999977,0 -81.65331609999998,30.75916269999998,0 -81.65351519999999,30.759225899999983,0 -81.65373349999999,30.759329299999983,0 -81.65394369999999,30.759484599999983,0 -81.65408459999999,30.759637799999986,0 -81.65413939999999,30.759732799999988,0 -81.6542067,30.75994049999999,0 -81.6542109,30.76003879999999,0 -81.654181,30.76018259999999,0 -81.65411089999999,30.76030889999999,0 -81.6539674,30.760447099999993,0 -81.6538665,30.760504499999993,0 -81.65364370000002,30.760571299999995,0 -81.6534821,30.760579899999993,0 -81.65329430000001,30.760547099999993,0 -81.65310540000002,30.760468599999996,0 -81.65290540000001,30.760308699999996,0 -81.6528157,30.760188799999995,0 -81.6527632,30.7600744,0 -81.6526183,30.759532600000004,0 -81.65249610000001,30.759400600000003,0 -81.6513603,30.7540698,0 -81.65122969999999,30.7527753,0 -81.65124159999999,30.751894600000004,0 -81.65141169999998,30.750673900000002,0 -81.65166039999998,30.7497419,0 -81.65194069999998,30.748994200000002,0 -81.67565959999997,30.703619900000003,0 -81.67630359999998,30.701907000000002,0 -81.6766414,30.700576400000003,0 -81.6768118,30.699523200000005,0 -81.6769087,30.698179500000002,0 -81.6768422,30.696454199999998,0 -81.67665659999999,30.695209700000003,0 -81.6762071,30.693505300000005,0 -81.6454656,30.606210700000002,0 -81.6451743,30.605118400000006,0 -81.64483529999998,30.603154500000002,0 -81.64473109999999,30.601954500000005,0 -81.64471739999999,30.600549400000006,0 -81.64486849999999,30.598688300000003,0 -81.64699309999999,30.5848378,0 -81.64712689999999,30.583325399999996,0 -81.64713419999998,30.581645999999996,0 -81.64694589999999,30.579804499999998,0 -81.64670909999998,30.578502099999998,0 -81.63860409999998,30.545711899999993,0 -81.63780649999998,30.541243899999994,0 -81.63448659999999,30.510748199999995,0 -81.6344597,30.50962559999999,0 -81.6345085,30.50862219999999,0 -81.63480849999999,30.50674339999999,0 -81.6352903,30.505116199999996,0 -81.6408862,30.492791699999994,0 -81.6415058,30.491218999999997,0 -81.64216470000001,30.489154399999997,0 -81.645201,30.475014699999996,0 -81.6552161,30.439745399999996,0 -81.65552210000001,30.438411,0 -81.6559474,30.435603699999998,0 -81.65752570000001,30.408430099999997,0 -81.6575992,30.407926399999994,0 -81.6578663,30.407007499999995,0 -81.6582086,30.406265199999996,0 -81.6588125,30.405360599999998,0 -81.65947,30.404659499999994,0 -81.6604533,30.403893699999994,0 -81.6659732,30.400357999999994,0 -81.66635699999999,30.400074399999998,0 -81.66698819999999,30.399476299999993,0 -81.66731219999998,30.39907059999999,0 -81.66777179999998,30.398276999999993,0 -81.66801149999998,30.397622799999994,0 -81.66812519999998,30.397081299999996,0 -81.66816719999998,30.396574599999994,0 -81.66799739999998,30.390257199999994,0 -81.66809019999998,30.389234999999996,0 -81.66839339999999,30.388052699999996,0 -81.66879729999998,30.387122199999997,0 -81.66925619999998,30.3863581,0 -81.66992379999998,30.385510399999998,0 -81.67263959999998,30.382943899999994,0 -81.67303089999999,30.3824175,0 -81.67339149999998,30.381735799999998,0 -81.67357169999998,30.381220499999998,0 -81.67369589999998,30.3805254,0 -81.67371029999998,30.3800276,0 -81.67365739999998,30.3795321,0 -81.67349949999998,30.3789004,0 -81.67330119999998,30.378424199999998,0 -81.67301889999997,30.3779342,0 -81.66985019999997,30.3735736,0 -81.66949949999997,30.3728733,0 -81.66930369999997,30.372348899999995,0 -81.66914309999997,30.3717047,0 -81.66905939999998,30.3710897,0 -81.66819429999998,30.341299399999997,0 -81.66830329999999,30.339963999999995,0 -81.66850719999998,30.339043099999994,0 -81.66881189999998,30.3381375,0 -81.66928079999998,30.337065399999997,0 -81.67005259999999,30.335842399999997,0 -81.67087159999998,30.334858499999996,0 -81.67129759999999,30.334429999999994,0 -81.67284399999998,30.333138899999994,0 -81.67325009999998,30.332729499999996,0 -81.67360589999998,30.332157899999995,0 -81.67361809999998,30.332084699999996,0 -81.6738831,30.331520499999996,0 -81.6741802,30.3310737,0 -81.6744937,30.330725500000003,0 -81.6781251,30.327839800000003,0 -81.67907299999999,30.3268841,0 -81.6794439,30.326338,0 -81.681552,30.321413,0 -81.68172290000001,30.320903699999995,0 -81.6817638,30.3206875,0 -81.68172969999999,30.3200978,0 -81.6816497,30.3197961,0 -81.68141609999999,30.3193768,0 -81.68115809999999,30.3190437,0 -81.6807549,30.3186512,0 -81.6804664,30.318466,0 -81.6793854,30.318056300000002,0 -81.67768419999999,30.317220199999998,0 -81.6750603,30.316149699999997,0 -81.6735456,30.315676399999997,0 -81.6668711,30.314089399999993,0 -81.66594179999998,30.313940199999994,0 -81.66510809999998,30.313880599999997,0 -81.65982449999998,30.3138956,0 -81.65426819999999,30.314097399999998,0 -81.65390589999998,30.3140822,0 -81.65342649999998,30.314012800000004,0 -81.65290819999998,30.313872200000006,0 -81.65259359999999,30.313753400000007,0 -81.65218659999998,30.313548600000008,0 -81.65162059999997,30.313151400000006,0 -81.64977919999997,30.311440500000007,0 -81.64811089999998,30.31024160000001,0 -81.64775149999997,30.309898900000007,0 -81.64741129999997,30.30949740000001,0 -81.64660259999997,30.30816480000001,0 -81.64658569999996,30.30808590000001,0 -81.64603889999997,30.307397500000008,0 -81.64519939999997,30.306579100000004,0 -81.64382129999996,30.305550000000004,0 -81.64309439999995,30.3048948,0 -81.64235259999995,30.303988299999997,0 -81.64005879999995,30.3003093,0 -81.63943399999997,30.299520299999998,0 -81.62420709999996,30.285388899999994,0 -81.62292539999997,30.284072199999997,0 -81.62199729999996,30.283012299999996,0 -81.62056069999996,30.28115979999999,0 -81.60639559999996,30.26120389999999,0 -81.60538149999995,30.25997109999999,0 -81.60347709999995,30.25795579999999,0 -81.60342929999996,30.257883999999986,0 -81.58597999999996,30.241197199999984,0 -81.58307949999995,30.23807079999999,0 -81.58156499999996,30.23621509999999,0 -81.57998899999996,30.23403739999999,0 -81.55724929999995,30.19921929999999,0 -81.55694199999996,30.19859289999999,0 -81.55668949999995,30.19791689999999,0 -81.55649419999995,30.197138499999987,0 -81.55639479999995,30.19636949999999,0 -81.55641969999995,30.195154199999987,0 -81.55909079999995,30.179857399999985,0 -81.55918969999995,30.178401499999982,0 -81.55915929999995,30.177332599999986,0 -81.55902419999995,30.176021299999984,0 -81.55863209999995,30.174348299999984,0 -81.55804729999996,30.17269119999999,0 -81.55658559999996,30.16974029999999,0 -81.55639179999997,30.169235399999987,0 -81.55579069999997,30.16708899999999,0 -81.55543839999997,30.16628509999999,0 -81.55508279999997,30.16565669999999,0 -81.55369349999997,30.163820199999993,0 -81.55276719999996,30.16235959999999,0 -81.54444439999996,30.146343099999992,0 -81.54272269999997,30.143771099999995,0 -81.54146579999997,30.14217579999999,0 -81.54020769999997,30.140787699999986,0 -81.50289329999997,30.103024999999988,0 -81.50182849999996,30.101746899999988,0 -81.50050959999996,30.099824499999986,0 -81.49995139999996,30.098844499999984,0 -81.49915009999995,30.097133899999985,0 -81.49839509999995,30.094921299999985,0 -81.49807309999996,30.093528999999982,0 -81.49781619999996,30.09166909999998,0 -81.49775369999995,30.09048549999998,0 -81.49778669999995,30.088966799999977,0 -81.49880979999995,30.075072199999976,0 -81.49881719999996,30.072872299999975,0 -81.49697929999995,30.045820899999974,0 -81.49679579999994,30.044714699999975,0 -81.49646169999995,30.043595999999976,0 -81.49610389999997,30.04274589999998,0 -81.44363289999997,29.95579789999998,0 -81.44212819999996,29.953687799999976,0 -81.44094969999996,29.952252899999973,0 -81.41564229999996,29.92472319999997,0 -81.41477609999997,29.923605699999975,0 -81.41411459999996,29.922585599999977,0 -81.41339879999997,29.921218799999973,0 -81.41292269999997,29.920032899999978,0 -81.39258519999997,29.852985099999977,0 -81.39143479999998,29.850068299999975,0 -81.37199119999998,29.81072429999998,0 -81.37094719999997,29.80842429999998,0 -81.32143579999997,29.68498809999998,0 -81.32083459999997,29.68379469999998,0 -81.32024329999997,29.68282169999998,0 -81.31932689999996,29.68157359999998,0 -81.31857189999997,29.68070709999998,0 -81.31712009999998,29.67933039999998,0 -81.31590599999997,29.67839229999998,0 -81.31479909999997,29.677671599999982,0 -81.28494229999997,29.66084439999998,0 -81.28309499999997,29.659726899999985,0 -81.28157049999999,29.658599799999983,0 -81.28057829999999,29.65770659999998,0 -81.27984089999998,29.65694099999998,0 -81.27895559999999,29.655870699999976,0 -81.27795879999998,29.654371499999975,0 -81.24508959999999,29.593954199999978,0 -81.20711719999998,29.53600809999998,0 -81.20649709999999,29.534908799999975,0 -81.2058826,29.533571699999978,0 -81.16959399999999,29.43826919999998,0 -81.16777049999999,29.431917199999976,0 -81.16672219999998,29.429127499999975,0 -81.16585979999998,29.427145999999976,0 -81.16384469999998,29.423283599999973,0 -81.15691729999998,29.407435099999972,0 -81.15685449999998,29.407338899999974,0 -81.15463339999998,29.40221469999997,0 -81.15462569999998,29.40215319999997,0 -81.15339169999999,29.399299599999967,0 -81.15338189999999,29.399242399999967,0 -81.13167289999998,29.349294699999966,0 -81.13140089999999,29.348502899999968,0 -81.13122909999998,29.347827099999968,0 -81.13103939999999,29.34640479999997,0 -81.1311739,29.339782299999964,0 -81.13115859999999,29.339696999999965,0 -81.13121949999999,29.336809099999964,0 -81.1312389,29.336727599999964,0 -81.1312785,29.334883299999966,0 -81.1312622,29.334794699999968,0 -81.13188219999999,29.303936099999966,0 -81.13177669999999,29.302840299999968,0 -81.1315415,29.301557999999968,0 -81.1313486,29.300828199999966,0 -81.12612029999998,29.28556459999996,0 -81.12502799999999,29.282001999999963,0 -81.12255729999998,29.27546289999996,0 -81.08970529999998,29.180898799999962,0 -81.08975219999998,29.18076619999996,0 -81.08913229999997,29.178762199999966,0 -81.08884779999997,29.178047199999963,0 -81.08834369999997,29.177026499999965,0 -81.08748829999996,29.175686799999966,0 -81.08548319999997,29.173083899999963,0 -81.08511669999997,29.17253659999996,0 -81.08440659999997,29.171289199999965,0 -81.08255869999996,29.166898399999962,0 -81.07532969999997,29.154246999999962,0 -81.07527839999996,29.154194799999964,0 -81.07297319999996,29.150166599999963,0 -81.07293619999996,29.150066199999962,0 -81.07033379999996,29.145646899999964,0 -81.07014399999996,29.145499999999966,0 -81.06228449999996,29.13185499999997,0 -81.06164419999995,29.131036499999972,0 -81.06065409999997,29.130030299999973,0 -81.06008399999996,29.129559299999976,0 -81.05922699999995,29.128952399999978,0 -81.03462079999996,29.114057599999974,0 -81.03362139999996,29.113333999999973,0 -81.03306379999995,29.112857599999977,0 -81.03225489999996,29.11205589999998,0 -81.03224509999995,29.11192959999998,0 -81.03179089999996,29.11135199999998,0 -81.03129989999996,29.11061789999998,0 -81.03066669999995,29.10933799999998,0 -81.02963799999995,29.106112099999983,0 -81.02953369999996,29.105910799999982,0 -81.02944939999996,29.10582569999998,0 -81.02942279999996,29.105768999999977,0 -81.02798669999996,29.106406999999976,0 -81.02805289999996,29.106506699999976,0 -81.02807899999996,29.10667079999997,0 -81.03083789999995,29.110842499999976,0 -81.03094829999995,29.110888399999975,0 -81.03173389999995,29.112064299999975,0 -81.03282729999995,29.113259299999974,0 -81.03353409999995,29.113863899999977,0 -81.03433929999994,29.11443129999998,0 -81.05751279999996,29.128467599999976,0 -81.05950939999995,29.129984599999975,0 -81.06145259999995,29.13184299999997,0 -81.06266309999995,29.13325679999997,0 -81.06404419999996,29.13531429999997,0 -81.08191139999995,29.16653369999997,0 -81.08240779999996,29.16751859999997,0 -81.08352449999995,29.170290699999967,0 -81.08418339999994,29.171695199999967,0 -81.08502519999995,29.173094699999965,0 -81.08726889999994,29.176042699999968,0 -81.08789619999995,29.17702649999997,0 -81.08856729999995,29.17839579999997,0 -81.10065069999996,29.213149599999973,0 -81.10060809999996,29.213257199999976,0 -81.10127849999995,29.21588049999998,0 -81.10132429999994,29.21639699999998,0 -81.10127909999994,29.21686609999998,0 -81.10110019999995,29.217485499999984,0 -81.10028399999995,29.21919649999998,0 -81.10021179999994,29.219512199999983,0 -81.10023699999995,29.21985649999998,0 -81.10056619999995,29.22082739999998,0 -81.10060739999996,29.22087929999998,0 -81.10086109999996,29.22098099999998,0 -81.10414079999995,29.219607599999982,0 -81.10453029999996,29.21957439999998,0 -81.10471949999996,29.219596799999984,0 -81.10483089999997,29.219631699999983,0 -81.10503549999997,29.21975589999999,0 -81.10513779999997,29.21985229999999,0 -81.10525729999998,29.220063999999986,0 -81.10528549999998,29.220244899999987,0 -81.10522699999997,29.220526999999986,0 -81.10510229999997,29.220691899999984,0 -81.10494019999997,29.220823599999985,0 -81.10483869999997,29.22087319999999,0 -81.10466299999997,29.22092459999999,0 -81.10433869999997,29.220933999999993,0 -81.10406889999996,29.22086869999999,0 -81.10396969999996,29.220827999999987,0 -81.10374909999996,29.220690699999984,0 -81.10366959999996,29.220614699999985,0 -81.10351619999996,29.220359199999987,0 -81.10341119999997,29.220324499999986,0 -81.08970529999996,29.180898799999987,0 -81.08975219999996,29.180766199999987,0 -81.08913229999996,29.17876219999999,0 -81.08884779999995,29.178047199999988,0 -81.08834369999995,29.17702649999999,0 -81.08748829999995,29.17568679999999,0 -81.08548319999996,29.173083899999988,0 -81.08511669999996,29.172536599999987,0 -81.08440659999995,29.17128919999999,0 -81.08255869999995,29.16689839999999,0 -81.07532969999995,29.154246999999987,0 -81.07530359999996,29.154015699999988,0 -81.07535759999996,29.15378329999999,0 -81.07541639999995,29.153679299999993,0 -81.07550589999995,29.15357689999999,0 -81.07562449999995,29.153483399999992,0 -81.07577639999995,29.153410099999988,0 -81.07589379999995,29.153377999999993,0 -81.07607879999995,29.15336199999999,0 -81.07623619999995,29.153376399999996,0 -81.07636549999995,29.153414899999994,0 -81.07655889999995,29.153528399999992,0 -81.07670439999995,29.15369239999999,0 -81.07679499999996,29.15391919999999,0 -81.07679629999996,29.15411429999999,0 -81.07675059999995,29.15425509999999,0 -81.07666269999996,29.15439609999999,0 -81.07658379999997,29.15447949999999,0 -81.07646539999996,29.15456479999999,0 -81.07644039999997,29.154632999999986,0 -81.07240329999998,29.156791399999985,0 -81.07177439999998,29.157082799999984,0 -81.07088389999998,29.157408899999986,0 -81.06717109999998,29.159004999999983,0 -81.06654839999997,29.15785219999998,0 -81.06640869999998,29.157886999999985,0 -81.06703049999997,29.15906609999998,0 -81.03861159999998,29.171034699999982,0 -81.03947619999997,29.172546599999983,0 -81.04086929999997,29.17445769999998,0 -81.04126219999998,29.175152899999983,0 -81.04145299999996,29.175645899999985,0 -81.04186269999997,29.177387499999984,0 -81.04206539999996,29.17904109999999,0 -81.04204499999997,29.17918049999999,0 -81.04227859999997,29.181563399999987,0 -81.04233499999997,29.181698499999985,0 -81.04240129999997,29.183189199999983,0 -81.04236659999997,29.183414099999982,0 -81.04243499999997,29.18516949999998,0 -81.04244679999996,29.18519079999998,0 -81.04249499999996,29.18523049999998,0 -81.04255299999997,29.18597669999998,0 -81.04263599999996,29.18631279999998,0 -81.04298369999995,29.18709389999998,0 -81.04328519999996,29.187537099999975,0 -81.04380599999996,29.188097899999978,0 -81.04422319999996,29.18841959999998,0 -81.04516339999996,29.189009699999982,0 -81.04522029999995,29.189087899999983,0 -81.05090539999995,29.192615299999982,0 -81.05117519999996,29.19272099999998,0 -81.05185219999996,29.193178499999984,0 -81.05221679999997,29.193545999999987,0 -81.05226809999996,29.19372759999999,0 -81.05258189999996,29.19423469999999,0 -81.05327829999996,29.196646599999983,0 -81.05379659999997,29.197806799999988,0 -81.05777739999996,29.196367899999988,0 -81.05806689999996,29.19690329999999,0 -81.05808899999995,29.196924999999986,0 -81.05812689999996,29.196941099999986,0 -81.05819869999995,29.196936999999984,0 -81.05826059999995,29.196898899999983,0 -81.05827569999997,29.196861899999984,0 -81.05826659999997,29.196807599999985,0 -81.05810589999997,29.196519599999984,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T21:41:30.000Z</begin>
+          <end>2019-09-21T23:46:22.908Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>RaceTrac</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>2451 Beville Rd, Daytona Beach, FL 32119</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Gas station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Gas station from 2019-09-21T23:46:22.908Z to 2019-09-21T23:51:09.830Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.06739,29.15812,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-21T23:46:22.908Z</begin>
+          <end>2019-09-21T23:51:09.830Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>6929</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-21T23:51:09.830Z to 2019-09-22T00:01:12.000Z. Distance 6929m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.0674523,29.1582417,0 -81.0671827,29.158347199999998,0 -81.0669469,29.157862099999996,0 -81.06693560000001,29.1578165,0 -81.06659170000002,29.1579372,0 -81.06654840000002,29.1578522,0 -81.06640870000001,29.157887000000002,0 -81.06703050000002,29.1590661,0 -81.049632,29.166386000000003,0 -81.0492029,29.166560000000004,0 -81.04519090000001,29.168257500000003,0 -81.04417860000001,29.16870610000001,0 -81.0421813,29.169537700000003,0 -81.0418388,29.1696734,0 -81.04089959999999,29.170088600000003,0 -81.04046389999999,29.170258400000005,0 -81.03990339999999,29.17050250000001,0 -81.03861159999998,29.171034700000007,0 -81.0386908,29.171169500000005,0 -81.03919189999999,29.172091100000006,0 -81.03947619999998,29.172546600000008,0 -81.03963029999998,29.17276800000001,0 -81.04006879999999,29.173359200000007,0 -81.04012229999998,29.173436500000005,0 -81.04038649999997,29.173771400000003,0 -81.04074069999997,29.174267100000005,0 -81.04086929999997,29.174457700000005,0 -81.04109519999997,29.174852000000005,0 -81.04111519999998,29.174882700000005,0 -81.04126219999998,29.175152900000008,0 -81.04145299999996,29.17564590000001,0 -81.04155119999997,29.17599580000001,0 -81.04177669999997,29.176971300000012,0 -81.04186269999997,29.177387500000012,0 -81.04192329999997,29.177787200000008,0 -81.04206539999996,29.179041100000006,0 -81.04204499999997,29.179180500000008,0 -81.04211329999997,29.179956100000005,0 -81.04227859999996,29.181563400000005,0 -81.04233499999995,29.181698500000003,0 -81.04238129999995,29.182406100000005,0 -81.04237719999995,29.182505100000004,0 -81.04237759999995,29.182701100000003,0 -81.04240129999995,29.1831892,0 -81.04236659999995,29.183414100000004,0 -81.04237979999995,29.1839398,0 -81.04243499999994,29.1851695,0 -81.04243849999995,29.185179299999998,0 -81.04244679999995,29.1851908,0 -81.04249499999995,29.1852305,0 -81.04250409999993,29.185605100000004,0 -81.04255299999994,29.1859767,0 -81.04263599999993,29.186312799999996,0 -81.04281419999994,29.1867605,0 -81.04298369999994,29.187093899999997,0 -81.04313999999994,29.187338099999998,0 -81.04321459999993,29.187444699999997,0 -81.04328519999993,29.187537099999997,0 -81.04346899999992,29.187757899999994,0 -81.04361799999992,29.1879179,0 -81.04380599999993,29.1880979,0 -81.04388649999993,29.188167699999997,0 -81.04404329999993,29.188291900000003,0 -81.04422319999993,29.1884196,0 -81.04439769999993,29.1885345,0 -81.04516339999994,29.189009699999996,0 -81.04522029999993,29.189087899999993,0 -81.04522279999993,29.189090199999995,0 -81.04564139999992,29.189351299999995,0 -81.04621539999994,29.189724599999995,0 -81.04715649999994,29.190306099999997,0 -81.04767539999995,29.190642099999994,0 -81.04851209999994,29.1911301,0 -81.04967149999993,29.191873199999993,0 -81.05074049999993,29.192511299999996,0 -81.05090539999993,29.192615299999993,0 -81.05117519999995,29.19272099999999,0 -81.05135769999994,29.192830699999995,0 -81.05161859999994,29.193000699999992,0 -81.05175239999994,29.193098899999995,0 -81.05185219999994,29.193178499999995,0 -81.05203069999996,29.193341599999997,0 -81.05221679999995,29.193545999999998,0 -81.05226809999995,29.193727600000003,0 -81.05246329999996,29.194027900000005,0 -81.05258189999995,29.194234700000006,0 -81.05263529999995,29.194361500000003,0 -81.05267289999996,29.194465600000004,0 -81.05280759999997,29.194933600000006,0 -81.05320879999996,29.196429200000008,0 -81.05327829999996,29.196646600000005,0 -81.05369959999997,29.197628800000004,0 -81.05379659999997,29.1978068,0 -81.05449339999997,29.1975495,0 -81.05597869999997,29.197021600000003,0 -81.05672779999996,29.196743900000005,0 -81.05707089999997,29.196631100000005,0 -81.05717629999997,29.196585100000007,0 -81.05777739999996,29.19636790000001,0 -81.05788859999997,29.196585700000007,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-21T23:51:09.830Z</begin>
+          <end>2019-09-22T00:01:12.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Wendy's</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <address>1444 W International Speedway Blvd, Daytona Beach, FL 32114</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Fast Food</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Fast Food from 2019-09-22T00:01:12.000Z to 2019-09-22T00:18:50.000Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.05802709999999,29.1966112,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-22T00:01:12.000Z</begin>
+          <end>2019-09-22T00:18:50.000Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Driving</name>
+        <styleUrl>#day-01-red</styleUrl>
+        <address />
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Driving</value>
+          </Data>
+          <Data name="Distance">
+            <value>99438</value>
+          </Data>
+        </ExtendedData>
+        <description> Driving from 2019-09-22T00:18:50.101Z to 2019-09-22T01:20:18.128Z. Distance 99438m </description>
+        <LineString>
+          <altitudeMode>clampToGround</altitudeMode>
+          <extrude>1</extrude>
+          <tesselate>1</tesselate>
+          <coordinates>-81.0580784,29.1964707,0 -81.0579803,29.1962963,0 -81.0719046,29.191302500000003,0 -81.07266139999999,29.1909654,0 -81.07372189999998,29.1903511,0 -81.07452789999998,29.189737800000003,0 -81.07524609999997,29.189040900000006,0 -81.07592799999998,29.188199000000008,0 -81.07619349999997,29.187809500000007,0 -81.08333509999997,29.174303200000004,0 -81.08343689999998,29.174296200000004,0 -81.08346719999997,29.174279600000002,0 -81.08366489999997,29.1740837,0 -81.08389439999998,29.173970900000004,0 -81.08406579999998,29.173929400000006,0 -81.08486499999998,29.173836,0 -81.08505939999998,29.1737878,0 -81.08527089999997,29.173684599999998,0 -81.08547079999998,29.173526299999995,0 -81.08553629999999,29.173452399999995,0 -81.08562159999998,29.173311799999993,0 -81.08568839999998,29.173111499999994,0 -81.08569309999999,29.172826499999992,0 -81.08563279999998,29.17264629999999,0 -81.08550309999998,29.17243859999999,0 -81.08449919999998,29.17113759999999,0 -81.08426769999998,29.17077969999999,0 -81.08399519999999,29.17025709999999,0 -81.08392349999998,29.17022829999999,0 -81.08315349999998,29.168235199999987,0 -81.08255869999998,29.16689839999999,0 -81.07802409999998,29.158940899999987,0 -81.07805199999997,29.158842199999988,0 -81.07785689999997,29.15840869999999,0 -81.07771829999997,29.157815599999985,0 -81.07769739999998,29.15738209999998,0 -81.07772269999998,29.157081899999984,0 -81.07781309999999,29.156668099999983,0 -81.07796769999999,29.156260799999984,0 -81.07823819999999,29.155795499999982,0 -81.07844329999998,29.155532599999983,0 -81.07877169999998,29.155206999999983,0 -81.08024979999998,29.154115499999982,0 -81.08167119999999,29.153222999999983,0 -81.08169739999998,29.153123799999985,0 -81.08357909999998,29.152190699999988,0 -81.11641399999999,29.13833849999999,0 -81.11734569999999,29.13787869999999,0 -81.11817849999998,29.137367199999993,0 -81.11862559999999,29.137045599999993,0 -81.119598,29.13620359999999,0 -81.15866159999999,29.095073599999992,0 -81.15940599999998,29.094383199999996,0 -81.16175439999998,29.091971099999995,0 -81.16497329999997,29.088365899999996,0 -81.18273939999999,29.069591599999995,0 -81.18801449999998,29.064242299999997,0 -81.1911524,29.0607246,0 -81.20955269999999,29.0413128,0 -81.21292179999999,29.0379473,0 -81.2162523,29.0342542,0 -81.2390606,29.010089099999995,0 -81.2399403,29.008995799999994,0 -81.2405818,29.008048799999994,0 -81.2413466,29.006681699999994,0 -81.2420014,29.005133799999996,0 -81.273144,28.907108699999995,0 -81.2739471,28.9051266,0 -81.2757978,28.9016056,0 -81.2762885,28.9004557,0 -81.276906,28.898590699999996,0 -81.2773369,28.8966261,0 -81.277709,28.8934592,0 -81.2781441,28.8913644,0 -81.28403850000001,28.872775599999997,0 -81.2846561,28.871359099999996,0 -81.284985,28.870724699999997,0 -81.2857524,28.869494399999997,0 -81.2864079,28.868607299999997,0 -81.2871753,28.8677192,0 -81.3098444,28.845075000000005,0 -81.31335530000001,28.841794700000005,0 -81.33135250000001,28.823631300000006,0 -81.33227240000001,28.822532600000006,0 -81.3332948,28.821019300000003,0 -81.33902040000001,28.809699400000007,0 -81.34051970000002,28.806982200000004,0 -81.34079410000002,28.806366300000004,0 -81.34213790000003,28.803831600000006,0 -81.34285270000002,28.802682800000007,0 -81.34353580000003,28.801354700000005,0 -81.34530080000002,28.798662600000004,0 -81.34644390000001,28.796562700000006,0 -81.34711350000002,28.795076800000007,0 -81.35005290000001,28.787668900000007,0 -81.35787490000001,28.771966100000007,0 -81.3583995,28.770651100000006,0 -81.3584079,28.770570700000004,0 -81.37988250000001,28.710080600000005,0 -81.37985110000001,28.709936500000005,0 -81.38148300000002,28.705242300000005,0 -81.38195670000002,28.704221400000005,0 -81.38271300000001,28.702899400000007,0 -81.38766990000002,28.695763900000003,0 -81.38816080000001,28.694869000000008,0 -81.38840100000002,28.694284400000008,0 -81.38867290000002,28.693310800000006,0 -81.38874550000001,28.69289520000001,0 -81.38881810000002,28.692054700000007,0 -81.38855750000002,28.647162100000006,0 -81.38756480000002,28.636685500000006,0 -81.38755470000002,28.63501620000001,0 -81.38771540000002,28.632710000000007,0 -81.38765220000002,28.631302100000006,0 -81.38710400000001,28.629088200000005,0 -81.38680420000001,28.627358900000004,0 -81.38667920000002,28.625612200000006,0 -81.38651020000003,28.612704400000005,0 -81.38660050000003,28.608930500000003,0 -81.38634300000002,28.5996926,0 -81.38629640000003,28.5993093,0 -81.38609910000004,28.5983937,0 -81.38583140000003,28.5975678,0 -81.38541750000003,28.596653600000003,0 -81.38472610000004,28.595547200000002,0 -81.38394160000004,28.594622,0 -81.37776930000004,28.589268100000005,0 -81.37722450000004,28.588680100000005,0 -81.37630120000004,28.587437500000004,0 -81.37581250000004,28.586430600000007,0 -81.37546420000004,28.585330700000004,0 -81.37531140000004,28.584332500000002,0 -81.37500960000004,28.580012400000005,0 -81.37505700000004,28.578778000000003,0 -81.37580610000003,28.575124900000002,0 -81.37585730000002,28.574350300000003,0 -81.37580020000003,28.571073400000003,0 -81.37589130000003,28.567509100000006,0 -81.37602470000003,28.566572600000004,0 -81.37613730000002,28.566169900000006,0 -81.37654210000002,28.565164100000004,0 -81.37738920000002,28.563878700000007,0 -81.38001720000003,28.560311500000005,0 -81.38044760000002,28.559628200000006,0 -81.38096480000003,28.558610600000005,0 -81.38134970000003,28.557487500000004,0 -81.38224760000003,28.553627400000003,0 -81.38248940000003,28.552072300000003,0 -81.38261640000003,28.5496549,0 -81.38255620000002,28.547311000000004,0 -81.38250340000003,28.547019300000002,0 -81.38230970000004,28.542443600000002,0 -81.38234500000004,28.5406422,0 -81.38251820000005,28.538673600000003,0 -81.38273670000004,28.537618300000005,0 -81.38305740000004,28.536507200000003,0 -81.38380290000003,28.534743800000005,0 -81.38536090000004,28.5321296,0 -81.38571230000005,28.5312842,0 -81.38612910000005,28.5297495,0 -81.38626740000005,28.528962800000002,0 -81.38636610000006,28.527510300000003,0 -81.38634950000005,28.521159,0 -81.38643380000005,28.5203381,0 -81.38662940000005,28.519497700000002,0 -81.38698330000005,28.5184449,0 -81.38739610000005,28.517662899999998,0 -81.38810070000004,28.5166516,0 -81.38884370000004,28.5158058,0 -81.38934470000004,28.5153581,0 -81.39221750000004,28.513283799999996,0 -81.39484540000004,28.5115356,0 -81.39565790000003,28.5110691,0 -81.39676430000003,28.510549,0 -81.39825980000003,28.5100273,0 -81.39889860000004,28.5098481,0 -81.39994020000003,28.509643399999998,0 -81.40061780000003,28.5095805,0 -81.41418230000002,28.509533700000002,0 -81.41567470000003,28.509474,0 -81.41626220000002,28.509394800000003,0 -81.41835350000002,28.5089551,0 -81.41910030000003,28.5086678,0 -81.42047630000002,28.507873200000002,0 -81.42080030000001,28.507829400000002,0 -81.4216358,28.507137800000002,0 -81.42209340000001,28.506674800000003,0 -81.43634220000001,28.490240100000005,0 -81.43723510000001,28.489288300000005,0 -81.438467,28.488128800000005,0 -81.4492122,28.479229900000004,0 -81.4535201,28.475931200000005,0 -81.45374480000001,28.475863600000004,0 -81.45562210000001,28.474477700000005,0 -81.45616090000001,28.474128600000004,0 -81.45620710000001,28.4740718,0 -81.4563925,28.473963,0 -81.45774630000001,28.4734006,0 -81.4582699,28.4731264,0 -81.4584708,28.4729832,0 -81.4587224,28.4727528,0 -81.4590187,28.472360100000003,0 -81.4591939,28.472000100000002,0 -81.459261,28.471773000000006,0 -81.4593906,28.470846800000004,0 -81.45940420000001,28.470151900000005,0 -81.45946370000001,28.469765200000005,0 -81.4594562,28.468765500000003,0 -81.4589225,28.465044500000005,0 -81.4588148,28.463832800000006,0 -81.4587637,28.454713200000008,0 -81.45879500000001,28.454679800000008,0 -81.4588933,28.454110000000007,0 -81.4590289,28.453689000000004,0 -81.45923950000001,28.453244500000007,0 -81.45967560000001,28.452613200000005,0 -81.45998290000001,28.452289000000004,0 -81.46056420000001,28.451827800000004,0 -81.46114710000002,28.451483400000004,0 -81.46226350000002,28.450993000000004,0 -81.46304500000001,28.450777300000006,0 -81.4632009,28.450701000000002,0 -81.4655244,28.450235200000005,0 -81.46567990000001,28.4502215,0 -81.46579830000002,28.449988,0 -81.46602060000002,28.44873,0 -81.46595740000002,28.4486418,0 -81.46610050000002,28.447512400000004,0 -81.46617700000002,28.447437100000002,0 -81.46634990000001,28.446644200000005,0 -81.46735380000003,28.443351400000005,0 -81.46778660000003,28.442350900000005,0 -81.46796590000002,28.441834100000005,0 -81.46815400000003,28.441035400000004,0 -81.46822080000003,28.4405638,0 -81.46824740000002,28.4394213,0 -81.46810700000003,28.4382068,0 -81.46808510000002,28.437531399999997,0 -81.46833930000003,28.437526300000002,0 -81.46833730000003,28.4379241,0 -81.46834910000003,28.437959000000003,0 -81.46836370000004,28.437975400000003,0 -81.46838280000003,28.4379826,0 -81.46881060000004,28.437974100000005,0 </coordinates>
+        </LineString>
+        <TimeSpan>
+          <begin>2019-09-22T00:18:50.101Z</begin>
+          <end>2019-09-22T01:20:18.128Z</end>
+        </TimeSpan>
+      </Placemark>
+      <Placemark>
+        <name>Residence Inn by Marriott Orlando Convention Center</name>
+        <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+        <address>8800 Universal Blvd, Orlando, FL 32819</address>
+        <ExtendedData>
+          <Data name="Email">
+            <value>syugen.zhou@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Hotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <description> Hotel from 2019-09-22T01:20:18.128Z to 2019-09-22T11:43:56.999Z. Distance 0m </description>
+        <Point>
+          <coordinates>-81.4684498,28.4377766,0</coordinates>
+        </Point>
+        <TimeSpan>
+          <begin>2019-09-22T01:20:18.128Z</begin>
+          <end>2019-09-22T11:43:56.999Z</end>
+        </TimeSpan>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -42,3 +42,89 @@ body, input, textarea, button {
     transform: rotate(359deg);
   }
 }
+
+#trip-sorter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+#trip-sorter button {
+  border: 1px solid #d8dee4;
+  border-radius: 4px;
+  background: #f6f8fa;
+  color: #555;
+  cursor: pointer;
+  padding: 0.35em 0.75em;
+}
+
+#trip-sorter button:hover,
+#trip-sorter button.active {
+  background: #267cb9;
+  border-color: #267cb9;
+  color: #fff;
+}
+
+#trip-summary {
+  margin: 0 0 1.5em;
+}
+
+#trip-summary > h2 {
+  margin: 0 0 0.5em;
+}
+
+.trip-mileage-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.trip-mileage-table th,
+.trip-mileage-table td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.35em 0.5em;
+  text-align: left;
+}
+
+.trip-mileage-table th:nth-child(-n + 2),
+.trip-mileage-table td:nth-child(-n + 2) {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.trip-region-directory ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1em;
+  list-style: none;
+  margin: 0.35em 0 0;
+  padding: 0;
+}
+
+#trip-list .trip-entry {
+  margin: 1.75em 0;
+}
+
+#trip-list .trip-region-heading {
+  margin: 2em 0 0.75em;
+}
+
+#trip-list .trip-number {
+  margin-bottom: 0.25em;
+}
+
+// Google Maps/My Maps 的嵌入页顶部会带有站外 banner。iframe 跨域，无法直接
+// 改其内部样式；因此仅裁切顶部 56px，同时完整保留底部 Google 署名与版权信息。
+.map-embed-crop {
+  width: 100%;
+  height: var(--map-visible-height);
+  overflow: hidden;
+}
+
+.map-embed-crop > iframe {
+  display: block;
+  width: 100%;
+  height: calc(var(--map-visible-height) + var(--map-banner-height));
+  max-width: none;
+  transform: translateY(calc(-1 * var(--map-banner-height)));
+}
