@@ -1,83 +1,397 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Copy of 83 Canada &amp; US</name>
-    <description />
-    <Style id="icon-1899-DB4436-nodesc-normal">
+    <name>81-can-rocky</name>
+    <description/>
+    <Style id="icon-1535-0288D1-nodesc-normal">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
+    <Style id="icon-1535-0288D1-nodesc-highlight">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
       </IconStyle>
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
+    <StyleMap id="icon-1535-0288D1-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+    <Style id="icon-1602-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-5000-nodesc-normal">
       <LineStyle>
-        <color>ffff6712</color>
+        <color>ff000000</color>
         <width>5</width>
       </LineStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    <Style id="line-000000-5000-nodesc-highlight">
       <LineStyle>
-        <color>ffff6712</color>
+        <color>ff000000</color>
         <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
+    <StyleMap id="line-000000-5000-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+        <styleUrl>#line-000000-5000-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#line-000000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0097A7-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0097A7-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0097A7-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0097A7-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0097A7-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-01579B-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-01579B-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-01579B-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-01579B-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-01579B-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFEA00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>9/23 Home - Richmond</name>
       <Placemark>
         <name>9/23 Home - Richmond</name>
-        <styleUrl>#day-01-red</styleUrl>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -6079,10 +6393,10 @@
       </Placemark>
       <Placemark>
         <name>Safeway Fuel Station, 140th Avenue Northeast, Bellevue, WA</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -122.1543416,47.6247011,0
+            -122.154342,47.624701,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6091,7 +6405,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -122.5136281,48.790069,0
+            -122.513628,48.790069,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6100,7 +6414,7 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -122.7527061,49.0012965,0
+            -122.752706,49.001296,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6109,7 +6423,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1196065,49.1924701,0
+            -123.119606,49.19247,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6118,16 +6432,16 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1229799,49.1551455,0
+            -123.12298,49.155146,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>T&amp;T Supermarket, Lansdowne Road, Richmond, BC, Canada</name>
+        <name><![CDATA[T&T Supermarket, Lansdowne Road, Richmond, BC, Canada]]></name>
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1312438,49.1745133,0
+            -123.131244,49.174513,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6136,7 +6450,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1360118,49.1828592,0
+            -123.136012,49.182859,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6145,7 +6459,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1196065,49.1924701,0
+            -123.119606,49.19247,0
           </coordinates>
         </Point>
       </Placemark>
@@ -6154,7 +6468,7 @@
       <name>9/24 Richmond - Kelowna</name>
       <Placemark>
         <name>9/24 Richmond - Kelowna</name>
-        <styleUrl>#day-02-orange</styleUrl>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -17251,7 +17565,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1196065,49.1924701,0
+            -123.119606,49.19247,0
           </coordinates>
         </Point>
       </Placemark>
@@ -17260,7 +17574,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.2638937,49.2055747,0
+            -123.263894,49.205575,0
           </coordinates>
         </Point>
       </Placemark>
@@ -17269,7 +17583,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -123.1196065,49.1924701,0
+            -123.119606,49.19247,0
           </coordinates>
         </Point>
       </Placemark>
@@ -17278,7 +17592,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -121.0156347,49.6304894,0
+            -121.015635,49.630489,0
           </coordinates>
         </Point>
       </Placemark>
@@ -17287,7 +17601,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.4544633,49.8837949,0
+            -119.454463,49.883795,0
           </coordinates>
         </Point>
       </Placemark>
@@ -17296,7 +17610,7 @@
       <name>9/25 Kelowna - Golden</name>
       <Placemark>
         <name>9/25 Kelowna - Golden</name>
-        <styleUrl>#day-03-yellow</styleUrl>
+        <styleUrl>#line-FFEA00-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -24209,7 +24523,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.4537655,49.8841494,0
+            -119.453766,49.884149,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24218,7 +24532,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.5019728,49.8841815,0
+            -119.501973,49.884182,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24227,7 +24541,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.4760791,49.9127455,0
+            -119.476079,49.912746,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24236,7 +24550,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.4926333,49.9046565,0
+            -119.492633,49.904656,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24245,7 +24559,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.2733784,50.2667587,0
+            -119.273378,50.266759,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24254,7 +24568,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -118.7238708,50.976334,0
+            -118.723871,50.976334,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24263,7 +24577,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9748385,51.3153292,0
+            -116.974838,51.315329,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24272,7 +24586,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9672013,51.3008329,0
+            -116.967201,51.300833,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24281,7 +24595,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9748385,51.3153292,0
+            -116.974838,51.315329,0
           </coordinates>
         </Point>
       </Placemark>
@@ -24290,7 +24604,7 @@
       <name>9/26 Yoho Banff</name>
       <Placemark>
         <name>9/26 Yoho Banff</name>
-        <styleUrl>#day-04-green</styleUrl>
+        <styleUrl>#line-7CB342-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -27707,34 +28021,34 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9748385,51.3153292,0
+            -116.974838,51.315329,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Emerald Lake, Columbia-Shuswap, BC, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.5414909,51.4393782,0
+            -116.541491,51.439378,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Natural Bridge, Columbia-Shuswap, BC, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.5304428,51.3820366,0
+            -116.530443,51.382037,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Morant's Curve, Improvement District No. 9, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <name><![CDATA[Morant's Curve, Improvement District No. 9, AB, Canada]]></name>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.1272066,51.3995275,0
+            -116.127207,51.399528,0
           </coordinates>
         </Point>
       </Placemark>
@@ -27743,16 +28057,16 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.1622304,51.4409568,0
+            -116.16223,51.440957,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Moraine Lake, Improvement District No. 9, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.1817718,51.328215,0
+            -116.181772,51.328215,0
           </coordinates>
         </Point>
       </Placemark>
@@ -27761,7 +28075,7 @@
       <name>9/26 Banff</name>
       <Placemark>
         <name>9/26 Banff</name>
-        <styleUrl>#day-04-green</styleUrl>
+        <styleUrl>#line-7CB342-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -29987,7 +30301,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.2136038,51.4151486,0
+            -116.213604,51.415149,0
           </coordinates>
         </Point>
       </Placemark>
@@ -29996,7 +30310,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.1622304,51.4409568,0
+            -116.16223,51.440957,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30005,7 +30319,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9671763,51.3007996,0
+            -116.967176,51.3008,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30014,7 +30328,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9748385,51.3153292,0
+            -116.974838,51.315329,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30023,7 +30337,7 @@
       <name>9/27 Golden - Calgary</name>
       <Placemark>
         <name>9/27 Golden - Calgary</name>
-        <styleUrl>#day-04-green</styleUrl>
+        <styleUrl>#line-7CB342-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -43912,7 +44226,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9748385,51.3153292,0
+            -116.974838,51.315329,0
           </coordinates>
         </Point>
       </Placemark>
@@ -43921,34 +44235,34 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.1774502,51.4264311,0
+            -116.17745,51.426431,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Bow Lake, Improvement District No. 9, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.4511151,51.6746804,0
+            -116.451115,51.67468,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Peyto Lake Upper Viewpoint, Lake Louise, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.5062131,51.7168269,0
+            -116.506213,51.716827,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Columbia Icefield Glacier Adventure, Icefields Parkway, Improvement District No. 12, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -117.2261998,52.2201571,0
+            -117.2262,52.220157,0
           </coordinates>
         </Point>
       </Placemark>
@@ -43957,16 +44271,16 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -117.2313523,52.2019981,0
+            -117.231352,52.201998,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Columbia Icefield Skywalk, Icefields Parkway, Improvement District No. 12, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -117.2765645,52.2588992,0
+            -117.276564,52.258899,0
           </coordinates>
         </Point>
       </Placemark>
@@ -43975,7 +44289,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -115.5708986,51.1772743,0
+            -115.570899,51.177274,0
           </coordinates>
         </Point>
       </Placemark>
@@ -43984,7 +44298,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.0349536,51.1370863,0
+            -114.034954,51.137086,0
           </coordinates>
         </Point>
       </Placemark>
@@ -43993,7 +44307,7 @@
       <name>9/28 Calgary - Lethbridge</name>
       <Placemark>
         <name>9/28 Calgary - Lethbridge</name>
-        <styleUrl>#day-05-cyan</styleUrl>
+        <styleUrl>#line-0097A7-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -49948,7 +50262,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.0349536,51.1370863,0
+            -114.034954,51.137086,0
           </coordinates>
         </Point>
       </Placemark>
@@ -49957,25 +50271,25 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.8243456,51.0501137,0
+            -113.824346,51.050114,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Dinosaur Provincial Park, Alberta, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -111.495252,50.7632718,0
+            -111.495252,50.763272,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Writing On Stone Rd, Aden, AB T0K 0A0, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -111.6402572,49.0807964,0
+            -111.640257,49.080796,0
           </coordinates>
         </Point>
       </Placemark>
@@ -49984,7 +50298,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -112.7808288,49.6965375,0
+            -112.780829,49.696538,0
           </coordinates>
         </Point>
       </Placemark>
@@ -49993,7 +50307,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -112.8236148,49.7039481,0
+            -112.823615,49.703948,0
           </coordinates>
         </Point>
       </Placemark>
@@ -50002,7 +50316,7 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -112.7808288,49.6965375,0
+            -112.780829,49.696538,0
           </coordinates>
         </Point>
       </Placemark>
@@ -50011,7 +50325,7 @@
       <name>9/29 Lethbridge - Missoula</name>
       <Placemark>
         <name>9/29 Lethbridge - Missoula</name>
-        <styleUrl>#day-06-blue</styleUrl>
+        <styleUrl>#line-01579B-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -58909,16 +59223,16 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -112.7808288,49.6965375,0
+            -112.780829,49.696538,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Head-Smashed-In Buffalo Jump World Heritage Site, Fort MacLeod, AB, Canada</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.6530732,49.7052882,0
+            -113.653073,49.705288,0
           </coordinates>
         </Point>
       </Placemark>
@@ -58927,7 +59241,7 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.4386664,48.7472857,0
+            -113.438666,48.747286,0
           </coordinates>
         </Point>
       </Placemark>
@@ -58936,7 +59250,7 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.7174092,48.695461,0
+            -113.717409,48.695461,0
           </coordinates>
         </Point>
       </Placemark>
@@ -58945,7 +59259,7 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.9878382,48.523086,0
+            -113.987838,48.523086,0
           </coordinates>
         </Point>
       </Placemark>
@@ -58954,25 +59268,25 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.1447568,48.3664468,0
+            -114.144757,48.366447,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>McDonald's, U.S. 93, Polson, MT</name>
+        <name><![CDATA[McDonald's, U.S. 93, Polson, MT]]></name>
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.1282904,47.6921465,0
+            -114.12829,47.692146,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>C'mon Inn Hotel &amp; Suites, Expo Parkway, Missoula, MT</name>
+        <name><![CDATA[C'mon Inn Hotel & Suites, Expo Parkway, Missoula, MT]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.0348014,46.9152609,0
+            -114.034801,46.915261,0
           </coordinates>
         </Point>
       </Placemark>
@@ -58981,7 +59295,7 @@
       <name>9/30 Missoula - Cheney</name>
       <Placemark>
         <name>9/30 Missoula - Cheney</name>
-        <styleUrl>#day-07-purple</styleUrl>
+        <styleUrl>#line-9C27B0-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -73989,11 +74303,11 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>C'mon Inn Hotel &amp; Suites, Expo Parkway, Missoula, MT</name>
+        <name><![CDATA[C'mon Inn Hotel & Suites, Expo Parkway, Missoula, MT]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.0348014,46.9152609,0
+            -114.034801,46.915261,0
           </coordinates>
         </Point>
       </Placemark>
@@ -74002,16 +74316,16 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.642898,45.6410112,0
+            -113.642898,45.641011,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Big Hole National Battlefield, Montana 43, Wisdom, MT</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.6530763,45.6437716,0
+            -113.653076,45.643772,0
           </coordinates>
         </Point>
       </Placemark>
@@ -74020,16 +74334,16 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -112.73643,46.4058247,0
+            -112.73643,46.405825,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>McDonald's, North Interchange, Deer Lodge, MT</name>
+        <name><![CDATA[McDonald's, North Interchange, Deer Lodge, MT]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -112.7260651,46.4122759,0
+            -112.726065,46.412276,0
           </coordinates>
         </Point>
       </Placemark>
@@ -74038,16 +74352,16 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.8864885,47.1896395,0
+            -114.886488,47.18964,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Holiday Inn Express &amp; Suites Cheney, an IHG Hotel, Betz Road, Cheney, WA</name>
+        <name><![CDATA[Holiday Inn Express & Suites Cheney, an IHG Hotel, Betz Road, Cheney, WA]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -117.5659766,47.507752,0
+            -117.565977,47.507752,0
           </coordinates>
         </Point>
       </Placemark>
@@ -74056,7 +74370,7 @@
       <name>10/1 Cheney - Home</name>
       <Placemark>
         <name>10/1 Cheney - Home</name>
-        <styleUrl>#day-08-black</styleUrl>
+        <styleUrl>#line-000000-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -83878,11 +84192,11 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Holiday Inn Express &amp; Suites Cheney, an IHG Hotel, Betz Road, Cheney, WA</name>
+        <name><![CDATA[Holiday Inn Express & Suites Cheney, an IHG Hotel, Betz Road, Cheney, WA]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -117.5659766,47.507752,0
+            -117.565977,47.507752,0
           </coordinates>
         </Point>
       </Placemark>
@@ -83891,7 +84205,7 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -118.9869732,47.9603114,0
+            -118.986973,47.960311,0
           </coordinates>
         </Point>
       </Placemark>
@@ -83900,7 +84214,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -118.967914,47.9692287,0
+            -118.967914,47.969229,0
           </coordinates>
         </Point>
       </Placemark>
@@ -83909,395 +84223,19 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -120.5868948,47.0051191,0
+            -120.586895,47.005119,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Keeney Park, Northup Way, Bellevue, WA</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -122.1101755,47.6194451,0
+            -122.110176,47.619445,0
           </coordinates>
         </Point>
       </Placemark>
     </Folder>
-    <Style id="day-01-red-normal">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-01-red-highlight">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-01-red">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-01-red-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-01-red-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-02-orange-normal">
-      <LineStyle>
-        <color>ff25a8f9</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-02-orange-highlight">
-      <LineStyle>
-        <color>ff25a8f9</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-02-orange">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-02-orange-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-02-orange-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-03-yellow-normal">
-      <LineStyle>
-        <color>ff00eaff</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-03-yellow-highlight">
-      <LineStyle>
-        <color>ff00eaff</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-03-yellow">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-03-yellow-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-03-yellow-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-04-green-normal">
-      <LineStyle>
-        <color>ff42b37c</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-04-green-highlight">
-      <LineStyle>
-        <color>ff42b37c</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-04-green">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-04-green-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-04-green-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-05-cyan-normal">
-      <LineStyle>
-        <color>ffa79700</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-05-cyan-highlight">
-      <LineStyle>
-        <color>ffa79700</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-05-cyan">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-05-cyan-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-05-cyan-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-06-blue-normal">
-      <LineStyle>
-        <color>ff9b5701</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-06-blue-highlight">
-      <LineStyle>
-        <color>ff9b5701</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-06-blue">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-06-blue-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-06-blue-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-07-purple-normal">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-07-purple-highlight">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-07-purple">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-07-purple-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-07-purple-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-08-black-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-08-black-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-08-black">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-08-black-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-08-black-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1504-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1504-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1504-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1504-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1504-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1535-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1535-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1535-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1535-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1535-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1602-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1602-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1602-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1603-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1603-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1603-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1739-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1739-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1739-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
   </Document>
 </kml>

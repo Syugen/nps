@@ -227,12 +227,12 @@
 ## 52-bishop
 
 - 合并了 2 个原始 KML；每个文件保留为一个图层。
-- 图层按时间倒序：2020-09-10.kml（orange，0 条线）、2020-09-09.kml（red，0 条线）。所有线均设普通粗细 5、高亮粗细 7.5。
+- 图层按时间倒序：2020-10-10.kml（orange，5 条线）、2020-10-09.kml（red，2 条线）。所有线均设普通粗细 5、高亮粗细 7.5。
 - 首日删除：无。
 - 末日删除：无。
-- Driving 共 0 段；元数据里程总和 0 米（0.000 km），坐标 Haversine 计算 0.00 米（0.000 km）。不计 Flying、Walking、Hiking、公交或其他线。
-- 图标替换：没有可替换的点。加油站、餐厅、建筑、Apartment complex、Parking lot、Car rental agency 与无分类点均使用小圆点；照相机仅用于景点。
-- 分类仍不确定、但已使用小圆点：无。
+- Driving 共 6 段；元数据里程总和 994,605 米（994.605 km），坐标 Haversine 计算 1,088,473.96 米（1,088.474 km）。不计 Flying、Walking、Hiking、公交或其他线。
+- 图标替换：旅店图标2、小圆点6。加油站、餐厅、建筑、Apartment complex、Parking lot、Car rental agency 与无分类点均使用小圆点；照相机仅用于景点。
+- 分类仍不确定、但已使用小圆点：North Lake（Lake）；Douglas Creek（River）。
 - 说明：首日未找到机场点，因此未执行该侧的边界删除。；末日未找到机场点，因此未执行该侧的边界删除。
 
 ## 54-monterey

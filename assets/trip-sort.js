@@ -38,11 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
       "$1"
     );
 
-  const useCompactMileageTitles = () => contentSection?.clientWidth <= 504;
+  const useCompactSummaryTitles = () => contentSection?.clientWidth <= 504;
 
-  const updateMileageTitleWidths = () => {
-    const compact = useCompactMileageTitles();
-    summary.querySelectorAll(".trip-mileage-title").forEach((link) => {
+  const updateSummaryTitleWidths = () => {
+    const compact = useCompactSummaryTitles();
+    summary.querySelectorAll(".trip-summary-title").forEach((link) => {
       link.textContent = compact ? link.dataset.shortTitle : link.dataset.fullTitle;
     });
   };
@@ -74,6 +74,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (heading) heading.id = id;
     return id;
+  };
+
+  const createTitleLink = (entry) => {
+    const link = document.createElement("a");
+    const fullTitle = headingOf(entry)?.textContent.trim() || "未命名旅行";
+    link.href = `#${headingIdOf(entry)}`;
+    link.className = "trip-summary-title";
+    link.dataset.fullTitle = fullTitle;
+    link.dataset.shortTitle = abbreviatedTitle(fullTitle);
+    link.textContent = useCompactSummaryTitles()
+      ? link.dataset.shortTitle
+      : link.dataset.fullTitle;
+    return link;
+  };
+
+  const appendSummaryHeading = (text) => {
+    const title = document.createElement("h2");
+    title.textContent = text;
+    summary.appendChild(title);
   };
 
   const compareMileage = (a, b) => {
@@ -113,9 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return b.miles - a.miles || sequenceOf(a.entry) - sequenceOf(b.entry);
       });
 
-    const title = document.createElement("h2");
-    title.textContent = "里程排名";
-    summary.appendChild(title);
+    appendSummaryHeading(`里程排名（${entries.length}）`);
 
     const table = document.createElement("table");
     table.className = "trip-mileage-table";
@@ -140,16 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
         kilometers === null ? "" : formatDistance(kilometers);
 
       const titleCell = document.createElement("td");
-      const link = document.createElement("a");
-      const fullTitle = headingOf(entry)?.textContent.trim() || "未命名旅行";
-      link.href = `#${headingIdOf(entry)}`;
-      link.className = "trip-mileage-title";
-      link.dataset.fullTitle = fullTitle;
-      link.dataset.shortTitle = abbreviatedTitle(fullTitle);
-      link.textContent = useCompactMileageTitles()
-        ? link.dataset.shortTitle
-        : link.dataset.fullTitle;
-      titleCell.appendChild(link);
+      titleCell.appendChild(createTitleLink(entry));
 
       row.append(mileageCell, kilometerCell, titleCell);
       tbody.appendChild(row);
@@ -159,27 +167,53 @@ document.addEventListener("DOMContentLoaded", () => {
     summary.appendChild(table);
   };
 
-  const renderRegionDirectory = (regions) => {
-    const nav = document.createElement("nav");
-    nav.className = "trip-region-directory";
-    nav.setAttribute("aria-label", "地区目录");
-
-    const title = document.createElement("strong");
-    title.textContent = "地区目录";
-    nav.appendChild(title);
-
-    const directory = document.createElement("ul");
-    regions.forEach(({ name, id }) => {
-      const item = document.createElement("li");
-      const link = document.createElement("a");
-      link.href = `#${id}`;
-      link.textContent = name;
-      item.appendChild(link);
-      directory.appendChild(item);
+  const renderSequenceDirectory = (entries) => {
+    const years = new Map();
+    entries.forEach((entry) => {
+      const title = headingOf(entry)?.textContent.trim() || "";
+      const year = title.match(/^(\d{4})/)?.[1] || "未注明年份";
+      if (!years.has(year)) years.set(year, []);
+      years.get(year).push(entry);
     });
-    nav.appendChild(directory);
 
-    summary.appendChild(nav);
+    appendSummaryHeading(`目录（${entries.length}）`);
+    const directory = document.createElement("ul");
+    years.forEach((yearEntries, year) => {
+      const yearItem = document.createElement("li");
+      yearItem.append(`${year}（${yearEntries.length}）`);
+
+      const trips = document.createElement("ul");
+      yearEntries.forEach((entry) => {
+        const tripItem = document.createElement("li");
+        tripItem.appendChild(createTitleLink(entry));
+        trips.appendChild(tripItem);
+      });
+      yearItem.appendChild(trips);
+      directory.appendChild(yearItem);
+    });
+    summary.appendChild(directory);
+  };
+
+  const renderRegionDirectory = (regions) => {
+    appendSummaryHeading("地区目录");
+    const directory = document.createElement("ul");
+    regions.forEach(({ name, id, entries }) => {
+      const regionItem = document.createElement("li");
+      const regionLink = document.createElement("a");
+      regionLink.href = `#${id}`;
+      regionLink.textContent = name;
+      regionItem.append(regionLink, `（${entries.length}）`);
+
+      const trips = document.createElement("ul");
+      entries.forEach((entry) => {
+        const tripItem = document.createElement("li");
+        tripItem.appendChild(createTitleLink(entry));
+        trips.appendChild(tripItem);
+      });
+      regionItem.appendChild(trips);
+      directory.appendChild(regionItem);
+    });
+    summary.appendChild(directory);
   };
 
   const sortEntries = (sortType) => {
@@ -219,10 +253,13 @@ document.addEventListener("DOMContentLoaded", () => {
         heading.id = id;
         heading.textContent = region;
         fragment.appendChild(heading);
-        regions.push({ name: region, id });
+        regions.push({ name: region, id, entries: [] });
         currentRegion = region;
       }
 
+      if (sortType === "region") {
+        regions[regions.length - 1].entries.push(entry);
+      }
       fragment.appendChild(entry);
     });
 
@@ -233,6 +270,8 @@ document.addEventListener("DOMContentLoaded", () => {
       renderMileageSummary(entries);
     } else if (sortType === "region") {
       renderRegionDirectory(regions);
+    } else {
+      renderSequenceDirectory(entries);
     }
 
     buttons.forEach((button) => {
@@ -247,7 +286,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   if (contentSection && "ResizeObserver" in window) {
-    new ResizeObserver(updateMileageTitleWidths).observe(contentSection);
+    new ResizeObserver(updateSummaryTitleWidths).observe(contentSection);
   }
 
   sortEntries("mileage-desc");

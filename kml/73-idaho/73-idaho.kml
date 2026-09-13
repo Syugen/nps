@@ -1,83 +1,257 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>73-idaho-nav</name>
-    <description />
-    <Style id="icon-1899-DB4436-nodesc-normal">
+    <name>73-idaho</name>
+    <description/>
+    <Style id="icon-1535-0288D1-nodesc-normal">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
+    <Style id="icon-1535-0288D1-nodesc-highlight">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
       </IconStyle>
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
+    <StyleMap id="icon-1535-0288D1-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1535-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+    <Style id="icon-1602-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-5000-nodesc-normal">
       <LineStyle>
-        <color>ffff6712</color>
+        <color>ff1427a5</color>
         <width>5</width>
       </LineStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    <Style id="line-A52714-5000-nodesc-highlight">
       <LineStyle>
-        <color>ffff6712</color>
+        <color>ff1427a5</color>
         <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
+    <StyleMap id="line-A52714-5000-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+        <styleUrl>#line-A52714-5000-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#line-A52714-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFEA00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
-      <name>Directions from Avis Car Rental, 640 116th Avenue Northeast, Bellevue, Washington to Hyatt Place Boise/Towne Square, North Milwaukee Street, Boise, ID</name>
+      <name>2022-11-11</name>
       <Placemark>
-        <name>Directions from Avis Car Rental, 640 116th Avenue Northeast, Bellevue, Washington to Hyatt Place Boise/Towne Square, North Milwaukee Street, Boise, ID</name>
-        <styleUrl>#day-01-red</styleUrl>
+        <name>2022-11-11</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -15086,10 +15260,10 @@
       </Placemark>
       <Placemark>
         <name>Avis Car Rental, 640 116th Avenue Northeast, Bellevue, Washington</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -122.1852413,47.6170267,0
+            -122.185241,47.617027,0
           </coordinates>
         </Point>
       </Placemark>
@@ -15098,16 +15272,16 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.3006157,46.3183513,0
+            -119.300616,46.318351,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>McDonald's, Wellsian Way, Richland, WA</name>
+        <name><![CDATA[McDonald's, Wellsian Way, Richland, WA]]></name>
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -119.2851621,46.2607329,0
+            -119.285162,46.260733,0
           </coordinates>
         </Point>
       </Placemark>
@@ -15116,7 +15290,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -118.5057092,45.5990196,0
+            -118.505709,45.59902,0
           </coordinates>
         </Point>
       </Placemark>
@@ -15125,16 +15299,16 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -117.3657719,44.4955482,0
+            -117.365772,44.495548,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name> 653 East Idaho Avenue, Ontario, OR</name>
+        <name>653 East Idaho Avenue, Ontario, OR</name>
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9519196,44.0260832,0
+            -116.95192,44.026083,0
           </coordinates>
         </Point>
       </Placemark>
@@ -15143,16 +15317,16 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.2763415,43.585655,0
+            -116.276342,43.585655,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>McDonald's, 7811 West Fairview Avenue, Boise, Idaho</name>
+        <name><![CDATA[McDonald's, 7811 West Fairview Avenue, Boise, Idaho]]></name>
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.2796922,43.6192029,0
+            -116.279692,43.619203,0
           </coordinates>
         </Point>
       </Placemark>
@@ -15161,16 +15335,16 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.2854971,43.6130678,0
+            -116.285497,43.613068,0
           </coordinates>
         </Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>Directions from Hyatt Place Boise/Towne Square, North Milwaukee Street, Boise, ID to Holiday Inn Express &amp; Suites Elko by IHG, Ruby Vista Drive, Elko, NV</name>
+      <name>2022-11-12</name>
       <Placemark>
-        <name>Directions from Hyatt Place Boise/Towne Square, North Milwaukee Street, Boise, ID to Holiday Inn Express &amp; Suites Elko by IHG, Ruby Vista Drive, Elko, NV</name>
-        <styleUrl>#day-02-orange</styleUrl>
+        <name>2022-11-12</name>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -30182,16 +30356,16 @@
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.2854971,43.6130678,0
+            -116.285497,43.613068,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Visitor Center: Thousand Springs State Park &amp; Hagerman Fossil Beds National Monument, U.S. 30, Hagerman, ID</name>
+        <name><![CDATA[Visitor Center: Thousand Springs State Park & Hagerman Fossil Beds National Monument, U.S. 30, Hagerman, ID]]></name>
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.8918868,42.831742,0
+            -114.891887,42.831742,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30200,16 +30374,16 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.5617088,43.4622165,0
+            -113.561709,43.462216,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>1428 Hunt Rd, Jerome, ID</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <name>Minidoka National Historic Site Visitor Center</name>
+        <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.2438311,42.6789775,0
+            -114.243831,42.678978,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30218,7 +30392,7 @@
         <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.6329795,42.0913736,0
+            -113.63298,42.091374,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30227,7 +30401,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -113.7185068,42.0739,0
+            -113.718507,42.0739,0
           </coordinates>
         </Point>
       </Placemark>
@@ -30236,25 +30410,25 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -114.9576413,41.1017231,0
+            -114.957641,41.101723,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Holiday Inn Express &amp; Suites Elko by IHG, Ruby Vista Drive, Elko, NV</name>
+        <name><![CDATA[Holiday Inn Express & Suites Elko by IHG, Ruby Vista Drive, Elko, NV]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -115.7493491,40.8549505,0
+            -115.749349,40.85495,0
           </coordinates>
         </Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>Directions from Holiday Inn Express &amp; Suites Elko by IHG, Ruby Vista Drive, Elko, NV to 1040 West Washington Avenue, Sunnyvale, CA</name>
+      <name>2022-11-13</name>
       <Placemark>
-        <name>Directions from Holiday Inn Express &amp; Suites Elko by IHG, Ruby Vista Drive, Elko, NV to 1040 West Washington Avenue, Sunnyvale, CA</name>
-        <styleUrl>#day-03-yellow</styleUrl>
+        <name>2022-11-13</name>
+        <styleUrl>#line-FFEA00-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -45229,44 +45403,16 @@
             -122.04473,37.38322,0
             -122.04473,37.38321,0
             -122.04477,37.38305,0
-            -122.04504,37.38222,0
-            -122.04519,37.38181,0
-            -122.0452,37.38176,0
-            -122.04517,37.38172,0
-            -122.04532,37.38129,0
-            -122.04532,37.38127,0
-            -122.04539,37.38106,0
-            -122.04544,37.38094,0
-            -122.04546,37.38087,0
-            -122.04546,37.38086,0
-            -122.0459,37.37957,0
-            -122.04603,37.37913,0
-            -122.04605,37.37908,0
-            -122.0461,37.37891,0
-            -122.04616,37.37875,0
-            -122.04643,37.37881,0
-            -122.04653,37.37884,0
-            -122.04662,37.37886,0
-            -122.04666,37.37888,0
-            -122.04669,37.3789,0
-            -122.04678,37.37893,0
-            -122.04683,37.37897,0
-            -122.04692,37.37901,0
-            -122.04705,37.37909,0
-            -122.04709,37.37912,0
-            -122.04725,37.3792,0
-            -122.04728,37.37922,0
-            -122.04738,37.37926,0
-            -122.04749,37.37929,0
+            -122.044778,37.383025,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Holiday Inn Express &amp; Suites Elko by IHG, Ruby Vista Drive, Elko, NV</name>
+        <name><![CDATA[Holiday Inn Express & Suites Elko by IHG, Ruby Vista Drive, Elko, NV]]></name>
         <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -115.7493491,40.8549505,0
+            -115.749349,40.85495,0
           </coordinates>
         </Point>
       </Placemark>
@@ -45275,7 +45421,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -116.9504193,40.6534199,0
+            -116.950419,40.65342,0
           </coordinates>
         </Point>
       </Placemark>
@@ -45284,7 +45430,7 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -120.2086192,39.3194888,0
+            -120.208619,39.319489,0
           </coordinates>
         </Point>
       </Placemark>
@@ -45293,395 +45439,19 @@
         <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -121.2973405,38.6900667,0
+            -121.29734,38.690067,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>1040 West Washington Avenue, Sunnyvale, CA</name>
-        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <name>Home</name>
+        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -122.0474939,37.379287,0
+            -122.044778,37.383025,0
           </coordinates>
         </Point>
       </Placemark>
     </Folder>
-    <Style id="day-01-red-normal">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-01-red-highlight">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-01-red">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-01-red-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-01-red-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-02-orange-normal">
-      <LineStyle>
-        <color>ff25a8f9</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-02-orange-highlight">
-      <LineStyle>
-        <color>ff25a8f9</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-02-orange">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-02-orange-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-02-orange-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-03-yellow-normal">
-      <LineStyle>
-        <color>ff00eaff</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-03-yellow-highlight">
-      <LineStyle>
-        <color>ff00eaff</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-03-yellow">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-03-yellow-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-03-yellow-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-04-green-normal">
-      <LineStyle>
-        <color>ff42b37c</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-04-green-highlight">
-      <LineStyle>
-        <color>ff42b37c</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-04-green">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-04-green-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-04-green-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-05-cyan-normal">
-      <LineStyle>
-        <color>ffa79700</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-05-cyan-highlight">
-      <LineStyle>
-        <color>ffa79700</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-05-cyan">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-05-cyan-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-05-cyan-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-06-blue-normal">
-      <LineStyle>
-        <color>ff9b5701</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-06-blue-highlight">
-      <LineStyle>
-        <color>ff9b5701</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-06-blue">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-06-blue-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-06-blue-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-07-purple-normal">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-07-purple-highlight">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-07-purple">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-07-purple-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-07-purple-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="day-08-black-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="day-08-black-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="day-08-black">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#day-08-black-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#day-08-black-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1504-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1504-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1504-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1504-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1504-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1535-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1535-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1535-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1535-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1535-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1602-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1602-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1602-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1603-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1603-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1603-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1739-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1739-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1739-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
   </Document>
 </kml>
