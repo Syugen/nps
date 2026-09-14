@@ -1,0 +1,317 @@
+﻿序号,二级地名开始日期,国家,一级行政区,次级行政区,世界遗产,景点
+1,2003.08.05,中国,河北省,秦皇岛市,,北戴河
+1,2003.08.06,中国,河北省,秦皇岛市,,天下第一关古城
+2,,中国,辽宁省,TODO,,待核实
+2,,中国,吉林省,TODO,,
+2,,中国,黑龙江省,TODO,,
+3,2007.04.24,中国,上海市,,,东方绿舟
+3,2007.04.25,中国,上海市,,,金茂大厦
+3,2007.04.26,中国,上海市,,,东二小学
+4,2010.06.29,中国,上海市,,,上海世界博览会
+5,2010.08.14,中国,河北省,保定市,,野三坡风景区
+6,2010.08.21,中国,河北省,承德市,1,承德避暑山庄
+7,2011.07.10,中国,山东省,青岛市,,胶州湾大桥、五四广场、海军博物馆、八大关等
+8,2011.07.22,日本,茨城県,東茨城郡大洗町,,茨城县立儿童城、大洗矶前神社、大洗水族馆
+8,2011.07.23,日本,茨城県,ひたちなか市,,国营常陆海滨公园
+8,2011.07.25,日本,東京都,,,台场
+8,2011.07.26,日本,東京都,,,东京都厅、皇居、秋叶原、浅草寺
+9,,中国,天津市,,,天津广播电视台等、塘沽海河外滩公园
+10,2012.02.01,中国,香港特别行政区,,,喇沙书院
+10,2012.02.02,中国,香港特别行政区,,,园艺街、旺角等
+10,2012.02.03,中国,香港特别行政区,,,香港大学、太平山
+10,2012.02.04,中国,香港特别行政区,,,香港中文大学、香港迪士尼乐园
+10,2012.02.05,中国,香港特别行政区,,,红磡、金紫荆广场、尖沙咀
+11,2012.08.15,中国,四川省,阿坝藏族羌族自治州,1,九寨沟国家级自然保护区
+11,2012.08.16,中国,四川省,阿坝藏族羌族自治州,1,黄龙风景名胜区
+12,2013.07.16,日本,大阪府,大阪市,,道顿堀、大阪城、大阪环球影城
+12,2013.07.17,日本,大阪府,吹田市,,万国博览会纪念公园
+12,,日本,大阪府,大阪市,,大阪海游馆
+12,,日本,兵庫県,姫路市,1,姬路城
+12,,日本,兵庫県,神户市,,神户塔等
+12,2013.07.18,日本,京都府,京都市,1,金阁寺、清水寺
+12,2013.07.19,日本,岡山県,岡山市,,后乐园
+12,2013.07.20,日本,奈良県,奈良市,1,春日大社（大佛殿向南再向东经KKR后向东北）
+12,2013.07.21,日本,京都府,京都市,,伏见稻荷大社、岚山
+13,2014.01.21,中国,陕西省,西安市,1,华清池、兵马俑
+13,2014.01.22,中国,陕西省,西安市,,古城墙、小雁塔、大雁塔
+13,2014.01.23,中国,陕西省,渭南市,,华山
+14,2014.05.24,中国,江西省,九江市,1,庐山、东林大佛
+14,2014.05.25,中国,江西省,南昌市,,滕王阁
+15,2014.06.19,奥地利,维也纳州,维也纳,1,St. Stephen's Cathedral
+15,2014.06.20,梵蒂冈,,,1,圣彼得大教堂（圣伯多禄大殿）
+15,,意大利,拉齐奥,罗马,1,万神庙、许愿池、斗兽场、凯旋门
+15,2014.06.21,意大利,托斯卡纳,佛罗伦萨,1,花之圣母大教堂等
+15,2014.06.22,意大利,威尼托,威尼斯,1,道奇宫、圣马可教堂、叹息桥
+15,2014.06.23,瑞士,伯尔尼州,因特拉肯,*,金色山口快车至卢瑟恩州卢塞恩
+15,,瑞士,卢瑟恩州,卢瑟恩,,住宿；火车至卢瑟恩；Kriens乘缆车至皮拉图斯
+15,2014.06.24,瑞士,下瓦尔登州,,,皮拉图斯山
+15,2014.06.25,法国,法兰西岛,巴黎,2,卢浮宫、凡尔赛宫、塞纳河游船等
+15,2014.06.26,比利时,布鲁塞尔首都大区,布鲁塞尔,,BRU->VIE->PEK，布鲁塞尔机场返程
+16,2014.07.18,波兰,马佐夫舍省,华沙,,PEK->WAW->CDG，华沙肖邦机场转机
+16,,法国,法兰西岛,巴黎,,卢浮宫、凯旋门、巴黎圣母院、古监狱等16处
+16,2014.07.21,法国,法兰西岛,枫丹白露,1,枫丹白露宫
+16,2014.07.24,法国,诺曼底,,1,圣米歇尔山
+16,2014.07.25,法国,普罗旺斯-阿尔卑斯-蓝色海岸,Avignon,1,教皇宫（Palais des Papes）、断桥
+16,2014.07.26,法国,普罗旺斯-阿尔卑斯-蓝色海岸,Sault,,参观薰衣草
+16,2014.07.27,法国,普罗旺斯-阿尔卑斯-蓝色海岸,Nice,,尼斯海滩
+16,,摩纳哥,摩纳哥,,,摩纳哥亲王宫等
+16,2014.07.28,俄罗斯,莫斯科州,Moscow (及附近),,NCE->SVO->PEK，谢列梅捷沃国际机场转机
+17,,加拿大,安大略省,Niagara-on-the-Lake,,当地游
+17,,加拿大,安大略省,Niagara Falls,,尼亚加拉大瀑布
+18,,美国,纽约州,Ithaca,,康奈尔大学
+19,,加拿大,安大略省,Niagara Falls,,尼亚加拉大瀑布
+20,2015.04.29,美国,加利福尼亚州,Los Angeles (及附近),,UCLA、圣莫妮卡
+20,2015.05.02,美国,犹他州,,,拱门国家公园
+20,,美国,科罗拉多州,Denver,,住宿
+20,2015.05.03,美国,南达科他州,,,疯马巨石、拉什莫尔山
+20,,美国,怀俄明州,,,恶魔塔
+20,2015.05.04,美国,怀俄明州,,1,黄石国家公园
+20,,美国,蒙大拿州,West Yellowstone,,住宿
+20,2015.05.05,美国,犹他州,Salt Lake City,,大盐湖
+20,2015.05.06,美国,内华达州,Las Vegas,,当地游
+20,2015.05.07,美国,亚利桑那州,,1,大峡谷国家公园西峡谷、胡佛水坝
+21,2015.08.22,加拿大,安大略省,Kingston,,当地游
+21,,加拿大,安大略省,Ottawa,,国会山庄
+21,2015.08.23,加拿大,魁北克省,Rivière-du-Loup,,午餐
+21,,加拿大,新不伦瑞克省,Fredericton (及附近),,Grand Falls、Fredericton当地游
+21,2015.08.24,加拿大,新斯科舍省,Halifax (及附近),,Halifax当地游、Peggys Cove
+21,2015.08.25,加拿大,爱德华王子岛省,,,清秀佳人故居、红海滩
+21,2015.08.26,加拿大,新不伦瑞克省,Moncton (及附近),,世界最大龙虾（Shediac）、磁力山
+21,,加拿大,新不伦瑞克省,Saint John,,芬迪湾、倒流瀑布
+21,2015.08.27,加拿大,新不伦瑞克省,Hartland,,世界最长有盖桥
+21,,加拿大,魁北克省,Quebec City,1,魁北克古城
+21,2015.08.28,加拿大,魁北克省,Montreal,,奥林匹克公园、圣母大教堂
+22,,加拿大,安大略省,Ottawa,1,国会山庄、丽都运河、总督府
+23,,中国,河北省,保定市,,白洋淀
+24,2016.06.17,中国,山东省,济宁市曲阜市,1,孔府、孔庙
+24,2016.06.18,中国,山东省,临沂市,,沂蒙云瀑洞天旅游区
+24,2016.06.19,中国,山东省,枣庄市,1,台儿庄古城、京杭大运河
+25,2016.07.15,中国,安徽省,淮南市,,两琴相悦、龙湖公园
+25,2016.07.16,中国,安徽省,安庆市,,大别山彩虹瀑布
+25,2016.07.17,中国,江西省,鹰潭市,,上清镇、龙虎山
+25,,中国,安徽省,黄山市,,徽州古城
+25,2016.07.18,中国,安徽省,黄山市,2,黄山风景区、西递村
+25,2016.07.19,中国,安徽省,淮南市,,当地游
+25,2016.07.20,中国,江苏省,南京市,,明孝陵、中山陵、总统府、夫子庙
+25,2016.07.21,中国,江苏省,南京市,,侵华日军南京大屠杀遇难同胞纪念馆
+26,2016.12.23,墨西哥,金塔纳罗奥州,Cancun,,当地游
+26,2016.12.25,墨西哥,金塔纳罗奥州,Isla Mujeres,,女人岛
+26,2016.12.26,墨西哥,尤卡坦州,Chichén Itzá,1,奇琴伊察
+26,,墨西哥,坎佩切州,Campeche City,1,坎佩切古城
+26,2016.12.27,墨西哥,尤卡坦州,Uxmal,1,乌斯马尔
+27,2017.06.04,加拿大,安大略省,Kingston,,游船、皇后大学
+27,2017.06.05,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,Grouse Mountain、UBC、Wreck Beach
+27,2017.06.08,加拿大,艾伯塔省,Banff (及附近),1,班夫国家公园
+27,2017.06.10,加拿大,艾伯塔省,Calgary,,YYC->YYZ，卡尔加里机场返程航班
+28,2017.07.03,中国,湖南省,张家界市,1,张家界国家森林公园
+28,2017.07.04,中国,湖南省,张家界市,,天门山国家森林公园
+28,2017.07.05,中国,湖南省,湘西土家族苗族自治州凤凰县,,凤凰古城
+28,2017.07.07,中国,湖南省,长沙市,,岳麓山、爱晚亭、岳麓书院、湖南大学
+29,2017.07.25,日本,東京都,,,浅草寺、晴空塔、秋叶原、皇居、忠犬八公像、秒速五厘米参宫桥铁道口取景地、东京塔
+29,2017.07.26,日本,静岡県,富士宮市,1,富士山
+29,,日本,神奈川県,藤沢市,,江之岛
+29,,日本,神奈川県,鎌倉市,,灌篮高手镰仓高校前铁道口取景地
+29,,日本,神奈川県,横須賀市,,Verny公园（横须贺港）
+29,2017.07.27,日本,栃木県,日光市,1,二社一寺、华严瀑布、中禅寺湖
+29,,日本,京都府,京都市,,住宿
+29,2017.07.28,日本,兵庫県,神戸市,,明石海峡大桥
+29,,日本,兵庫県,姫路市,,姬路城
+29,,日本,広島県,呉市,,大和博物馆
+29,2017.07.29,日本,広島県,広島市,1,原子弹爆炸圆屋顶、平和纪念公园、广岛城
+29,,日本,広島県,廿日市市,1,严岛神社
+29,,日本,長崎県,長崎市,,稻佐山
+29,2017.07.30,日本,長崎県,長崎市,,平和公园、大浦天主教堂等
+29,,日本,長崎県,佐世保市,,海上自卫队佐世保史料馆
+29,,日本,福岡県,福岡市,,住宿
+29,2017.07.31,日本,鹿児島県,指宿市,,西大山站
+29,,日本,鹿児島県,鹿児島市,1,仙严园
+29,2017.08.01,日本,熊本県,熊本市,,熊本熊Square、熊本市中央区役所
+29,,日本,山口県,下関市,,日清讲和纪念馆、唐户市场
+30,2017.10.08,美国,纽约州,Rochester,,罗切斯特大学
+30,2017.10.09,美国,纽约州,Niagara Falls,,尼亚加拉大瀑布
+31,,美国,加利福尼亚州,San Francisco (及附近),,Facebook，斯坦佛大学
+32,2017.12.20,美国,马萨诸塞州,Boston,,哈佛大学、麻省理工学院
+32,2017.12.22,美国,罗得岛州,Providence,,布朗大学
+32,2017.12.23,美国,纽约州,New York City,,大都会、哥伦比亚大学、MoMA、帝国大厦等
+33,2018.01.30,美国,加利福尼亚州,Redwood City,,Oracle
+34,2018.03.31,美国,波多黎各,San Juan,,当地游
+34,,美国,波多黎各,San Juan,,El Yunque National Forest
+35,2018.05.23,美国,宾夕法尼亚州,Gettysburg (及附近),,Gettysburg National Military Park
+35,,美国,西弗吉尼亚州,Harpers Ferry,,Harpers Ferry National Historical Park
+35,2018.05.24,美国,马里兰州,Baltimore,,Fort McHenry National Monument
+36,2018.05.29,美国,纽约州,New York City,,华尔街、自由女神像、大无畏号、世贸、联合国
+36,2018.05.31,美国,宾夕法尼亚州,Philadelphia,,Independence Hall、City Hall
+36,2018.05.31,美国,华盛顿特区,,,新闻博物馆、杰佛逊、林肯纪念堂、国会、游船
+37,2018.10.13,美国,加利福尼亚州,,1,Yosemite National Park
+38,2018.11.10,美国,科罗拉多州,,,Great Sand Dunes National Park and Preserve
+38,,美国,新墨西哥州,Taos,1,Taos Pueblo
+38,2018.11.11,美国,新墨西哥州,Albuquerque,,《绝命毒师》取景地
+38,,美国,新墨西哥州,Albuquerque,1,Chaco Culture NHP、四角地
+39,2019.02.09,美国,内华达州,Las Vegas,,MGM Grand Garden Arena周杰伦演唱会
+40,2019.05.25,美国,内华达州,,,Great Basin National Park
+41,,中国,上海市,,,梅赛德斯奔驰文化中心SNH48总选
+42,2019.09.01,美国,华盛顿州,Seattle,,Space Needle、Pike Market、SPL
+42,2019.09.02,美国,华盛顿州,Seattle,1,Olympic National Parks、Cape Flattery
+43,2019.09.21,美国,佐治亚州,,,Cumberland Island National Seashore
+43,2019.09.22,美国,佛罗里达州,Orlando,,奥兰多环球影城
+44,2019.10.12,美国,加利福尼亚州,Los Angeles (及附近),,华纳兄弟工作室、好莱坞、迪士尼乐园
+45,2019.11.09,美国,得克萨斯州,Austin,,得克萨斯大学奥斯汀分校、Covert Park
+45,,美国,得克萨斯州,San Antonio,1,San Antonio Missions、Alamo
+45,2019.11.10,美国,得克萨斯州,Houston,,Space Center Houston
+45,2019.11.11,美国,得克萨斯州,Dallas,,Giant Eyeball
+46,2019.11.28,美国,俄勒冈州,Portland,,Pittock Mansion、Pioneer Square
+46,2019.11.30,美国,俄勒冈州,Portland,,Cape Perpetua
+46,2019.12.01,美国,加利福尼亚州,,1,Redwood National Park、Drive-Thru Tree Park
+47,2019.12.24,法国,大东部大区,斯特拉斯堡,1,当地游
+47,2019.12.25,列支敦士登,瓦都兹,,,当地游
+47,2019.12.26,德国,巴伐利亚州,施万高,,新天鹅堡
+47,2019.12.27,德国,巴伐利亚州,慕尼黑,,德意志博物馆
+47,,奥地利,萨尔茨堡州,萨尔茨堡,1,莫扎特故居
+47,2019.12.28,斯洛伐克,布拉提斯拉发州,布拉提斯拉发,,
+47,,奥地利,维也纳州,维也纳,,
+47,2019.12.29,匈牙利,佩斯州,布达佩斯,1,
+47,2019.12.30,捷克,布拉格,布拉格,1,
+48,2020.01.19,美国,佛罗里达州,Key West,,海明威故居
+48,2020.01.20,美国,佛罗里达州,Miami (及附近),1,Everglades National Park、当地游
+49,2020.08.15,美国,俄勒冈州,,,Crater Lake National Park
+49,2020.08.16,美国,加利福尼亚州,,,Lassen Volcanic National Park
+50,2020.08.29,美国,加利福尼亚州,,,Sequoia National Park
+51,2020.09.05,美国,加利福尼亚州,,,Death Valley National Park
+51,,美国,内华达州,Las Vegas,,当地游
+51,2020.09.06,美国,内华达州,Las Vegas,,Lake Mead
+51,,美国,加利福尼亚州,,,Joshua Tree National Park
+52,2020.10.10,美国,加利福尼亚州,Bishop (及附近),,North Lake
+53,2020.11.08,美国,亚利桑那州,Phoenix (及附近),,Tonto National Monument
+53,2020.11.09,美国,亚利桑那州,Phoenix (及附近),,Organ Pipe Cactus National Monument
+53,2020.11.10,美国,亚利桑那州,Phoenix (及附近),,Casa Grande Ruins National Monument
+53,2020.11.11,美国,亚利桑那州,Phoenix (及附近),,Montezuma Castle National Monument
+53,2020.11.12,美国,亚利桑那州,Sedona (及附近),,Devil's Bridge、Sedona当地游
+53,2020.11.13,美国,亚利桑那州,Flagstaff (及附近),,Walnut Canyon、Sunset Crater Volcano、Wupatki
+53,2020.11.14,美国,加利福尼亚州,San Bernardino,,Wigwam Motel
+53,2020.11.15,美国,加利福尼亚州,Lancaster,,Musical Road
+54,2021.02.14,美国,加利福尼亚州,Monterey,,Seven Gables Inn
+54,2021.02.15,美国,加利福尼亚州,Monterey,,Pinnacles National Park
+55,2021.02.19,美国,加利福尼亚州,Bakersfield,,Kern River Campground
+55,2021.02.20,美国,加利福尼亚州,Lone Pine (及附近),,Manzanar National Historic Site、Alabama Hills
+56,2021.05.15,美国,怀俄明州,Cheyenne (及附近),,Fort Laramie、Devils Tower
+56,2021.05.16,美国,南达科他州,Rapid City (及附近),,"Wind Cave, Jewel Cave, Minuteman, Badland"
+56,2021.05.17,美国,内布拉斯加州,,,"Agate Fossil Beds NM, Scott Bluff NM"
+57,2021.05.30,美国,犹他州,,,Capitol Reef
+57,2021.05.31,美国,犹他州,,,"Bruce Canyon NP, Cedar Breaks NM"
+57,2021.06.01,美国,犹他州,,,Zion
+57,2021.06.02,美国,亚利桑那州,,,Pipe Spring National Monument
+57,,美国,内华达州,,,Great Basin National Park
+57,2021.06.03,美国,内华达州,Las Vegas,,大卫科波维尔魔术
+57,2021.06.04,美国,内华达州,Las Vegas,,Lake Mead
+58,2021.08.07,美国,加利福尼亚州,,,Lava Beds National Monument
+58,,美国,俄勒冈州,,,Crater Lake National Park
+58,2021.08.08,美国,加利福尼亚州,,,"Redwood NP&SP, Humboldt State Park"
+59,2021.09.11,美国,加利福尼亚州,,,Yosemite National Park
+60,2021.10.16,美国,加利福尼亚州,,,"Devils Postpile, North Lake, Manzanar, Death Valley"
+60,2021.10.17,美国,加利福尼亚州,,,Pinnacles National Park
+61,2021.11.22,美国,路易斯安那州,New Orleans (及附近),,"WWII Museum, Bourbon St, Jackson Square"
+61,2021.11.23,美国,路易斯安那州,New Orleans (及附近),,Oak Alley Plantation
+61,2021.11.24,美国,路易斯安那州,New Orleans (及附近),,Jean Lafitte Airboat
+61,2021.11.26,美国,纽约州,New York City,,"Stonewall, Barrymore Theatre (Waitress)"
+61,2021.11.27,美国,纽约州,New York City,1,"African Burial Ground, Castle Clinton, Statue of Liberty"
+61,2021.11.28,美国,纽约州,New York City,,"Empire State, Flushing, Vessel"
+61,2021.11.29,美国,纽约州,Hyde Park (及附近),,Home of FDR National Historic Site
+61,,美国,新泽西州,Paterson,,Paterson Great Falls National Historical Park
+62,2021.12.17,美国,加利福尼亚州,Redding (及附近),,Whiskeytown National Recreation Area
+62,2021.12.18,美国,华盛顿州,"Vancouver, WA",,Fort Vancouver National Historic Site
+62,,美国,俄勒冈州,Astoria (及附近),,Lewis and Clark National Historical Park
+62,2021.12.19,美国,华盛顿州,Seattle,,"Klondike Gold Rush, Ebbey's Landing, Coupeville"
+63,2021.12.30,加拿大,不列颠哥伦比亚省,Tofino (及附近),,Pacific Rim National Park Reserve
+63,2021.12.31,加拿大,不列颠哥伦比亚省,Ucluelet,,Amphitrite Point Lighthouse
+63,2022.01.01,加拿大,不列颠哥伦比亚省,Victoria (及附近),,The Butchart Gardens
+64,2022.01.04,加拿大,安大略省,Ottawa,,"US Embassy, Parliament Hill"
+65,2022.02.25,美国,华盛顿州,Walla Walla (及附近),,Whitman Mission National Historic Site
+65,,美国,爱达荷州,Spalding,,Nez Perce National Historical Park
+65,2022.02.26,美国,俄勒冈州,,,John Day Fossil Beds National Monument
+65,2022.02.27,美国,加利福尼亚州,,,Lassen Vocanic National Park
+66,,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,当地游
+67,2022.05.26,美国,新墨西哥州,,,Salinas Pueblo Missions National Monument
+67,2022.05.27,美国,新墨西哥州,,1,Carlsbad Caverns National Park
+67,,美国,得克萨斯州,,,Guadalupe Mountains National Park
+67,2022.05.28,美国,得克萨斯州,El Paso,,Chamizal National Memorial
+67,,美国,新墨西哥州,,,White Sand National Park
+67,2022.05.30,美国,新墨西哥州,Santa Fe (及附近),,"Manhattan Project NHS, Bandelier NM"
+67,2022.05.31,美国,新墨西哥州,Santa Fe (及附近),,"El Morro NM, El Malpais NM"
+67,,美国,新墨西哥州,Albuquerque,,《绝命毒师》取景地
+67,2022.06.01,美国,新墨西哥州,Albuquerque,,Petroglyph National Monument
+68,2022.06.19,加拿大,不列颠哥伦比亚省,Victoria (及附近),,"Oak Bay Beach, Legislative Assembly of BC"
+68,2022.06.20,加拿大,不列颠哥伦比亚省,Victoria (及附近),,"Point Zero, Mile 0, Craigdarroch Castle"
+69,2022.07.02,美国,新墨西哥州,,,Gila Cliff Dwellings National Monument
+69,,美国,亚利桑那州,,,"Fort Bowie NHS, Chiricahua NM"
+69,2022.07.03,美国,亚利桑那州,,,"Coronado, Tumacacori, Saguaro, Organ Pipe Cactus"
+69,2022.07.04,美国,亚利桑那州,,,"Tonto NM, Montezuma NM"
+70,,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,无
+71,2022.08.29,美国,佛罗里达州,,,Kennedy Space Center
+71,,美国,佐治亚州,,,"Cumberland Island NS, Fort Frederica NM"
+71,2022.08.30,美国,佐治亚州,,,Fort Pulaski National Monument
+71,,美国,南卡罗莱纳州,,,Reconstruction Era National Historical Park
+71,2022.08.31,美国,佛罗里达州,Jacksonville (及附近),,"Fort Matanzas NM, Castillo de San Marcos NM"
+71,2022.09.01,美国,佛罗里达州,Jacksonville (及附近),,"Fort Caroline NMEM, Timucuan"
+71,2022.09.03,美国,佛罗里达州,Jacksonville (及附近),,Kennedy Space Center
+72,2022.09.16,美国,华盛顿州,Seattle (及附近),,Canlis
+72,,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,无
+73,2022.10.14,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,无
+73,2022.10.31,美国,华盛顿州,Seattle (及附近),,无
+73,2022.11.12,美国,爱达荷州,,,"Hagerman, Craters of the Moon, Minidoka, City of Rocks"
+74,2022.11.26,墨西哥,金塔纳罗奥州,Playa del Carmen,,酒店shuttle、入住Xcaret Arte、Room service宵夜
+74,2022.11.27,墨西哥,金塔纳罗奥州,Playa del Carmen,,早午餐San Juan自助、Xcaret Park及晚餐自助、Cayuco晚餐
+74,2022.11.28,墨西哥,金塔纳罗奥州,Playa del Carmen,,Room service午餐、Xplor、Encanta米其林晚餐、酒吧
+74,2022.11.29,墨西哥,金塔纳罗奥州,Playa del Carmen,,Room service早餐、无边泳池、Xavage、打车、Bikini Azul晚餐、Cilento晚餐
+74,2022.11.30,墨西哥,金塔纳罗奥州,Cancun,,Room service早餐、Cilento午餐、画画、无边泳池、El Suspiro晚餐、Los Abrazos晚餐
+74,2022.12.01,墨西哥,金塔纳罗奥州,Cancun,,El Suspiro午餐、泳池、沙滩、无边泳池、Los Abrazos晚餐
+74,2022.12.02,墨西哥,金塔纳罗奥州,Cancun,,Room service早餐、Cilento午餐、包车至机场
+75,2023.01.09,美国,加利福尼亚州,Redwood City,,Oracle
+75,2023.01.15,美国,亚利桑那州,Flagstaff (及附近),,"Petrified Forest, Hubbell, Canyon de Chelly"
+75,2023.01.16,美国,亚利桑那州,Flagstaff (及附近),,"Meteor Crater, Tuzigoot, Casa Grande Ruins"
+76,2023.05.27,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,Sea to Sky
+77,2023.11.24,中国,上海市,,,市内观光
+77,2023.11.27,中国,广西壮族自治区,南宁市,,市内观光
+78,2023.12.09,中国,广西壮族自治区,南宁市,,晚餐
+78,2023.12.10,中国,广西壮族自治区,桂林市,,桂林夜景、游船、银子岩、阳朔夜景、竹筏
+78,2023.12.14,中国,海南省,海口市,,骑楼老街、钟楼
+78,2023.12.15,中国,海南省,文昌市,,龙楼镇、淇水湾火箭观礼
+78,2023.12.17,中国,广东省,广州市,,市内观光、长隆马戏团
+78,2023.12.19,中国,广东省,深圳市,,深圳湾公园、南山公园
+78,2023.12.20,中国,广东省,珠海市,,港珠澳大桥游
+79,2024.05.22,美国,怀俄明州,Cheyenne (及附近),,"仅打卡：Fort Laramie, Devils Tower"
+79,,美国,内布拉斯加州,,,"仅打卡：Scootsbluff, Agate Fossil Beds"
+79,,美国,南达科他州,Rapid City (及附近),,"仅打卡：Wind Cave, Mt Rushmore, Jewel Cave"
+79,2024.05.23,美国,南达科他州,Rapid City (及附近),,"仅打卡：Minuteman Missile, Badland"
+79,,美国,内布拉斯加州,,,"Niobrara, Missouri River"
+79,2024.05.24,美国,内布拉斯加州,Lincoln (及附近),,Homestead
+79,,美国,堪萨斯州,,,"美国地理中心, Nicodemus, Fort Larned"
+79,2024.05.25,美国,科罗拉多州,Denver (及附近),,Rocky Mountain National Park
+79,2024.05.26,美国,科罗拉多州,Grand Junction (及附近),,"Colorado NM, Black Canyon NP"
+79,2024.05.27,美国,科罗拉多州,Alamosa (及附近),,"Great Sand Dunes NP, Florrisant NM"
+80,2024.06.09,美国,阿拉斯加州,Gustavus,1,Glacier Bay National Park and Preserve
+81,2024.09.23,加拿大,不列颠哥伦比亚省,Vancouver (及附近),,Richmond CIBC
+81,2024.09.25,加拿大,不列颠哥伦比亚省,Kelowna,,"Kelowna, Glacier National Park (Canada)"
+81,2024.09.26,加拿大,不列颠哥伦比亚省,Golden (及附近),,Yoho (Emerald Lake)
+81,,加拿大,艾伯塔省,,,"Banff (Moraine Lake, Lake Louise)"
+81,2024.09.27,加拿大,艾伯塔省,,,Jasper (Columbia Icefield)
+81,2024.09.28,加拿大,艾伯塔省,Calgary (及附近),2,"Dinosaur, Writing-on-stone"
+81,2024.09.29,加拿大,艾伯塔省,Lethbridge (及附近),1,Head-smashed-in Buffalo Jump
+81,,美国,蒙大拿州,,1,Glacier National Park
+81,2024.09.30,美国,蒙大拿州,Missoula (及附近),,"Big Hole, Grant-Khors Ranch"
+81,2024.10.01,美国,华盛顿州,Cheney (及附近),,Lake Roosevelt (Grand Coulee Dam)
+82,2025.04.18,美国,加利福尼亚州,Los Angeles (及附近),,"Mojave, Santa Monica"
+82,2025.04.19,美国,加利福尼亚州,Los Angeles (及附近),,"Beverly, Getty, Griffth"
+82,2025.04.21,美国,加利福尼亚州,Los Angeles (及附近),,仅打卡：Channel Islands
+83,2026.05.10,美国,科罗拉多州,,,"Sand Creek Massacre, Bent's Old Fort"
+83,,美国,新墨西哥州,,,Capulin Volcano
+83,2026.05.11,美国,新墨西哥州,,,"Fort Union, Pecos, Valles Caldera"
+83,2026.05.12,美国,新墨西哥州,,,Aztec Ruins
+83,,美国,科罗拉多州,,1,Mesa Verde
+83,,美国,犹他州,,,Hovenweep
+83,2026.05.13,美国,犹他州,,,"Natural Bridge, Canyonlands"
+83,2026.05.15,美国,田纳西州,Nashville (及附近),,"Fort Donelson, Oracle, Stones River"
+83,2026.05.16,美国,田纳西州,Memphis (及附近),,"Cotton Museum, Shiloh"
+83,,美国,密西西比州,Tupelo (及附近),,Natchez Trace
+83,2026.05.17,美国,亚拉巴马州,Birmingham (及附近),,"Little River Canyon, Horseshoe Bend"
+83,2026.05.18,美国,亚拉巴马州,Montgomery (及附近),,"Tuskegee Airman, Tuskegee Institute"
+83,2026.05.19,美国,密西西比州,Jackson (及附近),,"Medgar Evers, Vicksburg, Emmett Till"

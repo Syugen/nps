@@ -43,6 +43,7 @@ body, input, textarea, button {
   }
 }
 
+#trip-filter,
 #trip-sorter {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +51,7 @@ body, input, textarea, button {
   margin: 1em 0;
 }
 
+#trip-filter button,
 #trip-sorter button {
   border: 1px solid #d8dee4;
   border-radius: 4px;
@@ -59,6 +61,25 @@ body, input, textarea, button {
   padding: 0.35em 0.75em;
 }
 
+#trip-details-toggle,
+.trip-map-toggle {
+  border: 1px solid #d8dee4;
+  border-radius: 4px;
+  background: #f6f8fa;
+  color: #555;
+  cursor: pointer;
+  padding: 0.35em 0.75em;
+}
+
+#trip-details-toggle:hover,
+.trip-map-toggle:hover {
+  background: #267cb9;
+  border-color: #267cb9;
+  color: #fff;
+}
+
+#trip-filter button:hover,
+#trip-filter button.active,
 #trip-sorter button:hover,
 #trip-sorter button.active {
   background: #267cb9;
@@ -66,12 +87,85 @@ body, input, textarea, button {
   color: #fff;
 }
 
+#trip-sorter button:disabled,
+#trip-sorter button:disabled:hover {
+  background: #f6f8fa;
+  border-color: #d8dee4;
+  color: #999;
+  cursor: not-allowed;
+}
+
 #trip-summary {
   margin: 0 0 1.5em;
 }
 
+.trip-directory-heading,
 #trip-summary > h2 {
   margin: 0 0 0.5em;
+}
+
+.trip-directory-heading {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+
+.trip-directory-heading h2 {
+  margin: 0;
+}
+
+.trip-directory-controls {
+  display: flex;
+  gap: 0.5em;
+  margin-left: auto;
+}
+
+.trip-directory-controls button {
+  background: #f6f8fa;
+  border: 1px solid #d8dee4;
+  border-radius: 4px;
+  color: #555;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.25em 0.55em;
+}
+
+.trip-directory-controls button:hover {
+  background: #267cb9;
+  border-color: #267cb9;
+  color: #fff;
+}
+
+.trip-directory-group + .trip-directory-group {
+  margin-top: 0.5em;
+}
+
+.trip-directory-category {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  gap: 0.5em;
+}
+
+.trip-directory-toggle {
+  background: #f6f8fa;
+  border: 1px solid #d8dee4;
+  border-radius: 4px;
+  color: #267cb9;
+  cursor: pointer;
+  font: inherit;
+  margin-left: auto;
+  padding: 0.25em 0.55em;
+}
+
+.trip-directory-toggle:hover {
+  background: #267cb9;
+  border-color: #267cb9;
+  color: #fff;
+}
+
+.trip-directory-trips {
+  margin-top: 0.25em;
 }
 
 .trip-mileage-table {
@@ -94,6 +188,38 @@ body, input, textarea, button {
 
 #trip-list .trip-entry {
   margin: 1.75em 0;
+}
+
+#trip-list .trip-entry-content table {
+  table-layout: auto;
+  width: 100%;
+}
+
+#trip-list .trip-entry-content th:first-child,
+#trip-list .trip-entry-content td:first-child {
+  white-space: nowrap;
+  width: 1%;
+}
+
+#trip-list .trip-entry-content th:nth-child(2),
+#trip-list .trip-entry-content td:nth-child(2) {
+  white-space: nowrap;
+  width: 1%;
+}
+
+.trip-details-panel,
+.trip-map-panel {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 320ms ease, opacity 220ms ease, margin-top 320ms ease;
+}
+
+.trip-details-panel.is-expanded,
+.trip-map-panel.is-expanded {
+  margin-top: 0.75em;
+  max-height: 700px;
+  opacity: 1;
 }
 
 #trip-list .trip-region-heading {
