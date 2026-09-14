@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const filter = document.querySelector("#trip-filter");
   const summary = document.querySelector("#trip-summary");
   const contentSection = list?.closest("section");
+  const pageHeader =
+    document.querySelector(".wrapper > .sidebar > header") ||
+    document.querySelector(".wrapper > header");
   const sortButtons = document.querySelectorAll("#trip-sorter [data-sort]");
   const mileageSortButton = document.querySelector(
     '#trip-sorter [data-sort="mileage-desc"]'
@@ -14,8 +17,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const maps = document.querySelectorAll("[data-trip-map]");
   let currentSort = "mileage-desc";
   let currentFilter = "drive";
+  let activeDirectoryGroup = null;
+  let activeDirectorySequence = null;
+  let directoryGroups = new Map();
 
   if (!list || !sorter || !filter || !summary || !sortButtons.length || !filterButtons.length) return;
+
+  const browser = document.createElement("div");
+  browser.id = "trip-browser";
+  summary.before(browser);
+  browser.append(summary, list);
+  const mileageDirectory = document.createElement("div");
+  mileageDirectory.id = "trip-mileage-directory";
+  mileageDirectory.className = "trip-sidebar-directory";
+  const sidebarMedia = window.matchMedia("(min-width: 1250px)");
+  const usesSidebarLayout = () => Boolean(pageHeader && sidebarMedia.matches);
 
   const regionOrder = (sorter.dataset.regionOrder || "")
     .split("|")
@@ -30,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const updateSortAvailability = () => {
     if (!mileageSortButton) return;
 
+    // 非自驾没有里程，查看全部时不能进入没有意义的里程排序。
     const unavailable = currentFilter === "all";
     mileageSortButton.disabled = unavailable;
     mileageSortButton.setAttribute("aria-disabled", String(unavailable));
@@ -53,8 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       button.hidden = showMapsDirectly;
       if (showMapsDirectly) {
+        // “只看自驾”沿用原页面行为：有地图的行程直接展示地图。
         setMapExpanded(map, true);
       } else if (map.dataset.filterMode !== "all") {
+        // 刚切到“查看全部”时先收起地图；之后用户手动展开/收起的状态不被排序重置。
         setMapExpanded(map, false);
       }
       map.dataset.filterMode = currentFilter;
@@ -103,12 +122,22 @@ document.addEventListener("DOMContentLoaded", () => {
       "$1"
     );
 
-  const useCompactSummaryTitles = () => contentSection?.clientWidth <= 504;
+  const useCompactSummaryTitles = () => {
+    const activePanel =
+      pageHeader && summary.parentElement === pageHeader
+        ? summary
+        : pageHeader && mileageDirectory.parentElement === pageHeader
+          ? mileageDirectory
+          : summary;
+    return activePanel.clientWidth <= 504;
+  };
 
   const updateSummaryTitleWidths = () => {
     const compact = useCompactSummaryTitles();
-    summary.querySelectorAll(".trip-summary-title").forEach((link) => {
-      link.textContent = compact ? link.dataset.shortTitle : link.dataset.fullTitle;
+    [summary, mileageDirectory].forEach((panel) => {
+      panel.querySelectorAll(".trip-summary-title").forEach((link) => {
+        link.textContent = compact ? link.dataset.shortTitle : link.dataset.fullTitle;
+      });
     });
   };
 
@@ -146,6 +175,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const fullTitle = headingOf(entry)?.textContent.trim() || "未命名旅行";
     link.href = `#${headingIdOf(entry)}`;
     link.className = "trip-summary-title";
+    link.dataset.directorySequence =
+      entry.querySelector("trip-seq")?.textContent.trim() || "";
     link.dataset.fullTitle = fullTitle;
     link.dataset.shortTitle = abbreviatedTitle(fullTitle);
     link.textContent = useCompactSummaryTitles()
@@ -181,8 +212,8 @@ document.addEventListener("DOMContentLoaded", () => {
     return sequenceOf(a) - sequenceOf(b);
   };
 
-  const renderMileageSummary = (entries) => {
-    const rows = entries
+  const mileageRowsOf = (entries) =>
+    entries
       .map((entry) => ({
         entry,
         miles: distanceValue(entry.querySelector("trip-mile")),
@@ -196,6 +227,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if (b.miles === null) return -1;
         return b.miles - a.miles || sequenceOf(a.entry) - sequenceOf(b.entry);
       });
+
+  const renderMileageSummary = (entries) => {
+    const rows = mileageRowsOf(entries);
 
     appendSummaryHeading(`里程排名（${entries.length}）`);
 
@@ -232,6 +266,21 @@ document.addEventListener("DOMContentLoaded", () => {
     summary.appendChild(table);
   };
 
+  const renderMileageDirectory = (entries) => {
+    mileageDirectory.replaceChildren();
+    const heading = document.createElement("h2");
+    heading.textContent = `里程目录（${entries.length}）`;
+    mileageDirectory.appendChild(heading);
+    const directory = document.createElement("ul");
+    directory.className = "trip-mileage-directory-list";
+    mileageRowsOf(entries).forEach(({ entry }) => {
+      const item = document.createElement("li");
+      item.appendChild(createTitleLink(entry));
+      directory.appendChild(item);
+    });
+    mileageDirectory.appendChild(directory);
+  };
+
   const renderCollapsibleDirectory = (heading, groups) => {
     const headingRow = document.createElement("div");
     headingRow.className = "trip-directory-heading";
@@ -246,12 +295,22 @@ document.addEventListener("DOMContentLoaded", () => {
     directory.className = "trip-directory-list";
 
     let expandedEntryCount = 0;
+    // 侧栏空间较宽时全部展开；正文中的目录则只展开覆盖前六个行程的分组。
+    const expandAllInitially = usesSideDirectory();
     const setGroupExpanded = [];
+    const groupToggles = [];
+    directoryGroups = new Map();
     groups.forEach(({ name, id, entries }) => {
       const groupItem = document.createElement("div");
       groupItem.className = "trip-directory-group";
-      const expandedInitially = expandedEntryCount < 10;
-      if (expandedInitially) expandedEntryCount += entries.length;
+      groupItem.dataset.directoryGroup = name;
+      entries.forEach((entry) => {
+        entry.dataset.directoryGroup = name;
+      });
+      const expandedInitially = expandAllInitially || expandedEntryCount < 6;
+      if (!expandAllInitially && expandedInitially) {
+        expandedEntryCount += entries.length;
+      }
 
       const toggle = document.createElement("button");
       toggle.type = "button";
@@ -273,7 +332,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       const setExpanded = (expanded) => {
-        toggle.textContent = expanded ? "收起 ▾" : "展开 ▸";
+        toggle.textContent = expanded ? "▾" : "▸";
         toggle.setAttribute("aria-expanded", String(expanded));
         toggle.setAttribute(
           "aria-label",
@@ -284,29 +343,144 @@ document.addEventListener("DOMContentLoaded", () => {
 
       toggle.addEventListener("click", () => {
         setExpanded(toggle.getAttribute("aria-expanded") !== "true");
+        updateAllToggle();
       });
       setExpanded(expandedInitially);
       setGroupExpanded.push(setExpanded);
+      groupToggles.push(toggle);
+      directoryGroups.set(name, { element: groupItem, setExpanded });
 
-      categoryHeader.append(categoryName, toggle);
+      categoryHeader.append(toggle, categoryName);
       groupItem.append(categoryHeader, trips);
       directory.appendChild(groupItem);
     });
 
-    [
-      ["全部展开", true],
-      ["全部收起", false],
-    ].forEach(([label, expanded]) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.textContent = label;
-      button.addEventListener("click", () => {
-        setGroupExpanded.forEach((setExpanded) => setExpanded(expanded));
-      });
-      controls.appendChild(button);
+    const allToggle = document.createElement("button");
+    allToggle.type = "button";
+    const updateAllToggle = () => {
+      const allExpanded = groupToggles.every(
+        (toggle) => toggle.getAttribute("aria-expanded") === "true"
+      );
+      allToggle.textContent = allExpanded ? "全部收起" : "全部展开";
+    };
+    allToggle.addEventListener("click", () => {
+      const allExpanded = groupToggles.every(
+        (toggle) => toggle.getAttribute("aria-expanded") === "true"
+      );
+      setGroupExpanded.forEach((setExpanded) => setExpanded(!allExpanded));
+      updateAllToggle();
     });
+    updateAllToggle();
+    controls.appendChild(allToggle);
 
     summary.appendChild(directory);
+  };
+
+  const sidebarPanel = () => {
+    if (!usesSidebarLayout()) return null;
+    if (summary.parentElement === pageHeader) return summary;
+    if (mileageDirectory.parentElement === pageHeader) return mileageDirectory;
+    return null;
+  };
+
+  const usesSidebarSummary = () => sidebarPanel() === summary;
+
+  const usesSideDirectory = () =>
+    currentSort !== "mileage-desc" && usesSidebarSummary();
+
+  const updateSidebarSummaryHeight = () => {
+    const panel = sidebarPanel();
+    if (!panel) {
+      summary.style.removeProperty("--trip-sidebar-summary-height");
+      mileageDirectory.style.removeProperty("--trip-sidebar-summary-height");
+      return;
+    }
+
+    // 页脚在宽屏会被移入 header，目录可滚动高度需为它预留空间。
+    const footerHeight =
+      pageHeader?.querySelector("footer")?.getBoundingClientRect().height || 0;
+    const availableHeight = Math.max(
+      160,
+      window.innerHeight - panel.getBoundingClientRect().top - footerHeight - 24
+    );
+    panel.style.setProperty("--trip-sidebar-summary-height", `${availableHeight}px`);
+  };
+
+  const placeSummary = () => {
+    const inSidebar = usesSidebarLayout();
+    const showMileageDirectory = inSidebar && currentSort === "mileage-desc";
+
+    // 宽屏：时间/地区目录进入左栏；里程排序保留正文排名表，另在左栏生成轻量目录。
+    if (inSidebar && !showMileageDirectory) {
+      pageHeader.appendChild(summary);
+      summary.classList.add("trip-sidebar-summary");
+    } else {
+      browser.prepend(summary);
+      summary.classList.remove("trip-sidebar-summary");
+    }
+
+    if (showMileageDirectory) {
+      pageHeader.appendChild(mileageDirectory);
+    } else {
+      mileageDirectory.remove();
+    }
+
+    pageHeader?.classList.toggle(
+      "has-trip-sidebar",
+      inSidebar && (summary.parentElement === pageHeader || mileageDirectory.parentElement === pageHeader)
+    );
+    updateSidebarSummaryHeight();
+  };
+
+  const setActiveDirectoryGroup = (name, entryChanged) => {
+    if (!name) return;
+
+    const groupChanged = name !== activeDirectoryGroup;
+    if (!groupChanged && !entryChanged) return;
+
+    activeDirectoryGroup = name;
+    const activeGroup = directoryGroups.get(name);
+
+    if (!activeGroup || !usesSideDirectory()) return;
+    activeGroup.setExpanded(true);
+    const activeLink = [...summary.querySelectorAll(".trip-summary-title")].find(
+      (link) => link.dataset.directorySequence === activeDirectorySequence
+    );
+    const target = activeLink || activeGroup.element;
+    const targetTop = target.getBoundingClientRect().top;
+    const summaryTop = summary.getBoundingClientRect().top;
+    const targetOffset =
+      targetTop -
+      summaryTop -
+      (summary.clientHeight - target.getBoundingClientRect().height) / 2;
+    summary.scrollBy({ top: targetOffset, behavior: "smooth" });
+  };
+
+  const setActiveDirectoryEntry = (entry) => {
+    const sequence = entry.querySelector("trip-seq")?.textContent.trim();
+    if (!sequence || sequence === activeDirectorySequence) return false;
+
+    activeDirectorySequence = sequence;
+    summary.querySelectorAll(".trip-summary-title").forEach((link) => {
+      link.classList.toggle("is-active", link.dataset.directorySequence === sequence);
+    });
+    return true;
+  };
+
+  const syncDirectoryToScroll = () => {
+    if (!usesSideDirectory()) return;
+
+    const entries = getEntries().filter((entry) => !entry.hidden);
+    if (!entries.length) return;
+
+    // 以正文顶部下方 96px 为阅读锚点，左栏高亮对应的具体旅行并居中滚动。
+    const anchor = 96;
+    const currentEntry =
+      [...entries]
+        .reverse()
+        .find((entry) => entry.getBoundingClientRect().top <= anchor) || entries[0];
+    const entryChanged = setActiveDirectoryEntry(currentEntry);
+    setActiveDirectoryGroup(currentEntry.dataset.directoryGroup, entryChanged);
   };
 
   const sequenceGroupOf = (entry) => {
@@ -314,6 +488,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const fullDate = startDate.match(/^\d{4}\.\d{2}\.\d{2}$/)?.[0];
     const year = startDate.match(/^\d{4}/)?.[0];
 
+    // 学段按“起始日期”归类，边界为每年 8 月 31 日；其余按自然年。
     if (!year) return "未注明年份";
     if (fullDate && fullDate <= "2007.08.31") return "- 2007";
     if (fullDate && fullDate <= "2013.08.31") return "2007 - 2013";
@@ -349,6 +524,7 @@ document.addEventListener("DOMContentLoaded", () => {
       entry.hidden = !matchesFilter(entry);
     });
 
+    // 只改变现有 article 的顺序与 hidden 状态，不重建旅行正文，避免丢失展开状态。
     entries.sort((a, b) => {
       if (currentSort === "sequence-desc") {
         return sequenceOf(b) - sequenceOf(a);
@@ -394,10 +570,19 @@ document.addEventListener("DOMContentLoaded", () => {
     list.replaceChildren(fragment);
 
     summary.replaceChildren();
+    mileageDirectory.replaceChildren();
+    directoryGroups = new Map();
+    placeSummary();
+    activeDirectoryGroup = null;
+    activeDirectorySequence = null;
     if (currentSort === "mileage-desc") {
-      renderMileageSummary(
-        visibleEntries.filter((entry) => entry.dataset.tripType === "drive")
+      const driveEntries = visibleEntries.filter(
+        (entry) => entry.dataset.tripType === "drive"
       );
+      renderMileageSummary(driveEntries);
+      if (pageHeader && mileageDirectory.parentElement === pageHeader) {
+        renderMileageDirectory(driveEntries);
+      }
     } else if (currentSort === "region") {
       renderRegionDirectory(regions);
     } else {
@@ -418,6 +603,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateSortAvailability();
     updateMapPresentation();
+    updateSummaryTitleWidths();
+    syncDirectoryToScroll();
   };
 
   sortButtons.forEach((button) => {
@@ -432,6 +619,7 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       currentFilter = button.dataset.filter;
       if (currentFilter === "all") {
+        // 全部旅行含非自驾；默认回到时间倒序，并同步禁用里程排序。
         currentSort = "sequence-desc";
       }
       sortEntries();
@@ -439,8 +627,32 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   if (contentSection && "ResizeObserver" in window) {
-    new ResizeObserver(updateSummaryTitleWidths).observe(contentSection);
+    new ResizeObserver(() => {
+      updateSummaryTitleWidths();
+      syncDirectoryToScroll();
+    }).observe(contentSection);
   }
+
+  sidebarMedia.addEventListener("change", () => {
+    placeSummary();
+    updateSummaryTitleWidths();
+    syncDirectoryToScroll();
+  });
+
+  let scrollTicking = false;
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (scrollTicking) return;
+      scrollTicking = true;
+      window.requestAnimationFrame(() => {
+        scrollTicking = false;
+        updateSidebarSummaryHeight();
+        syncDirectoryToScroll();
+      });
+    },
+    { passive: true }
+  );
 
   sortEntries();
 });

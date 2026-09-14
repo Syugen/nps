@@ -30,6 +30,7 @@
 
   try {
     postUrl = new URL(postParameter, window.location.origin);
+    // 画廊只读取本站文章，避免 query 参数被用来请求第三方地址。
     if (postUrl.origin !== window.location.origin) {
       throw new Error('The post must be on this site.');
     }
@@ -66,6 +67,7 @@
   }
 
   function updateZoomMode() {
+    // 点击图片只在“可放大”与“原始尺寸”两种状态间切换，CSS 负责具体呈现。
     page.classList.toggle('gallery-actual-size', actualSize);
     document.body.classList.toggle('gallery-actual-size', actualSize);
     page.classList.toggle('gallery-zoomable', zoomable && !actualSize);
@@ -137,6 +139,7 @@
       return response.text();
     })
     .then(function(postHtml) {
+      // 从原文章中按文档顺序收集图片，上一张/下一张才可与文章顺序一致。
       var postDocument = new DOMParser().parseFromString(postHtml, 'text/html');
       var postImages = postDocument.querySelectorAll('img.responsive-img');
       images = Array.prototype.map.call(postImages, function(postImage) {

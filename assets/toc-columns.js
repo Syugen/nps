@@ -12,8 +12,7 @@
     });
   }
 
-  // One primary bullet plus every bullet nested beneath it counts as one unit group.
-  // Natural text wrapping is intentionally not counted.
+  // 一级条目及其全部嵌套条目作为不可拆分的一组；文字自然换行不计入行数。
   function lineCount(entry) {
     return 1 + entry.querySelectorAll('li').length;
   }
@@ -39,8 +38,7 @@
     var leftLines = 0;
     var splitAt = 0;
 
-    // Stop only after the left column reaches half, so an uneven split always
-    // keeps the extra bullet group on the left.
+    // 左栏达到总行数一半后才停止；无法均分时，多出的完整一级条目放在左栏。
     while (splitAt < entries.length && leftLines < target) {
       leftLines += lineCount(entries[splitAt]);
       splitAt += 1;

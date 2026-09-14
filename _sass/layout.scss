@@ -5,12 +5,12 @@ $layout-narrow-image-max-width: 400px;
 // 页面左右两侧的留白；与 body 的 50px padding 保持一致。
 $layout-page-gutter: 50px;
 // 宽屏时左侧标题栏的固定宽度。
-$layout-sidebar-width: 200px;
+$layout-sidebar-width: 300px;
 // 宽屏两栏之间的固定留白，避免标题栏和正文贴得过近。
 $layout-column-gap: 50px;
 // 到达此宽度后，页面从上下单栏切换为左侧栏 + 文章的两栏布局。
-// 此时正好容纳 200px 标题栏、50px 两栏留白、800px 正文，以及两侧各 50px 页面留白。
-$layout-wide-breakpoint: 1150px;
+// 此时正好容纳 300px 标题栏、50px 两栏留白、800px 正文，以及两侧各 50px 页面留白。
+$layout-wide-breakpoint: 1250px;
 
 // 页面最外层容器。小屏时宽度跟随可用空间，并用自动左右外边距居中。
 .wrapper {
@@ -150,9 +150,9 @@ section .responsive-img.image-full {
   }
 }
 
-// 屏幕至少 1150px 宽时启用两栏布局；打印时也使用这一套稳定的布局规则。
+// 屏幕至少 1250px 宽时启用两栏布局；打印时也使用这一套稳定的布局规则。
 @media print, screen and (min-width: $layout-wide-breakpoint) {
-  // 两栏的外层容器固定容纳 200px 标题栏、50px 两栏留白和 800px 正文；
+  // 两栏的外层容器固定容纳 300px 标题栏、50px 两栏留白和 800px 正文；
   // 到达这个总宽度后不再继续变宽，因此整组内容始终居中。
   .wrapper {
     width: unquote(
@@ -175,14 +175,20 @@ section .responsive-img.image-full {
   }
 
   // 左栏标题：位于 Grid 的第一列；滚动时会黏在距离窗口顶部 50px 的位置。
-  // opacity 的短过渡配合 main.js，让标题栏在前 200px 滚动中逐渐淡出。
   header {
     grid-column: 1;
     grid-row: 1;
-    padding: 0;
     position: sticky;
     top: 50px;
+    padding: 0;
     transition: opacity 0.08s linear;
+  }
+
+  // 页脚放在标题栏下方，即 Grid 第一列的第二行。
+  footer {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 1.5em;
   }
 
   // 文章主体：位于 Grid 的第二列。允许其占满第二列，
@@ -196,15 +202,10 @@ section .responsive-img.image-full {
     will-change: transform;
   }
 
-  // 页脚放在标题栏下方，即 Grid 第一列的第二行。
-  footer {
-    grid-column: 1;
-    grid-row: 2;
-  }
 }
 
-// 屏幕最多 1149px 宽时使用单栏：标题、正文和页脚按正常文档顺序从上到下排列。
-@media print, screen and (max-width: 1149px) {
+// 未达到双栏断点时使用单栏：标题、正文和页脚按正常文档顺序从上到下排列。
+@media print, screen and (max-width: $layout-wide-breakpoint - 1px) {
   // 重置外层容器的固定宽度，让它随小屏可用空间伸缩。
   div.wrapper {
     width: auto;
@@ -219,6 +220,7 @@ section .responsive-img.image-full {
     position: static;
     width: auto;
   }
+
 
   // 小屏标题栏不预留右侧空间，标题和头像正常从左侧开始排版。
   header {
