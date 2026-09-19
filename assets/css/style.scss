@@ -242,16 +242,34 @@ body, input, textarea, button {
   width: 100%;
 }
 
-#trip-list .trip-entry-content th:first-child,
-#trip-list .trip-entry-content td:first-child {
-  white-space: nowrap;
-  width: 1%;
+#trip-list .trip-entry-content th:not(:last-child),
+#trip-list .trip-entry-content td:not(:last-child) {
+  // 窄屏由自动表格布局分配宽度，非最后一列可换行，避免挤压某一列。
+  white-space: normal;
 }
 
-#trip-list .trip-entry-content th:nth-child(2),
-#trip-list .trip-entry-content td:nth-child(2) {
-  white-space: nowrap;
-  width: 1%;
+.trip-primary-compact {
+  display: none;
+}
+
+@container (max-width: 504px) {
+  .trip-date-year,
+  .trip-primary-full {
+    display: none;
+  }
+
+  .trip-primary-compact {
+    display: inline;
+  }
+}
+
+@container (min-width: 505px) {
+  #trip-list .trip-entry-content th:not(:last-child),
+  #trip-list .trip-entry-content td:not(:last-child) {
+    // 宽度充足时，非最后一列仅占单行内容所需的最小空间，剩余宽度交给最后一列。
+    white-space: nowrap;
+    width: 1%;
+  }
 }
 
 .trip-details-panel,

@@ -122,19 +122,12 @@ document.addEventListener("DOMContentLoaded", () => {
       "$1"
     );
 
-  const useCompactSummaryTitles = () => {
-    const activePanel =
-      pageHeader && summary.parentElement === pageHeader
-        ? summary
-        : pageHeader && mileageDirectory.parentElement === pageHeader
-          ? mileageDirectory
-          : summary;
-    return activePanel.clientWidth <= 504;
-  };
+  const useCompactSummaryTitles = (panel) => panel.clientWidth <= 504;
 
   const updateSummaryTitleWidths = () => {
-    const compact = useCompactSummaryTitles();
     [summary, mileageDirectory].forEach((panel) => {
+      // 正文排名表与左侧目录各自按自身宽度决定日期是否缩略，不能共用侧栏宽度。
+      const compact = useCompactSummaryTitles(panel);
       panel.querySelectorAll(".trip-summary-title").forEach((link) => {
         link.textContent = compact ? link.dataset.shortTitle : link.dataset.fullTitle;
       });
@@ -170,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return id;
   };
 
-  const createTitleLink = (entry) => {
+  const createTitleLink = (entry, panel = summary) => {
     const link = document.createElement("a");
     const fullTitle = headingOf(entry)?.textContent.trim() || "未命名旅行";
     link.href = `#${headingIdOf(entry)}`;
@@ -179,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
       entry.querySelector("trip-seq")?.textContent.trim() || "";
     link.dataset.fullTitle = fullTitle;
     link.dataset.shortTitle = abbreviatedTitle(fullTitle);
-    link.textContent = useCompactSummaryTitles()
+    link.textContent = useCompactSummaryTitles(panel)
       ? link.dataset.shortTitle
       : link.dataset.fullTitle;
     return link;
@@ -275,7 +268,7 @@ document.addEventListener("DOMContentLoaded", () => {
     directory.className = "trip-mileage-directory-list";
     mileageRowsOf(entries).forEach(({ entry }) => {
       const item = document.createElement("li");
-      item.appendChild(createTitleLink(entry));
+      item.appendChild(createTitleLink(entry, mileageDirectory));
       directory.appendChild(item);
     });
     mileageDirectory.appendChild(directory);
