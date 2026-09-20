@@ -244,8 +244,10 @@ body, input, textarea, button {
 
 #trip-list .trip-entry-content th:not(:last-child),
 #trip-list .trip-entry-content td:not(:last-child) {
-  // 窄屏由自动表格布局分配宽度，非最后一列可换行，避免挤压某一列。
-  white-space: normal;
+  // 所有屏宽下，非最后一列保持单行并只占内容所需的最小宽度。
+  // 剩余可用宽度由最后一列“城市/景点”承接。
+  white-space: nowrap;
+  width: 1%;
 }
 
 .trip-primary-compact {
@@ -253,6 +255,11 @@ body, input, textarea, button {
 }
 
 @container (max-width: 504px) {
+  // 是否属于窄屏保留列由 map2.md 的 Liquid 判断；此处不含旅行分类逻辑。
+  .trip-column-compact-hidden {
+    display: none;
+  }
+
   .trip-date-year,
   .trip-primary-full {
     display: none;
@@ -260,15 +267,6 @@ body, input, textarea, button {
 
   .trip-primary-compact {
     display: inline;
-  }
-}
-
-@container (min-width: 505px) {
-  #trip-list .trip-entry-content th:not(:last-child),
-  #trip-list .trip-entry-content td:not(:last-child) {
-    // 宽度充足时，非最后一列仅占单行内容所需的最小空间，剩余宽度交给最后一列。
-    white-space: nowrap;
-    width: 1%;
   }
 }
 
