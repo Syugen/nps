@@ -1,0 +1,132 @@
+name: 导入 GitHub 评论
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+# 多个访客同时提交时，依次写入默认分支，避免 push 冲突。
+concurrency:
+  group: import-github-comments
+  cancel-in-progress: false
+
+jobs:
+  import-comment:
+    if: github.event.issue.state == 'open' && startsWith(github.event.issue.title, '评论：')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 取出网站源码
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: 将 issue 转成评论文件
+        id: convert
+        continue-on-error: true
+        env:
+          ISSUE_EVENT: ${{ github.event_path }}
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+
+          function fail(reason) {
+            console.error(reason);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `reason<<COMMENT_ERROR\n${reason}\nCOMMENT_ERROR\n`);
+            process.exit(1);
+          }
+
+          const event = JSON.parse(fs.readFileSync(process.env.ISSUE_EVENT, 'utf8'));
+          const issue = event.issue;
+          const body = (issue.body || '').replace(/\r\n/g, '\n');
+          const match = body.match(/^页面标识：([^\n]+)\n回复评论：([^\n]*)\n用户名：([^\n]+)\n评论：\n([\s\S]+)$/u);
+
+          if (!match) {
+            fail('内容格式不正确：请勿修改“页面标识”“回复评论”“用户名”“评论”这四个字段的标题和顺序。');
+          }
+
+          const [, commentKey, replyingToUid, name, message] = match;
+          if (!name.trim() || !message.trim()) {
+            fail('用户名或评论为空。');
+          }
+
+          function markdownFiles(directory) {
+            if (!fs.existsSync(directory)) {
+              return [];
+            }
+
+            return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+              const file = path.join(directory, entry.name);
+              if (entry.isDirectory()) {
+                return markdownFiles(file);
+              }
+              return entry.isFile() && entry.name.endsWith('.md') ? [file] : [];
+            });
+          }
+
+          // 只接受本站实际使用 comment_form 的文章或 pages 页面；这也是路径安全检查。
+          const validCommentKeys = new Set();
+          for (const file of markdownFiles('_posts')) {
+            validCommentKeys.add(path.basename(file, '.md'));
+          }
+          for (const file of markdownFiles('pages')) {
+            const pagePath = path.relative('pages', file).replace(/\.md$/, '');
+            validCommentKeys.add(`page--${pagePath.replaceAll(path.sep, '--')}`);
+          }
+
+          if (!validCommentKeys.has(commentKey)) {
+            fail('页面标识未对应本站现有的文章或页面。');
+          }
+
+          const timestamp = Math.floor(Date.parse(issue.created_at) / 1000);
+          if (!Number.isFinite(timestamp)) {
+            fail('无法读取 issue 创建时间。');
+          }
+
+          const comment = [
+            `_id: ${JSON.stringify(`github-issue-${issue.number}`)}`,
+            `replying_to_uid: ${JSON.stringify(replyingToUid)}`,
+            'email: ""',
+            `name: ${JSON.stringify(name.trim())}`,
+            `message: ${JSON.stringify(message)}`,
+            `date: ${timestamp}`
+          ].join('\n') + '\n';
+
+          const directory = path.join('_data', 'comments', commentKey);
+          fs.mkdirSync(directory, { recursive: true });
+          fs.writeFileSync(path.join(directory, `issue-${issue.number}.yml`), comment, 'utf8');
+          NODE
+
+      - name: 在 issue 中说明导入失败原因
+        if: steps.convert.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REASON: ${{ steps.convert.outputs.reason || '导入时发生了未预期的错误，请查看本 issue 对应的 Actions 日志。' }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "评论未导入：$REASON
+
+          已保留此 issue。修改内容后保存，即会再次尝试导入。"
+          exit 1
+
+      - name: 提交评论
+        if: steps.convert.outcome == 'success'
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/comments
+          git commit -m "Import comment from issue #${ISSUE_NUMBER}"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
+
+      - name: 关闭已导入的 issue
+        if: steps.convert.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: gh issue close "$ISSUE_NUMBER" --comment "评论已导入网站。"

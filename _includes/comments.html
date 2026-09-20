@@ -1,7 +1,20 @@
 <hr>
 
-{% if site.data.comments[page.slug] %}
+{% if page.collection == 'posts' %}
+  {% assign comment_key = page.date | date: '%Y-%m-%d' | append: '-' | append: page.slug %}
   {% assign all_comments = site.data.comments[page.slug] %}
+{% else %}
+  {% assign comment_key = page.path | remove: 'pages/' | remove: '.md' | replace: '/', '--' | prepend: 'page--' %}
+  {% assign all_comments = nil %}
+{% endif %}
+{% if site.data.comments[comment_key] %}
+  {% if all_comments %}
+    {% assign all_comments = all_comments | concat: site.data.comments[comment_key] %}
+  {% else %}
+    {% assign all_comments = site.data.comments[comment_key] %}
+  {% endif %}
+{% endif %}
+{% if all_comments %}
   {% assign comments = all_comments | where_exp: "item", "item.replying_to_uid == ''" %}
   {% assign comments_by_date = comments | sort: 'date' | reverse %}
 
@@ -14,12 +27,12 @@
     {%- assign date            = comment.date %}
     {%- assign message         = comment.message %}
     {%- assign uid             = comment._id %}
-    {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
+    {% include comment.html comments=all_comments is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
   {% endfor %}
 {% else %}
   <h2>评论 (0)</h2>
   <p>
-    No comments.
+    这里是评论区，不是无人区。
   </p>
   <hr>
 {% endif %}

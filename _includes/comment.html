@@ -18,12 +18,12 @@
 </article>
 {% else %}
     <div class="comment__meta">
-      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ include.uid }}')">↪&#xFE0E; Reply to {{ include.name }}</a>
+      <button class="comment__reply-button js-comment-reply" type="button" data-reply-to="{{ include.uid }}" data-reply-name="{{ include.name | escape }}">↪&#xFE0E; 回复 {{ include.name }}</button>
     </div>
 </article>
 
   {%- capture this_uid %}{{ include.uid }}{% endcapture %}
-  {%- assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to_uid == this_uid' %}
+  {%- assign replies = include.comments | where_exp: 'item', 'item.replying_to_uid == this_uid' %}
   {%- assign replies_date = replies | sort: 'date' %}
   {% for reply in replies_date %}
     {%- assign email       = reply.email -%}
@@ -32,7 +32,7 @@
     {%- assign date        = reply.date -%}
     {%- assign message     = reply.message -%}
     {%- assign uid         = reply._id -%}
-    {% include comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
+    {% include comment.html comments=include.comments is_reply=true uid=uid email=email name=name url=url date=date message=message %}
   {% endfor %}
 
   <hr>
