@@ -1,6 +1,7 @@
 ---
 title: Great Basin 大盆地
 tags: [nevada, np]
+trip_sequences: ["38", "55"]
 idx: 8
 order: 20210593
 ---

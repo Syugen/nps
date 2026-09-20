@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const maps = document.querySelectorAll("[data-trip-map]");
   let currentSort = "mileage-desc";
   let currentFilter = "drive";
+  let mileageDisplayUnit = "miles";
   let activeDirectoryGroup = null;
   let activeDirectorySequence = null;
   let directoryGroups = new Map();
@@ -184,6 +185,16 @@ document.addEventListener("DOMContentLoaded", () => {
     summary.appendChild(title);
   };
 
+  const createBackToTopButton = () => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = "回到顶部";
+    button.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    return button;
+  };
+
   const compareMileage = (a, b) => {
     const am = mileageOf(a);
     const bm = mileageOf(b);
@@ -229,22 +240,65 @@ document.addEventListener("DOMContentLoaded", () => {
     const table = document.createElement("table");
     table.className = "trip-mileage-table";
 
-    const headerRow = document.createElement("tr");
-    ["英里数", "公里数", "标题"].forEach((label) => {
+    const setMileageDisplayUnit = (unit) => {
+      mileageDisplayUnit = unit;
+      table.dataset.mobileUnit = unit;
+    };
+
+    const createMileageHeader = (label, switchLabel, switchTo, className) => {
       const cell = document.createElement("th");
       cell.scope = "col";
-      cell.textContent = label;
-      headerRow.appendChild(cell);
-    });
+      cell.className = className;
+
+      const desktopLabel = document.createElement("span");
+      desktopLabel.className = "trip-mileage-desktop-label";
+      desktopLabel.textContent = label;
+
+      const mobileHeading = document.createElement("span");
+      mobileHeading.className = "trip-mileage-mobile-heading";
+      const mobileLabel = document.createElement("span");
+      mobileLabel.textContent = label;
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "trip-mileage-unit-toggle";
+      toggle.textContent = switchLabel;
+      toggle.addEventListener("click", () => setMileageDisplayUnit(switchTo));
+      mobileHeading.append(mobileLabel, toggle);
+
+      cell.append(desktopLabel, mobileHeading);
+      return cell;
+    };
+
+    const headerRow = document.createElement("tr");
+    headerRow.append(
+      createMileageHeader(
+        "英里数",
+        "换公里",
+        "kilometers",
+        "trip-mileage-miles"
+      ),
+      createMileageHeader(
+        "公里数",
+        "换英里",
+        "miles",
+        "trip-mileage-kilometers"
+      )
+    );
+    const titleHeader = document.createElement("th");
+    titleHeader.scope = "col";
+    titleHeader.textContent = "标题";
+    headerRow.appendChild(titleHeader);
     table.appendChild(document.createElement("thead")).appendChild(headerRow);
 
     const tbody = document.createElement("tbody");
     rows.forEach(({ entry, miles, kilometers }) => {
       const row = document.createElement("tr");
       const mileageCell = document.createElement("td");
+      mileageCell.className = "trip-mileage-miles";
       mileageCell.textContent = miles === null ? "" : formatDistance(miles);
 
       const kilometerCell = document.createElement("td");
+      kilometerCell.className = "trip-mileage-kilometers";
       kilometerCell.textContent =
         kilometers === null ? "" : formatDistance(kilometers);
 
@@ -257,13 +311,20 @@ document.addEventListener("DOMContentLoaded", () => {
     table.appendChild(tbody);
 
     summary.appendChild(table);
+    setMileageDisplayUnit(mileageDisplayUnit);
   };
 
   const renderMileageDirectory = (entries) => {
     mileageDirectory.replaceChildren();
+    const headingRow = document.createElement("div");
+    headingRow.className = "trip-directory-heading";
     const heading = document.createElement("h2");
     heading.textContent = `里程目录（${entries.length}）`;
-    mileageDirectory.appendChild(heading);
+    const controls = document.createElement("div");
+    controls.className = "trip-directory-controls";
+    controls.appendChild(createBackToTopButton());
+    headingRow.append(heading, controls);
+    mileageDirectory.appendChild(headingRow);
     const directory = document.createElement("ul");
     directory.className = "trip-mileage-directory-list";
     mileageRowsOf(entries).forEach(({ entry }) => {
@@ -364,7 +425,7 @@ document.addEventListener("DOMContentLoaded", () => {
       updateAllToggle();
     });
     updateAllToggle();
-    controls.appendChild(allToggle);
+    controls.append(allToggle, createBackToTopButton());
 
     summary.appendChild(directory);
   };

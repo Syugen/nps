@@ -2,6 +2,7 @@
 title: San Francisco Maritime NHP
 sub: 旧金山海事历史公园
 tags: [california, nhp]
+trip_sequences: ["57.1"]
 idx: 11
 order: 20210798
 ---

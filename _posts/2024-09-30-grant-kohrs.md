@@ -2,6 +2,7 @@
 title: Grant-Kohrs Ranch NHS
 sub: 从毛皮商人到牧场巨头，这座牧场见证了西部拓荒与牛仔文化的辉煌岁月
 tags: [montana, nhs]
+trip_sequences: ["74"]
 idx: 116
 image: /images/webp/2024-09/116-01.webp
 order: 20240995

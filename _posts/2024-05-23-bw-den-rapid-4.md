@@ -2,6 +2,7 @@
 title: 丹佛到拉皮德城沿线及附近（四）
 sub: 
 tags: [wyoming, nm]
+trip_sequences: ["54", "72"]
 idx:
 extras: ["98. Devils Tower NM"]
 image: /images/webp/2024-05/098-01.webp

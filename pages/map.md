@@ -1,7 +1,9 @@
 ---
+layout: post
 title: Syugen的NPS到访记录 地图
-tags: [head]
-order: 99999998
+permalink: /map/
+home_directory: true
+home_directory_order: 2
 ---
 
 - <span style="color: green"><b>绿色图钉</b></span>：已盖章
@@ -28,18 +30,3 @@ order: 99999998
  - Wrangell-St. Elias NP & PRES (AK)
  - （已到访）Craters of the Moon NM & PRES (ID)
  - （已到访）Great Sand Dunes NP & PRES (CO)
-
----
-
-管理备注：
-1. 照片全部尺寸设定为宽度960px（064和067目前为640px，之后若要统一需要重新给原图照片调色后再调整至960px）。格式为jpeg（小写）。
-2. 旅行概要页面的额外属性包括
- - tags: \[head\]【表明为概要】
- - total: 7【子页面数，在正文中引用链接】
- - order: 20210599【一般以99结尾】
-3. 唯一目的地旅行页面的额外属性包括
- - head: 2021.9.11-9.12 优胜美地【用于旅行概要标题】
- - order: 20210999
-4. 对于其他文章的引用：\[Capitol Reef\]( \{\{ "/2021/05/30/capitol-reef.html" \| relative_url \}\})
-5. 嵌入谷歌地图：现在谷歌地图调整大小，iframe链接复制到文章后更改width=100%。
-6. 2022年5月24日及以前的文章没有snapshot图，以后有空可以在header里添加image属性。

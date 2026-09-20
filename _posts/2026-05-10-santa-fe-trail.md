@@ -2,6 +2,7 @@
 title: 圣达菲古道
 sub: 贸易、堡垒与西部军道
 tags: [colorado, newmexico]
+trip_sequences: ["76"]
 idx:
 extras: ["122. Sand Creek Massacre NHS", "123. Amache NHS", "124. Bent's Old Fort NHS", "125. Capulin Volcano NM", "126. Fort Union NM", "127. Pecos NHP", "128. Valles Caldera NPRES"]
 image: /images/webp/2026-05/122-01.webp

@@ -1,6 +1,6 @@
 {% if post.tags contains "head" %}
 ---
-<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<h3><a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a></h3>
   {% if post.total %}
 <ul class="toc-list">
   {% endif %}
@@ -14,13 +14,13 @@
 
   {% if post.idx %}
 <li class="toc-entry">
-  {{ post.idx }}. <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  {{ post.idx }}. <a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
   {% elsif post.special %}
 <li class="toc-entry">
-  番外{{ post.special }}：<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  番外{{ post.special }}：<a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
   {% else %}
 <li class="toc-entry">
-  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  <a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
   {% endif %}
 
   {% unless post.idx %}

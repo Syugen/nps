@@ -2,6 +2,7 @@
 title: 南方三州探游之三：密西西比州杰克逊
 sub: 
 tags: [mississippi]
+trip_sequences: ["76"]
 idx:
 extras: ["144. Medgar and Myrlie Evers Home NM", "145. Emmett Till and Mamie Till-Mobley NM", "146. Natchez Trace Parkway", "147. Natchez Trace NST", "148. Tupelo NB", "149. Brices Cross Roads NBS", "150. Vicksburg NMP"]
 image: /images/webp/2026-05/144-01.webp

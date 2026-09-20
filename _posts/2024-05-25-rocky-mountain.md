@@ -2,6 +2,7 @@
 title: Rocky Mountain 落基山
 sub: 大分水岭
 tags: [colorado, np]
+trip_sequences: ["72"]
 idx: 106
 image: /images/webp/2024-05/106-01.webp
 order: 20240591

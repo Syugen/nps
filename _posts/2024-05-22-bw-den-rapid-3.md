@@ -2,6 +2,7 @@
 title: 丹佛到拉皮德城沿线及附近（三）
 sub: 布拉克山森林人工与自然的雕刻
 tags: [southdakota, nmem]
+trip_sequences: ["72"]
 idx:
 extras: ["97. Mount Rushmore N MEM", "Crazy Horse"]
 image: /images/webp/2024-05/097-01.webp

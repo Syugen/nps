@@ -1,6 +1,7 @@
 ---
 title: Pinnacles 尖顶
 tags: [california, np]
+trip_sequences: ["52", "58"]
 idx: 28
 order: 20211093
 ---

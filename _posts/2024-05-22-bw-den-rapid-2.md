@@ -2,6 +2,7 @@
 title: 丹佛到拉皮德城沿线及附近（二）
 sub: 风洞与珠宝洞
 tags: [southdakota, np, nm]
+trip_sequences: ["54", "72"]
 idx:
 extras: ["95. Wind Cave", "96. Jewel Cave NM"]
 image: /images/webp/2024-05/095-01.webp

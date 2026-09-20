@@ -2,6 +2,7 @@
 title: Rosie the Riveter NHP
 sub: 二战大后方的铆钉女工
 tags: [california, nhp]
+trip_sequences: ["57.1"]
 idx: 16
 order: 20210793
 ---

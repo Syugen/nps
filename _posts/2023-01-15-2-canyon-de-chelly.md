@@ -2,6 +2,7 @@
 title: Canyon de Chelly NM
 sub: 
 tags: [idaho, nm]
+trip_sequences: ["69"]
 idx: 84
 image: /images/webp/2023-01/084-01.webp
 order: 20230197

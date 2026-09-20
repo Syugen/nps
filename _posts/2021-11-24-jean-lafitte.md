@@ -2,6 +2,7 @@
 title: New Orleans, LA
 sub: 沼泽与鳄鱼🐊
 tags: [louisiana, nhp]
+trip_sequences: ["59"]
 idx:
 extras: ["29. Jean Lafitte NHP & PRES" ,"30. New Orleans Jazz NHP"]
 order: 20211198
@@ -33,4 +34,3 @@ Jean Lafitte据说是一个来到新奥尔良的法国人，在这里搞走私�
 {% include image.html filename="webp/2021-11/029-06.webp" hf=1 %}
 
 2021.11.23-24
-

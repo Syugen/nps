@@ -2,6 +2,7 @@
 title: Salinas Pueblo Missions NM
 sub: 
 tags: [newmexico, nm]
+trip_sequences: ["63"]
 idx: 51
 order: 20220598
 ---

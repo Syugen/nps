@@ -2,6 +2,7 @@
 title: Gila Cliff Dwellings NM
 sub: 
 tags: [newmexico, nm]
+trip_sequences: ["65"]
 idx: 61
 image: /images/webp/2022-07/061-03.webp
 order: 20220798

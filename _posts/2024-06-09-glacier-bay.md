@@ -2,6 +2,7 @@
 title: Glacier Bay 冰川湾
 sub: 
 tags: [alaska, np, npres]
+trip_sequences: ["73"]
 idx: 112-113
 head: 2024.6.8-6.10 阿拉斯加冰川湾
 image: /images/webp/2024-06/112-01.webp

@@ -1,6 +1,7 @@
 ---
 title: Cedar Breaks NM 锡达断层
 tags: [utah, nm]
+trip_sequences: ["55"]
 idx: 3
 order: 20210596
 ---

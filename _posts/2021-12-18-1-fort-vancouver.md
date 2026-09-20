@@ -2,6 +2,7 @@
 title: Fort Vancouver NHS
 sub: 这才是第一个温哥华
 tags: [washington, nhs]
+trip_sequences: ["60"]
 idx: 41
 order: 20211298
 ---

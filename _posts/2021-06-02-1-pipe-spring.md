@@ -2,6 +2,7 @@
 title: Pipe Spring NM
 sub: 摩门传教前哨站
 tags: [arizona, nm]
+trip_sequences: ["55"]
 idx: 5
 extras: ["6. Grand Canyon 大峡谷", "7. Grand Canyon Parashant NM"]
 order: 20210594

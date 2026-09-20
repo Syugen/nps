@@ -1,6 +1,7 @@
 ---
 title: Capitol Reef 圆顶礁
 tags: [utah, np]
+trip_sequences: ["55"]
 idx: 1
 order: 20210598
 ---

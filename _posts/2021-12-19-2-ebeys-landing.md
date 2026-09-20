@@ -2,6 +2,7 @@
 title: Ebey's Landing NH RES
 sub: 温哥华绕路之行最后一站
 tags: [washington, nhres]
+trip_sequences: ["60"]
 idx: 44
 order: 20211295
 ---

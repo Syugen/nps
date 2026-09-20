@@ -2,6 +2,7 @@
 title: Lewis and Clark NHP
 sub: 西部远征终所至
 tags: [oregon, nhp]
+trip_sequences: ["60"]
 idx: 42
 order: 20211297
 ---

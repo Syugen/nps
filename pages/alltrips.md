@@ -1,7 +1,9 @@
 ---
+layout: post
 title: 自驾旅行里程排名|人生旅行全纪录表
-tags: [head]
-order: 99999997
+permalink: /alltrips/
+home_directory: true
+home_directory_order: 1
 ---
 
 默认仅显示我参与驾驶的长途公路自驾。点击“查看全部”会显示全部旅行。
@@ -117,7 +119,8 @@ order: 99999997
       里程：<trip-mile>{{ miles | escape }}</trip-mile> 英里 |
       <trip-km>{{ kilometers | escape }}</trip-km> 公里
       {% if trip["里程来源"] != "" %}
-        （数据来源：{{ trip["里程来源"] | escape }}）
+        <br class="trip-mileage-source-break">
+        <span class="trip-mileage-source">（数据来源：{{ trip["里程来源"] | escape }}）</span>
       {% endif %}
     </p>
   {% endif %}
@@ -252,6 +255,36 @@ order: 99999997
   {% endif %}
 
   </div>
+
+  {% comment %}关联字段为数组，允许一篇 NPS 文章对应多次旅行序号。{% endcomment %}
+  {% assign ordered_nps_posts = site.posts | sort: "order" | reverse %}
+  {% assign related_nps_count = 0 %}
+  {% for post in ordered_nps_posts %}
+    {% if post.trip_sequences contains sequence %}
+      {% assign related_nps_count = related_nps_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if related_nps_count > 0 %}
+    <div class="trip-nps-articles">
+      <p>相关 NPS 文章：</p>
+      <ul>
+      {% for post in ordered_nps_posts %}
+        {% if post.trip_sequences contains sequence %}
+          <li>
+            {% if post.idx %}{{ post.idx }}. {% endif %}<a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+            {% if post.extras and post.extras.size > 0 %}
+              <ul class="trip-nps-article-extras">
+              {% for extra in post.extras %}
+                <li>{{ extra }}</li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 
   {% assign map_url = trip["地图URL"] %}
   {% if map_url and map_url != "" %}

@@ -2,6 +2,7 @@
 title: Tumacacori NHP
 sub: 
 tags: [arizona, nhp]
+trip_sequences: ["65"]
 idx: 65
 image: /images/webp/2022-07/065-01.webp
 order: 20220795

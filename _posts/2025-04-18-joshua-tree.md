@@ -2,6 +2,7 @@
 title: Joshua Tree 约书亚树
 sub: 
 tags: [california, np]
+trip_sequences: ["49", "75"]
 idx: 118
 image: /images/webp/2025-04/118-05.webp
 order: 20250498

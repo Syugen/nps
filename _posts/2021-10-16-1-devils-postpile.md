@@ -2,6 +2,7 @@
 title: Devils Postpile NM 恶魔柱
 sub: 猛犸湖的隐藏遗迹
 tags: [california, nm]
+trip_sequences: ["58"]
 idx: 25
 order: 20211098
 ---

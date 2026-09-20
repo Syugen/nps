@@ -2,6 +2,7 @@
 title: 内布拉斯加：礼貌社会，瓦伦丁风格（还有北扬克顿）
 sub: 
 tags: [nebraska, nsr, nrr]
+trip_sequences: ["72"]
 idx: 
 extras: ["101. Niobrara NSR", "102. Missouri NRR"]
 image: /images/webp/2024-05/101-01.webp

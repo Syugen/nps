@@ -2,6 +2,7 @@
 title: 四州交点处众多古代村落遗址
 sub: Ancestral Pueblo / Chacoan culture
 tags: [colorado, newmexico, utah]
+trip_sequences: ["36", "76"]
 idx:
 extras: ["130. Chaco Culture NHP", "131. Aztec Ruins NM", "132. Hovenweep NM", "133. Yucca House NM"]
 image: /images/webp/2026-05/130-01.webp

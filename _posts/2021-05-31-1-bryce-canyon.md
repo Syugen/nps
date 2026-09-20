@@ -1,6 +1,7 @@
 ---
 title: Bryce Canyon 布莱斯峡谷
 tags: [utah, np]
+trip_sequences: ["55"]
 idx: 2
 order: 20210597
 ---

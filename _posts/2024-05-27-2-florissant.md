@@ -2,6 +2,7 @@
 title: Florissant Fossil Beds NM
 sub: 
 tags: [colorado, nm]
+trip_sequences: ["72"]
 idx: 111
 image: /images/webp/2024-05/111-01.webp
 order: 20240587

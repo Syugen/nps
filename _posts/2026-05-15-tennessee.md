@@ -2,6 +2,7 @@
 title: 南方三州探游之一：田纳西州孟菲斯
 sub: 
 tags: [tennessee]
+trip_sequences: ["76"]
 idx:
 extras: ["137. Fort Donelson NB", "138. Stones River NB", "139. Shiloh NMP"]
 image: /images/webp/2026-05/137-01.webp

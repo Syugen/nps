@@ -1,0 +1,306 @@
+// alltrips 页面目前沿用 trip-* DOM class，保证现有脚本与页面迁移可独立进行。
+
+#trip-filter,
+#trip-sorter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+#trip-details {
+  margin: 1em 0;
+}
+
+#trip-filter button,
+#trip-sorter button,
+#trip-details-toggle,
+.trip-map-toggle {
+  background: $alltrips-control-background;
+  border: 1px solid $alltrips-control-border;
+  border-radius: 4px;
+  color: $alltrips-control-text;
+  cursor: pointer;
+  padding: 0.35em 0.75em;
+}
+
+#trip-details-toggle:hover,
+.trip-map-toggle:hover,
+#trip-filter button:hover,
+#trip-filter button.active,
+#trip-sorter button:hover,
+#trip-sorter button.active {
+  background: $alltrips-accent;
+  border-color: $alltrips-accent;
+  color: #fff;
+}
+
+#trip-sorter button:disabled,
+#trip-sorter button:disabled:hover {
+  background: $alltrips-control-background;
+  border-color: $alltrips-control-border;
+  color: $alltrips-control-disabled-text;
+  cursor: not-allowed;
+}
+
+#trip-summary {
+  margin: 0 0 1.5em;
+}
+
+.trip-directory-heading,
+#trip-summary > h2 {
+  margin: 0 0 0.5em;
+}
+
+.trip-directory-heading {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+
+.trip-directory-heading h2 {
+  margin: 0;
+}
+
+.trip-directory-controls {
+  display: flex;
+  gap: 0.5em;
+  margin-left: auto;
+}
+
+.trip-directory-controls button {
+  background: $alltrips-control-background;
+  border: 1px solid $alltrips-control-border;
+  border-radius: 4px;
+  color: $alltrips-control-text;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.25em 0.55em;
+}
+
+.trip-directory-controls button:hover {
+  background: $alltrips-accent;
+  border-color: $alltrips-accent;
+  color: #fff;
+}
+
+.trip-directory-group + .trip-directory-group {
+  margin-top: 0.5em;
+}
+
+.trip-directory-category {
+  align-items: center;
+  display: flex;
+  font-weight: 400;
+  gap: 0.5em;
+}
+
+.trip-summary-title.is-active {
+  font-weight: 700;
+}
+
+.trip-directory-toggle {
+  background: $alltrips-control-background;
+  border: 1px solid $alltrips-control-border;
+  border-radius: 4px;
+  color: $alltrips-accent;
+  cursor: pointer;
+  font: inherit;
+  flex: 0 0 2em;
+  padding: 0.25em;
+}
+
+.trip-directory-toggle:hover {
+  background: $alltrips-accent;
+  border-color: $alltrips-accent;
+  color: #fff;
+}
+
+.trip-directory-trips {
+  margin-top: 0.25em;
+}
+
+@media screen and (min-width: $layout-wide-breakpoint) {
+  header .trip-sidebar-summary,
+  header .trip-sidebar-directory {
+    margin: 1.5em 0 0;
+    max-height: var(--trip-sidebar-summary-height, 50vh);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 0.5em;
+    scroll-behavior: smooth;
+  }
+
+  header.has-trip-sidebar > img,
+  header.has-trip-sidebar > img ~ :not(#trip-summary):not(#trip-mileage-directory):not(footer) {
+    display: none;
+  }
+
+  header.has-trip-sidebar > footer {
+    display: none;
+  }
+
+  header #trip-summary.trip-sidebar-summary .trip-directory-heading,
+  header .trip-sidebar-directory > .trip-directory-heading,
+  header .trip-sidebar-directory > h2 {
+    background: #fff;
+    padding-bottom: 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  header #trip-summary.trip-sidebar-summary .trip-directory-trips {
+    list-style: disc;
+    padding-left: 1.15em;
+  }
+
+  header .trip-sidebar-directory .trip-mileage-directory-list {
+    padding-left: 1.15em;
+  }
+}
+
+.trip-mileage-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.trip-mileage-table th,
+.trip-mileage-table td {
+  border-bottom: 1px solid $alltrips-table-border;
+  padding: 0.35em 0.5em;
+  text-align: left;
+}
+
+.trip-mileage-table th:nth-child(-n + 2),
+.trip-mileage-table td:nth-child(-n + 2) {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.trip-mileage-mobile-heading {
+  display: none;
+}
+
+.trip-mileage-unit-toggle {
+  appearance: none;
+  background: none;
+  border: 0;
+  color: $alltrips-accent;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.trip-mileage-unit-toggle:hover {
+  color: $alltrips-accent-hover;
+}
+
+.trip-mileage-source-break {
+  display: none;
+}
+
+#trip-list .trip-entry {
+  margin: 1.75em 0;
+}
+
+#trip-list .trip-entry-content table {
+  table-layout: auto;
+  width: 100%;
+}
+
+#trip-list .trip-entry-content th:not(:last-child),
+#trip-list .trip-entry-content td:not(:last-child) {
+  // 所有屏宽下，非最后一列保持单行并只占内容所需的最小宽度。
+  // 剩余可用宽度由最后一列“城市/景点”承接。
+  white-space: nowrap;
+  width: 1%;
+}
+
+.trip-nps-articles {
+  margin: 1em 0;
+}
+
+.trip-nps-articles > p {
+  margin-bottom: 0.25em;
+}
+
+.trip-nps-articles > ul {
+  margin-top: 0.25em;
+}
+
+.trip-nps-article-extras {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.trip-primary-compact {
+  display: none;
+}
+
+@container (max-width: #{$compact-content-max}) {
+  // 是否属于窄屏保留列由 alltrips 页面的 Liquid 判断；此处不含旅行分类逻辑。
+  .trip-column-compact-hidden {
+    display: none;
+  }
+
+  .trip-date-year,
+  .trip-primary-full {
+    display: none;
+  }
+
+  .trip-primary-compact {
+    display: inline;
+  }
+
+  .trip-mileage-source-break {
+    display: block;
+  }
+
+  .trip-mileage-table .trip-mileage-desktop-label {
+    display: none;
+  }
+
+  .trip-mileage-table .trip-mileage-mobile-heading {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .trip-mileage-table[data-mobile-unit="miles"] .trip-mileage-kilometers,
+  .trip-mileage-table[data-mobile-unit="kilometers"] .trip-mileage-miles {
+    display: none;
+  }
+}
+
+.trip-details-panel,
+.trip-map-panel {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 320ms ease, opacity 220ms ease, margin-top 320ms ease;
+}
+
+.trip-details-panel.is-expanded,
+.trip-map-panel.is-expanded {
+  margin-top: 0.75em;
+  opacity: 1;
+}
+
+.trip-details-panel.is-expanded {
+  max-height: none;
+}
+
+// 地图 iframe 高度固定为 500px。
+.trip-map-panel.is-expanded {
+  max-height: 700px;
+}
+
+#trip-list .trip-region-heading {
+  margin: 2em 0 0.75em;
+}
+
+#trip-list .trip-number {
+  margin-bottom: 0.25em;
+}

@@ -2,6 +2,7 @@
 title: 丹佛到拉皮德城沿线及附近（五）
 sub: 恶地与导弹
 tags: [southdakota, np, nhs]
+trip_sequences: ["54", "72"]
 idx:
 extras: ["99. Badlands", "100. Minuteman Missile NHS"]
 image: /images/webp/2024-05/099-01.webp

@@ -2,6 +2,7 @@
 title: Petrified Forest 石化林
 sub: 
 tags: [arizona, nm]
+trip_sequences: ["69"]
 idx: 82
 extras: ["83. Hubbell Trading Post NHS"]
 image: /images/webp/2023-01/082-02.webp

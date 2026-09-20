@@ -2,6 +2,7 @@
 title: 美洲西部的崖壁洞屋合集
 sub: 
 tags: [arizona, newmexico, colorado]
+trip_sequences: ["51", "65"]
 idx:
 extras: ["68. Tonto NM", "69. Montezuma Castle NM"]
 image: /images/webp/2022-07/068-01.webp

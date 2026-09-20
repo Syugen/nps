@@ -2,6 +2,7 @@
 title: John Day Fossil Beds NM
 sub: 🐦🙅🌶💩的俄勒冈腹地中的惊喜
 tags: [oregon, nm]
+trip_sequences: ["62"]
 idx: 48
 order: 20220296
 ---

@@ -2,6 +2,7 @@
 title: Petroglyph NM
 sub: 
 tags: [newmexico, nm]
+trip_sequences: ["63"]
 idx: 60
 order: 20220592
 ---

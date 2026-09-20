@@ -2,6 +2,7 @@
 title: Lake Roosevelt NRA
 sub: 
 tags: [washington, nra]
+trip_sequences: ["74"]
 idx: 117
 image: /images/webp/2024-10/117-01.webp
 order: 20240994

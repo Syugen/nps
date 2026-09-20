@@ -1,0 +1,23 @@
+// 全站布局尺寸。
+$layout-content-width: 800px;
+$layout-narrow-image-max-width: 400px;
+$layout-page-gutter: 50px;
+$layout-sidebar-width: 300px;
+$layout-column-gap: 50px;
+$layout-wide-breakpoint: 1250px;
+
+// 文章容器的紧凑布局断点。min 值由同一来源推导，避免散落的 504/505。
+$compact-content-max: 504px;
+$compact-content-min: $compact-content-max + 1px;
+
+// 基础文字颜色。
+$base-text-color: #727272;
+
+// alltrips 交互控件与表格颜色。
+$alltrips-control-border: #d8dee4;
+$alltrips-control-background: #f6f8fa;
+$alltrips-control-text: #555;
+$alltrips-control-disabled-text: #999;
+$alltrips-accent: #267cb9;
+$alltrips-accent-hover: #174f78;
+$alltrips-table-border: #e5e5e5;

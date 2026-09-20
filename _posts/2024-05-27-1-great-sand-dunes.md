@@ -2,6 +2,7 @@
 title: Great Sand Dunes 大沙丘
 sub: 雪山、沙漠、溪流
 tags: [colorado, np]
+trip_sequences: ["36", "72"]
 idx: 110
 image: /images/webp/2024-05/110-01.webp
 order: 20240588

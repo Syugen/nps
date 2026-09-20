@@ -2,6 +2,7 @@
 title: Whitman Mission NHS
 sub: 传教与殖民
 tags: [washington, nhs]
+trip_sequences: ["62"]
 idx: 45
 extras: ["46. Manhattan Project NHP (Hanford)"]
 order: 20220298

@@ -2,6 +2,7 @@
 title: Bandelier NM
 sub: 
 tags: [newmexico, nm]
+trip_sequences: ["63"]
 idx: 56
 extras: ["57. Manhattan Project NHP (Los Alamos)"]
 order: 20220594
