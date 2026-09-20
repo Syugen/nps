@@ -90,7 +90,6 @@ jobs:
           const comment = [
             `_id: ${JSON.stringify(`github-issue-${issue.number}`)}`,
             `replying_to_uid: ${JSON.stringify(replyingToUid)}`,
-            'email: ""',
             `name: ${JSON.stringify(name.trim())}`,
             `message: ${JSON.stringify(message)}`,
             `date: ${timestamp}`

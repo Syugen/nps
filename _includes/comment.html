@@ -26,13 +26,12 @@
   {%- assign replies = include.comments | where_exp: 'item', 'item.replying_to_uid == this_uid' %}
   {%- assign replies_date = replies | sort: 'date' %}
   {% for reply in replies_date %}
-    {%- assign email       = reply.email -%}
     {%- assign name        = reply.name -%}
     {%- assign url         = reply.url -%}
     {%- assign date        = reply.date -%}
     {%- assign message     = reply.message -%}
     {%- assign uid         = reply._id -%}
-    {% include comment.html comments=include.comments is_reply=true uid=uid email=email name=name url=url date=date message=message %}
+    {% include comment.html comments=include.comments is_reply=true uid=uid name=name url=url date=date message=message %}
   {% endfor %}
 
   <hr>
