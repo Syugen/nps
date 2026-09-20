@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sorter = document.querySelector("#trip-sorter");
   const filter = document.querySelector("#trip-filter");
   const summary = document.querySelector("#trip-summary");
+  const pagination = document.querySelector("#trip-pagination");
   const contentSection = list?.closest("section");
   const pageHeader =
     document.querySelector(".wrapper > .sidebar > header") ||
@@ -12,17 +13,27 @@ document.addEventListener("DOMContentLoaded", () => {
     '#trip-sorter [data-sort="mileage-desc"]'
   );
   const filterButtons = document.querySelectorAll("#trip-filter [data-filter]");
+  const availableSorts = new Set(
+    [...sortButtons].map((button) => button.dataset.sort)
+  );
+  const availableFilters = new Set(
+    [...filterButtons].map((button) => button.dataset.filter)
+  );
   const detailToggle = document.querySelector("#trip-details-toggle");
   const detailPanel = document.querySelector("#trip-details-panel");
   const maps = document.querySelectorAll("[data-trip-map]");
   let currentSort = "mileage-desc";
   let currentFilter = "drive";
   let mileageDisplayUnit = "miles";
+  let currentPage = 1;
   let activeDirectoryGroup = null;
   let activeDirectorySequence = null;
   let directoryGroups = new Map();
+  let orderedVisibleEntries = [];
+  let totalPages = 1;
+  const pageSize = 10;
 
-  if (!list || !sorter || !filter || !summary || !sortButtons.length || !filterButtons.length) return;
+  if (!list || !sorter || !filter || !summary || !pagination || !sortButtons.length || !filterButtons.length) return;
 
   const browser = document.createElement("div");
   browser.id = "trip-browser";
@@ -176,6 +187,12 @@ document.addEventListener("DOMContentLoaded", () => {
     link.textContent = useCompactSummaryTitles(panel)
       ? link.dataset.shortTitle
       : link.dataset.fullTitle;
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const entryIndex = orderedVisibleEntries.indexOf(entry);
+      if (entryIndex < 0) return;
+      goToPage(Math.floor(entryIndex / pageSize) + 1, { entry });
+    });
     return link;
   };
 
@@ -193,6 +210,61 @@ document.addEventListener("DOMContentLoaded", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
     return button;
+  };
+
+  const writeUrl = (entry = null, method = "pushState") => {
+    const url = new URL(window.location.href);
+    url.searchParams.set("filter", currentFilter);
+    url.searchParams.set("sort", currentSort);
+    url.searchParams.set("page", String(currentPage));
+    url.hash = entry ? headingIdOf(entry) : "";
+    window.history[method]({}, "", url);
+  };
+
+  const goToPage = (
+    page,
+    { entry = null, scrollToList = false, writeHistory = true } = {}
+  ) => {
+    currentPage = Math.min(Math.max(page, 1), totalPages);
+    sortEntries();
+    if (writeHistory) writeUrl(entry);
+
+    window.requestAnimationFrame(() => {
+      const target = entry ? headingOf(entry) : scrollToList ? list : null;
+      target?.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (entry) {
+        syncDirectoryToEntry(entry);
+      }
+    });
+  };
+
+  const renderPagination = () => {
+    pagination.replaceChildren();
+    pagination.hidden = orderedVisibleEntries.length === 0;
+    if (pagination.hidden) return;
+
+    const previous = document.createElement("button");
+    previous.type = "button";
+    previous.textContent = "上一页";
+    previous.disabled = currentPage === 1;
+    previous.addEventListener("click", () => {
+      goToPage(currentPage - 1, { scrollToList: true });
+    });
+
+    const status = document.createElement("span");
+    status.className = "trip-pagination-status";
+    status.setAttribute("aria-live", "polite");
+    status.textContent = `第 ${currentPage} / ${totalPages} 页（共 ${orderedVisibleEntries.length} 次旅行）`;
+
+    const next = document.createElement("button");
+    next.type = "button";
+    next.textContent = "下一页";
+    next.disabled = currentPage === totalPages;
+    next.addEventListener("click", () => {
+      goToPage(currentPage + 1, { scrollToList: true });
+    });
+
+    pagination.append(previous, status, next);
   };
 
   const compareMileage = (a, b) => {
@@ -236,6 +308,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const rows = mileageRowsOf(entries);
 
     appendSummaryHeading(`里程排名（${entries.length}）`);
+
+    const note = document.createElement("p");
+    note.className = "trip-mileage-note";
+    note.append("里程数字加粗且斜体的条目是我 ");
+    const crossedOut = document.createElement("del");
+    crossedOut.textContent = "亲自指挥，亲自部署";
+    note.append(crossedOut, " 独自旅行，独自驾驶的旅程（单人或与家人，且家人未参与驾驶）。");
+    summary.appendChild(note);
 
     const table = document.createElement("table");
     table.className = "trip-mileage-table";
@@ -301,6 +381,11 @@ document.addEventListener("DOMContentLoaded", () => {
       kilometerCell.className = "trip-mileage-kilometers";
       kilometerCell.textContent =
         kilometers === null ? "" : formatDistance(kilometers);
+
+      if (entry.dataset.solo === "true") {
+        mileageCell.classList.add("trip-mileage-solo");
+        kilometerCell.classList.add("trip-mileage-solo");
+      }
 
       const titleCell = document.createElement("td");
       titleCell.appendChild(createTitleLink(entry));
@@ -372,7 +457,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const categoryName = document.createElement(id ? "a" : "span");
       categoryName.textContent = name;
-      if (id) categoryName.href = `#${id}`;
+      if (id) {
+        categoryName.href = `#${id}`;
+        categoryName.addEventListener("click", (event) => {
+          event.preventDefault();
+          const entryIndex = orderedVisibleEntries.indexOf(entries[0]);
+          if (entryIndex < 0) return;
+          goToPage(Math.floor(entryIndex / pageSize) + 1, { entry: entries[0] });
+        });
+      }
 
       const categoryHeader = document.createElement("div");
       categoryHeader.className = "trip-directory-category";
@@ -442,6 +535,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const usesSideDirectory = () =>
     currentSort !== "mileage-desc" && usesSidebarSummary();
 
+  const usesMileageDirectory = () => sidebarPanel() === mileageDirectory;
+
   const updateSidebarSummaryHeight = () => {
     const panel = sidebarPanel();
     if (!panel) {
@@ -500,14 +595,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const activeLink = [...summary.querySelectorAll(".trip-summary-title")].find(
       (link) => link.dataset.directorySequence === activeDirectorySequence
     );
-    const target = activeLink || activeGroup.element;
-    const targetTop = target.getBoundingClientRect().top;
-    const summaryTop = summary.getBoundingClientRect().top;
-    const targetOffset =
-      targetTop -
-      summaryTop -
-      (summary.clientHeight - target.getBoundingClientRect().height) / 2;
-    summary.scrollBy({ top: targetOffset, behavior: "smooth" });
+    centerSidebarDirectoryItem(summary, activeLink || activeGroup.element);
+  };
+
+  const centerSidebarDirectoryItem = (panel, item) => {
+    if (!item) return;
+    const itemRect = item.getBoundingClientRect();
+    const panelRect = panel.getBoundingClientRect();
+    const offset =
+      itemRect.top - panelRect.top - (panel.clientHeight - itemRect.height) / 2;
+    panel.scrollBy({ top: offset, behavior: "smooth" });
   };
 
   const setActiveDirectoryEntry = (entry) => {
@@ -515,14 +612,31 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!sequence || sequence === activeDirectorySequence) return false;
 
     activeDirectorySequence = sequence;
-    summary.querySelectorAll(".trip-summary-title").forEach((link) => {
-      link.classList.toggle("is-active", link.dataset.directorySequence === sequence);
+    [summary, mileageDirectory].forEach((panel) => {
+      panel.querySelectorAll(".trip-summary-title").forEach((link) => {
+        link.classList.toggle("is-active", link.dataset.directorySequence === sequence);
+      });
     });
     return true;
   };
 
+  const syncDirectoryToEntry = (entry) => {
+    const entryChanged = setActiveDirectoryEntry(entry);
+    if (usesSideDirectory()) {
+      setActiveDirectoryGroup(entry.dataset.directoryGroup, entryChanged);
+      return;
+    }
+    if (!entryChanged || !usesMileageDirectory()) return;
+
+    const sequence = entry.querySelector("trip-seq")?.textContent.trim();
+    const activeLink = [...mileageDirectory.querySelectorAll(".trip-summary-title")].find(
+      (link) => link.dataset.directorySequence === sequence
+    );
+    centerSidebarDirectoryItem(mileageDirectory, activeLink);
+  };
+
   const syncDirectoryToScroll = () => {
-    if (!usesSideDirectory()) return;
+    if (!usesSideDirectory() && !usesMileageDirectory()) return;
 
     const entries = getEntries().filter((entry) => !entry.hidden);
     if (!entries.length) return;
@@ -533,8 +647,7 @@ document.addEventListener("DOMContentLoaded", () => {
       [...entries]
         .reverse()
         .find((entry) => entry.getBoundingClientRect().top <= anchor) || entries[0];
-    const entryChanged = setActiveDirectoryEntry(currentEntry);
-    setActiveDirectoryGroup(currentEntry.dataset.directoryGroup, entryChanged);
+    syncDirectoryToEntry(currentEntry);
   };
 
   const sequenceGroupOf = (entry) => {
@@ -575,7 +688,6 @@ document.addEventListener("DOMContentLoaded", () => {
     entries.forEach((entry) => {
       mileageOf(entry);
       headingIdOf(entry);
-      entry.hidden = !matchesFilter(entry);
     });
 
     // 只改变现有 article 的顺序与 hidden 状态，不重建旅行正文，避免丢失展开状态。
@@ -594,29 +706,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
       return sequenceOf(a) - sequenceOf(b);
     });
-    const visibleEntries = entries.filter(matchesFilter);
+    orderedVisibleEntries = entries.filter(matchesFilter);
+    totalPages = Math.max(1, Math.ceil(orderedVisibleEntries.length / pageSize));
+    currentPage = Math.min(currentPage, totalPages);
+    const pageStart = (currentPage - 1) * pageSize;
+    const pageEntries = new Set(
+      orderedVisibleEntries.slice(pageStart, pageStart + pageSize)
+    );
+    entries.forEach((entry) => {
+      entry.hidden = !pageEntries.has(entry);
+    });
+
+    const regions = [];
+    let directoryRegion = null;
+    if (currentSort === "region") {
+      orderedVisibleEntries.forEach((entry) => {
+        const region = entry.dataset.region || "未分类";
+        if (region !== directoryRegion) {
+          regions.push({
+            name: region,
+            id: `trip-region-${regions.length + 1}`,
+            entries: [],
+          });
+          directoryRegion = region;
+        }
+        regions[regions.length - 1].entries.push(entry);
+      });
+    }
 
     const fragment = document.createDocumentFragment();
-    const regions = [];
-    let currentRegion = null;
-
+    let pageRegion = null;
     entries.forEach((entry) => {
       const region = entry.dataset.region || "未分类";
 
-      if (currentSort === "region" && !entry.hidden && region !== currentRegion) {
-        const id = `trip-region-${regions.length + 1}`;
+      if (currentSort === "region" && !entry.hidden && region !== pageRegion) {
+        const matchingRegion = regions.find((item) => item.name === region);
         const heading = document.createElement("h2");
         heading.className = "trip-region-heading";
-        heading.id = id;
+        heading.id = matchingRegion?.id || "";
         heading.textContent = region;
         fragment.appendChild(heading);
-        regions.push({ name: region, id, entries: [] });
-        currentRegion = region;
-      }
-
-      if (currentSort === "region" && !entry.hidden) {
-        regions[regions.length - 1].entries.push(entry);
-        currentRegion = region;
+        pageRegion = region;
       }
       fragment.appendChild(entry);
     });
@@ -630,7 +760,7 @@ document.addEventListener("DOMContentLoaded", () => {
     activeDirectoryGroup = null;
     activeDirectorySequence = null;
     if (currentSort === "mileage-desc") {
-      const driveEntries = visibleEntries.filter(
+      const driveEntries = orderedVisibleEntries.filter(
         (entry) => entry.dataset.tripType === "drive"
       );
       renderMileageSummary(driveEntries);
@@ -640,7 +770,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (currentSort === "region") {
       renderRegionDirectory(regions);
     } else {
-      renderSequenceDirectory(visibleEntries);
+      renderSequenceDirectory(orderedVisibleEntries);
     }
 
     sortButtons.forEach((button) => {
@@ -658,6 +788,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSortAvailability();
     updateMapPresentation();
     updateSummaryTitleWidths();
+    renderPagination();
     syncDirectoryToScroll();
   };
 
@@ -665,7 +796,9 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       if (button.disabled) return;
       currentSort = button.dataset.sort;
+      currentPage = 1;
       sortEntries();
+      writeUrl();
     });
   });
 
@@ -676,7 +809,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // 全部旅行含非自驾；默认回到时间倒序，并同步禁用里程排序。
         currentSort = "sequence-desc";
       }
+      currentPage = 1;
       sortEntries();
+      writeUrl();
     });
   });
 
@@ -708,5 +843,46 @@ document.addEventListener("DOMContentLoaded", () => {
     { passive: true }
   );
 
-  sortEntries();
+  const entryFromHash = () => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (!id) return null;
+    return getEntries().find((entry) => headingIdOf(entry) === id) || null;
+  };
+
+  const restoreStateFromUrl = () => {
+    const parameters = new URLSearchParams(window.location.search);
+    const requestedFilter = parameters.get("filter");
+    const requestedSort = parameters.get("sort");
+    const requestedPage = Number(parameters.get("page"));
+
+    currentFilter = availableFilters.has(requestedFilter)
+      ? requestedFilter
+      : "drive";
+    currentSort = availableSorts.has(requestedSort)
+      ? requestedSort
+      : "mileage-desc";
+    if (currentFilter === "all" && currentSort === "mileage-desc") {
+      currentSort = "sequence-desc";
+    }
+    currentPage = Number.isInteger(requestedPage) && requestedPage > 0
+      ? requestedPage
+      : 1;
+
+    sortEntries();
+    const targetEntry = entryFromHash();
+    const targetIndex = targetEntry
+      ? orderedVisibleEntries.indexOf(targetEntry)
+      : -1;
+    if (targetIndex >= 0) {
+      currentPage = Math.floor(targetIndex / pageSize) + 1;
+      sortEntries();
+      window.requestAnimationFrame(() => {
+        headingOf(targetEntry)?.scrollIntoView({ block: "start" });
+        syncDirectoryToEntry(targetEntry);
+      });
+    }
+  };
+
+  window.addEventListener("popstate", restoreStateFromUrl);
+  restoreStateFromUrl();
 });

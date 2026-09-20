@@ -24,11 +24,11 @@ home_directory_order: 1
   <button id="trip-details-toggle" type="button" aria-expanded="false" aria-controls="trip-details-panel">查看无聊的细节</button>
   <div id="trip-details-panel" class="trip-details-panel" aria-hidden="true">
 {% capture trip_details_markdown %}
-本文中的旅行条目来源于我的旅行记录表格。该表格定义了三种不同类型的出行以判断是否应该记录，以及是否应该算做一次“旅行”而加以编号。
+本文中的旅行条目来源于我的旅行记录表格，包含了所有被我定义为“旅行”和“出远门”的出行。关于它们的定义如下：
 
-####  对于满足以下定义的出行，记录条目并赋予编号：
+#### 旅行：记录条目并赋予编号
 
-该次出行本身形成了一个新的、独立的旅行体验单元。
+定义：该次出行本身形成了一个新的、独立的旅行体验单元。
 
 通常满足的特征有：
 
@@ -40,9 +40,9 @@ home_directory_order: 1
 
 例如：专门进行城市或自然目的地游览、以度假环境本身为核心的休闲旅行、前往明显不同的环境参加一次非日常娱乐活动等。
 
-#### 对于满足以下定义的出行，记录条目但不编号：
+#### 出远门：记录条目但不编号
 
-该次出行具有独立的移动或记录价值，但没有形成足够新的、独立的旅行体验。
+定义：该次出行具有独立的移动或记录价值，但没有形成足够新的、独立的旅行体验。
 
 常见原因：
 
@@ -69,7 +69,7 @@ home_directory_order: 1
 #### 对于里程的计算方式，有如下几种：
 
 - 如果能找到租车记录，则使用收据上记录的里程，标明“数据来源：AVIS”。
-- 否则，利用 Haversine 公式通过地球坐标计算记录，标明“数据来源：Timeline 生成 KML 坐标计算”或“数据来源：回忆线路生成 KML 坐标计算”。
+- 否则，利用 Haversine 公式通过地球坐标计算记录，标明“数据来源：Timeline”或“数据来源：回忆线路”等。
 
 注：
 
@@ -96,6 +96,10 @@ home_directory_order: 1
   {% assign start_date = trip["开始日期"] %}
   {% assign miles = trip["里程英里"] %}
   {% assign kilometers = trip["里程公里"] %}
+  {% assign is_solo = false %}
+  {% if trip["独自旅行"] == "1" %}
+    {% assign is_solo = true %}
+  {% endif %}
   {% assign trip_type = "other" %}
   {% assign has_mileage = false %}
   {% if miles and miles != "" %}
@@ -110,7 +114,8 @@ home_directory_order: 1
 
   <article class="trip-entry" data-region="{{ region }}"
     data-start-date="{{ start_date | escape }}"
-    data-trip-type="{{ trip_type }}">
+    data-trip-type="{{ trip_type }}"
+    data-solo="{{ is_solo }}">
     <div><small>人生旅行序号：<trip-seq>{{ sequence }}</trip-seq></small></div>
     <h3>{{ trip["标题"] | escape }}</h3>
 
@@ -256,7 +261,7 @@ home_directory_order: 1
 
   </div>
 
-  {% comment %}关联字段为数组，允许一篇 NPS 文章对应多次旅行序号。{% endcomment %}
+  {% comment %}关联字段为数组，允许一篇 NPS 笔记对应多次旅行序号。{% endcomment %}
   {% assign ordered_nps_posts = site.posts | sort: "order" | reverse %}
   {% assign related_nps_count = 0 %}
   {% for post in ordered_nps_posts %}
@@ -266,7 +271,7 @@ home_directory_order: 1
   {% endfor %}
   {% if related_nps_count > 0 %}
     <div class="trip-nps-articles">
-      <p>相关 NPS 文章：</p>
+      <p>相关 NPS 笔记：</p>
       <ul>
       {% for post in ordered_nps_posts %}
         {% if post.trip_sequences contains sequence %}
@@ -300,5 +305,7 @@ home_directory_order: 1
   </article>
 {% endfor %}
 </div>
+
+<nav id="trip-pagination" aria-label="旅行分页"></nav>
 
 <script src="{{ '/assets/trip-sort.js' | relative_url }}"></script>

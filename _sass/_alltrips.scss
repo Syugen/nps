@@ -14,6 +14,7 @@
 
 #trip-filter button,
 #trip-sorter button,
+#trip-pagination button,
 #trip-details-toggle,
 .trip-map-toggle {
   background: $alltrips-control-background;
@@ -29,14 +30,17 @@
 #trip-filter button:hover,
 #trip-filter button.active,
 #trip-sorter button:hover,
-#trip-sorter button.active {
+#trip-sorter button.active,
+#trip-pagination button:hover:not(:disabled) {
   background: $alltrips-accent;
   border-color: $alltrips-accent;
   color: #fff;
 }
 
 #trip-sorter button:disabled,
-#trip-sorter button:disabled:hover {
+#trip-sorter button:disabled:hover,
+#trip-pagination button:disabled,
+#trip-pagination button:disabled:hover {
   background: $alltrips-control-background;
   border-color: $alltrips-control-border;
   color: $alltrips-control-disabled-text;
@@ -45,6 +49,19 @@
 
 #trip-summary {
   margin: 0 0 1.5em;
+}
+
+#trip-pagination {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.trip-pagination-status {
+  white-space: nowrap;
 }
 
 .trip-directory-heading,
@@ -178,6 +195,15 @@
   white-space: nowrap;
 }
 
+.trip-mileage-note {
+  margin-bottom: 0.5em;
+}
+
+.trip-mileage-solo {
+  font-style: italic;
+  font-weight: 700;
+}
+
 .trip-mileage-mobile-heading {
   display: none;
 }
@@ -276,6 +302,7 @@
 
 .trip-details-panel,
 .trip-map-panel {
+  height: 0;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -289,12 +316,14 @@
 }
 
 .trip-details-panel.is-expanded {
+  height: auto;
   max-height: none;
 }
 
 // 地图 iframe 高度固定为 500px。
 .trip-map-panel.is-expanded {
-  max-height: 700px;
+  height: 500px;
+  max-height: 500px;
 }
 
 #trip-list .trip-region-heading {
