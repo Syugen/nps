@@ -1,7 +1,7 @@
 <h2 id="comment-h2">添加评论</h2>
 
-<p>注意：评论提交后会在新窗口跳转到GitHub。需要登录后确认创建评论。<br>
-你知道吗，以前这个网站是可以直接提交评论的。但是现在那个服务收费了，我又不想交钱，于是只好出此下策。</p>
+<p>注意：评论提交后会在新窗口跳转到GitHub，需要登录后在GitHub创建评论。提交后三到五分钟后会发表在页面上。</p>
+<p>你知道吗，以前这个网站是可以直接提交评论的。但是现在那个服务收费了，我又不想交钱，于是只好出此下策。</p>
 
 {% if page.collection == 'posts' %}
   {% assign comment_key = page.date | date: '%Y-%m-%d' | append: '-' | append: page.slug %}
@@ -18,6 +18,7 @@
   </p>
 
   <p>
+    <label for="comment-form-message">内容（必填）</label>
     <textarea name="message" id="comment-form-message" placeholder="博主写的真好！" required rows="6"></textarea>
   </p>
 

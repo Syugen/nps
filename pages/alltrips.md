@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 自驾旅行里程排名|人生旅行全纪录表
+title: 自驾旅行里程排名 & 人生旅行全纪录表
 permalink: /alltrips/
 home_directory: true
 home_directory_order: 1

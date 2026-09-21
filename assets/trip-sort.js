@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderMileageSummary = (entries) => {
     const rows = mileageRowsOf(entries);
 
-    appendSummaryHeading(`里程排名（${entries.length}）`);
+    appendSummaryHeading(`里程排名 (${entries.length})`);
 
     const note = document.createElement("p");
     note.className = "trip-mileage-note";
@@ -404,7 +404,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const headingRow = document.createElement("div");
     headingRow.className = "trip-directory-heading";
     const heading = document.createElement("h2");
-    heading.textContent = `里程目录（${entries.length}）`;
+    heading.textContent = `里程目录 (${entries.length})`;
     const controls = document.createElement("div");
     controls.className = "trip-directory-controls";
     controls.appendChild(createBackToTopButton());
@@ -674,7 +674,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     renderCollapsibleDirectory(
-      `目录（${entries.length}）`,
+      `目录 (${entries.length})`,
       [...groups].map(([name, groupEntries]) => ({ name, entries: groupEntries }))
     );
   };
@@ -824,6 +824,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sidebarMedia.addEventListener("change", () => {
     placeSummary();
+
+    // 仅在目录尚未生成时补建：初始窄屏后首次拉宽，或窄屏期间变更
+    // 排序/筛选而使旧目录失效的情况。单纯缩窄再拉宽会复用已有目录。
+    if (
+      currentSort === "mileage-desc" &&
+      usesMileageDirectory() &&
+      !mileageDirectory.childElementCount
+    ) {
+      const driveEntries = orderedVisibleEntries.filter(
+        (entry) => entry.dataset.tripType === "drive"
+      );
+      renderMileageDirectory(driveEntries);
+    }
+
     updateSummaryTitleWidths();
     syncDirectoryToScroll();
   });
