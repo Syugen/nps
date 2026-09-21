@@ -20,7 +20,14 @@
       body: '页面标识：' + commentKey + '\n回复评论：' + replyTo + '\n用户名：' + name + '\n评论：\n' + message
     });
 
-    window.location.assign(form.getAttribute('data-issue-url') + '?' + params.toString());
+    var issueWindow = window.open(
+      form.getAttribute('data-issue-url') + '?' + params.toString(),
+      '_blank'
+    );
+
+    if (issueWindow) {
+      issueWindow.opener = null;
+    }
   });
 
   var heading = document.getElementById('comment-h2');

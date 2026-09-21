@@ -32,8 +32,35 @@
 {% endif %}
 
 <script type="text/javascript">
-  var dates = document.getElementsByClassName("utc-date");
-  for (let i = 0; i < dates.length; i++) {
-    dates[i].innerHTML = new Date(parseInt(dates[i].innerHTML)*1000);
-  }
+  (function() {
+    var dates = document.getElementsByClassName('utc-date');
+    var loadedAt = Date.now();
+
+    function formatDate(date) {
+      function pad(number) {
+        return String(number).padStart(2, '0');
+      }
+
+      return date.getFullYear() + '-' + pad(date.getMonth() + 1) + '-' + pad(date.getDate());
+    }
+
+    for (var index = 0; index < dates.length; index++) {
+      var timestamp = Number(dates[index].textContent) * 1000;
+      var date = new Date(timestamp);
+      var elapsed = Math.max(0, loadedAt - timestamp);
+      var text;
+
+      if (elapsed < 60 * 60 * 1000) {
+        text = Math.floor(elapsed / (60 * 1000)) + '分钟前';
+      } else if (elapsed < 24 * 60 * 60 * 1000) {
+        text = Math.floor(elapsed / (60 * 60 * 1000)) + '小时前';
+      } else if (elapsed < 7 * 24 * 60 * 60 * 1000) {
+        text = Math.floor(elapsed / (24 * 60 * 60 * 1000)) + '天前';
+      } else {
+        text = formatDate(date);
+      }
+
+      dates[index].textContent = text;
+    }
+  }());
 </script>
