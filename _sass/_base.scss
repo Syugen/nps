@@ -1,3 +1,8 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
   color: $base-text-color;
   font-family: sans-serif;
@@ -18,4 +23,14 @@ input, textarea {
   margin: 0.25em 0;
   width: 100%;
   font-size: 16px;
+}
+
+.wide-screen-note {
+  display: none;
+}
+
+@container (max-width: #{$compact-content-max}) {
+  .wide-screen-note {
+    display: block;
+  }
 }

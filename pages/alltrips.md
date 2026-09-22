@@ -8,6 +8,8 @@ home_directory_order: 1
 
 默认仅显示我参与驾驶的长途公路自驾。点击“查看全部”会显示全部旅行。
 
+<p class="wide-screen-note">屏幕有点窄，用电脑看宽屏页面会更爽。</p>
+
 <div id="trip-filter" aria-label="旅行类型筛选">
   <button type="button" data-filter="drive">只看自驾</button>
   <button type="button" data-filter="all">查看全部</button>
