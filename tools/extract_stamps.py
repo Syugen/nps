@@ -90,6 +90,9 @@ def is_duplicate(candidate: Circle, kept: Iterable[Circle]) -> bool:
 
 def detect_circles(image: np.ndarray) -> list[Circle]:
     height, width = image.shape[:2]
+    # The original scans are 1728×2208. New scans may be captured at a different
+    # resolution, so all pixel-based Hough parameters scale with the page size.
+    scale = (width / 1728 + height / 2208) / 2
     gray = cv2.GaussianBlur(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY), (7, 7), 1.5)
     saturation = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)[:, :, 1]
     proposals: list[Circle] = []
@@ -101,11 +104,11 @@ def detect_circles(image: np.ndarray) -> list[Circle]:
             gray,
             cv2.HOUGH_GRADIENT,
             dp=1.2,
-            minDist=115,
+            minDist=round(115 * scale),
             param1=100,
             param2=accumulator_threshold,
-            minRadius=78,
-            maxRadius=138,
+            minRadius=round(78 * scale),
+            maxRadius=round(138 * scale),
         )
         if circles is None:
             continue
@@ -113,7 +116,7 @@ def detect_circles(image: np.ndarray) -> list[Circle]:
             x, y, radius = (int(round(raw_x)), int(round(raw_y)), int(round(raw_radius)))
             # The album occupies this region in the supplied scanner images. Keeping a
             # margin deliberately allows stamps close to page edges but rejects the tray.
-            if not (100 <= x <= width - 100 and 330 <= y <= height - 330):
+            if not (100 * scale <= x <= width - 100 * scale and 330 * scale <= y <= height - 330 * scale):
                 continue
             # The metal binding creates very convincing false circular edges.
             if width * 0.48 <= x <= width * 0.59:
@@ -244,7 +247,11 @@ def main() -> None:
         if image is None:
             print(f"Skipping unreadable image: {source}")
             continue
-        circles = apply_overrides(detect_circles(image), source.name, overrides)
+        page_override = overrides.get(source.name, {})
+        # A replacement is a fully reviewed page layout, so running the automatic
+        # detector first cannot improve the result and needlessly slows large scans.
+        detected = [] if "replace" in page_override else detect_circles(image)
+        circles = apply_overrides(detected, source.name, overrides)
         cv2.imwrite(str(preview_dir / f"{source.stem}_preview.jpg"), annotate(image, circles))
         for index, circle in enumerate(circles, start=1):
             destination = stamps_dir / f"{source.stem}_{index:03d}.png"

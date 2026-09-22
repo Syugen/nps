@@ -6,8 +6,12 @@ home_directory: true
 home_directory_order: 3
 ---
 
-{% capture stamps_intro_markdown %}
-本文包含了从2021年5月底开始收集盖章以来的所有“正统”NPS章。另外还有各种花样繁多的章暂且先不展示。
+
+<p>
+本页包含了从2021年5月底开始收集盖章以来的所有“正统”NPS章。另外还有各种花样繁多的章暂且先不展示。展示顺序按照文章标号顺序，不是严格地按照盖章日期顺序。
+</p>
+
+{% comment %}
 
 本页面是根据该站点内容自动生成的，只要有文章和印章图片，且编号对应即可在此显示。为确保今后添加的印章图片格式一致，工作流记录于此：
 - 使用200dpi、美国信纸规格扫描国家公园护照
@@ -15,8 +19,9 @@ home_directory_order: 3
 - 给裁切的图重命名标号。
 - 运行`magick mogrify -format webp -- *.png`得到压缩的webp格式。
 
-{% endcapture %}
-{{ stamps_intro_markdown | markdownify }}
+另注：092、095、096、097不是用扫描仪扫的。
+
+{% endcomment %}
 
 {%- comment -%}
   文章的编号有两种来源：单篇文章的 idx，或其 extras 中以“编号. 名称”
