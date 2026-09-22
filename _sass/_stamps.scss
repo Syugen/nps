@@ -1,0 +1,66 @@
+.stamp-grid {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+.stamp-grid td {
+  width: 25%;
+  padding: 0.4rem;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stamp-grid-images td {
+  height: 150px;
+  border-bottom: 0;
+  vertical-align: bottom;
+}
+
+.stamp-image {
+  display: flex;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.stamp-image img {
+  display: block;
+  min-width: 0;
+  max-width: 100%;
+  max-height: 142px;
+  object-fit: contain;
+}
+
+.stamp-grid-names td {
+  min-height: 3.5em;
+  border-top: 0;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.stamp-grid-names a {
+  display: inline-block;
+}
+
+.stamp-grid-outside {
+  border-color: transparent !important;
+}
+
+@media screen and (max-width: 520px) {
+  .stamp-grid td {
+    padding: 0.25rem;
+    font-size: 0.8rem;
+  }
+
+  .stamp-grid-images td {
+    height: 95px;
+  }
+
+  .stamp-image img {
+    max-height: 90px;
+  }
+}

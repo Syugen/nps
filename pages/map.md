@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Syugen的NPS到访记录 地图
+title: 序：NPS到访记录地图标记
 permalink: /map/
 home_directory: true
 home_directory_order: 2
