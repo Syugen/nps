@@ -6,6 +6,41 @@
   grid-template-columns: repeat(4, minmax(150px, 1fr));
 }
 
+.stamp-toc {
+  margin: 1.5em 0;
+}
+
+.stamp-toc-title {
+  margin: 0 0 0.25em;
+}
+
+.stamp-toc-list {
+  margin: 0;
+  padding-left: 1.5em;
+  list-style: none;
+}
+
+.stamp-toc-state-list {
+  margin-top: 0.25em;
+}
+
+.stamp-toc a.is-active {
+  font-weight: 700;
+}
+
+.stamp-group-heading,
+.stamp-state-heading {
+  grid-column: 1 / -1;
+}
+
+.stamp-group-heading {
+  margin: 1.5em 0 0.25em;
+}
+
+.stamp-state-heading {
+  margin: 0.75em 0 0.25em;
+}
+
 .stamp-cell {
   min-width: 0;
   display: grid;
@@ -31,7 +66,6 @@
 
 .stamp-name {
   padding: 0.4rem;
-  border-top: 0;
   overflow-wrap: anywhere;
 }
 

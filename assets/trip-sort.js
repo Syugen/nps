@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   browser.append(summary, list);
   const mileageDirectory = document.createElement("div");
   mileageDirectory.id = "trip-mileage-directory";
-  mileageDirectory.className = "trip-sidebar-directory";
+  mileageDirectory.className = "trip-sidebar-directory sidebar-directory";
   const sidebarMedia = window.matchMedia("(min-width: 1250px)");
   const usesSidebarLayout = () => Boolean(pageHeader && sidebarMedia.matches);
 
@@ -402,7 +402,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderMileageDirectory = (entries) => {
     mileageDirectory.replaceChildren();
     const headingRow = document.createElement("div");
-    headingRow.className = "trip-directory-heading";
+    headingRow.className = "trip-directory-heading sidebar-directory-heading";
     const heading = document.createElement("h2");
     heading.textContent = `里程目录 (${entries.length})`;
     const controls = document.createElement("div");
@@ -422,7 +422,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const renderCollapsibleDirectory = (heading, groups) => {
     const headingRow = document.createElement("div");
-    headingRow.className = "trip-directory-heading";
+    headingRow.className = "trip-directory-heading sidebar-directory-heading";
     const headingElement = document.createElement("h2");
     headingElement.textContent = heading;
     const controls = document.createElement("div");
@@ -540,19 +540,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const updateSidebarSummaryHeight = () => {
     const panel = sidebarPanel();
     if (!panel) {
-      summary.style.removeProperty("--trip-sidebar-summary-height");
-      mileageDirectory.style.removeProperty("--trip-sidebar-summary-height");
+      summary.style.removeProperty("--sidebar-directory-height");
+      mileageDirectory.style.removeProperty("--sidebar-directory-height");
       return;
     }
 
-    // 页脚在宽屏会被移入 header，目录可滚动高度需为它预留空间。
-    const footerHeight =
-      pageHeader?.querySelector("footer")?.getBoundingClientRect().height || 0;
     const availableHeight = Math.max(
       160,
-      window.innerHeight - panel.getBoundingClientRect().top - footerHeight - 24
+      window.innerHeight - panel.getBoundingClientRect().top - 24
     );
-    panel.style.setProperty("--trip-sidebar-summary-height", `${availableHeight}px`);
+    panel.style.setProperty("--sidebar-directory-height", `${availableHeight}px`);
   };
 
   const placeSummary = () => {
@@ -562,10 +559,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // 宽屏：时间/地区目录进入左栏；里程排序保留正文排名表，另在左栏生成轻量目录。
     if (inSidebar && !showMileageDirectory) {
       pageHeader.appendChild(summary);
-      summary.classList.add("trip-sidebar-summary");
+      summary.classList.add("trip-sidebar-summary", "sidebar-directory");
     } else {
       browser.prepend(summary);
-      summary.classList.remove("trip-sidebar-summary");
+      summary.classList.remove("trip-sidebar-summary", "sidebar-directory");
     }
 
     if (showMileageDirectory) {
@@ -575,7 +572,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     pageHeader?.classList.toggle(
-      "has-trip-sidebar",
+      "has-sidebar-directory",
       inSidebar && (summary.parentElement === pageHeader || mileageDirectory.parentElement === pageHeader)
     );
     updateSidebarSummaryHeight();

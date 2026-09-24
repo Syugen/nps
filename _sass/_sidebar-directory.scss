@@ -1,0 +1,27 @@
+@media screen and (min-width: $layout-wide-breakpoint) {
+  header .sidebar-directory {
+    margin: 1.5em 0 0;
+    max-height: var(--sidebar-directory-height, calc(100vh - 74px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 0.5em;
+    scroll-behavior: smooth;
+  }
+
+  header.has-sidebar-directory > img,
+  header.has-sidebar-directory > img ~ :not(.sidebar-directory):not(footer) {
+    display: none;
+  }
+
+  header.has-sidebar-directory > footer {
+    display: none;
+  }
+
+  header .sidebar-directory > .sidebar-directory-heading {
+    background: #fff;
+    padding-bottom: 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}

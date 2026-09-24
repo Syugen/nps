@@ -15,7 +15,7 @@ home_directory_order: 1
   <button type="button" data-filter="all">查看全部</button>
 </div>
 
-<div id="trip-sorter" aria-label="排序方式" data-region-order="西海岸|落地丹佛|亚利桑那合集|美国其他|世界|加州小型游|非自驾|略">
+<div id="trip-sorter" class="page-sorter" aria-label="排序方式" data-region-order="西海岸|落地丹佛|亚利桑那合集|美国其他|世界|加州小型游|非自驾|略">
   <button type="button" data-sort="mileage-desc">里程倒序</button>
   <button type="button" data-sort="sequence-desc">时间倒序</button>
   <button type="button" data-sort="sequence-asc">时间正序</button>

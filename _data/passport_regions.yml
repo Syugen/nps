@@ -1,0 +1,152 @@
+regions:
+  north-atlantic: { name: "North Atlantic", order: 1 }
+  mid-atlantic: { name: "Mid-Atlantic", order: 2 }
+  national-capital: { name: "National Capital", order: 3 }
+  southeast: { name: "Southeast", order: 4 }
+  midwest: { name: "Midwest", order: 5 }
+  southwest: { name: "Southwest", order: 6 }
+  rocky-mountain: { name: "Rocky Mountain", order: 7 }
+  western: { name: "Western", order: 8 }
+  pacific-northwest-alaska: { name: "Pacific Northwest & Alaska", order: 9 }
+
+states:
+  CT: { name: Connecticut, region: north-atlantic, order: 1 }
+  ME: { name: Maine, region: north-atlantic, order: 2 }
+  MA: { name: Massachusetts, region: north-atlantic, order: 3 }
+  NH: { name: New Hampshire, region: north-atlantic, order: 4 }
+  NY: { name: New York, region: north-atlantic, order: 5 }
+  RI: { name: Rhode Island, region: north-atlantic, order: 6 }
+  VT: { name: Vermont, region: north-atlantic, order: 7 }
+
+  DE: { name: Delaware, region: mid-atlantic, order: 1 }
+  MD: { name: Maryland, region: mid-atlantic, order: 2 }
+  NJ: { name: New Jersey, region: mid-atlantic, order: 3 }
+  PA: { name: Pennsylvania, region: mid-atlantic, order: 4 }
+  VA: { name: Virginia, region: mid-atlantic, order: 5 }
+  WV: { name: West Virginia, region: mid-atlantic, order: 6 }
+
+  DC: { name: District of Columbia, region: national-capital, order: 1 }
+
+  AL: { name: Alabama, region: southeast, order: 1 }
+  FL: { name: Florida, region: southeast, order: 2 }
+  GA: { name: Georgia, region: southeast, order: 3 }
+  KY: { name: Kentucky, region: southeast, order: 4 }
+  MS: { name: Mississippi, region: southeast, order: 5 }
+  NC: { name: North Carolina, region: southeast, order: 6 }
+  SC: { name: South Carolina, region: southeast, order: 7 }
+  TN: { name: Tennessee, region: southeast, order: 8 }
+  PR: { name: Puerto Rico, region: southeast, order: 9 }
+  VI: { name: Virgin Islands, region: southeast, order: 10 }
+
+  IL: { name: Illinois, region: midwest, order: 1 }
+  IN: { name: Indiana, region: midwest, order: 2 }
+  IA: { name: Iowa, region: midwest, order: 3 }
+  KS: { name: Kansas, region: midwest, order: 4 }
+  MI: { name: Michigan, region: midwest, order: 5 }
+  MN: { name: Minnesota, region: midwest, order: 6 }
+  MO: { name: Missouri, region: midwest, order: 7 }
+  NE: { name: Nebraska, region: midwest, order: 8 }
+  OH: { name: Ohio, region: midwest, order: 9 }
+  WI: { name: Wisconsin, region: midwest, order: 10 }
+
+  AR: { name: Arkansas, region: southwest, order: 1 }
+  LA: { name: Louisiana, region: southwest, order: 2 }
+  NM: { name: New Mexico, region: southwest, order: 3 }
+  OK: { name: Oklahoma, region: southwest, order: 4 }
+  TX: { name: Texas, region: southwest, order: 5 }
+
+  CO: { name: Colorado, region: rocky-mountain, order: 1 }
+  MT: { name: Montana, region: rocky-mountain, order: 2 }
+  ND: { name: North Dakota, region: rocky-mountain, order: 3 }
+  SD: { name: South Dakota, region: rocky-mountain, order: 4 }
+  UT: { name: Utah, region: rocky-mountain, order: 5 }
+  WY: { name: Wyoming, region: rocky-mountain, order: 6 }
+
+  AZ: { name: Arizona, region: western, order: 1 }
+  CA: { name: California, region: western, order: 1 }
+  NV: { name: Nevada, region: western, order: 3 }
+  HI: { name: Hawaii, region: western, order: 4 }
+  GU: { name: Guam, region: western, order: 5 }
+  AS: { name: American Samoa, region: western, order: 6 }
+
+  AK: { name: Alaska, region: pacific-northwest-alaska, order: 1 }
+  ID: { name: Idaho, region: pacific-northwest-alaska, order: 2 }
+  OR: { name: Oregon, region: pacific-northwest-alaska, order: 3 }
+  WA: { name: Washington, region: pacific-northwest-alaska, order: 4 }
+
+stamp_type_groups:
+  national-park:
+    codes: [NP]
+    name: National Park
+    order: 1
+    total: 63
+  national-monument:
+    codes: [NM]
+    name: National Monument
+    order: 2
+    total: 87
+  national-historical-park:
+    codes: [NHP]
+    name: National Historical Park
+    order: 3
+    total: 64
+  national-historic-site:
+    codes: [NHS]
+    name: National Historic Site
+    order: 4
+    total: 75
+  international-historic-site:
+    codes: [IHS]
+    name: International Historic Site
+    order: 5
+    total: 1
+  battlefields:
+    codes: [NBP, NMP, NB, NBS]
+    name: National Battlefield [Park | Site], Military Park
+    order: 6
+    total: 25
+  national-memorial:
+    codes: [NMEM]
+    name: National Memorial
+    order: 7
+    total: 31
+  national-recreation-area:
+    codes: [NRA]
+    name: National Recreation Area
+    order: 8
+    total: 18
+  national-seashore:
+    codes: [NS, NL]
+    name: National Seashore, National Lakeshore
+    order: 9
+    total: 13
+  rivers:
+    codes: [NR, NWSR, NRR, NSR]
+    name: National [[Wild and] Scenic | Recreational] River
+    order: 10
+    total: 14
+  national-preserve:
+    codes: [NPRES]
+    name: National Preserve
+    order: 11
+    total: 19
+  national-reserves:
+    codes: [NHRES, NRES]
+    name: National Reserve
+    order: 12
+    total: 2
+  parkway:
+    codes: [PKWY]
+    name: National Parkway
+    order: 13
+    total: 4
+  national-scenic-trail:
+    codes: [NST]
+    name: National Scenic Trail
+    order: 14
+    total: 6
+  other:
+    codes: [OTHER]
+    name: Other
+    order: 15
+    total: 11

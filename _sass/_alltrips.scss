@@ -1,7 +1,7 @@
 // alltrips 页面目前沿用 trip-* DOM class，保证现有脚本与页面迁移可独立进行。
 
 #trip-filter,
-#trip-sorter {
+.page-sorter {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
@@ -13,7 +13,7 @@
 }
 
 #trip-filter button,
-#trip-sorter button,
+.page-sorter button,
 #trip-pagination button,
 #trip-details-toggle,
 .trip-map-toggle {
@@ -29,16 +29,16 @@
 .trip-map-toggle:hover,
 #trip-filter button:hover,
 #trip-filter button.active,
-#trip-sorter button:hover,
-#trip-sorter button.active,
+.page-sorter button:hover,
+.page-sorter button.active,
 #trip-pagination button:hover:not(:disabled) {
   background: $alltrips-accent;
   border-color: $alltrips-accent;
   color: #fff;
 }
 
-#trip-sorter button:disabled,
-#trip-sorter button:disabled:hover,
+.page-sorter button:disabled,
+.page-sorter button:disabled:hover,
 #trip-pagination button:disabled,
 #trip-pagination button:disabled:hover {
   background: $alltrips-control-background;
@@ -138,35 +138,6 @@
 }
 
 @media screen and (min-width: $layout-wide-breakpoint) {
-  header .trip-sidebar-summary,
-  header .trip-sidebar-directory {
-    margin: 1.5em 0 0;
-    max-height: var(--trip-sidebar-summary-height, 50vh);
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    padding-right: 0.5em;
-    scroll-behavior: smooth;
-  }
-
-  header.has-trip-sidebar > img,
-  header.has-trip-sidebar > img ~ :not(#trip-summary):not(#trip-mileage-directory):not(footer) {
-    display: none;
-  }
-
-  header.has-trip-sidebar > footer {
-    display: none;
-  }
-
-  header #trip-summary.trip-sidebar-summary .trip-directory-heading,
-  header .trip-sidebar-directory > .trip-directory-heading,
-  header .trip-sidebar-directory > h2 {
-    background: #fff;
-    padding-bottom: 0.5em;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-
   header #trip-summary.trip-sidebar-summary .trip-directory-trips {
     list-style: disc;
     padding-left: 1.15em;
