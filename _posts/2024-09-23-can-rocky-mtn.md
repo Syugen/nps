@@ -2,6 +2,7 @@
 title: 2024.9.23-10.1 北纬49度上下落基山
 tags: [head]
 total: 5
+trip_sequences: ["74"]
 image: /images/webp/2024-09/114-a.webp
 order: 20240999
 ---
@@ -52,4 +53,3 @@ order: 20240999
 
 
 {% include image.html filename="webp/2024-09/114-a.webp" %}
-

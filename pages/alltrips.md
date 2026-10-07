@@ -6,7 +6,7 @@ home_directory: true
 home_directory_order: 1
 ---
 
-默认仅显示我参与驾驶的长途公路自驾。点击“查看全部”会显示全部旅行。
+默认显示全部旅行。点击“只看自驾”可筛选我参与驾驶的长途公路自驾。
 
 <p class="wide-screen-note">屏幕有点窄，用电脑看宽屏页面会更爽。</p>
 
@@ -86,6 +86,10 @@ home_directory_order: 1
 
 <div id="trip-summary" aria-live="polite"></div>
 
+<div class="trip-pagination-section">
+  <nav class="trip-pagination" aria-label="旅行分页（顶部）"></nav>
+</div>
+
 <div id="trip-list">
 
 {% for trip in site.data.trips %}
@@ -96,8 +100,23 @@ home_directory_order: 1
   {% assign sequence = trip[sequence_key] %}
   {% assign region = trip["地区分类"] %}
   {% assign start_date = trip["开始日期"] %}
+  {% assign end_date = trip["结束日期"] %}
+  {% assign trip_title = trip["标题"] %}
+  {% assign trip_summary = trip["概要"] | strip %}
   {% assign miles = trip["里程英里"] %}
   {% assign kilometers = trip["里程公里"] %}
+  {% assign title_date = start_date %}
+  {% if end_date and end_date != "" and end_date != start_date %}
+    {% assign start_year = start_date | slice: 0, 5 %}
+    {% assign end_year = end_date | slice: 0, 5 %}
+    {% if start_year == end_year %}
+      {% assign end_date_short = end_date | slice: 5, 5 %}
+      {% assign title_date = start_date | append: "-" | append: end_date_short %}
+    {% else %}
+      {% assign title_date = start_date | append: "-" | append: end_date %}
+    {% endif %}
+  {% endif %}
+  {% assign display_title = title_date | append: " " | append: trip_title %}
   {% assign is_solo = false %}
   {% if trip["独自旅行"] == "1" %}
     {% assign is_solo = true %}
@@ -118,8 +137,15 @@ home_directory_order: 1
     data-start-date="{{ start_date | escape }}"
     data-trip-type="{{ trip_type }}"
     data-solo="{{ is_solo }}">
-    <div><small>人生旅行序号：<trip-seq>{{ sequence }}</trip-seq></small></div>
-    <h3>{{ trip["标题"] | escape }}</h3>
+    <h3>{{ display_title | escape }}</h3>
+    <div class="trip-entry-sequence"><small>人生旅行序号：<trip-seq>{{ sequence }}</trip-seq></small></div>
+
+  {% if trip_summary and trip_summary != "" %}
+    <div class="trip-entry-summary">
+      <p class="trip-entry-summary-label">What happened?</p>
+      <div class="trip-entry-summary-text">{{ trip_summary | escape | newline_to_br }}</div>
+    </div>
+  {% endif %}
 
   {% if has_mileage %}
     <p>
@@ -256,9 +282,6 @@ home_directory_order: 1
     </tbody>
   </table>
 
-  <!-- 没有找到每日形成的情况 -->
-  {% elsif sequence == "57.1" %}
-    <p>这不算一次旅游，但是由于成就过于耀眼，一天去了七个地方盖章，故单列一节。</p>
   {% endif %}
 
   </div>
@@ -274,11 +297,11 @@ home_directory_order: 1
   {% if related_nps_count > 0 %}
     <div class="trip-nps-articles">
       <p>相关 NPS 笔记：</p>
-      <ul>
+      <ul class="toc-list trip-nps-article-list">
       {% for post in ordered_nps_posts %}
         {% if post.trip_sequences contains sequence %}
           <li>
-            {% if post.idx %}{{ post.idx }}. {% endif %}<a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+            {% if post.idx %}{{ post.idx }}. {% elsif post.special %}番外{{ post.special }}：{% endif %}<a href="{{ post.url | relative_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
             {% if post.extras and post.extras.size > 0 %}
               <ul class="trip-nps-article-extras">
               {% for extra in post.extras %}
@@ -295,11 +318,8 @@ home_directory_order: 1
 
   {% assign map_url = trip["地图URL"] %}
   {% if map_url and map_url != "" %}
-    <div class="trip-map" data-trip-map>
-      <button class="trip-map-toggle" type="button" aria-expanded="true">隐藏地图</button>
-      <div class="trip-map-panel is-expanded">
-        <iframe data-map-src="https://www.google.com/maps/d/embed?mid={{ map_url | escape }}&amp;ehbc=2E312F" width="100%" height="500"></iframe>
-      </div>
+    <div class="trip-map">
+      <iframe data-map-src="https://www.google.com/maps/d/embed?mid={{ map_url | escape }}&amp;ehbc=2E312F" width="100%" height="500"></iframe>
     </div>
   {% endif %}
 
@@ -308,6 +328,9 @@ home_directory_order: 1
 {% endfor %}
 </div>
 
-<nav id="trip-pagination" aria-label="旅行分页"></nav>
+<div class="trip-pagination-section">
+  <nav class="trip-pagination" aria-label="旅行分页（底部）"></nav>
+</div>
 
+<script src="{{ '/assets/toc-columns.js' | relative_url }}"></script>
 <script src="{{ '/assets/trip-sort.js' | relative_url }}"></script>

@@ -2,6 +2,7 @@
 title: 2024.5.21-5.27 大平原与落基山
 tags: [head]
 total: 12
+trip_sequences: ["72"]
 image: /images/webp/2024-05/092-a.webp
 order: 20240599
 ---
@@ -45,4 +46,3 @@ order: 20240599
 - 晚上到达丹佛机场 DEN->SEA。
 
 {% include image.html filename="webp/2024-05/092-a.webp" %}
-

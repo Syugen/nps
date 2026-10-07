@@ -14,9 +14,8 @@
 
 #trip-filter button,
 .page-sorter button,
-#trip-pagination button,
-#trip-details-toggle,
-.trip-map-toggle {
+.trip-pagination button,
+#trip-details-toggle {
   background: $alltrips-control-background;
   border: 1px solid $alltrips-control-border;
   border-radius: 4px;
@@ -26,12 +25,11 @@
 }
 
 #trip-details-toggle:hover,
-.trip-map-toggle:hover,
 #trip-filter button:hover,
 #trip-filter button.active,
 .page-sorter button:hover,
 .page-sorter button.active,
-#trip-pagination button:hover:not(:disabled) {
+.trip-pagination button:hover:not(:disabled) {
   background: $alltrips-accent;
   border-color: $alltrips-accent;
   color: #fff;
@@ -39,8 +37,8 @@
 
 .page-sorter button:disabled,
 .page-sorter button:disabled:hover,
-#trip-pagination button:disabled,
-#trip-pagination button:disabled:hover {
+.trip-pagination button:disabled,
+.trip-pagination button:disabled:hover {
   background: $alltrips-control-background;
   border-color: $alltrips-control-border;
   color: $alltrips-control-disabled-text;
@@ -51,7 +49,7 @@
   margin: 0 0 1.5em;
 }
 
-#trip-pagination {
+.trip-pagination {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +59,7 @@
 }
 
 .trip-pagination-status {
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -202,6 +201,34 @@
   margin: 1.75em 0;
 }
 
+#trip-list .trip-entry h3 {
+  margin-bottom: 0;
+}
+
+.trip-entry-sequence {
+  margin: 0 0 1em;
+}
+
+.trip-entry-summary {
+  background: $alltrips-control-background;
+  border-left: 4px solid $alltrips-accent;
+  box-sizing: border-box;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0 0 1.25em;
+  padding: 0.75em 1em;
+}
+
+.trip-entry-summary-label {
+  font-size: 0.85em;
+  font-weight: 700;
+  margin: 0 0 0.25em;
+}
+
+.trip-entry-summary-text {
+  margin: 0;
+}
+
 #trip-list .trip-entry-content table {
   table-layout: auto;
   width: 100%;
@@ -225,6 +252,14 @@
 
 .trip-nps-articles > ul {
   margin-top: 0.25em;
+}
+
+.trip-nps-articles > .toc-columns {
+  margin-top: 0.25em;
+}
+
+.trip-nps-articles > .toc-columns > .toc-list {
+  margin-top: 0;
 }
 
 .trip-nps-article-extras {
@@ -271,8 +306,7 @@
   }
 }
 
-.trip-details-panel,
-.trip-map-panel {
+.trip-details-panel {
   height: 0;
   max-height: 0;
   opacity: 0;
@@ -280,21 +314,18 @@
   transition: max-height 320ms ease, opacity 220ms ease, margin-top 320ms ease;
 }
 
-.trip-details-panel.is-expanded,
-.trip-map-panel.is-expanded {
+.trip-details-panel.is-expanded {
+  border: 1px solid #000;
+  box-sizing: border-box;
   margin-top: 0.75em;
   opacity: 1;
+  padding: 0 1em;
+  width: 100%;
 }
 
 .trip-details-panel.is-expanded {
   height: auto;
   max-height: none;
-}
-
-// 地图 iframe 高度固定为 500px。
-.trip-map-panel.is-expanded {
-  height: 500px;
-  max-height: 500px;
 }
 
 #trip-list .trip-region-heading {

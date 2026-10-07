@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const sorter = document.querySelector("#trip-sorter");
   const filter = document.querySelector("#trip-filter");
   const summary = document.querySelector("#trip-summary");
-  const pagination = document.querySelector("#trip-pagination");
+  const paginations = document.querySelectorAll(".trip-pagination");
+  const paginationSections = document.querySelectorAll(".trip-pagination-section");
   const contentSection = list?.closest("section");
   const pageHeader =
     document.querySelector(".wrapper > .sidebar > header") ||
@@ -21,9 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const detailToggle = document.querySelector("#trip-details-toggle");
   const detailPanel = document.querySelector("#trip-details-panel");
-  const maps = document.querySelectorAll("[data-trip-map]");
-  let currentSort = "mileage-desc";
-  let currentFilter = "drive";
+  let currentSort = "sequence-desc";
+  let currentFilter = "all";
   let mileageDisplayUnit = "miles";
   let currentPage = 1;
   let activeDirectoryGroup = null;
@@ -31,14 +31,15 @@ document.addEventListener("DOMContentLoaded", () => {
   let directoryGroups = new Map();
   let orderedVisibleEntries = [];
   let totalPages = 1;
-  const pageSize = 10;
+  // 每页固定呈现一段完整旅行，避免长短不一的条目混排。
+  const pageSize = 1;
 
-  if (!list || !sorter || !filter || !summary || !pagination || !sortButtons.length || !filterButtons.length) return;
+  if (!list || !sorter || !filter || !summary || !paginations.length || !paginationSections.length || !sortButtons.length || !filterButtons.length) return;
 
   const browser = document.createElement("div");
   browser.id = "trip-browser";
   summary.before(browser);
-  browser.append(summary, list);
+  browser.append(summary, paginationSections[0], list);
   const mileageDirectory = document.createElement("div");
   mileageDirectory.id = "trip-mileage-directory";
   mileageDirectory.className = "trip-sidebar-directory sidebar-directory";
@@ -63,42 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
     mileageSortButton.disabled = unavailable;
     mileageSortButton.setAttribute("aria-disabled", String(unavailable));
   };
-
-  const setMapExpanded = (map, expanded) => {
-    const button = map.querySelector(".trip-map-toggle");
-    const panel = map.querySelector(".trip-map-panel");
-    if (!button || !panel) return;
-
-    panel.classList.toggle("is-expanded", expanded);
-    button.textContent = expanded ? "隐藏地图" : "查看地图";
-    button.setAttribute("aria-expanded", String(expanded));
-  };
-
-  const updateMapPresentation = () => {
-    const showMapsDirectly = currentFilter === "drive";
-    maps.forEach((map) => {
-      const button = map.querySelector(".trip-map-toggle");
-      if (!button) return;
-
-      button.hidden = showMapsDirectly;
-      if (showMapsDirectly) {
-        // “只看自驾”沿用原页面行为：有地图的行程直接展示地图。
-        setMapExpanded(map, true);
-      } else if (map.dataset.filterMode !== "all") {
-        // 刚切到“查看全部”时先收起地图；之后用户手动展开/收起的状态不被排序重置。
-        setMapExpanded(map, false);
-      }
-      map.dataset.filterMode = currentFilter;
-    });
-  };
-
-  maps.forEach((map) => {
-    const button = map.querySelector(".trip-map-toggle");
-    if (!button) return;
-    button.addEventListener("click", () => {
-      setMapExpanded(map, button.getAttribute("aria-expanded") !== "true");
-    });
-  });
 
   if (detailToggle && detailPanel) {
     detailToggle.addEventListener("click", () => {
@@ -226,7 +191,9 @@ document.addEventListener("DOMContentLoaded", () => {
     { entry = null, scrollToList = false, writeHistory = true } = {}
   ) => {
     currentPage = Math.min(Math.max(page, 1), totalPages);
-    sortEntries();
+    // 翻页不会改变排序、筛选或目录内容；保留已生成的左栏，
+    // 使目录从上一页的滚动位置平滑移动到当前旅行。
+    sortEntries({ preserveDirectory: true });
     if (writeHistory) writeUrl(entry);
 
     window.requestAnimationFrame(() => {
@@ -239,32 +206,38 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const renderPagination = () => {
-    pagination.replaceChildren();
-    pagination.hidden = orderedVisibleEntries.length === 0;
-    if (pagination.hidden) return;
+    paginations.forEach((pagination) => {
+      pagination.replaceChildren();
+      pagination.hidden = orderedVisibleEntries.length === 0;
+      if (pagination.hidden) return;
 
-    const previous = document.createElement("button");
-    previous.type = "button";
-    previous.textContent = "上一页";
-    previous.disabled = currentPage === 1;
-    previous.addEventListener("click", () => {
-      goToPage(currentPage - 1, { scrollToList: true });
+      const previous = document.createElement("button");
+      previous.type = "button";
+      previous.textContent = "上一页";
+      previous.disabled = currentPage === 1;
+      previous.addEventListener("click", () => {
+        goToPage(currentPage - 1, { scrollToList: true });
+      });
+
+      const status = document.createElement("span");
+      status.className = "trip-pagination-status";
+      status.setAttribute("aria-live", "polite");
+      status.append(
+        `第 ${currentPage} / ${totalPages} 页（共 ${orderedVisibleEntries.length} 次旅行）`,
+        document.createElement("br"),
+        "可以用键盘左右键翻页。"
+      );
+
+      const next = document.createElement("button");
+      next.type = "button";
+      next.textContent = "下一页";
+      next.disabled = currentPage === totalPages;
+      next.addEventListener("click", () => {
+        goToPage(currentPage + 1, { scrollToList: true });
+      });
+
+      pagination.append(previous, status, next);
     });
-
-    const status = document.createElement("span");
-    status.className = "trip-pagination-status";
-    status.setAttribute("aria-live", "polite");
-    status.textContent = `第 ${currentPage} / ${totalPages} 页（共 ${orderedVisibleEntries.length} 次旅行）`;
-
-    const next = document.createElement("button");
-    next.type = "button";
-    next.textContent = "下一页";
-    next.disabled = currentPage === totalPages;
-    next.addEventListener("click", () => {
-      goToPage(currentPage + 1, { scrollToList: true });
-    });
-
-    pagination.append(previous, status, next);
   };
 
   const compareMileage = (a, b) => {
@@ -680,7 +653,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderCollapsibleDirectory("地区目录", regions);
   };
 
-  const sortEntries = () => {
+  const sortEntries = ({ preserveDirectory = false } = {}) => {
     const entries = getEntries();
     entries.forEach((entry) => {
       mileageOf(entry);
@@ -750,24 +723,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
     list.replaceChildren(fragment);
 
-    summary.replaceChildren();
-    mileageDirectory.replaceChildren();
-    directoryGroups = new Map();
-    placeSummary();
-    activeDirectoryGroup = null;
-    activeDirectorySequence = null;
-    if (currentSort === "mileage-desc") {
-      const driveEntries = orderedVisibleEntries.filter(
-        (entry) => entry.dataset.tripType === "drive"
-      );
-      renderMileageSummary(driveEntries);
-      if (pageHeader && mileageDirectory.parentElement === pageHeader) {
-        renderMileageDirectory(driveEntries);
+    if (!preserveDirectory) {
+      summary.replaceChildren();
+      mileageDirectory.replaceChildren();
+      directoryGroups = new Map();
+      placeSummary();
+      activeDirectoryGroup = null;
+      activeDirectorySequence = null;
+      if (currentSort === "mileage-desc") {
+        const driveEntries = orderedVisibleEntries.filter(
+          (entry) => entry.dataset.tripType === "drive"
+        );
+        renderMileageSummary(driveEntries);
+        if (pageHeader && mileageDirectory.parentElement === pageHeader) {
+          renderMileageDirectory(driveEntries);
+        }
+      } else if (currentSort === "region") {
+        renderRegionDirectory(regions);
+      } else {
+        renderSequenceDirectory(orderedVisibleEntries);
       }
-    } else if (currentSort === "region") {
-      renderRegionDirectory(regions);
-    } else {
-      renderSequenceDirectory(orderedVisibleEntries);
     }
 
     sortButtons.forEach((button) => {
@@ -783,7 +758,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     updateSortAvailability();
-    updateMapPresentation();
     updateSummaryTitleWidths();
     renderPagination();
     syncDirectoryToScroll();
@@ -805,11 +779,39 @@ document.addEventListener("DOMContentLoaded", () => {
       if (currentFilter === "all") {
         // 全部旅行含非自驾；默认回到时间倒序，并同步禁用里程排序。
         currentSort = "sequence-desc";
+      } else {
+        // 切回自驾时，直接展示最有意义的里程排名。
+        currentSort = "mileage-desc";
       }
       currentPage = 1;
       sortEntries();
       writeUrl();
     });
+  });
+
+  const isEditableTarget = (target) =>
+    target instanceof Element &&
+    (target.matches("input, textarea, select, [contenteditable]") ||
+      target.closest("[contenteditable]"));
+
+  window.addEventListener("keydown", (event) => {
+    if (
+      event.defaultPrevented ||
+      event.altKey ||
+      event.ctrlKey ||
+      event.metaKey ||
+      isEditableTarget(event.target)
+    ) {
+      return;
+    }
+
+    if (event.key === "ArrowLeft" && currentPage > 1) {
+      event.preventDefault();
+      goToPage(currentPage - 1, { scrollToList: true });
+    } else if (event.key === "ArrowRight" && currentPage < totalPages) {
+      event.preventDefault();
+      goToPage(currentPage + 1, { scrollToList: true });
+    }
   });
 
   if (contentSection && "ResizeObserver" in window) {
@@ -868,10 +870,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     currentFilter = availableFilters.has(requestedFilter)
       ? requestedFilter
-      : "drive";
+      : "all";
     currentSort = availableSorts.has(requestedSort)
       ? requestedSort
-      : "mileage-desc";
+      : "sequence-desc";
     if (currentFilter === "all" && currentSort === "mileage-desc") {
       currentSort = "sequence-desc";
     }

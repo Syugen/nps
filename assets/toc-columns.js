@@ -1,7 +1,7 @@
 'use strict';
 
 (function() {
-  var minimumWidth = 800;
+  var minimumWidth = 600;
   var minimumLines = 6;
   var lists = Array.prototype.slice.call(document.querySelectorAll('ul.toc-list'));
   var resizeFrame;

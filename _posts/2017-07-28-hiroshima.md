@@ -1,6 +1,7 @@
 ---
 title: 第五天——一路向西到广岛
 tag: [japan]
+trip_sequences: ["29"]
 ---
 
 ### 明石

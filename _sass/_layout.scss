@@ -70,9 +70,9 @@ section .responsive-img.image-full {
   }
 }
 
-// 首页目录在正文宽度达到 800px、且一个小节的 bullet 总数超过 10 时，
-// 由 toc-columns.js 将一级条目分配到这两个列表中。一级条目中的二级列表
-// 始终留在同一个 <li> 内，因此不会在两列之间被拆开。
+// 首页目录和 All Trips 的相关 NPS 笔记在父容器宽度达到 600px、且一个小节的
+// bullet 总数至少为 6 时，由 toc-columns.js 将一级条目分配到这两个列表中。
+// 一级条目及其二级列表始终留在同一个 <li> 内，因此不会在两列之间被拆开。
 .toc-columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
