@@ -197,7 +197,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (writeHistory) writeUrl(entry);
 
     window.requestAnimationFrame(() => {
-      const target = entry ? headingOf(entry) : scrollToList ? list : null;
+      const target = entry
+        ? headingOf(entry)
+        : scrollToList
+          ? paginationSections[0]
+          : null;
       target?.scrollIntoView({ behavior: "smooth", block: "start" });
       if (entry) {
         syncDirectoryToEntry(entry);
@@ -222,10 +226,21 @@ document.addEventListener("DOMContentLoaded", () => {
       const status = document.createElement("span");
       status.className = "trip-pagination-status";
       status.setAttribute("aria-live", "polite");
+      const pageCount = document.createElement("span");
+      pageCount.textContent = `第 ${currentPage} / ${totalPages} 页`;
+      const totalCount = document.createElement("span");
+      totalCount.className = "trip-pagination-total";
+      totalCount.textContent = `（共 ${orderedVisibleEntries.length} 次旅行）`;
+      const hintBreak = document.createElement("br");
+      hintBreak.className = "trip-pagination-hint-break";
+      const keyboardHint = document.createElement("span");
+      keyboardHint.className = "trip-pagination-keyboard-hint";
+      keyboardHint.textContent = "可以用键盘左右键翻页。";
       status.append(
-        `第 ${currentPage} / ${totalPages} 页（共 ${orderedVisibleEntries.length} 次旅行）`,
-        document.createElement("br"),
-        "可以用键盘左右键翻页。"
+        pageCount,
+        totalCount,
+        hintBreak,
+        keyboardHint
       );
 
       const next = document.createElement("button");

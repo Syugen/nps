@@ -304,6 +304,12 @@
   .trip-mileage-table[data-mobile-unit="kilometers"] .trip-mileage-miles {
     display: none;
   }
+
+  .trip-pagination-total,
+  .trip-pagination-hint-break,
+  .trip-pagination-keyboard-hint {
+    display: none;
+  }
 }
 
 .trip-details-panel {
