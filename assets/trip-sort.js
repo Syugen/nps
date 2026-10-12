@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hintBreak.className = "trip-pagination-hint-break";
       const keyboardHint = document.createElement("span");
       keyboardHint.className = "trip-pagination-keyboard-hint";
-      keyboardHint.textContent = "可以用键盘左右键翻页。";
+      keyboardHint.textContent = "可以用键盘左右键翻页";
       status.append(
         pageCount,
         totalCount,
