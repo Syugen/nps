@@ -54,6 +54,10 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.18);
 }
 
+.quarter-replica-narrow {
+  display: none;
+}
+
 @container (max-width: 800px) {
   .quarter-card {
     grid-template-columns: minmax(0, 1fr) 480px;
@@ -64,7 +68,7 @@
   .quarter-card {
     height: auto;
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: 200px 300px;
+    grid-template-rows: 200px auto;
   }
 
   .quarter-coin {
@@ -80,6 +84,22 @@
   .quarter-visit,
   .quarter-visit > img {
     min-height: 0;
+  }
+
+  .quarter-visit:not(.quarter-visit-empty) {
+    height: 300px;
+  }
+
+  .quarter-visit-empty .quarter-empty {
+    padding: 0;
+  }
+
+  .quarter-replica-wide {
+    display: none;
+  }
+
+  .quarter-replica-narrow {
+    display: inline;
   }
 }
 

@@ -36,13 +36,13 @@ magick mogrify \
 {% for quarter in site.data.quarters %}
   {% assign replica_index = quarter.replica_index | default: 0 | plus: 0 %}
   <article class="quarter-entry" data-state="{{ quarter.code }}" data-park="{{ quarter.park }}" data-state-name="{{ quarter.name }}">
-    <h4>{{ quarter.name }} · {{ quarter.park }}{% if quarter.suffix %} {{ quarter.suffix }}{% endif %}<span data-replica-index hidden> · 复刻指数：{% for star in (1..5) %}{% if forloop.index <= replica_index %}★{% else %}☆{% endif %}{% endfor %}</span></h4>
+    <h4>{{ quarter.name }} · {{ quarter.park }}{% if quarter.suffix %} {{ quarter.suffix }}{% endif %}<span data-replica-index hidden><span class="quarter-replica-wide"> · </span><br class="quarter-replica-narrow">复刻指数：{% for star in (1..5) %}{% if forloop.index <= replica_index %}★{% else %}☆{% endif %}{% endfor %}</span></h4>
     {% if quarter.note != empty %}<p>{{ quarter.note | escape }}</p>{% endif %}
     <div class="quarter-card">
       <div class="quarter-coin">
         <img src="{{ '/images/quarters/' | append: quarter.code | append: '.webp' | relative_url }}" alt="{{ quarter.park }}：{{ quarter.name }}25美分硬币反面" loading="lazy" decoding="async">
       </div>
-      <div class="quarter-visit" data-visit>
+      <div class="quarter-visit quarter-visit-empty" data-visit>
         <div class="quarter-empty">
           <strong>害没去过</strong>
         </div>

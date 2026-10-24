@@ -27,7 +27,7 @@
   park: "Grand Canyon"
   suffix: "NP"
   replica_index: 2
-  note: "拍摄地点是西峡谷，甚至不是国家公园里面。我觉得仔细调查地点的话应该能更好地复刻。"
+  note: "拍摄地点是西峡谷，甚至不是国家公园里面。实际地点是Nankoweap Granaries，这个地方极难到达。我应该复刻不出来……"
 - code: "CA"
   name: "California"
   park: "Yosemite"
@@ -39,7 +39,7 @@
   park: "Great Sand Dunes"
   suffix: "NP"
   replica_index: 5
-  note: "沙丘、雪山、融雪，每年的五月中下特有。"
+  note: "沙丘、雪山、融雪，每年的五月中下特有。前面玩沙子的亲子我请不来演员。"
 - code: "CT"
   name: "Connecticut"
   park: "Weir Farm"
@@ -207,13 +207,13 @@
   park: "Chaco Culture"
   suffix: "NHP"
   replica_index: 4
-  note: ""
+  note: "我不确定这个实景能否拍出一样的角度。即使能，我可能也得违规爬墙上去。这个复刻已经可以了。"
 - code: "NV"
   name: "Nevada"
   park: "Great Basin"
   suffix: "NP"
   replica_index: 1
-  note: "这棵树可以通过hiking复刻出五星水平（暂未调查hiking难度），但我没去，所以只能从相册里随便照一张凑数。"
+  note: "这棵树可以通过hiking复刻出五星水平（暂未调查hiking难度），但我没去，所以只能从相册里随便照一张凑数。我不确定会不会再回来……"
 - code: "NY"
   name: "New York"
   park: "Saratoga"
@@ -235,8 +235,8 @@
 - code: "OR"
   name: "Oregon"
   park: "Mount Hood"
-  replica_index: ""
-  note: ""
+  replica_index: 1
+  note: "需要前往Lost Lake才对！我一定会回来的！"
 - code: "PA"
   name: "Pennsylvania"
   park: "Gettysburg"
@@ -264,7 +264,7 @@
   park: "Mount Rushmore"
   suffix: "NMEM"
   replica_index: 3
-  note: ""
+  note: "你觉得我能爬到雕像上看工人雕刻吗？"
 - code: "TN"
   name: "Tennessee"
   park: "Great Smoky Mountains"
@@ -282,7 +282,7 @@
   park: "Arches"
   suffix: "NP"
   replica_index: 1
-  note: "犹他州最著名的是精致拱门，然而我并没有去过。"
+  note: "犹他州最著名的是Delicate Arch，然而我并没有去过。照片里是Landscape Arch。我应该会再回来的吧。"
 - code: "VA"
   name: "Virginia"
   park: "Shenandoah"
@@ -324,4 +324,4 @@
   park: "Yellowstone"
   suffix: "NP"
   replica_index: 3
-  note: "我觉得不太可能会出现bison站在Old Faithful前面吧。"
+  note: "Old Faithful喷射，我有；美洲野牛图，我有。我觉得不太可能会出现野牛站在Old Faithful前面吧。"

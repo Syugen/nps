@@ -38,6 +38,7 @@
     if (replicaIndex) replicaIndex.hidden = false;
 
     var visit = card.querySelector('[data-visit]');
+    visit.classList.remove('quarter-visit-empty');
     var image = document.createElement('img');
     image.src = photo.path;
     image.alt = card.dataset.stateName + ' · ' + card.dataset.park + ' 到访照片';
