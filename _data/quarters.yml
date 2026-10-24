@@ -33,13 +33,13 @@
   park: "Yosemite"
   suffix: "NP"
   replica_index: 5
-  note: ""
+  note: "优胜美地著名的El Capitan，在tunnel view停车点拍摄。"
 - code: "CO"
   name: "Colorado"
   park: "Great Sand Dunes"
   suffix: "NP"
   replica_index: 5
-  note: ""
+  note: "沙丘、雪山、融雪，每年的五月中下特有。"
 - code: "CT"
   name: "Connecticut"
   park: "Weir Farm"
@@ -131,7 +131,7 @@
   park: "Fort McHenry"
   suffix: "NM&HS"
   replica_index: 0
-  note: "我到的时候没开门！然后还得赶路所以就只能直接走了！"
+  note: "我到的时候没开门！然后还得赶路所以就只能直接走了！我一定会再回来的！"
 - code: "ME"
   name: "Maine"
   park: "Acadia"
@@ -166,13 +166,13 @@
   park: "Vicksburg"
   suffix: "NMP"
   replica_index: 4
-  note: ""
+  note: "U.S.S. Cairo，开罗号战船。"
 - code: "MT"
   name: "Montana"
   park: "Glacier"
   suffix: "NP"
   replica_index: 3
-  note: ""
+  note: "背景里的山是Mount Reynolds，有图；前面的山羊，有图。但恐怕没法让他俩出现在一张图里。"
 - code: "NC"
   name: "North Carolina"
   park: "Blue Ridge Parkway"
@@ -201,7 +201,7 @@
   park: "Ellis Island"
   suffix: "NM"
   replica_index: 3
-  note: ""
+  note: "埃利斯岛上的旧美国海关大楼，去自由女神岛的同一趟游轮可达。"
 - code: "NM"
   name: "New Mexico"
   park: "Chaco Culture"
@@ -242,7 +242,7 @@
   park: "Gettysburg"
   suffix: "NMP"
   replica_index: 1
-  note: "去的时候并没调查这个硬币里的纪念碑是哪一个，所以没特意拍。实际是 72nd Pennsylvania Infantry Monument。"
+  note: "去的时候并没调查这个硬币里的纪念碑是哪一个，所以没特意拍。实际是 72nd Pennsylvania Infantry Monument。我一定会再回来的！"
 - code: "PR"
   name: "Puerto Rico"
   park: "El Yunque"

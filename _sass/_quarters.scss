@@ -22,7 +22,7 @@
 .quarter-card {
   box-sizing: border-box;
   min-width: 0;
-  height: 300px;
+  height: 302px;
   display: grid;
   grid-template-columns: minmax(0, 40%) minmax(0, 1fr);
   grid-template-rows: minmax(0, 1fr);
@@ -35,6 +35,8 @@
   min-width: 0;
   min-height: 0;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
   place-items: center;
   padding: 0.65rem;
   overflow: hidden;
@@ -60,13 +62,29 @@
 
 @container (max-width: 680px) {
   .quarter-card {
-    grid-template-columns: minmax(0, 5fr) minmax(0, 12fr);
+    height: auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 200px 300px;
+  }
+
+  .quarter-coin {
+    padding: 0;
+  }
+
+  .quarter-coin > img {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .quarter-visit,
+  .quarter-visit > img {
+    min-height: 0;
   }
 }
 
 .quarter-visit {
   min-width: 0;
-  min-height: 176px;
   position: relative;
   display: grid;
   place-items: center;
@@ -78,7 +96,6 @@
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 176px;
   position: absolute;
   inset: 0;
   object-fit: cover;
@@ -114,15 +131,4 @@
   color: #fff;
   font-size: 0.8rem;
   line-height: 1.25;
-}
-
-@container (max-width: 499px) {
-  .quarter-coin {
-    padding: 0.5rem 0.35rem;
-  }
-
-  .quarter-visit,
-  .quarter-visit > img {
-    min-height: 145px;
-  }
 }
