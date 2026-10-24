@@ -3,7 +3,7 @@ layout: post
 title: 序：NPS盖章大图鉴
 permalink: /stamps/
 home_directory: true
-home_directory_order: 3
+home_directory_order: 2
 ---
 
 

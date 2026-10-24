@@ -3,7 +3,7 @@ layout: post
 title: 序：NPS到访记录地图标记
 permalink: /map/
 home_directory: true
-home_directory_order: 2
+home_directory_order: 4
 ---
 
 - <span style="color: green"><b>绿色图钉</b></span>：已盖章
