@@ -12,9 +12,9 @@ home_directory_order: 3
 - ★★★★★：我觉得我不可能拍出更完美的复刻了
 - ★★★★☆：模仿程度很高，但可能努努力还能更像
 - ★★★☆☆：原图不可模仿（如虚构图，超特殊角度等）
-- ★★☆☆☆：完全不是原图地点，但我不知道原图位置，不过拍摄图有点像
-- ★☆☆☆☆：完全不是原图地点，且我知道原图位置，不过拍摄图有点像
-- ☆☆☆☆☆：完全不是原图地点，拍摄图基本不相关
+- ★★☆☆☆：完全不是原图地点，但拍摄图有点像
+- ★☆☆☆☆：完全不是原图地点，拍摄图不太像
+- ☆☆☆☆☆：拍摄图基本不相关
 
 {% comment %}
 候选图调整宽度到1600像素，并转为webp，大小不超过1MB。
@@ -37,7 +37,7 @@ magick mogrify \
   {% assign replica_index = quarter.replica_index | default: 0 | plus: 0 %}
   <article class="quarter-entry" data-state="{{ quarter.code }}" data-park="{{ quarter.park }}" data-state-name="{{ quarter.name }}">
     <h4>{{ quarter.name }} · {{ quarter.park }}{% if quarter.suffix %} {{ quarter.suffix }}{% endif %}<span data-replica-index hidden><span class="quarter-replica-wide"> · </span><br class="quarter-replica-narrow">复刻指数：{% for star in (1..5) %}{% if forloop.index <= replica_index %}★{% else %}☆{% endif %}{% endfor %}</span></h4>
-    {% if quarter.note != empty %}<p>{{ quarter.note | escape }}</p>{% endif %}
+    {% if quarter.note != empty %}{{ quarter.note | markdownify }}{% endif %}
     <div class="quarter-card">
       <div class="quarter-coin">
         <img src="{{ '/images/quarters/' | append: quarter.code | append: '.webp' | relative_url }}" alt="{{ quarter.park }}：{{ quarter.name }}25美分硬币反面" loading="lazy" decoding="async">
