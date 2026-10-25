@@ -3,8 +3,8 @@ title: Black Canyon 黑峡谷
 sub: 
 tags: [colorado, np]
 trip_sequences: ["72"]
-idx: 108
-extras: ["109. Curecanti NRA"]
+idx: 107
+extras: ["108. Curecanti NRA"]
 image: /images/webp/2024-05/108-01.webp
 order: 20240589
 ---

@@ -3,7 +3,7 @@ title: Stonewall NM
 sub: 彩虹🌈之家
 tags: [newyork, nm]
 trip_sequences: ["59"]
-idx: 31
+idx: 30
 order: 20211197
 ---
 

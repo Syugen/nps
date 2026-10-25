@@ -4,7 +4,7 @@ sub:
 tags: [arizona, newmexico, colorado]
 trip_sequences: ["51", "65"]
 idx:
-extras: ["68. Tonto NM", "69. Montezuma Castle NM"]
+extras: ["66. Tonto NM", "67. Montezuma Castle NM"]
 image: /images/webp/2022-07/068-01.webp
 order: 20220792
 ---

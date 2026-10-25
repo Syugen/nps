@@ -2,7 +2,7 @@
 title: Golden Gate NRA 金门海峡🌉
 tags: [california, nra]
 trip_sequences: ["57.1"]
-idx: 13
+idx: 12
 order: 20210796
 ---
 

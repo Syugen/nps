@@ -3,8 +3,8 @@ title: Carlsbad Caverns
 sub: 
 tags: [newmexico, np]
 trip_sequences: ["63"]
-idx: 52
-extras: ["53. Guadalupe Mountains"]
+idx: 51
+extras: ["52. Guadalupe Mountains"]
 order: 20220597
 ---
 

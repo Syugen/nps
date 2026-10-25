@@ -2,7 +2,7 @@
 title: Eugene O'Neill NHS
 sub: 长夜漫漫路迢迢
 tags: [california, nhs]
-idx: 23
+idx: 22
 head: 2021.8.14 东湾
 order: 20210899
 ---

@@ -2,8 +2,8 @@
 title: North Cascades
 sub: Mt Baker & Diablo Lake
 tags: [washington, np, nra]
-idx: 87
-extras: ["88. Ross Lake NRA", "89. Lake Chelan NRA"]
+idx: 86
+extras: ["87. Ross Lake NRA", "88. Lake Chelan NRA"]
 head: 2023.7.29, 10.21 西雅图北
 order: 20230799
 ---

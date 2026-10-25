@@ -2,8 +2,8 @@
 title: Crater Lake 火山口湖
 tags: [oregon, np]
 trip_sequences: ["47", "56"]
-idx: 20
-extras: ["21. Oregon Caves NM & PRES"]
+idx: 19
+extras: ["20. Oregon Caves NM & PRES"]
 order: 20210896
 ---
 

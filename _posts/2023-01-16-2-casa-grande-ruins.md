@@ -3,7 +3,7 @@ title: Casa Grande Ruins NM
 sub: 
 tags: [arizona, nm]
 trip_sequences: ["51", "69"]
-idx: 86
+idx: 85
 image: /images/webp/2023-01/086-01.webp
 order: 20230195
 ---

@@ -4,7 +4,7 @@ sub: 大草原上的遗址、地标、与化石
 tags: [Wyoming, nebraska, nhs, nm]
 trip_sequences: ["54", "72"]
 idx:
-extras: ["92. Fort Laramie NHS", "93. Scotts Bluff NM", "94. Agate Fossil Beds NM"]
+extras: ["91. Fort Laramie NHS", "92. Scotts Bluff NM", "93. Agate Fossil Beds NM"]
 image: /images/webp/2024-05/092-01.webp
 order: 20240598
 ---

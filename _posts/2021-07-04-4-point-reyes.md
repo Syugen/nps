@@ -3,7 +3,7 @@ title: Point Reyes NS
 sub: 雷耶斯岬之日落
 tags: [california, ns]
 trip_sequences: ["57.1"]
-idx: 14
+idx: 13
 order: 20210795
 ---
 

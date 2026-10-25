@@ -4,7 +4,7 @@ sub:
 tags: [wyoming, nm]
 trip_sequences: ["54", "72"]
 idx:
-extras: ["98. Devils Tower NM"]
+extras: ["97. Devils Tower NM"]
 image: /images/webp/2024-05/098-01.webp
 order: 20240595
 ---

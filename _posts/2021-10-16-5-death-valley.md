@@ -2,7 +2,7 @@
 title: Death Valley 死亡谷
 tags: [california, nevada, np]
 trip_sequences: ["49", "58"]
-idx: 27
+idx: 26
 order: 20211094
 ---
 

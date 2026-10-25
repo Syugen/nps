@@ -4,7 +4,7 @@ sub:
 tags: [idaho, nm]
 trip_sequences: ["67"]
 idx:
-extras: ["78. Craters of the Moon NM & PRES", "79. Hagerman Fossil Beds NM", "80. Minidoka NHS", "81. City of Rocks N RES"]
+extras: ["76. Craters of the Moon NM & PRES", "77. Craters of the Moon NM & PRES", "78. Hagerman Fossil Beds NM", "79. Minidoka NHS", "80. City of Rocks N RES"]
 image: /images/webp/2022-11/078-01.webp
 order: 20221198
 ---

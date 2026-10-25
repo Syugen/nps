@@ -3,7 +3,7 @@ title: White Sands 白沙
 sub: 
 tags: [newmexico, np]
 trip_sequences: ["63"]
-idx: 55
+idx: 54
 order: 20220595
 ---
 

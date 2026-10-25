@@ -2,7 +2,7 @@
 title: Mount Rainier 雷尼尔山
 sub: 
 tags: [washington, np]
-idx: 90
+idx: 89
 head: 2023.10.8 西雅图南
 order: 20231099
 ---

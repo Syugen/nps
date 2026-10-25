@@ -4,7 +4,7 @@ sub: 总统与情史
 tags: [newyork, newjersey, nhs]
 trip_sequences: ["59"]
 idx:
-extras: ["37. Home of Franklin D. Roosevelt NHS", "38. Eleanor Roosevelt NHS", "39. Vanderbild Mansion NHS", "40. Paterson Great Falls NHP"]
+extras: ["36. Home of Franklin D. Roosevelt NHS", "37. Eleanor Roosevelt NHS", "38. Vanderbild Mansion NHS", "39. Paterson Great Falls NHP"]
 order: 20211195
 ---
 

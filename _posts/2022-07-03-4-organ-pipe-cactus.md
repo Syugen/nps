@@ -3,7 +3,7 @@ title: Organ Pipe Cactus NM
 sub: 
 tags: [arizona, nm]
 trip_sequences: ["51", "65"]
-idx: 67
+idx: 65
 image: /images/webp/2022-07/067-01.webp
 order: 20220793
 ---

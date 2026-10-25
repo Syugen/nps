@@ -3,7 +3,7 @@ title: Klondike Gold Rush NHP
 sub: 育空淘金 是喜是愁
 tags: [washington, nhp]
 trip_sequences: ["60"]
-idx: 43
+idx: 42
 order: 20211296
 ---
 

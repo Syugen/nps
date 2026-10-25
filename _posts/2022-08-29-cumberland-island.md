@@ -3,7 +3,7 @@ title: Cumberland Island NS
 sub: 最初的起点
 tags: [georgia, ns]
 trip_sequences: ["41", "66"]
-idx: 70
+idx: 68
 image: /images/webp/2022-08/070-01.webp
 order: 20220898
 ---

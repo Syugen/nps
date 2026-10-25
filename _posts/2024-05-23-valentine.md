@@ -4,7 +4,7 @@ sub:
 tags: [nebraska, nsr, nrr]
 trip_sequences: ["72"]
 idx: 
-extras: ["101. Niobrara NSR", "102. Missouri NRR"]
+extras: ["100. Niobrara NSR", "101. Missouri NRR"]
 image: /images/webp/2024-05/101-01.webp
 order: 20240593
 ---
